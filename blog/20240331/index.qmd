@@ -1,0 +1,68 @@
+---
+title: "Collapse of Lehman Brothers"
+date: 2024-03-21
+description: "The how and the why"
+image: "./lehman-brothers.jpg"
+twitter-card:
+  image: "./lehman-brothers.jpg"
+open-graph:
+  image: "./lehman-brothers.jpg"
+categories:
+  - Finance
+---
+
+I have a close association with this story. I was born on the day Lehman brothers declared bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the fall of Lehman brothers.
+
+# History : 
+The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. After Henry passed away, the Lehman brothers branched off into commodities trading and brokerage services. They prospered as the U.S. economy grew to become the 4th largest investment bank. However, a downturn in the U.S. housing market combined with a heavily levraged position ultimately led to its downfall.
+
+
+# Heavily leveraged position : 
+In 2008, Lehman Brothers was leveraged at 30.7 to 1. While leverage boosts returns during good times, it is a double edged sword. It can also cause huge problems during downturns. When the housing market in the U.S. went into a tail-spin, also referred to as the sub-prime crisis, Lehman's leveraged position came to haunt them big time.
+
+## So what is leverage?
+Leverage comes from the word lever. Remeber the simple machine you read about back in your school days. A lever helps us lift objects by applying lesser force. 
+
+Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. Let's work with an example. Assume you have $10 and you borrow $100 from a bank to invest a total of $110. Your financial leverage is 10:1 i.e. for every $1 of your own money you are borrowing $10. 
+
+Assume, the investment works in your favour, and you make a return of 20%. Because of the leverage, your returns are $22 (20% of $110) which would be significantly larger than the $2 (20% of $10) you would have made had you not leveraged your position. Thats a 220% return ($22/$10%). Wow!!!
+
+But lets also look at the flip side. What if the investment does not work in our favour and we incur a loss of 5%. Because of the leverage, your loss will be $5.5 (5% of 110) which is again significantly larger than $0.5 (5% of 10) you would have lost had you not leveraged your position. While in absolute terms a $5.5 loss may not sound large, in percentage terms, with a 10:1 leverage, with a 5% drop, you have lost more than 50% ($5.5/$10%) of your capital. Thats massive. 
+
+Just to see, how quickly a leveraged position can wreck havoc on your investments, assume if you continued to hold your leveraged positions shown above even after incurring the loss. The 5% loss has reduced our capital to $4.5 ($10 - %5.5) thereby increasing our leverage to roughly 22:1 i.e. (100/4.5:1). Another 5% loss from here (and that's not unheard of, when things get bad) can wipe out our entire capital and more, leaving us with a pile of debt to clear.
+
+Investing a leveraged position is like a roller coster ride. Higher the leverage, higher are the ups and the downs. No one complains when the going is good, but when panic strikes, and its said fear spreads much faster than greed, things can very quickly get out of control.
+
+## But isn't there a cost associated with financial leveragw 
+The main reason for a lot of leverage was the extremely low interest rates in the US. The interest rates were low because a lot of money from other countries was coming into the US and was being used to buy treasury securities from the US government. Treasury securities are issued by the US government to finance its budget deficit, or the difference between what it earns and what it spends.
+
+# Subprime crisis and Mortgage Backed Securities : 
+Lehman Brothers branched out into Mortgage backed securities and Collateralized Debt Obligations.
+
+MBS - are securities similar to bonds which are backed by a bundle of home loans.
+CDO - is a finance product which is backed by a pool of loans and other assets.
+Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans.
+Alt-A loans are a type of home loans which aren’t as safe as prime mortgages but not as risky as subprime mortgages as well. Subprime loans carry higher interest rates than prime loans.
+
+Lehman’s real estate business made a lot of money in the capital markets unit. Their revenue went up by 56% from 2004-2006. They securitized $146 billion (converted $146 billion of mortgages into a marketable security in 2006) —a 10% increase from 2005.
+
+In February 2007, Lehman's stock price reached a record $86.18 per share; their market cap was nearly $60 billion. However, by the first quarter of 2007, defaults on subprime mortgages started to rise to a seven-year high.
+
+Lehman's stock price dropped a lot when the credit crisis started in August 2007, right after two investment funds from Bear Stearns(a global investment bank located in NYC) failed. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in three states.
+
+
+In 2007, Lehman underwrote more mortgage-backed securities than any other company. They built up a portfolio, worth $85 billion, of these securities.
+
+In the fourth quarter of 2007, Lehman's stock prices bounced back up, as global equity markets reached new highs and prices for fixed-income assets were going up. However, they didn’t use this chance to reduce its huge portfolio of mortgage backed securities.
+
+In 2007, Lehman had a high level of leverage, marked at 31 and its huge portfolio of mortgage backed securities made it very vulnerable to the worsening market conditions. On March 17, 2008, there were worries that the company might be the next big Wall Street company to go out of business, which resulted in the value of the company’s shares dropping by nearly 48%.
+
+However, in April, Lehman managed to raise $4 billion after an issue of preferred stock, which helped restore some confidence in the company. However, this didn’t last too long as the stock started to fall again.
+
+In the first week of September 2008, the stock price dropped by 77%. Stock markets all around the world were falling rapidly, and investors weren't sure about the CEO's plan to keep the company independent. The plan involved selling part of its asset management unit and spinning off commercial real estate assets. There were hopes that Korea Development Bank would invest in Lehman, but these hopes were dashed on September 9th.
+
+This news resulted in a 45% drop in the company's stock. The company’s credit default swaps went up by 66% as well. Hedge fund clients and short term creditors started leaving the company.
+
+With a loss of $3.9 billion, and $5.6 billion write down, the company announced a big plan to change how it operated. Moody's Investor Service also found that the only way for the company to avoid a rating downgrade would be to sell a majority stake to another big partner. On September 11, the stock price dropped again, this time by 42%.
+
+They had only $1 billion left in cash that week. On September 13, Lehman, Barclays, and Bank of America (BAC) tried one final attempt to arrange a takeover of Lehman, but they were unsuccessful. On September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.
