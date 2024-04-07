@@ -20,6 +20,7 @@ format:
         page-layout: full
 lightbox: auto
 ---
+
 #####
 :::{#hero-heading}
 I'm a grade 10 student at Sri Kumaran's Children's Home school.  I love Maths and intend to pursue Commerce going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.
