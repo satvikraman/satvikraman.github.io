@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Satvik Raman">
 
 <title>Blog</title>
 <style>
@@ -114,6 +115,10 @@ ga('send', {
   'anonymizeIp': true,
 });
 </script>
+<!-- ... -->
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -223,6 +228,12 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Satvik Raman </p>
+          </div>
+  </div>
     
   
     
@@ -239,7 +250,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Finance" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1712507560798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1234">
+<div class="g-col-1" data-index="0" data-categories="Finance" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1712592665950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1234">
 <a href="../blog/20240331/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -259,7 +270,7 @@ The how and the why
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Satvik Raman
 </div>
 <div class="listing-date">
 Mar 21, 2024
@@ -707,6 +718,36 @@ Made with <i class="fa-brands fa-python" aria-label="python"></i> and <a href="h
 </div>
   </div>
 </footer>
+<!-- ... -->
+
+<div id="waline"></div>
+
+<script type="module">
+
+import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+
+
+init({
+
+    el: '#waline',
+
+    serverURL: 'https://waline-portfolio-ptpf6i76u-satvik-ramans-projects.vercel.app/',
+
+    lang: 'en',
+
+    reaction: [
+
+'https://unpkg.com/@waline/emojis@1.1.0/tw/1f44d.png',
+
+'https://unpkg.com/@waline/emojis@1.1.0/tw/1f44f.png',
+
+],
+
+});
+
+</script>
+
 
 
 

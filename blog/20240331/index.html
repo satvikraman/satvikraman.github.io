@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Satvik Raman">
 <meta name="dcterms.date" content="2024-03-21">
 <meta name="description" content="The how and the why">
 
@@ -85,6 +86,10 @@ ga('send', {
   'anonymizeIp': true,
 });
 </script>
+<!-- ... -->
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+
 
 
 <meta property="og:title" content="Collapse of Lehman Brothers">
@@ -99,7 +104,7 @@ ga('send', {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -152,7 +157,21 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#history" id="toc-history" class="nav-link active" data-scroll-target="#history">History :</a></li>
+  <li><a href="#heavily-leveraged-position" id="toc-heavily-leveraged-position" class="nav-link" data-scroll-target="#heavily-leveraged-position">Heavily leveraged position :</a>
+  <ul class="collapse">
+  <li><a href="#so-what-is-leverage" id="toc-so-what-is-leverage" class="nav-link" data-scroll-target="#so-what-is-leverage">So what is leverage?</a></li>
+  <li><a href="#but-isnt-there-a-cost-associated-with-financial-leveragw" id="toc-but-isnt-there-a-cost-associated-with-financial-leveragw" class="nav-link" data-scroll-target="#but-isnt-there-a-cost-associated-with-financial-leveragw">But isn’t there a cost associated with financial leveragw</a></li>
+  </ul></li>
+  <li><a href="#subprime-crisis-and-mortgage-backed-securities" id="toc-subprime-crisis-and-mortgage-backed-securities" class="nav-link" data-scroll-target="#subprime-crisis-and-mortgage-backed-securities">Subprime crisis and Mortgage Backed Securities :</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -173,6 +192,12 @@ ga('send', {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Satvik Raman </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -664,6 +689,36 @@ Made with <i class="fa-brands fa-python" aria-label="python"></i> and <a href="h
 </div>
   </div>
 </footer>
+<!-- ... -->
+
+<div id="waline"></div>
+
+<script type="module">
+
+import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+
+
+init({
+
+    el: '#waline',
+
+    serverURL: 'https://waline-portfolio-ptpf6i76u-satvik-ramans-projects.vercel.app/',
+
+    lang: 'en',
+
+    reaction: [
+
+'https://unpkg.com/@waline/emojis@1.1.0/tw/1f44d.png',
+
+'https://unpkg.com/@waline/emojis@1.1.0/tw/1f44f.png',
+
+],
+
+});
+
+</script>
+
 
 
 
