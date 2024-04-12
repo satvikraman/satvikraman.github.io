@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://satvikraman.github.io/index.html</loc>
-    <lastmod>2024-04-10T01:01:23.522Z</lastmod>
+    <lastmod>2024-04-12T14:48:49.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://satvikraman.github.io/concepts/financial-leverage/index.html</loc>
+    <lastmod>2024-04-12T14:42:20.589Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240331/index.html</loc>
-    <lastmod>2024-04-09T01:19:52.636Z</lastmod>
+    <lastmod>2024-04-12T14:47:30.375Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/index.html</loc>
     <lastmod>2024-04-10T01:19:12.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://satvikraman.github.io/concepts/index.html</loc>
+    <lastmod>2024-04-12T14:47:27.569Z</lastmod>
   </url>
 </urlset>
