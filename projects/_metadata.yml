@@ -1,8 +1,7 @@
 # Options specified here will apply to all blogs in this folder
 
 # Enable banner style title blocks
-title-block-banner: "#ef6A65"
-title-block-banner-color: white
+title-block-banner: false
 
 # Author name of all blog posts
 author: 'Satvik Raman'

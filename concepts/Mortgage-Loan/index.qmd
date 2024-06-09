@@ -1,0 +1,42 @@
+---
+title: "Mortgage vs Loans"
+subtitle: "<i>A bank is a place that will lend you money, if you can porve that you don't need it<br> - Bob Hope</i>"
+date: 2024-03-21
+post-ref: 10
+image: "./Mortgage-and-a-Loan.jpg"
+twitter-card:
+  image: "./Mortgage-and-a-Loan.jpg"
+open-graph:
+  image: "./Mortgage-and-a-Loan.jpg"
+categories:
+  - Mortgage
+  - Loan
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+print('<h1 href=./../mortgage-backed-securities/index.qmd>Mortgage Backed Securities</h1>')
+```
+
+# What's the difference between a mortgage and a loan
+Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between mortgage and person loan primarily rests around how you can use the borrowed money. 
+
+Mortgages are linked to real estate purchases, where the property is also attached to the mortgage as a collateral. In case of a default, the bank may liquidate the collateralized property to recover the amount its due. 
+
+A personal loan on the other hand is much more flexible in its use. You may use it to buy a car, refurbish your house, go on a vacation or fund your education. It may or may not necessarily require a collateral.
+
+# Why differentiate between a mortgage and a loan
+It is useful to differentiate a mortgage from a loan because mortgages help fulfill one of life's basic nessesities. For this reason, the terms associated with a mortgage are also design to enable and encourage more people to buy a property. For instance, mortgages provide a much larger repayment window (20 to 30 years) as compared to a loan. Many countries provide income tax deduction proportionate to the amount paid to repay the mortgage. 
+
+Not only that, in my opinion, the construction of a house concentrates the benefit to the local economy unlike any other commercial activity. 
+
+Let me explain. If you go abroad on a vacation by taking a personal loan, most of the commercial activity associated with your vacation is actually happening outside of your local economy - the hotel stays, shopping, travel etc... You could buy a car from a local manufacturer, but its parts might be imported and hence its benefits may not be concentrated to your local economy. 
+
+Contrast this with the construction of a house. The construction of a house is both a capital and labour intensive work. It helps consume capital goods like steel, cement, bricks etc... which is typically sourced locally. It also helps generate employment opportunities at scale, local to the economy, both for skilled and unskilled workers. Being gainfully employed, these workers can then spend their money on goods and services which has further positive ripple effects on the economy.
+
+For these reasons, while on the face of it both mortgages are loans are a way of borrowing money, it is reasonable and perhaps warranted to treat them differently.
+
+# Posts referencing this concept
+[Mortgage Backed Securities](./../mortgage-backed-securities/index.qmd)

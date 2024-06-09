@@ -1,67 +1,125 @@
 ---
 title: "Collapse of Lehman Brothers"
 date: 2024-03-21
-description: "The how and the why"
+description: "The history of Lehman brothers dates back to 1884, when three German brothers started a general store in Alabama. Tailwinds from the US economy's growth, helped them grow to become the 4th largest investment bank in the country. We discuss how and why they eventually collapsed" 
 image: "./lehman-brothers.jpg"
 twitter-card:
   image: "./lehman-brothers.jpg"
 open-graph:
   image: "./lehman-brothers.jpg"
 categories:
-  - Finance
+  - Lehman
+  - Leverage
+  - Mortgage Backed Securities
+  - Risk
+blog-title-refs: 
+  - "Subprime Crisis"
+  - "Why does the world trade in US dollars?"
+concept-title-refs: 
+  - "What are Prime, SubPrime and Alt-A loans"
+  - "Mortgage Backed Securities"
+  - "Financial Engineering"
+category-refs: ""
 ---
 
-I have a close association with this story. I was born on the day Lehman brothers declared bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the fall of Lehman brothers.
+<p><b>Pageviews:</b> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M247.31 124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57 61.26 162.88 48 128 48S61.43 61.26 36.34 86.35C17.51 105.18 9 124 8.69 124.76a8 8 0 0 0 0 6.5c.35.79 8.82 19.57 27.65 38.4C61.43 194.74 93.12 208 128 208s66.57-13.26 91.66-38.34c18.83-18.83 27.3-37.61 27.65-38.4a8 8 0 0 0 0-6.5M128 168a40 40 0 1 1 40-40a40 40 0 0 1-40 40"/></svg> <span class="waline-pageview-count"></i><p>
+
+I have a close association with this story. I was born on the exact day Lehman brothers filed for bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the Lehman Brother's fall.
 
 # History : 
-The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. After Henry passed away, the Lehman brothers branched off into commodities trading and brokerage services. They prospered as the U.S. economy grew to become the 4th largest investment bank. However, a downturn in the U.S. housing market combined with a heavily levraged position ultimately led to its downfall.
+The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. Tailwinds from the US economy's growth, helped them grow to become the 4th largest investment bank in the country. It weathered many financial storms along the way, but, a downturn in the US housing market combined with a heavily leveraged position ultimately led to its downfall.
+ 
+# Subprime Crisis and Mortgage Backed Securities : 
+Lehman Brothers branched out into Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO). In the euphoria that preceeded the US housing market bubble, Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans and it seemed like it had the Midas's touch. 
 
-# Heavily leveraged position : 
-In 2008, Lehman Brothers was leveraged at 30.7 to 1. While leverage boosts returns during good times, it is a double edged sword. It can also cause huge problems during downturns. When the housing market in the U.S. went into a tail-spin, also referred to as the sub-prime crisis, Lehman's leveraged position came to haunt them big time.
+::: {.callout-caution collapse="true"}
+## What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)?
+MBSs and CDOs are a product of Financial Engineering. MBS, are securities similar to bonds that are backed by a bundle of home loans. CDO are a financial product which is backed by a pool of loans and other assets. Want to read more, then click on [What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)](./../../concepts/mortgage-backed-securities/index.qmd)
+:::
 
-## So what is leverage?
-Leverage comes from the word lever. Remeber the simple machine you read about back in your school days. A lever helps us lift objects by applying lesser force. 
+::: {.callout-caution collapse="true"}
+## What are Prime, Subprime and Alt-A loans?
+Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on [What are Prime, Subprime and Alt-A loans](./../../concepts/Prime-SubPrime-Alt-A/index.qmd)
+:::
 
-Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. Let's work with an example. Assume you have $10 and you borrow $100 from a bank to invest a total of $110. Your financial leverage is 10:1 i.e. for every $1 of your own money you are borrowing $10. 
+Lehman’s real estate business made a lot of money in the capital markets unit by securitizing morgages. In simple terms, banks that lent money to the home buyers, bundled mortgages as securities and sold them to investment banks like Lehman. Lehman securitized $146 billion worth of mortgages in 2006 alone. This helped their revenue grow by 56% from 2004 to 2006 and allowed them to report record profits every year from 2005 to 2007. In February 2007, Lehman's stock price reached an all time high driving its market capitalization to nearly $60 billion. 
 
-Assume, the investment works in your favour, and you make a return of 20%. Because of the leverage, your returns are $22 (20% of $110) which would be significantly larger than the $2 (20% of $10) you would have made had you not leveraged your position. Thats a 220% return ($22/$10%). Wow!!!
+![Lehman Stock Price [^1]](LehmanStockPrice.png "Title: Lehman's stock price"){#fig-lehman-stock-price fig-alt="Figure showing Lehman Brother's stock price from 1995 to 2008"}
 
-But lets also look at the flip side. What if the investment does not work in our favour and we incur a loss of 5%. Because of the leverage, your loss will be $5.5 (5% of 110) which is again significantly larger than $0.5 (5% of 10) you would have lost had you not leveraged your position. While in absolute terms a $5.5 loss may not sound large, in percentage terms, with a 10:1 leverage, with a 5% drop, you have lost more than 50% ($5.5/$10%) of your capital. Thats massive. 
+[^1]: [Annual year end stock price for Lehman Brothers from 1995 to 2008](https://www.statista.com/statistics/1349730/global-financial-crisis-lehman-brothers-stock-price/){target="_blank"}
 
-Just to see, how quickly a leveraged position can wreck havoc on your investments, assume if you continued to hold your leveraged positions shown above even after incurring the loss. The 5% loss has reduced our capital to $4.5 ($10 - %5.5) thereby increasing our leverage to roughly 22:1 i.e. (100/4.5:1). Another 5% loss from here (and that's not unheard of, when things get bad) can wipe out our entire capital and more, leaving us with a pile of debt to clear.
+The value of a security is based on the quality of its underlying assert. The underlying asset of the MBSs & CDOs that Lehman was buying were the mortgages. If there were no defaults on the mortgages, the MBS buyer would benefit. If, however, the mortgages were not paid back in full, the MBS would get devalued, on account of the detiorating quality of the underlying mortgages, resulting in a loss to the MBS buyer. 
 
-Investing a leveraged position is like a roller coster ride. Higher the leverage, higher are the ups and the downs. No one complains when the going is good, but when panic strikes, and its said fear spreads much faster than greed, things can very quickly get out of control.
+Lehman and its subsidiaries were buying securities backed by Alt-A and sub-prime mortgages. The risk of these mortgages getting sour was always high. When the cracks in the US housing market started to appear in the first quarter of 2007, defaults on the sub-prime mortages rose to a seven year high leading to a massive devaluation of the MBSs and CDOs they had purchased. Lehman's stock price dropped massively when the credit crisis deepened in August 2007. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in many states.
 
-## But isn't there a cost associated with financial leveragw 
-The main reason for a lot of leverage was the extremely low interest rates in the US. The interest rates were low because a lot of money from other countries was coming into the US and was being used to buy treasury securities from the US government. Treasury securities are issued by the US government to finance its budget deficit, or the difference between what it earns and what it spends.
+## Heavily leveraged position
+Despite this, in 2007, Lehman bought more MBS than any other company. They built up a portfolio, worth $85 billion, of these securities, which was worth 4 times it shareholder's equity. Lehman was leaning forward and using financial leverage to fund its purchase completely ignoring all the warning signs. 
 
-# Subprime crisis and Mortgage Backed Securities : 
-Lehman Brothers branched out into Mortgage backed securities and Collateralized Debt Obligations.
+![Levarage ratios for major investment banks [^2]](LeverageRatioInvestmentBanks.png){#fig-lehman-leverage fig-alt="Figure showing the leverage used by major investment banks from 2003 to 2007"}
 
-MBS - are securities similar to bonds which are backed by a bundle of home loans.
-CDO - is a finance product which is backed by a pool of loans and other assets.
-Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans.
-Alt-A loans are a type of home loans which aren’t as safe as prime mortgages but not as risky as subprime mortgages as well. Subprime loans carry higher interest rates than prime loans.
+As can be seen in @fig-lehman-leverage, the use of leverage was increasing in each of the major investment banks since 2003. In 2007, Lehman had an exceptionally high level of leverage, 31:1 and its huge portfolio of MBS made it very vulnerable to the worsening US housing market conditions. At such a high leverage even a small correction in the value of the MBS would have had a huge impact on Lehman's portfolio. And in 2008, we were not talking about a small correction. When the housing market in the US went into a tail-spin, also referred to as the sub-prime crisis, mortgage defaults spiralled and so did Lehman's problems. 
 
-Lehman’s real estate business made a lot of money in the capital markets unit. Their revenue went up by 56% from 2004-2006. They securitized $146 billion (converted $146 billion of mortgages into a marketable security in 2006) —a 10% increase from 2005.
+[^2]: [The Lehman Brothers Bankruptcy A: Overview in Journal of Financial Crises, Figure 3](https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1000&context=journal-of-financial-crises)
 
-In February 2007, Lehman's stock price reached a record $86.18 per share; their market cap was nearly $60 billion. However, by the first quarter of 2007, defaults on subprime mortgages started to rise to a seven-year high.
+::: {.callout-caution collapse="true"}
+## What is a leveraged position?
+Leveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on [Financial Leverage](./../../concepts/financial-leverage//index.qmd)
+:::
 
-Lehman's stock price dropped a lot when the credit crisis started in August 2007, right after two investment funds from Bear Stearns(a global investment bank located in NYC) failed. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in three states.
+# Implosion
+Lehman's stock came under heavy selling pressure, since it was clear that the mortgage defaults would hurt their MBS portfolio. With more sellers than buyers, Lehman's stock dived 77% in the first week of September 2008 alone. Many attempts were made to steady the sinking ship; Lehman tried spinning off its commercial real estate assets as a separate entity; There were talks with the Korean Development Bank to invest in Lehman; And even Barclays and Bank of America made a last ditch attempt to takeover Lehman, but they all failed. And as news of each failed attempt appeared, Lehman's stock dived down even further. 
 
+With only $1 billion left in cash, on September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.
 
-In 2007, Lehman underwrote more mortgage-backed securities than any other company. They built up a portfolio, worth $85 billion, of these securities.
+## How could Lehman afford such high leverage
+When I first read about this story, I wondered how Lehman was able to fund a leverage of 31:1. Surely there must be a financing cost associated with all the money they were borrowing. And it was not just Lehman, every other investment bank seemed to be doing it. The remainder of the post delves into this topic.
 
-In the fourth quarter of 2007, Lehman's stock prices bounced back up, as global equity markets reached new highs and prices for fixed-income assets were going up. However, they didn’t use this chance to reduce its huge portfolio of mortgage backed securities.
+### Dollar Economics
+Post the World War II, global trading moved towards the US dollar. Central banks around the world were thus flush with dollar reserves and since they wanted to earn a yield on these reserves, these reserves eventually got invested into American treasury securities and other American debt securities. All this money coming into the US helped keep interest rates low. Look at it this way, the US government didn't have to give any special incentives to attract this money. Money kept flowing into the US and the government continued to keep the treasury interest rates low. See @fig-treasury-yield.
 
-In 2007, Lehman had a high level of leverage, marked at 31 and its huge portfolio of mortgage backed securities made it very vulnerable to the worsening market conditions. On March 17, 2008, there were worries that the company might be the next big Wall Street company to go out of business, which resulted in the value of the company’s shares dropping by nearly 48%.
+::: {.callout-caution collapse="true"}
+## What are treasury securities?
+Treasury securities are issued by the US government to fund its budget deficit, or the amount the government borrows to fill the gap between what it earns and what it spends. Treasury securities offer a fixed interest rate if held until its maturity and are considered the safest form of investment.
+:::
 
-However, in April, Lehman managed to raise $4 billion after an issue of preferred stock, which helped restore some confidence in the company. However, this didn’t last too long as the stock started to fall again.
+![Yield on the 10 year Americal treasury [^3]](web2_Lehman-Brothers.webp){#fig-treasury-yield fig-alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018" fig-align="left"}
 
-In the first week of September 2008, the stock price dropped by 77%. Stock markets all around the world were falling rapidly, and investors weren't sure about the CEO's plan to keep the company independent. The plan involved selling part of its asset management unit and spinning off commercial real estate assets. There were hopes that Korea Development Bank would invest in Lehman, but these hopes were dashed on September 9th.
+The yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that's relatively higher than the yield on the treasure securities. This is done to  compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates. 
 
-This news resulted in a 45% drop in the company's stock. The company’s credit default swaps went up by 66% as well. Hedge fund clients and short term creditors started leaving the company.
+This allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008. 
 
-With a loss of $3.9 billion, and $5.6 billion write down, the company announced a big plan to change how it operated. Moody's Investor Service also found that the only way for the company to avoid a rating downgrade would be to sell a majority stake to another big partner. On September 11, the stock price dropped again, this time by 42%.
+![Rise in US household debt](web3_Lehman-Brothers.webp){#fig-household-debt fig-alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more" fig-align="left"}
 
-They had only $1 billion left in cash that week. On September 13, Lehman, Barclays, and Bank of America (BAC) tried one final attempt to arrange a takeover of Lehman, but they were unsuccessful. On September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.
+[^3]: [What happened during the 2008 Lehman crisis](https://www.livemint.com/Industry/Gi4CgVYJ4QLOiVGRKqx8JO/Learning-from-Lehman-what-goes-around.html)
+
+In my opinion trading in US dollar has created a viscious cycle. Americans borrowed at low interest rates and bought cars from Japan and apparels and electronics from China. China and Japan would invest the earned dollars back into US by buying their treasury securities. Because of inflow of dollars, the US Government kept their interest rates low allowing Americans to borrow even more and so the cycle continued.
+
+```{mermaid}
+---
+title: The Viscious Cycle
+---
+stateDiagram-v2
+  USGB: US Government Borrowed
+  TRL: US government kept treasury interest rates low
+  USB: US borrowed at low interest rates
+  USS: US Spent
+  CJE: China / Japan earned
+  CJL: China / Japan lent
+  USB --> USS
+  USS --> CJE
+  CJE --> CJL
+  CJL --> USGB
+  USGB --> TRL
+  TRL --> USB
+```
+
+# You might also like to read
+```{python}
+#| echo: false
+#| output: asis
+
+import sys
+sys.path.insert(1, '../../pyfiles')
+from ref import ref
+ref()
+```

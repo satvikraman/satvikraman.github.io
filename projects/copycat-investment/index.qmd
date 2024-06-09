@@ -1,0 +1,16 @@
+---
+title: "Copycat Investment"
+subtitle: ""
+date: 2024-03-21
+post-ref: 10
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - Trading
+---
+
+# Copycat Investment
+Mohnish Pabrai

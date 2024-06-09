@@ -1,0 +1,151 @@
+---
+title: "Financial Leverage"
+subtitle: "<i>There are only three ways a smart person can go broke: liquor, ladies and leverage<br> - Charlie Munger</i>"
+date: 2024-03-21
+image: "./lever.jpg"
+twitter-card:
+  image: "./lever.jpg"
+open-graph:
+  image: "./lever.jpg"
+categories:
+  - Finance
+  - Leverage
+format:
+  html:
+    code-tools: true
+    echo: false
+execute:
+    echo: false
+---
+
+# What is leverage?
+Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force. 
+
+::: {.column-margin}
+![Give me a lever long enough... and I shall move the world](./lever.jpg)
+:::
+
+Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. In simple terms, when you invest borrowed money you are using financial leverage. Leverage boosts returns if the trade works favourably. However, it is a double edged sword. If the trade does not go as planned it will also exaggerate the losses. Leverage therefore works like a magnifying glass, magnifying both gains and losses. 
+
+Let's work with an example. For the purpose of this discussion lets ignore the any additional cost including that of financing, brokerage etc... We will only focus on the impact of leverage in isolation. 
+
+Assume you have $100 and you borrow another $100 to invest a total of $200. This is a financial leverage of 1:1 i.e. for every $1 of your own money you are borrowing another $1. 
+
+The yield curve for the 1:1 leverage and no leverage positions are drawn in [red]{style="color:red"} and [green]{style="color:green"} colour respectively in the "Example" tab of @fig-yield-curve. The "X" axis is the return that a security can provide. The "Y" axis is the return experienced by trading in that security. Ideally the return experienced by trading a security should be the same as the return provided by the security, the [green]{style="color:green"} line. However, with leverage, the returns experienced gets magnified and thats the [red]{style="color:green"} line.
+
+```{ojs}
+plotVals = []
+initial_capital = 100
+```
+```{ojs}
+//| output: false
+{
+  for(let leverage = 0; leverage < 100; leverage+=1) {
+    let leveraged_capital = initial_capital * (1 + leverage)
+    {
+      for (let move_perc = -50; move_perc <= 50; move_perc+=10) {       
+        let corpus = leveraged_capital * (1 + move_perc/100)
+        let pnl = corpus - leveraged_capital
+        let pnl_perc = pnl * 100 / initial_capital
+
+        plotVals.push({"Market Return %": move_perc, "Portfolio Return %": pnl_perc, "lev": leverage})
+      }
+    }  
+  }
+  return
+}
+```
+
+::: {#fig-yield-curve}
+::: {.panel-tabset}
+
+## Example
+```{ojs}
+Plot.plot({
+  x: {domain: [-100, 100], grid: true},
+  y: {domain: [-100, 100], grid: true},
+  marks: [
+      Plot.gridX({interval: 5, stroke: "#d2d2d2", strokeOpacity: 0.5}),
+      Plot.gridY({interval: 5, stroke: "#d2d2d2", strokeOpacity: 0.5}),
+
+      Plot.line(plotVals.filter(d => d.lev == 0), {x: "Market Return %", y: "Portfolio Return %", stroke: "red"}),
+      Plot.line(plotVals.filter(d => d.lev == 1), {x: "Market Return %", y: "Portfolio Return %", stroke: "green"}),
+      Plot.ruleX([20], {y1: 0, y2: 40, stroke: "#b2b2b2"}),
+      Plot.ruleX([-10], {y1: 0, y2: -20, stroke: "#b2b2b2"}),
+      Plot.ruleY([20, 40], {x1: -100, x2: 20, stroke: "#b2b2b2"}),
+      Plot.ruleY([-10, -20], {x1: -100, x2: -10, stroke: "#b2b2b2"}),
+      Plot.ruleY([0], {stroke: "blue"}),
+      Plot.ruleX([0], {stroke: "blue"}),
+    ],
+})
+```
+1:1 leverage yield curve used as an example in the text
+
+## Plot
+```{ojs}
+Plot.plot({
+  grid: true,
+  x: {domain: [-50, 50], grid: true},
+  y: {domain: [-100, 100], grid: true},
+  marks: [
+      Plot.line(plotVals.filter(d => d.lev == 0), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 1), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 2), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 4), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 5), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 10), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 20), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 30), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 40), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == 50), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"})
+    ],
+  color: {legend: true}
+})
+```
+A graph showing the yield curve at different leverage ratios
+
+## Interactive
+```{ojs}
+viewof leverage = Inputs.range(
+  [1, 100], 
+  {value: 1, step: 1, label: "Leverage ratio:"}
+)
+
+Plot.plot({
+  grid: true,
+  x: {domain: [-50, 50], grid: true},
+  y: {domain: [-100, 100], grid: true},
+  marks: [
+      Plot.line(plotVals.filter(d => d.lev == 0), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"}),
+      Plot.line(plotVals.filter(d => d.lev == leverage), {x: "Market Return %", y: "Portfolio Return %", stroke: "lev"})
+    ],
+})
+```
+Move the slider to see how the slope of the yield curve change with leverage
+
+:::
+Slippery slope: Yield curve of a non leveraged position (black) vs. a leveraged position
+:::
+
+Continuing with the "Example" tab, assume that the security moves favourably by 20%. Because of the leverage, your returns are $40 (20% of $200) which is significantly larger than the $20 (20% of $100) you would have made without it. A $40 return translates to a 40% return on your initial capital of $100, even though the security moved only by 20%. In percentage terms, a 1:1 leverage, doubles your gain percentage. A 10% gain in the security, causes you to gain 20% of your capital. Isn't that awesome.
+
+But lets also look at the flip side. What if the market security in the opposite direction by 10%. Because of the leverage, your loss will be $20 (10% of $200) which is again significantly larger than $10 (10% of $100) you would have lost had you not leveraged your position. Similar to the favourable case above, in percentage terms, a 1:1 leverage, doubles your loss percentage. A 10% drop in the security, causes you to lose 20% of your capital.
+
+Leverage can be addictive, more so if you experienced beginner's luck. However, if your trades don't work out and you continue using leverage it can quickly wipe out your investing capital. The use of leverage without adequate caution can be disastrous.
+
+Refer the "Plot" tab in @fig-yield-curve. I compare leverage to a slippery slope.  The different coloured lines depict the yield curve at different leverages. The leverage ratio increases as the color transitions from [black]{style="color:black"} {{< iconify maki arrow size=1.1em title='' >}} [blue]{style="color:blue"}  {{< iconify maki arrow size=1.1em title='' >}} [green]{style="color:green"}  {{< iconify maki arrow size=1.1em title='' >}} [yellow]{style="color:yellow"}  {{< iconify maki arrow size=1.1em title='' >}} [red]{style="color:red"}. Higher the leverage, higher is the slope of the yield curve which translates to a higher boost to both your gain and loss. No one complains when the going is good. But when panic strikes, and fear spreads much faster than greed, things can very quickly get out of control.
+
+If you want a more interactive feel to see how quickly the slope of the yield curve changes switch to the "Interactive" tab in @fig-yield-curve and play with the slide rule. You would notice that the slope increases quite rapidly with every unit change in the leverage. And as the slope increases, so does the risk.
+
+It is worth noting that certain financial instruments have leverage built into them. Many brokers provide leverage on intra-day trading. Derivative products like futures and options also provide leverage. These financial instruments therefore need to be used with proper knowledge and abundant caution. As Warren Buffett said, "When you combine ignorance and leverage you get some pretty interesting results"
+
+## But isn't there a cost associated with financial leverage? When does it make potentially make sense to use it?
+There is of couse a cost associated with financial leverage. Since financial leverage is nothing short of borrowing money, the borrower would need to pay a financing cost proportional to the interest rate and the principal being borrowed to the lender. While buying securities, this is often factored into the brokerage pricing. 
+
+The use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would.
+
+# Posts referencing this concept
+[Collapse of Lehman Brothers](./../../blog/20240331/index.qmd)
+
+# Additional concepts you may be interested in
+[Hedging](./../Hedging/index.qmd)
