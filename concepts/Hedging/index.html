@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Satvik Raman">
+<meta name="dcterms.date" content="2024-03-21">
 
-<title>Satvik’s Portfolio - Concepts</title>
+<title>Satvik’s Portfolio - Hedging</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,76 +71,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- ... -->
 
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Satvik's Portfolio" href="index.xml" data-external="1"><meta property="og:title" content="Satvik’s Portfolio - Concepts">
-<meta property="og:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
+<meta property="og:title" content="Satvik’s Portfolio - Hedging">
+<meta property="og:description" content="If you don’t invest in risk management, it doesn’t matter what business you are in, it’s a risky business - Gary Cohn">
+<meta property="og:image" content="">
 <meta property="og:site_name" content="Satvik's Portfolio">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Satvik’s Portfolio - Concepts">
-<meta name="twitter:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
+<meta name="twitter:title" content="Satvik’s Portfolio - Hedging">
+<meta name="twitter:description" content="If you don’t invest in risk management, it doesn’t matter what business you are in, it’s a risky business - Gary Cohn">
+<meta name="twitter:image" content="">
 <meta name="twitter:creator" content="@satvikraman">
 <meta name="twitter:site" content="@satvikraman">
 <meta name="twitter:card" content="summary_large_image">
@@ -154,7 +97,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Satvik’s Portfolio</span>
     </a>
   </div>
@@ -165,25 +108,25 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../concepts/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../concepts/index.html"> 
 <span class="menu-text">Concepts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.qmd"> 
+    <a class="nav-link" href="../../projects/index.qmd"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../blog/index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog/index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -215,15 +158,29 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="CDO">CDO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Finance">Finance <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Financial Engineering">Financial Engineering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Leverage">Leverage <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Loan">Loan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mortgage">Mortgage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk">Risk <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-a-hedge" id="toc-what-is-a-hedge" class="nav-link active" data-scroll-target="#what-is-a-hedge">What is a Hedge?</a></li>
+  <li><a href="#posts-referencing-this-concept" id="toc-posts-referencing-this-concept" class="nav-link" data-scroll-target="#posts-referencing-this-concept">Posts referencing this concept</a></li>
+  <li><a href="#additional-concepts-you-may-be-interested-in" id="toc-additional-concepts-you-may-be-interested-in" class="nav-link" data-scroll-target="#additional-concepts-you-may-be-interested-in">Additional concepts you may be interested in</a></li>
+  <li><a href="#further-reading-references" id="toc-further-reading-references" class="nav-link" data-scroll-target="#further-reading-references">Further Reading &amp; References</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Concepts</h1>
-</div>
+<h1 class="title">Hedging</h1>
+<p class="subtitle lead"><i>If you don’t invest in risk management, it doesn’t matter what business you are in, it’s a risky business<br> - Gary Cohn</i></p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finance</div>
+    <div class="quarto-category">Leverage</div>
+  </div>
+  </div>
 
 
 
@@ -236,6 +193,12 @@ window.Quarto = {
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 21, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -245,303 +208,64 @@ window.Quarto = {
 </header>
 
 
+<section id="what-is-a-hedge" class="level1">
+<h1>What is a Hedge?</h1>
+<p>Hedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of insurance. However, unlike insurance where you a pay a premium to insure your property, hedging in the financial world involves trading in other securities to reduce the risk of unfavourable price movement. In more technical terms, to hedge, you trade in securities that are negatively correlated to the security whose position you are trying to hedge.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is correlation?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Correlation is a derivative of the term “co-related”. Any two things which are co-related to each other exhibit correlation. Correlation is measured as a coefficient, whose value ranges between -1 and 1. A value of -1 indicates, perfect negative correlation, which means if a price of a security moves up by “x%”, the price of the other security would move down by the same “x%”. Similarly a value of 1 indicates, perfect positive correlation, which means if a price of a security moves up by “x%”, the price of the other security would also move up by the same “x%”. Often the correlation coefficient would be in between -1 and 1.</p>
+</div>
+</div>
+</div>
+<p>This post explains what hedging is with an example, rather than going into the different strategies available to hedge a position.</p>
+<p>Lets work with an example. Assume you buy 100 stocks of a company “ABC” for $50 a share, thinking the price would go up in due course of time. To limit your losses from an adverse price movement, you buy a put option with a strike price of $40.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is put option?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The amount paid to buy the put option is called “premium”. The put option provides you the right (not obligation) to sell the security at $40 on the day of maturity. Therefore, even if the price of the security falls below $40, you retain the right to sell it at $40. Conversely, if the price of the security goes above $40, you will do nothing. The amount lost in this case would be the premium amount you initially paid to buy the put option.</p>
+</div>
+</div>
+</div>
+<p>If the price of the security falls below $40, the initial buy position incurs more loss which is offseted by the gains of the bought put option.</p>
+<p>Conversely, if the price of the security moves above $40, the initial buy position gains value (losses reduce and the eventually turns into a gain once the price moves above $50) while the bought put option incurs a loss equal to the premium amount.</p>
+<p>As the example above shows, a hedge, helps reduces the risk associated with a position. Firstly, it limits the amount of loss that can be incurred from a position. And because it reduces the risk of a position it also reduces the profit (in the example mentioned above, by an amount equal to the premium paid to buy the put option)</p>
+<p>Hedging can also be done in the commodities market. For example, an airlines company might enter into a Futures contract to buy ATF at a fixed price (called the strike price) on a certain future date (called the expiry date). A futures contract obligates the buyer pay the strike price to buy the commodity. On the expiry date, even if the ATF is trading above the strike price, the airlines company will only pay the strike price to buy the quanta of ATF negotiated in the contract. On the flip side, even if the ATF is trading at a price below the strike price, the airlines company will need to pay the strike price to buy the ATF. Hedging via Futures helps a company budget future expenses and not be exposed to volatile price movements of a commodity.</p>
+</section>
+<section id="posts-referencing-this-concept" class="level1">
+<h1>Posts referencing this concept</h1>
+<p><a href="../../concepts/financial-leverage/index.html">Financial Leverage</a></p>
+</section>
+<section id="additional-concepts-you-may-be-interested-in" class="level1">
+<h1>Additional concepts you may be interested in</h1>
+<p><a href="">Options</a> <a href="">Futures</a></p>
+</section>
+<section id="further-reading-references" class="level1">
+<h1>Further Reading &amp; References</h1>
+<p><a href="https://www.investopedia.com/trading/hedging-beginners-guide/" target="_blank">Beginner’s Guide to Hedging</a></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-categories" data-direction="asc">
-          Categories
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713457532412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="648">
-<a href="../concepts/Hedging/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Hedging" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hedging
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-Hedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Mortgage,Loan" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713616218251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
-<a href="../concepts/Mortgage-Loan/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Mortgage-Loan/Mortgage-and-a-Loan.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mortgage vs Loans
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Mortgage'); return false;">
-Mortgage
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Loan'); return false;">
-Loan
-</div>
-</div>
-<div class="card-text listing-description">
-Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Finance,Risk" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713799045166" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
-<a href="../concepts/Prime-SubPrime-Alt-A/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Prime-SubPrime-Alt-A/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What are Prime, SubPrime and Alt-A loans
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Risk'); return false;">
-Risk
-</div>
-</div>
-<div class="card-text listing-description">
-Prime, Subprime and Alt-A are classification of loans / mortgages based on their risk profile.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="CDO" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310032984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/collateralized-debt-obligations/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/collateralized-debt-obligations" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Collateralized Debt Obligations
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('CDO'); return false;">
-CDO
-</div>
-</div>
-<div class="card-text listing-description">
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Financial Engineering" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310029329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/financial-engineering/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/financial-engineering" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Financial Engineering
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Financial Engineering'); return false;">
-Financial Engineering
-</div>
-</div>
-<div class="card-text listing-description">
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713436021739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1515">
-<a href="../concepts/financial-leverage/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/financial-leverage/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Financial Leverage
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1717949709834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../concepts/futures/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/futures/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What are Futures?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310039810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/mortgage-backed-securities/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/mortgage-backed-securities" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mortgage Backed Securities
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

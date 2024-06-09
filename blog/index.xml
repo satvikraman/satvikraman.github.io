@@ -10,9 +10,266 @@
 <atom:link href="https://satvikraman.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog on the current financial stories through the eyes of a kid</description>
 <generator>quarto-1.4.552</generator>
-<lastBuildDate>Wed, 20 Mar 2024 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 27 Apr 2024 18:30:00 GMT</lastBuildDate>
 <item>
-  <title>Collapse of Lehman Brothers.</title>
+  <title>Vodafone’s FPO</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/blog/20240428/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="you-might-also-like-to-read" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>Finance</category>
+  <guid>https://satvikraman.github.io/blog/20240428/</guid>
+  <pubDate>Sat, 27 Apr 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20240428" medium="image"/>
+</item>
+<item>
+  <title>Cocoa crisis</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/blog/20240421/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Cocoa is the new Bitcoin if you are into crypto currency or Nvidia if you like the good old stocks. From trading at $3000 a ton at the start of the year, cocoa is now trading at $12000 a ton. A 4x multiple in just 3 months!!! And thats not the peak as per famed commodities trader, <a href="https://www.linkedin.com/in/pierre-andurand-b4a7725a/" target="_blank">Pierre Andurand</a>. He has bet big on Cocoa and predicts Cocoa futures to touch $20000 this year <sup>1</sup>.</p>
+<div id="fig-cocoa-future-price" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing the price of cocoa futures for the last 1 year starting Jun'23">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cocoa-future-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://satvikraman.github.io/blog/20240421/CocoaFutures.jpg" title="Title: Price of Cocoa Future" class="img-fluid figure-img" alt="Figure showing the price of cocoa futures for the last 1 year starting Jun'23">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cocoa-future-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Price of Cocoa Future <sup>2</sup>
+</figcaption>
+</figure>
+</div>
+<p>In this article I try and explain what’s happening and touch upon a few financial concepts along the way.</p>
+<div id="nte-future" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;1: What are Futures?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A future is a derivative contract that a buyer and seller get into. Because it is a derivative, it derives its value from an underlying asset, which could be a stock or a commodity. The contract attribute, standardizes the agreement by defining the quanta of the asset being traded and the pre-determined price of the asset on a pre-determined future date. The pre-dertermined future date is the date at which the contract expires. The buyer of the contract expects the price of the underlying to increase by expiry date, while the contract seller has an opposing view. Want to read more, then click on <a href="../../concepts/futures/index.html">What are Futures?</a></p>
+</div>
+</div>
+</div>
+<section id="the-cause" class="level1">
+<h1>The Cause</h1>
+<p>Cocoa production is extremely concentrated. The west African nations Ghana and Ivory Coast produce a major share (over 50%) of the world’s cocoa beans. A bad harvest in these nations brought on by El Niño, black pod disease and ageing cocoa trees has had a big impact on the supply side. Additionally, inequitable market practices done over decades have led to big chocolate corporations pocketing the bulk of the profit, leaving farmers with little income to replant new trees or implement disease prevention measures. Also, in Ghana, illegal gold mines have taken over areas of productive cocoa land.</p>
+<p>The Russia-Ukraine war has also caused the prices of fertilizers to increase which has had a negative effect on the production of cocoa. Freight cost have also increased by 20% - 30% since the Isreal - Hamas war broke out and the Houthi rebels started attacking vessels in the Red sea in a show of support for Hamas, forcing cargo vessels to take a longer route avoiding the Seuz Canal.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is El Niño?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The term El Nino refers to the warming of the ocean. This often leads to drier and warmer conditions resulting in hotter weather, heavy rainfalls and intense heat waves etc. Conditions like excess moisture have led to the outbreak of the ‘Black pod disease’ affecting the cocoa harvest.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="how-are-businesses-responding" class="level1">
+<h1>How Are Businesses Responding?</h1>
+<p>Well, as with anything else, it depends. Manufacturers in the premium segment, like Lindt, typically have pricing power and can afford to increase prices of their products without denting their customer base. Chocolate prices in EU have already increased on an average by 6% - 8% annually. That’s a nominal increase considering the cost of cocoa has gone up 4 times? Let me assure you, the chocolate manufacturers are not being generous and cushioning the price shock for the end customer. A chocolate contains more ingredients than cocoa powder, cocoa butter and cocoa nibs. The price hike of the end product, therefore isn’t going to be proportionate to the increase in the cocoa prices. On the contrary, as per Bank of America, premium manufacturers intend to maintain the increased prices even after the cocoa prices decline helping them improve their margins in the coming years <sup>3</sup>.</p>
+<div id="fig-choc-annual-price-rise" class="lightbox quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the increase in the annual price of chocolates in major EU countries" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-choc-annual-price-rise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./ChocolatePriceRiseAnnual.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="https://satvikraman.github.io/blog/20240421/ChocolatePriceRiseAnnual.jpg" title="Title: Annual increase in the price of chocolates in major EU countries in Apr'24" class="quarto-figure quarto-figure-left figure-img" alt="Figure showing the increase in the annual price of chocolates in major EU countries" height="200"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-choc-annual-price-rise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Annual increase in the price of chocolates in major EU countries in Apr’24 <sup>4</sup>
+</figcaption>
+</figure>
+</div>
+<p>Some businesses might absorb the price increase and reduce their margins, but that’s not something that they can continue to do, if the prices continue to increase as projected through the year. This brings us to an important question. Can’t buesinesses do anything to protect themselves against the vagaries of the market. The answer goes back to the concept we introduced earlier in this post - Futures Contract in Note&nbsp;1. Hersheys and other companies hedge their cocoa purchase by buying futures contract. While they don’t use the futures contract to take physical delivery of the underlying (in this case cocoa beans), they use this strategy to minimise their loses should the market move against their views.</p>
+<p>However, many others will resort to whats called <em>Shrinkflation</em> and <em>Skimpflation</em>. Shrinkflation refers to the practice of reducing the pack size marginally in a way that it is not immediately noticable to the end consumer. Nestlé has reduced their Kit Kat bar size from 17 to 14 grams., while Mars has reduced the size of its large milk chocolate Easter egg from 252 to 201 grams. Skimpflation on the other hand refers to the practice of changing the recipe of the product itself. Manufactures substitue the pricier ingredient with a cheaper substitute. For example, chocolates can be categorized into two major categories - [1] Couverture, that’s made of cocoa butter and cocoa mass and [2] Compund chocolate, thats made of cheaper fats like vegetable, coconut or palm oil. Manufactures using coverture chocolates may substitute part of the recipe with compound chocolate to reduce the production cost, especially in lower income countries like India.</p>
+</section>
+<section id="the-way-forward" class="level1">
+<h1>The Way Forward?</h1>
+<div id="fig-cocoa-exports" class="lightbox quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the quantity of export of Cocoa beans per continent" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cocoa-exports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./CocoaExports.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="https://satvikraman.github.io/blog/20240421/CocoaExports.png" title="Title: Cocoa exports per continent from 1961 to 2021" class="quarto-figure quarto-figure-left figure-img" alt="Figure showing the quantity of export of Cocoa beans per continent" height="200"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cocoa-exports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Cocoa Exports from 1961 to 2021
+</figcaption>
+</figure>
+</div>
+<p>The crisis in Africa might present itself as an opportunity for other countries specifically in Asia and the Americas. As per Figure&nbsp;3, countries in Africa and Europe have held the lions share of Cocoa beans export. Asian countries come next and they could potentially increase their market share to fill the gap between supply and demand.</p>
+<p>Specifically in India, the southern states of Kerala, Karnataka, Andhra Pradesh and Tamilnadu grow cocoa. Producers in these states could use this crisis as an opportunity to produce fine quality cacao beans. <a href="https://manamchocolate.com/pages/about-us" target="_blank">Manam Chocolate</a> is barely a year od, but has created a mark for itself by bagging the prestigous International Chocolate Award. Its sister brand, <a href="https://www.distinctorigins.com/">Distinct Origins</a> is working actively towards enhancing both the quantity and the quality of cacao grown in the country. They are onboarding farmers and bringing in proprietary technologies to improve the fermentation, drying and other post harvest processes. This initiative will take 3 - 4 years to bear fruit but is a step in the right direction.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What’s the difference between Cacao and Cocoa?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I came across this word Cacao in a few articles that I read to research for this article. I genuinely thought it was a typo <iconify-icon inline="" icon="openmoji:smiling-face-with-halo" aria-label="Icon smiling-face-with-halo from openmoji Iconify.design set." title="Icon smiling-face-with-halo from openmoji Iconify.design set." width="36" height="36"></iconify-icon>. Turns out its not. Cacao refers to the raw material: the cacao beans that are harvested from the cacao tree. Cocoa is created after the beans are finely ground into a powder and roasted, and can be consumed as a drink or blended with sugar, milk, cocoa butter and cacao to make chocolate.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../concepts/futures/index.html">What are Futures?</a>
+</li>
+</ul>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.bnnbloomberg.ca/famed-oil-trader-andurand-bet-on-cocoa-just-before-price-surge-1.2055290" target="_blank">Famed Oil Trader Andurand Bet on Cocoa Just Before Price Surge</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://www.ice.com/products/7/Cocoa-Futures/data?marketId=7104577&amp;span=2" target="_blank">Price of Cocoa Futures for the last one year starting Jun’23</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://www.euronews.com/business/2024/05/29/can-swiss-chocolate-giant-lindt-thrive-with-sky-high-cocoa-prices#:~:text=Bank%20of%20America%20believes%20Lindt,and%20ongoing%20global%20wage%20inflation." target="_blank">Can Swiss chocolate giant Lindt thrive with sky-high cocoa prices?</a>↩︎</p></li>
+<li id="fn4"><p><a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr__custom_11741831/default/bar?lang=en" target="_blank">Annual increase in the price of chocolates in major EU countries in Apr’24</a>↩︎</p></li>
+<li id="fn5"><p><a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr__custom_11741831/default/bar?lang=en" target="_blank">Annual increase in the price of chocolates in major EU countries in Apr’24</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Futures</category>
+  <category>Cocoa</category>
+  <guid>https://satvikraman.github.io/blog/20240421/</guid>
+  <pubDate>Sat, 20 Apr 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20240421" medium="image"/>
+</item>
+<item>
+  <title>Why does the world trade in US dollars?</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/blog/20240414/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="you-might-also-like-to-read" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>Economics</category>
+  <guid>https://satvikraman.github.io/blog/20240414/</guid>
+  <pubDate>Sat, 13 Apr 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20240414" medium="image"/>
+</item>
+<item>
+  <title>Subprime Crisis</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/blog/20240407/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We referred to the subprime crisis in the <a href="../../blog/20240331/index.html">Collapse of the Lehman Brothers</a> post. Lets dive deeper into the crisis itself here.</p>
+<p>The subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders. It was the onset of the Great Recession (2007-2009), thats regarded as the worst economic downturn since the Great Depression.</p>
+<section id="causes" class="level1">
+<h1>Causes</h1>
+<section id="lowering-of-federal-interest-rates" class="level2">
+<h2 class="anchored" data-anchor-id="lowering-of-federal-interest-rates">Lowering of Federal Interest Rates</h2>
+<p>US Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 and Dec 2001 <sup>1</sup>. Interest rates were lowered from 6% in 2001 to about 1% in 2003 <sup>2</sup> <sup>3</sup>. Economic growth -&gt; increased demand for homes -&gt; mortgages. Drop in interest rates allowed them to lend to even subprime borrowers. The extent to which lending standards had been relaxed can be guaged by the fact that NINJA loans were also being offeredn</p>
+</section>
+<section id="restructuring-of-banking-loans" class="level2">
+<h2 class="anchored" data-anchor-id="restructuring-of-banking-loans">Restructuring of banking loans</h2>
+<p>Changes in banking laws allowed banks to offfer loans to subprime customers with balloon payments or adjustable interest rates. Balloon payments: where large payments are intentionally shifted right towards the end of the loan period. Adjustable Rate Mortgages (ARMs): Rates that remained fixed and at relatively low leves for an initial period and then float a few percentage points higher with respect to the federal funds rate thereafter.</p>
+<p>Until the housing prices were increasing, subprime borrowers were able to protect themselves by either refinancing, borrowing against the increased value of their homes or selling their homes at a profit and paying off their mortgages. In case of a default, the banks would reposses the property and sellt it for an amount more than the oirginal loan and hence book profits. SInce it seemed like a relatively safe way to make money, banks started aggressively marketing subprime loans. The share of subprime mortgages increased from about 2.5% to about 15% from 1990’s to 2004-07.</p>
+</section>
+<section id="securitization-of-mortgages" class="level2">
+<h2 class="anchored" data-anchor-id="securitization-of-mortgages">Securitization of mortgages</h2>
+<p>Further contributing to the growth of subprime mortgages was the practice of securitizating mortgages. Banks would bundle hundreds and thousands of subprime mortgages and sell them in the capital markets as securities (bonds). These bonds were known as Mortgage Back Securities (MBSs). The MBSs buyer was entitles a share of the interest and principal payments on the underlying loan. In some sense by selling MBSs, the banks were no longer lending money from their own reserves. Rather they acted as a broken between the borrower and the financial institutions buying the MBSs.</p>
+<p>As home prices continued their meteoric rise through the early 2000s, MBSs became widely popular, and their prices in capital markets increased accordingly.</p>
+</section>
+<section id="dilution-of-the-net-capital-requirement" class="level2">
+<h2 class="anchored" data-anchor-id="dilution-of-the-net-capital-requirement">Dilution of the net-capital requirement</h2>
+<p>In 2004, SEC reduced the net-capital requirement (the ratio of assets to debt financial institutions are required to maintain to safeguard from insolvency). This allowed financial instituions to make use of leverage to finance their shopping spree.</p>
+</section>
+</section>
+<section id="keys-events-leading-to-the-crisis" class="level1">
+<h1>Keys Events Leading to the Crisis</h1>
+<section id="rise-in-federal-interest-rates" class="level2">
+<h2 class="anchored" data-anchor-id="rise-in-federal-interest-rates">Rise in Federal Interest Rates</h2>
+<p>Beginning 2004 to 2006, the US Federal reserve raised the interest rates from 1.25% to 5.25%. This resulted in defaults from subprime borrowers holding ARMs. Since the housing bubble had reached a level of saturation the housing prices were no longer increasing as they did in the past. The subprime borrowers were unable to resort to the old trick of refinancing their loans, borrowing against the increased value of their hourse or selling their house for profits to repay their mortgages. As more and more subprime borrowers defaulted, the MBSs lost value resulting in a loss to the financial institutions holding them. These MBSs were bought and sold in countries outside of the US and hence the impact of this crisis spread globally.</p>
+</section>
+<section id="irony-in-the-midst-of-the-crisis" class="level2">
+<h2 class="anchored" data-anchor-id="irony-in-the-midst-of-the-crisis">Irony in the midst of the crisis</h2>
+<p>Rating agencies downgraded the same MBSs they had once initially given a 5 star rating.</p>
+</section>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../blog/20240331/index.html">Collapse of Lehman Brothers</a>
+</li>
+<li>
+<a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="./../../docs/concepts/futures/index.qmd">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="../../concepts/Mortgage-Loan/index.html">Mortgage vs Loans</a>
+</li>
+<li>
+<a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a>
+</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.britannica.com/money/financial-crisis-of-2007-2008" target="_blank">Financial Crisis of 2007-08</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://www.federalreserve.gov/monetarypolicy/openmarket.htm" target="_blank">Federal Reserve: Open Market Operation</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm" target="_blank">Federal Reserve: Open Market Operation Archive</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Finance</category>
+  <category>Leverage</category>
+  <guid>https://satvikraman.github.io/blog/20240407/</guid>
+  <pubDate>Sat, 06 Apr 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20240407" medium="image"/>
+</item>
+<item>
+  <title>Collapse of Lehman Brothers</title>
   <dc:creator>Satvik Raman</dc:creator>
   <link>https://satvikraman.github.io/blog/20240331/</link>
   <description><![CDATA[ 
@@ -23,49 +280,206 @@
 <p>
 <b>Pageviews:</b> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewbox="0 0 256 256"><path fill="currentColor" d="M247.31 124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57 61.26 162.88 48 128 48S61.43 61.26 36.34 86.35C17.51 105.18 9 124 8.69 124.76a8 8 0 0 0 0 6.5c.35.79 8.82 19.57 27.65 38.4C61.43 194.74 93.12 208 128 208s66.57-13.26 91.66-38.34c18.83-18.83 27.3-37.61 27.65-38.4a8 8 0 0 0 0-6.5M128 168a40 40 0 1 1 40-40a40 40 0 0 1-40 40"></path></svg> <span class="waline-pageview-count">
 </span></p><p>
-</p><p>I have a close association with this story. I was born on the day Lehman brothers declared bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the fall of Lehman brothers.</p>
+</p><p>I have a close association with this story. I was born on the exact day Lehman brothers filed for bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the Lehman Brother’s fall.</p>
 <section id="history" class="level1">
 <h1>History :</h1>
-<p>The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. After Henry passed away, the Lehman brothers branched off into commodities trading and brokerage services. They prospered as the U.S. economy grew to become the 4th largest investment bank. However, a downturn in the U.S. housing market combined with a heavily levraged position ultimately led to its downfall.</p>
-</section>
-<section id="heavily-leveraged-position" class="level1">
-<h1>Heavily leveraged position :</h1>
-<p>In 2008, Lehman Brothers was leveraged at 30.7 to 1. While leverage boosts returns during good times, it is a double edged sword. It can also cause huge problems during downturns. When the housing market in the U.S. went into a tail-spin, also referred to as the sub-prime crisis, Lehman’s leveraged position came to haunt them big time.</p>
-<section id="so-what-is-leverage" class="level2">
-<h2 class="anchored" data-anchor-id="so-what-is-leverage">So what is leverage?</h2>
-<p>Leverage comes from the word lever. Remeber the simple machine you read about back in your school days. A lever helps us lift objects by applying lesser force.</p>
-<p>Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. Let’s work with an example. Assume you have $10 and you borrow $100 from a bank to invest a total of $110. Your financial leverage is 10:1 i.e.&nbsp;for every $1 of your own money you are borrowing $10.</p>
-<p>Assume, the investment works in your favour, and you make a return of 20%. Because of the leverage, your returns are $22 (20% of $110) which would be significantly larger than the $2 (20% of $10) you would have made had you not leveraged your position. Thats a 220% return ($22/$10%). Wow!!!</p>
-<p>But lets also look at the flip side. What if the investment does not work in our favour and we incur a loss of 5%. Because of the leverage, your loss will be $5.5 (5% of 110) which is again significantly larger than $0.5 (5% of 10) you would have lost had you not leveraged your position. While in absolute terms a $5.5 loss may not sound large, in percentage terms, with a 10:1 leverage, with a 5% drop, you have lost more than 50% ($5.5/$10%) of your capital. Thats massive.</p>
-<p>Just to see, how quickly a leveraged position can wreck havoc on your investments, assume if you continued to hold your leveraged positions shown above even after incurring the loss. The 5% loss has reduced our capital to $4.5 ($10 - %5.5) thereby increasing our leverage to roughly 22:1 i.e.&nbsp;(100/4.5:1). Another 5% loss from here (and that’s not unheard of, when things get bad) can wipe out our entire capital and more, leaving us with a pile of debt to clear.</p>
-<p>Investing a leveraged position is like a roller coster ride. Higher the leverage, higher are the ups and the downs. No one complains when the going is good, but when panic strikes, and its said fear spreads much faster than greed, things can very quickly get out of control.</p>
-</section>
-<section id="but-isnt-there-a-cost-associated-with-financial-leveragw" class="level2">
-<h2 class="anchored" data-anchor-id="but-isnt-there-a-cost-associated-with-financial-leveragw">But isn’t there a cost associated with financial leveragw</h2>
-<p>The main reason for a lot of leverage was the extremely low interest rates in the US. The interest rates were low because a lot of money from other countries was coming into the US and was being used to buy treasury securities from the US government. Treasury securities are issued by the US government to finance its budget deficit, or the difference between what it earns and what it spends.</p>
-</section>
+<p>The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. Tailwinds from the US economy’s growth, helped them grow to become the 4th largest investment bank in the country. It weathered many financial storms along the way, but, a downturn in the US housing market combined with a heavily leveraged position ultimately led to its downfall.</p>
 </section>
 <section id="subprime-crisis-and-mortgage-backed-securities" class="level1">
-<h1>Subprime crisis and Mortgage Backed Securities :</h1>
-<p>Lehman Brothers branched out into Mortgage backed securities and Collateralized Debt Obligations.</p>
-<p>MBS - are securities similar to bonds which are backed by a bundle of home loans. CDO - is a finance product which is backed by a pool of loans and other assets. Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans. Alt-A loans are a type of home loans which aren’t as safe as prime mortgages but not as risky as subprime mortgages as well. Subprime loans carry higher interest rates than prime loans.</p>
-<p>Lehman’s real estate business made a lot of money in the capital markets unit. Their revenue went up by 56% from 2004-2006. They securitized $146 billion (converted $146 billion of mortgages into a marketable security in 2006) —a 10% increase from 2005.</p>
-<p>In February 2007, Lehman’s stock price reached a record $86.18 per share; their market cap was nearly $60 billion. However, by the first quarter of 2007, defaults on subprime mortgages started to rise to a seven-year high.</p>
-<p>Lehman’s stock price dropped a lot when the credit crisis started in August 2007, right after two investment funds from Bear Stearns(a global investment bank located in NYC) failed. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in three states.</p>
-<p>In 2007, Lehman underwrote more mortgage-backed securities than any other company. They built up a portfolio, worth $85 billion, of these securities.</p>
-<p>In the fourth quarter of 2007, Lehman’s stock prices bounced back up, as global equity markets reached new highs and prices for fixed-income assets were going up. However, they didn’t use this chance to reduce its huge portfolio of mortgage backed securities.</p>
-<p>In 2007, Lehman had a high level of leverage, marked at 31 and its huge portfolio of mortgage backed securities made it very vulnerable to the worsening market conditions. On March 17, 2008, there were worries that the company might be the next big Wall Street company to go out of business, which resulted in the value of the company’s shares dropping by nearly 48%.</p>
-<p>However, in April, Lehman managed to raise $4 billion after an issue of preferred stock, which helped restore some confidence in the company. However, this didn’t last too long as the stock started to fall again.</p>
-<p>In the first week of September 2008, the stock price dropped by 77%. Stock markets all around the world were falling rapidly, and investors weren’t sure about the CEO’s plan to keep the company independent. The plan involved selling part of its asset management unit and spinning off commercial real estate assets. There were hopes that Korea Development Bank would invest in Lehman, but these hopes were dashed on September 9th.</p>
-<p>This news resulted in a 45% drop in the company’s stock. The company’s credit default swaps went up by 66% as well. Hedge fund clients and short term creditors started leaving the company.</p>
-<p>With a loss of $3.9 billion, and $5.6 billion write down, the company announced a big plan to change how it operated. Moody’s Investor Service also found that the only way for the company to avoid a rating downgrade would be to sell a majority stake to another big partner. On September 11, the stock price dropped again, this time by 42%.</p>
-<p>They had only $1 billion left in cash that week. On September 13, Lehman, Barclays, and Bank of America (BAC) tried one final attempt to arrange a takeover of Lehman, but they were unsuccessful. On September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.</p>
+<h1>Subprime Crisis and Mortgage Backed Securities :</h1>
+<p>Lehman Brothers branched out into Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO). In the euphoria that preceeded the US housing market bubble, Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans and it seemed like it had the Midas’s touch.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>MBSs and CDOs are a product of Financial Engineering. MBS, are securities similar to bonds that are backed by a bundle of home loans. CDO are a financial product which is backed by a pool of loans and other assets. Want to read more, then click on <a href="../../concepts/mortgage-backed-securities/index.html">What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are Prime, Subprime and Alt-A loans?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on <a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, Subprime and Alt-A loans</a></p>
+</div>
+</div>
+</div>
+<p>Lehman’s real estate business made a lot of money in the capital markets unit by securitizing morgages. In simple terms, banks that lent money to the home buyers, bundled mortgages as securities and sold them to investment banks like Lehman. Lehman securitized $146 billion worth of mortgages in 2006 alone. This helped their revenue grow by 56% from 2004 to 2006 and allowed them to report record profits every year from 2005 to 2007. In February 2007, Lehman’s stock price reached an all time high driving its market capitalization to nearly $60 billion.</p>
+<div id="fig-lehman-stock-price" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing Lehman Brother's stock price from 1995 to 2008">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-lehman-stock-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://satvikraman.github.io/blog/20240331/LehmanStockPrice.png" title="Title: Lehman's stock price" class="img-fluid figure-img" alt="Figure showing Lehman Brother's stock price from 1995 to 2008">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lehman-stock-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Lehman Stock Price <sup>1</sup>
+</figcaption>
+</figure>
+</div>
+<p>The value of a security is based on the quality of its underlying assert. The underlying asset of the MBSs &amp; CDOs that Lehman was buying were the mortgages. If there were no defaults on the mortgages, the MBS buyer would benefit. If, however, the mortgages were not paid back in full, the MBS would get devalued, on account of the detiorating quality of the underlying mortgages, resulting in a loss to the MBS buyer.</p>
+<p>Lehman and its subsidiaries were buying securities backed by Alt-A and sub-prime mortgages. The risk of these mortgages getting sour was always high. When the cracks in the US housing market started to appear in the first quarter of 2007, defaults on the sub-prime mortages rose to a seven year high leading to a massive devaluation of the MBSs and CDOs they had purchased. Lehman’s stock price dropped massively when the credit crisis deepened in August 2007. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in many states.</p>
+<section id="heavily-leveraged-position" class="level2">
+<h2 class="anchored" data-anchor-id="heavily-leveraged-position">Heavily leveraged position</h2>
+<p>Despite this, in 2007, Lehman bought more MBS than any other company. They built up a portfolio, worth $85 billion, of these securities, which was worth 4 times it shareholder’s equity. Lehman was leaning forward and using financial leverage to fund its purchase completely ignoring all the warning signs.</p>
+<div id="fig-lehman-leverage" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing the leverage used by major investment banks from 2003 to 2007">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-lehman-leverage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://satvikraman.github.io/blog/20240331/LeverageRatioInvestmentBanks.png" class="img-fluid figure-img" alt="Figure showing the leverage used by major investment banks from 2003 to 2007">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lehman-leverage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Levarage ratios for major investment banks <sup>2</sup>
+</figcaption>
+</figure>
+</div>
+<p>As can be seen in Figure&nbsp;2, the use of leverage was increasing in each of the major investment banks since 2003. In 2007, Lehman had an exceptionally high level of leverage, 31:1 and its huge portfolio of MBS made it very vulnerable to the worsening US housing market conditions. At such a high leverage even a small correction in the value of the MBS would have had a huge impact on Lehman’s portfolio. And in 2008, we were not talking about a small correction. When the housing market in the US went into a tail-spin, also referred to as the sub-prime crisis, mortgage defaults spiralled and so did Lehman’s problems.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is a leveraged position?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Leveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on <a href="../../concepts/financial-leverage/index.html">Financial Leverage</a></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="implosion" class="level1">
+<h1>Implosion</h1>
+<p>Lehman’s stock came under heavy selling pressure, since it was clear that the mortgage defaults would hurt their MBS portfolio. With more sellers than buyers, Lehman’s stock dived 77% in the first week of September 2008 alone. Many attempts were made to steady the sinking ship; Lehman tried spinning off its commercial real estate assets as a separate entity; There were talks with the Korean Development Bank to invest in Lehman; And even Barclays and Bank of America made a last ditch attempt to takeover Lehman, but they all failed. And as news of each failed attempt appeared, Lehman’s stock dived down even further.</p>
+<p>With only $1 billion left in cash, on September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.</p>
+<section id="how-could-lehman-afford-such-high-leverage" class="level2">
+<h2 class="anchored" data-anchor-id="how-could-lehman-afford-such-high-leverage">How could Lehman afford such high leverage</h2>
+<p>When I first read about this story, I wondered how Lehman was able to fund a leverage of 31:1. Surely there must be a financing cost associated with all the money they were borrowing. And it was not just Lehman, every other investment bank seemed to be doing it. The remainder of the post delves into this topic.</p>
+<section id="dollar-economics" class="level3">
+<h3 class="anchored" data-anchor-id="dollar-economics">Dollar Economics</h3>
+<p>Post the World War II, global trading moved towards the US dollar. Central banks around the world were thus flush with dollar reserves and since they wanted to earn a yield on these reserves, these reserves eventually got invested into American treasury securities and other American debt securities. All this money coming into the US helped keep interest rates low. Look at it this way, the US government didn’t have to give any special incentives to attract this money. Money kept flowing into the US and the government continued to keep the treasury interest rates low. See Figure&nbsp;3.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are treasury securities?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Treasury securities are issued by the US government to fund its budget deficit, or the amount the government borrows to fill the gap between what it earns and what it spends. Treasury securities offer a fixed interest rate if held until its maturity and are considered the safest form of investment.</p>
+</div>
+</div>
+</div>
+<div id="fig-treasury-yield" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-treasury-yield-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://satvikraman.github.io/blog/20240331/web2_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-treasury-yield-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Yield on the 10 year Americal treasury <sup>3</sup>
+</figcaption>
+</figure>
+</div>
+<p>The yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that’s relatively higher than the yield on the treasure securities. This is done to compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates.</p>
+<p>This allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008.</p>
+<div id="fig-household-debt" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-household-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://satvikraman.github.io/blog/20240331/web3_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-household-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Rise in US household debt
+</figcaption>
+</figure>
+</div>
+<p>In my opinion trading in US dollar has created a viscious cycle. Americans borrowed at low interest rates and bought cars from Japan and apparels and electronics from China. China and Japan would invest the earned dollars back into US by buying their treasury securities. Because of inflow of dollars, the US Government kept their interest rates low allowing Americans to borrow even more and so the cycle continued.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+title: The Viscious Cycle
+---
+stateDiagram-v2
+  USGB: US Government Borrowed
+  TRL: US government kept treasury interest rates low
+  USB: US borrowed at low interest rates
+  USS: US Spent
+  CJE: China / Japan earned
+  CJL: China / Japan lent
+  USB --&gt; USS
+  USS --&gt; CJE
+  CJE --&gt; CJL
+  CJL --&gt; USGB
+  USGB --&gt; TRL
+  TRL --&gt; USB
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../blog/20240407/index.html">Subprime Crisis</a>
+</li>
+<li>
+<a href="../../blog/20240414/index.html">Why does the world trade in US dollars?</a>
+</li>
+<li>
+<a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="./../../docs/concepts/futures/index.qmd">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a>
+</li>
+</ul>
 
 
 </section>
 
- ]]></description>
-  <category>Finance, Leverage</category>
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.statista.com/statistics/1349730/global-financial-crisis-lehman-brothers-stock-price/" target="_blank">Annual year end stock price for Lehman Brothers from 1995 to 2008</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1000&amp;context=journal-of-financial-crises">The Lehman Brothers Bankruptcy A: Overview in Journal of Financial Crises, Figure 3</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://www.livemint.com/Industry/Gi4CgVYJ4QLOiVGRKqx8JO/Learning-from-Lehman-what-goes-around.html">What happened during the 2008 Lehman crisis</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Lehman</category>
+  <category>Leverage</category>
+  <category>Mortgage Backed Securities</category>
+  <category>Risk</category>
   <guid>https://satvikraman.github.io/blog/20240331/</guid>
   <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
   <media:content url="https://satvikraman.github.io/blog/20240331/lehman-brothers.jpg" medium="image" type="image/jpeg"/>

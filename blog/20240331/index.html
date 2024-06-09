@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-03-21">
 <meta name="description" content="The how and the why">
 
-<title>Satvik’s Portfolio - Collapse of Lehman Brothers.</title>
+<title>Satvik’s Portfolio - Collapse of Lehman Brothers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,18 +72,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <!-- ... -->
 
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 
 
 
-<meta property="og:title" content="Satvik’s Portfolio - Collapse of Lehman Brothers.">
+<meta property="og:title" content="Satvik’s Portfolio - Collapse of Lehman Brothers">
 <meta property="og:description" content="The how and the why">
 <meta property="og:image" content="https://satvikraman.github.io/blog/20240331/lehman-brothers.jpg">
 <meta property="og:site_name" content="Satvik's Portfolio">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Satvik’s Portfolio - Collapse of Lehman Brothers.">
+<meta name="twitter:title" content="Satvik’s Portfolio - Collapse of Lehman Brothers">
 <meta name="twitter:description" content="The how and the why">
 <meta name="twitter:image" content="https://satvikraman.github.io/blog/20240331/lehman-brothers.jpg">
 <meta name="twitter:creator" content="@satvikraman">
@@ -164,12 +167,18 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#history" id="toc-history" class="nav-link active" data-scroll-target="#history">History :</a></li>
-  <li><a href="#heavily-leveraged-position" id="toc-heavily-leveraged-position" class="nav-link" data-scroll-target="#heavily-leveraged-position">Heavily leveraged position :</a>
+  <li><a href="#subprime-crisis-and-mortgage-backed-securities" id="toc-subprime-crisis-and-mortgage-backed-securities" class="nav-link" data-scroll-target="#subprime-crisis-and-mortgage-backed-securities">Subprime Crisis and Mortgage Backed Securities :</a>
   <ul class="collapse">
-  <li><a href="#so-what-is-leverage" id="toc-so-what-is-leverage" class="nav-link" data-scroll-target="#so-what-is-leverage">So what is leverage?</a></li>
-  <li><a href="#but-isnt-there-a-cost-associated-with-financial-leveragw" id="toc-but-isnt-there-a-cost-associated-with-financial-leveragw" class="nav-link" data-scroll-target="#but-isnt-there-a-cost-associated-with-financial-leveragw">But isn’t there a cost associated with financial leveragw</a></li>
+  <li><a href="#heavily-leveraged-position" id="toc-heavily-leveraged-position" class="nav-link" data-scroll-target="#heavily-leveraged-position">Heavily leveraged position</a></li>
   </ul></li>
-  <li><a href="#subprime-crisis-and-mortgage-backed-securities" id="toc-subprime-crisis-and-mortgage-backed-securities" class="nav-link" data-scroll-target="#subprime-crisis-and-mortgage-backed-securities">Subprime crisis and Mortgage Backed Securities :</a></li>
+  <li><a href="#implosion" id="toc-implosion" class="nav-link" data-scroll-target="#implosion">Implosion</a>
+  <ul class="collapse">
+  <li><a href="#how-could-lehman-afford-such-high-leverage" id="toc-how-could-lehman-afford-such-high-leverage" class="nav-link" data-scroll-target="#how-could-lehman-afford-such-high-leverage">How could Lehman afford such high leverage</a>
+  <ul class="collapse">
+  <li><a href="#dollar-economics" id="toc-dollar-economics" class="nav-link" data-scroll-target="#dollar-economics">Dollar Economics</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#you-might-also-like-to-read" id="toc-you-might-also-like-to-read" class="nav-link" data-scroll-target="#you-might-also-like-to-read">You might also like to read</a></li>
   </ul>
 </nav>
     </div>
@@ -178,9 +187,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Collapse of Lehman Brothers.</h1>
+<h1 class="title">Collapse of Lehman Brothers</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Finance, Leverage</div>
+    <div class="quarto-category">Lehman</div>
+    <div class="quarto-category">Leverage</div>
+    <div class="quarto-category">Mortgage Backed Securities</div>
+    <div class="quarto-category">Risk</div>
   </div>
   </div>
 
@@ -218,48 +230,202 @@ ul.task-list li input[type="checkbox"] {
 <p>
 <b>Pageviews:</b> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewbox="0 0 256 256"><path fill="currentColor" d="M247.31 124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57 61.26 162.88 48 128 48S61.43 61.26 36.34 86.35C17.51 105.18 9 124 8.69 124.76a8 8 0 0 0 0 6.5c.35.79 8.82 19.57 27.65 38.4C61.43 194.74 93.12 208 128 208s66.57-13.26 91.66-38.34c18.83-18.83 27.3-37.61 27.65-38.4a8 8 0 0 0 0-6.5M128 168a40 40 0 1 1 40-40a40 40 0 0 1-40 40"></path></svg> <span class="waline-pageview-count">
 </span></p><p>
-</p><p>I have a close association with this story. I was born on the day Lehman brothers declared bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the fall of Lehman brothers.</p>
+</p><p>I have a close association with this story. I was born on the exact day Lehman brothers filed for bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the Lehman Brother’s fall.</p>
 <section id="history" class="level1">
 <h1>History :</h1>
-<p>The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. After Henry passed away, the Lehman brothers branched off into commodities trading and brokerage services. They prospered as the U.S. economy grew to become the 4th largest investment bank. However, a downturn in the U.S. housing market combined with a heavily levraged position ultimately led to its downfall.</p>
-</section>
-<section id="heavily-leveraged-position" class="level1">
-<h1>Heavily leveraged position :</h1>
-<p>In 2008, Lehman Brothers was leveraged at 30.7 to 1. While leverage boosts returns during good times, it is a double edged sword. It can also cause huge problems during downturns. When the housing market in the U.S. went into a tail-spin, also referred to as the sub-prime crisis, Lehman’s leveraged position came to haunt them big time.</p>
-<section id="so-what-is-leverage" class="level2">
-<h2 class="anchored" data-anchor-id="so-what-is-leverage">So what is leverage?</h2>
-<p>Leverage comes from the word lever. Remeber the simple machine you read about back in your school days. A lever helps us lift objects by applying lesser force.</p>
-<p>Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. Let’s work with an example. Assume you have $10 and you borrow $100 from a bank to invest a total of $110. Your financial leverage is 10:1 i.e.&nbsp;for every $1 of your own money you are borrowing $10.</p>
-<p>Assume, the investment works in your favour, and you make a return of 20%. Because of the leverage, your returns are $22 (20% of $110) which would be significantly larger than the $2 (20% of $10) you would have made had you not leveraged your position. Thats a 220% return ($22/$10%). Wow!!!</p>
-<p>But lets also look at the flip side. What if the investment does not work in our favour and we incur a loss of 5%. Because of the leverage, your loss will be $5.5 (5% of 110) which is again significantly larger than $0.5 (5% of 10) you would have lost had you not leveraged your position. While in absolute terms a $5.5 loss may not sound large, in percentage terms, with a 10:1 leverage, with a 5% drop, you have lost more than 50% ($5.5/$10%) of your capital. Thats massive.</p>
-<p>Just to see, how quickly a leveraged position can wreck havoc on your investments, assume if you continued to hold your leveraged positions shown above even after incurring the loss. The 5% loss has reduced our capital to $4.5 ($10 - %5.5) thereby increasing our leverage to roughly 22:1 i.e.&nbsp;(100/4.5:1). Another 5% loss from here (and that’s not unheard of, when things get bad) can wipe out our entire capital and more, leaving us with a pile of debt to clear.</p>
-<p>Investing a leveraged position is like a roller coster ride. Higher the leverage, higher are the ups and the downs. No one complains when the going is good, but when panic strikes, and its said fear spreads much faster than greed, things can very quickly get out of control.</p>
-</section>
-<section id="but-isnt-there-a-cost-associated-with-financial-leveragw" class="level2">
-<h2 class="anchored" data-anchor-id="but-isnt-there-a-cost-associated-with-financial-leveragw">But isn’t there a cost associated with financial leveragw</h2>
-<p>The main reason for a lot of leverage was the extremely low interest rates in the US. The interest rates were low because a lot of money from other countries was coming into the US and was being used to buy treasury securities from the US government. Treasury securities are issued by the US government to finance its budget deficit, or the difference between what it earns and what it spends.</p>
-</section>
+<p>The history of Lehman brothers dates back to 1884, when the three German brothers Henry, Emanuel and Mayer Lehman ran a general store in Alabama where farmers paid for their goods using cotton. Tailwinds from the US economy’s growth, helped them grow to become the 4th largest investment bank in the country. It weathered many financial storms along the way, but, a downturn in the US housing market combined with a heavily leveraged position ultimately led to its downfall.</p>
 </section>
 <section id="subprime-crisis-and-mortgage-backed-securities" class="level1">
-<h1>Subprime crisis and Mortgage Backed Securities :</h1>
-<p>Lehman Brothers branched out into Mortgage backed securities and Collateralized Debt Obligations.</p>
-<p>MBS - are securities similar to bonds which are backed by a bundle of home loans. CDO - is a finance product which is backed by a pool of loans and other assets. Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans. Alt-A loans are a type of home loans which aren’t as safe as prime mortgages but not as risky as subprime mortgages as well. Subprime loans carry higher interest rates than prime loans.</p>
-<p>Lehman’s real estate business made a lot of money in the capital markets unit. Their revenue went up by 56% from 2004-2006. They securitized $146 billion (converted $146 billion of mortgages into a marketable security in 2006) —a 10% increase from 2005.</p>
-<p>In February 2007, Lehman’s stock price reached a record $86.18 per share; their market cap was nearly $60 billion. However, by the first quarter of 2007, defaults on subprime mortgages started to rise to a seven-year high.</p>
-<p>Lehman’s stock price dropped a lot when the credit crisis started in August 2007, right after two investment funds from Bear Stearns(a global investment bank located in NYC) failed. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in three states.</p>
-<p>In 2007, Lehman underwrote more mortgage-backed securities than any other company. They built up a portfolio, worth $85 billion, of these securities.</p>
-<p>In the fourth quarter of 2007, Lehman’s stock prices bounced back up, as global equity markets reached new highs and prices for fixed-income assets were going up. However, they didn’t use this chance to reduce its huge portfolio of mortgage backed securities.</p>
-<p>In 2007, Lehman had a high level of leverage, marked at 31 and its huge portfolio of mortgage backed securities made it very vulnerable to the worsening market conditions. On March 17, 2008, there were worries that the company might be the next big Wall Street company to go out of business, which resulted in the value of the company’s shares dropping by nearly 48%.</p>
-<p>However, in April, Lehman managed to raise $4 billion after an issue of preferred stock, which helped restore some confidence in the company. However, this didn’t last too long as the stock started to fall again.</p>
-<p>In the first week of September 2008, the stock price dropped by 77%. Stock markets all around the world were falling rapidly, and investors weren’t sure about the CEO’s plan to keep the company independent. The plan involved selling part of its asset management unit and spinning off commercial real estate assets. There were hopes that Korea Development Bank would invest in Lehman, but these hopes were dashed on September 9th.</p>
-<p>This news resulted in a 45% drop in the company’s stock. The company’s credit default swaps went up by 66% as well. Hedge fund clients and short term creditors started leaving the company.</p>
-<p>With a loss of $3.9 billion, and $5.6 billion write down, the company announced a big plan to change how it operated. Moody’s Investor Service also found that the only way for the company to avoid a rating downgrade would be to sell a majority stake to another big partner. On September 11, the stock price dropped again, this time by 42%.</p>
-<p>They had only $1 billion left in cash that week. On September 13, Lehman, Barclays, and Bank of America (BAC) tried one final attempt to arrange a takeover of Lehman, but they were unsuccessful. On September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.</p>
+<h1>Subprime Crisis and Mortgage Backed Securities :</h1>
+<p>Lehman Brothers branched out into Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO). In the euphoria that preceeded the US housing market bubble, Lehman acquired five mortgage lenders along with BNC Mortgage and Aurora Loan Services, which specialized in Alt-A loans and it seemed like it had the Midas’s touch.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>MBSs and CDOs are a product of Financial Engineering. MBS, are securities similar to bonds that are backed by a bundle of home loans. CDO are a financial product which is backed by a pool of loans and other assets. Want to read more, then click on <a href="../../concepts/mortgage-backed-securities/index.html">What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are Prime, Subprime and Alt-A loans?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on <a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, Subprime and Alt-A loans</a></p>
+</div>
+</div>
+</div>
+<p>Lehman’s real estate business made a lot of money in the capital markets unit by securitizing morgages. In simple terms, banks that lent money to the home buyers, bundled mortgages as securities and sold them to investment banks like Lehman. Lehman securitized $146 billion worth of mortgages in 2006 alone. This helped their revenue grow by 56% from 2004 to 2006 and allowed them to report record profits every year from 2005 to 2007. In February 2007, Lehman’s stock price reached an all time high driving its market capitalization to nearly $60 billion.</p>
+<div id="fig-lehman-stock-price" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing Lehman Brother's stock price from 1995 to 2008">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-lehman-stock-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="LehmanStockPrice.png" title="Title: Lehman's stock price" class="img-fluid figure-img" alt="Figure showing Lehman Brother's stock price from 1995 to 2008">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lehman-stock-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Lehman Stock Price <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
+</figcaption>
+</figure>
+</div>
+<p>The value of a security is based on the quality of its underlying assert. The underlying asset of the MBSs &amp; CDOs that Lehman was buying were the mortgages. If there were no defaults on the mortgages, the MBS buyer would benefit. If, however, the mortgages were not paid back in full, the MBS would get devalued, on account of the detiorating quality of the underlying mortgages, resulting in a loss to the MBS buyer.</p>
+<p>Lehman and its subsidiaries were buying securities backed by Alt-A and sub-prime mortgages. The risk of these mortgages getting sour was always high. When the cracks in the US housing market started to appear in the first quarter of 2007, defaults on the sub-prime mortages rose to a seven year high leading to a massive devaluation of the MBSs and CDOs they had purchased. Lehman’s stock price dropped massively when the credit crisis deepened in August 2007. In that month, the company got rid of mortgage related jobs and closed its BNC unit. It also shut down offices of Aurora, an Alt-A mortgage lender, in many states.</p>
+<section id="heavily-leveraged-position" class="level2">
+<h2 class="anchored" data-anchor-id="heavily-leveraged-position">Heavily leveraged position</h2>
+<p>Despite this, in 2007, Lehman bought more MBS than any other company. They built up a portfolio, worth $85 billion, of these securities, which was worth 4 times it shareholder’s equity. Lehman was leaning forward and using financial leverage to fund its purchase completely ignoring all the warning signs.</p>
+<div id="fig-lehman-leverage" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing the leverage used by major investment banks from 2003 to 2007">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-lehman-leverage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="LeverageRatioInvestmentBanks.png" class="img-fluid figure-img" alt="Figure showing the leverage used by major investment banks from 2003 to 2007">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lehman-leverage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Levarage ratios for major investment banks <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+</figcaption>
+</figure>
+</div>
+<p>As can be seen in <a href="#fig-lehman-leverage" class="quarto-xref">Figure&nbsp;2</a>, the use of leverage was increasing in each of the major investment banks since 2003. In 2007, Lehman had an exceptionally high level of leverage, 31:1 and its huge portfolio of MBS made it very vulnerable to the worsening US housing market conditions. At such a high leverage even a small correction in the value of the MBS would have had a huge impact on Lehman’s portfolio. And in 2008, we were not talking about a small correction. When the housing market in the US went into a tail-spin, also referred to as the sub-prime crisis, mortgage defaults spiralled and so did Lehman’s problems.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is a leveraged position?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Leveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on <a href="../../concepts/financial-leverage/index.html">Financial Leverage</a></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="implosion" class="level1">
+<h1>Implosion</h1>
+<p>Lehman’s stock came under heavy selling pressure, since it was clear that the mortgage defaults would hurt their MBS portfolio. With more sellers than buyers, Lehman’s stock dived 77% in the first week of September 2008 alone. Many attempts were made to steady the sinking ship; Lehman tried spinning off its commercial real estate assets as a separate entity; There were talks with the Korean Development Bank to invest in Lehman; And even Barclays and Bank of America made a last ditch attempt to takeover Lehman, but they all failed. And as news of each failed attempt appeared, Lehman’s stock dived down even further.</p>
+<p>With only $1 billion left in cash, on September 15, 2008, Lehman declared bankruptcy, which caused the stock to fall by 93% from its previous close on September 12.</p>
+<section id="how-could-lehman-afford-such-high-leverage" class="level2">
+<h2 class="anchored" data-anchor-id="how-could-lehman-afford-such-high-leverage">How could Lehman afford such high leverage</h2>
+<p>When I first read about this story, I wondered how Lehman was able to fund a leverage of 31:1. Surely there must be a financing cost associated with all the money they were borrowing. And it was not just Lehman, every other investment bank seemed to be doing it. The remainder of the post delves into this topic.</p>
+<section id="dollar-economics" class="level3">
+<h3 class="anchored" data-anchor-id="dollar-economics">Dollar Economics</h3>
+<p>Post the World War II, global trading moved towards the US dollar. Central banks around the world were thus flush with dollar reserves and since they wanted to earn a yield on these reserves, these reserves eventually got invested into American treasury securities and other American debt securities. All this money coming into the US helped keep interest rates low. Look at it this way, the US government didn’t have to give any special incentives to attract this money. Money kept flowing into the US and the government continued to keep the treasury interest rates low. See <a href="#fig-treasury-yield" class="quarto-xref">Figure&nbsp;3</a>.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are treasury securities?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Treasury securities are issued by the US government to fund its budget deficit, or the amount the government borrows to fill the gap between what it earns and what it spends. Treasury securities offer a fixed interest rate if held until its maturity and are considered the safest form of investment.</p>
+</div>
+</div>
+</div>
+<div id="fig-treasury-yield" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-treasury-yield-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="web2_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-treasury-yield-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Yield on the 10 year Americal treasury <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>
+</figcaption>
+</figure>
+</div>
+<p>The yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that’s relatively higher than the yield on the treasure securities. This is done to compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates.</p>
+<p>This allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008.</p>
+<div id="fig-household-debt" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-household-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="web3_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-household-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Rise in US household debt
+</figcaption>
+</figure>
+</div>
+<p>In my opinion trading in US dollar has created a viscious cycle. Americans borrowed at low interest rates and bought cars from Japan and apparels and electronics from China. China and Japan would invest the earned dollars back into US by buying their treasury securities. Because of inflow of dollars, the US Government kept their interest rates low allowing Americans to borrow even more and so the cycle continued.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+title: The Viscious Cycle
+---
+stateDiagram-v2
+  USGB: US Government Borrowed
+  TRL: US government kept treasury interest rates low
+  USB: US borrowed at low interest rates
+  USS: US Spent
+  CJE: China / Japan earned
+  CJL: China / Japan lent
+  USB --&gt; USS
+  USS --&gt; CJE
+  CJE --&gt; CJL
+  CJL --&gt; USGB
+  USGB --&gt; TRL
+  TRL --&gt; USB
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../blog/20240407/index.html">Subprime Crisis</a>
+</li>
+<li>
+<a href="../../blog/20240414/index.html">Why does the world trade in US dollars?</a>
+</li>
+<li>
+<a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="./../../docs/concepts/futures/index.qmd">What are Prime, SubPrime and Alt-A loans</a>
+</li>
+<li>
+<a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a>
+</li>
+</ul>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.statista.com/statistics/1349730/global-financial-crisis-lehman-brothers-stock-price/" target="_blank">Annual year end stock price for Lehman Brothers from 1995 to 2008</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1000&amp;context=journal-of-financial-crises">The Lehman Brothers Bankruptcy A: Overview in Journal of Financial Crises, Figure 3</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.livemint.com/Industry/Gi4CgVYJ4QLOiVGRKqx8JO/Learning-from-Lehman-what-goes-around.html">What happened during the 2008 Lehman crisis</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

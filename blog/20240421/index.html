@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Satvik Raman">
+<meta name="dcterms.date" content="2024-04-21">
 
-<title>Satvik’s Portfolio - Concepts</title>
+<title>Satvik’s Portfolio - Cocoa crisis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,27 +25,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,76 +74,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- ... -->
 
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Satvik's Portfolio" href="index.xml" data-external="1"><meta property="og:title" content="Satvik’s Portfolio - Concepts">
-<meta property="og:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
+<meta property="og:title" content="Satvik’s Portfolio - Cocoa crisis">
+<meta property="og:description" content="A blog on the current financial stories through the eyes of a kid">
+<meta property="og:image" content="">
 <meta property="og:site_name" content="Satvik's Portfolio">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Satvik’s Portfolio - Concepts">
-<meta name="twitter:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
+<meta name="twitter:title" content="Satvik’s Portfolio - Cocoa crisis">
+<meta name="twitter:description" content="A blog on the current financial stories through the eyes of a kid">
+<meta name="twitter:image" content="">
 <meta name="twitter:creator" content="@satvikraman">
 <meta name="twitter:site" content="@satvikraman">
 <meta name="twitter:card" content="summary_large_image">
@@ -154,7 +100,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Satvik’s Portfolio</span>
     </a>
   </div>
@@ -165,25 +111,25 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../concepts/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../concepts/index.html"> 
 <span class="menu-text">Concepts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.qmd"> 
+    <a class="nav-link" href="../../projects/index.qmd"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../blog/index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog/index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -215,15 +161,28 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="CDO">CDO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Finance">Finance <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Financial Engineering">Financial Engineering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Leverage">Leverage <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Loan">Loan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mortgage">Mortgage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk">Risk <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-cause" id="toc-the-cause" class="nav-link active" data-scroll-target="#the-cause">The Cause</a></li>
+  <li><a href="#how-are-businesses-responding" id="toc-how-are-businesses-responding" class="nav-link" data-scroll-target="#how-are-businesses-responding">How Are Businesses Responding?</a></li>
+  <li><a href="#the-way-forward" id="toc-the-way-forward" class="nav-link" data-scroll-target="#the-way-forward">The Way Forward?</a></li>
+  <li><a href="#you-might-also-like-to-read" id="toc-you-might-also-like-to-read" class="nav-link" data-scroll-target="#you-might-also-like-to-read">You might also like to read</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Concepts</h1>
-</div>
+<h1 class="title">Cocoa crisis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Futures</div>
+    <div class="quarto-category">Cocoa</div>
+  </div>
+  </div>
 
 
 
@@ -236,6 +195,12 @@ window.Quarto = {
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 21, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -245,303 +210,128 @@ window.Quarto = {
 </header>
 
 
+<p>Cocoa is the new Bitcoin if you are into crypto currency or Nvidia if you like the good old stocks. From trading at $3000 a ton at the start of the year, cocoa is now trading at $12000 a ton. A 4x multiple in just 3 months!!! And thats not the peak as per famed commodities trader, <a href="https://www.linkedin.com/in/pierre-andurand-b4a7725a/" target="_blank">Pierre Andurand</a>. He has bet big on Cocoa and predicts Cocoa futures to touch $20000 this year <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div id="fig-cocoa-future-price" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Figure showing the price of cocoa futures for the last 1 year starting Jun'23">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cocoa-future-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="CocoaFutures.jpg" title="Title: Price of Cocoa Future" class="img-fluid figure-img" alt="Figure showing the price of cocoa futures for the last 1 year starting Jun'23">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cocoa-future-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Price of Cocoa Future <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+</figcaption>
+</figure>
+</div>
+<p>In this article I try and explain what’s happening and touch upon a few financial concepts along the way.</p>
+<div id="nte-future" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;1: What are Futures?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A future is a derivative contract that a buyer and seller get into. Because it is a derivative, it derives its value from an underlying asset, which could be a stock or a commodity. The contract attribute, standardizes the agreement by defining the quanta of the asset being traded and the pre-determined price of the asset on a pre-determined future date. The pre-dertermined future date is the date at which the contract expires. The buyer of the contract expects the price of the underlying to increase by expiry date, while the contract seller has an opposing view. Want to read more, then click on <a href="../../concepts/futures/index.html">What are Futures?</a></p>
+</div>
+</div>
+</div>
+<section id="the-cause" class="level1">
+<h1>The Cause</h1>
+<p>Cocoa production is extremely concentrated. The west African nations Ghana and Ivory Coast produce a major share (over 50%) of the world’s cocoa beans. A bad harvest in these nations brought on by El Niño, black pod disease and ageing cocoa trees has had a big impact on the supply side. Additionally, inequitable market practices done over decades have led to big chocolate corporations pocketing the bulk of the profit, leaving farmers with little income to replant new trees or implement disease prevention measures. Also, in Ghana, illegal gold mines have taken over areas of productive cocoa land.</p>
+<p>The Russia-Ukraine war has also caused the prices of fertilizers to increase which has had a negative effect on the production of cocoa. Freight cost have also increased by 20% - 30% since the Isreal - Hamas war broke out and the Houthi rebels started attacking vessels in the Red sea in a show of support for Hamas, forcing cargo vessels to take a longer route avoiding the Seuz Canal.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is El Niño?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The term El Nino refers to the warming of the ocean. This often leads to drier and warmer conditions resulting in hotter weather, heavy rainfalls and intense heat waves etc. Conditions like excess moisture have led to the outbreak of the ‘Black pod disease’ affecting the cocoa harvest.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="how-are-businesses-responding" class="level1">
+<h1>How Are Businesses Responding?</h1>
+<p>Well, as with anything else, it depends. Manufacturers in the premium segment, like Lindt, typically have pricing power and can afford to increase prices of their products without denting their customer base. Chocolate prices in EU have already increased on an average by 6% - 8% annually. That’s a nominal increase considering the cost of cocoa has gone up 4 times? Let me assure you, the chocolate manufacturers are not being generous and cushioning the price shock for the end customer. A chocolate contains more ingredients than cocoa powder, cocoa butter and cocoa nibs. The price hike of the end product, therefore isn’t going to be proportionate to the increase in the cocoa prices. On the contrary, as per Bank of America, premium manufacturers intend to maintain the increased prices even after the cocoa prices decline helping them improve their margins in the coming years <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<div id="fig-choc-annual-price-rise" class="lightbox quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the increase in the annual price of chocolates in major EU countries" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-choc-annual-price-rise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./ChocolatePriceRiseAnnual.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="./ChocolatePriceRiseAnnual.jpg" title="Title: Annual increase in the price of chocolates in major EU countries in Apr'24" class="quarto-figure quarto-figure-left figure-img" alt="Figure showing the increase in the annual price of chocolates in major EU countries" height="200"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-choc-annual-price-rise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Annual increase in the price of chocolates in major EU countries in Apr’24 <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>
+</figcaption>
+</figure>
+</div>
+<p>Some businesses might absorb the price increase and reduce their margins, but that’s not something that they can continue to do, if the prices continue to increase as projected through the year. This brings us to an important question. Can’t buesinesses do anything to protect themselves against the vagaries of the market. The answer goes back to the concept we introduced earlier in this post - Futures Contract in <a href="#nte-future" class="quarto-xref">Note&nbsp;1</a>. Hersheys and other companies hedge their cocoa purchase by buying futures contract. While they don’t use the futures contract to take physical delivery of the underlying (in this case cocoa beans), they use this strategy to minimise their loses should the market move against their views.</p>
+<p>However, many others will resort to whats called <em>Shrinkflation</em> and <em>Skimpflation</em>. Shrinkflation refers to the practice of reducing the pack size marginally in a way that it is not immediately noticable to the end consumer. Nestlé has reduced their Kit Kat bar size from 17 to 14 grams., while Mars has reduced the size of its large milk chocolate Easter egg from 252 to 201 grams. Skimpflation on the other hand refers to the practice of changing the recipe of the product itself. Manufactures substitue the pricier ingredient with a cheaper substitute. For example, chocolates can be categorized into two major categories - [1] Couverture, that’s made of cocoa butter and cocoa mass and [2] Compund chocolate, thats made of cheaper fats like vegetable, coconut or palm oil. Manufactures using coverture chocolates may substitute part of the recipe with compound chocolate to reduce the production cost, especially in lower income countries like India.</p>
+</section>
+<section id="the-way-forward" class="level1">
+<h1>The Way Forward?</h1>
+<div id="fig-cocoa-exports" class="lightbox quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the quantity of export of Cocoa beans per continent" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cocoa-exports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./CocoaExports.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="./CocoaExports.png" title="Title: Cocoa exports per continent from 1961 to 2021" class="quarto-figure quarto-figure-left figure-img" alt="Figure showing the quantity of export of Cocoa beans per continent" height="200"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cocoa-exports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Cocoa Exports from 1961 to 2021
+</figcaption>
+</figure>
+</div>
+<p>The crisis in Africa might present itself as an opportunity for other countries specifically in Asia and the Americas. As per <a href="#fig-cocoa-exports" class="quarto-xref">Figure&nbsp;3</a>, countries in Africa and Europe have held the lions share of Cocoa beans export. Asian countries come next and they could potentially increase their market share to fill the gap between supply and demand.</p>
+<p>Specifically in India, the southern states of Kerala, Karnataka, Andhra Pradesh and Tamilnadu grow cocoa. Producers in these states could use this crisis as an opportunity to produce fine quality cacao beans. <a href="https://manamchocolate.com/pages/about-us" target="_blank">Manam Chocolate</a> is barely a year od, but has created a mark for itself by bagging the prestigous International Chocolate Award. Its sister brand, <a href="https://www.distinctorigins.com/">Distinct Origins</a> is working actively towards enhancing both the quantity and the quality of cacao grown in the country. They are onboarding farmers and bringing in proprietary technologies to improve the fermentation, drying and other post harvest processes. This initiative will take 3 - 4 years to bear fruit but is a step in the right direction.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What’s the difference between Cacao and Cocoa?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I came across this word Cacao in a few articles that I read to research for this article. I genuinely thought it was a typo <iconify-icon inline="" icon="openmoji:smiling-face-with-halo" aria-label="Icon smiling-face-with-halo from openmoji Iconify.design set." title="Icon smiling-face-with-halo from openmoji Iconify.design set." width="36" height="36"></iconify-icon>. Turns out its not. Cacao refers to the raw material: the cacao beans that are harvested from the cacao tree. Cocoa is created after the beans are finely ground into a powder and roasted, and can be consumed as a drink or blended with sugar, milk, cocoa butter and cacao to make chocolate.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../concepts/futures/index.html">What are Futures?</a>
+</li>
+</ul>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;2: Annual increase in the price of chocolates in major EU countries in Apr’24 <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;3: Cocoa Exports from 1961 to 2021</span>
+</div>
+</section>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-categories" data-direction="asc">
-          Categories
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713457532412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="648">
-<a href="../concepts/Hedging/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Hedging" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hedging
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-Hedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Mortgage,Loan" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713616218251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
-<a href="../concepts/Mortgage-Loan/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Mortgage-Loan/Mortgage-and-a-Loan.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mortgage vs Loans
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Mortgage'); return false;">
-Mortgage
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Loan'); return false;">
-Loan
-</div>
-</div>
-<div class="card-text listing-description">
-Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Finance,Risk" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713799045166" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
-<a href="../concepts/Prime-SubPrime-Alt-A/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/Prime-SubPrime-Alt-A/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What are Prime, SubPrime and Alt-A loans
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Risk'); return false;">
-Risk
-</div>
-</div>
-<div class="card-text listing-description">
-Prime, Subprime and Alt-A are classification of loans / mortgages based on their risk profile.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="CDO" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310032984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/collateralized-debt-obligations/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/collateralized-debt-obligations" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Collateralized Debt Obligations
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('CDO'); return false;">
-CDO
-</div>
-</div>
-<div class="card-text listing-description">
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Financial Engineering" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310029329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/financial-engineering/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/financial-engineering" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Financial Engineering
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Financial Engineering'); return false;">
-Financial Engineering
-</div>
-</div>
-<div class="card-text listing-description">
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713436021739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1515">
-<a href="../concepts/financial-leverage/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/financial-leverage/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Financial Leverage
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1717949709834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../concepts/futures/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/futures/lever.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What are Futures?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Finance,Leverage" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1713310039810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<a href="../concepts/mortgage-backed-securities/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../concepts/mortgage-backed-securities" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mortgage Backed Securities
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Finance'); return false;">
-Finance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Leverage'); return false;">
-Leverage
-</div>
-</div>
-<div class="card-text listing-description">
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<ol>
+<li id="fn1"><p><a href="https://www.bnnbloomberg.ca/famed-oil-trader-andurand-bet-on-cocoa-just-before-price-surge-1.2055290" target="_blank">Famed Oil Trader Andurand Bet on Cocoa Just Before Price Surge</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.ice.com/products/7/Cocoa-Futures/data?marketId=7104577&amp;span=2" target="_blank">Price of Cocoa Futures for the last one year starting Jun’23</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.euronews.com/business/2024/05/29/can-swiss-chocolate-giant-lindt-thrive-with-sky-high-cocoa-prices#:~:text=Bank%20of%20America%20believes%20Lindt,and%20ongoing%20global%20wage%20inflation." target="_blank">Can Swiss chocolate giant Lindt thrive with sky-high cocoa prices?</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr__custom_11741831/default/bar?lang=en" target="_blank">Annual increase in the price of chocolates in major EU countries in Apr’24</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr__custom_11741831/default/bar?lang=en" target="_blank">Annual increase in the price of chocolates in major EU countries in Apr’24</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1001,6 +791,31 @@ init({
 
 </script>
 
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
