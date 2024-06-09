@@ -80,7 +80,7 @@ State level CBSE clusters TT tournament - 2019 - Winner
 German A2
 :::::::
 ::::::::: {.card-text}
-![German A2](/assets/profile/German-A2.jpeg){group="certifications" description="I clear the A2 level German language proficiency test in 2023" desc-position="left"}
+![German A2 Certification](/assets/profile/German-A2.jpeg){height=300 group="certifications" description="I cleared the A2 level German language proficiency test in 2023" desc-position="left"}
 :::::::::
 
 :::::
@@ -89,7 +89,7 @@ German A2
 German A1
 :::::::
 ::::::::: {.card-text}
-![German A1](/assets/profile/German-A1.jpeg){group="certifications" description="I cleared the A1 level German language proficiency test in 2022" desc-position="left"}
+![German A1 Certification](/assets/profile/German-A1.jpeg){height=300 group="certifications" description="I cleared the A1 level German language proficiency test in 2022" desc-position="left"}
 :::::::::
 :::::
 :::

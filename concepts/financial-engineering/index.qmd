@@ -1,0 +1,24 @@
+---
+title: "Financial Engineering"
+subtitle: ""
+date: 2024-03-21
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - Financial Engineering
+format:
+  html:
+    code-tools: true
+    echo: false
+execute:
+    echo: false
+---
+
+## Posts referencing this concept
+
+## Additional concepts you may be interested in
+
+## Further Reading & References

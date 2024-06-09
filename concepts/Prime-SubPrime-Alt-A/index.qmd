@@ -1,0 +1,44 @@
+---
+title: "What are Prime, SubPrime and Alt-A loans"
+subtitle: "<i>I don’t think the objective of investment should ever be to take a risk in order to get a return. I think the objective of shrewd investment should be to find opportunities which offer a larger return than the average, combined with adequate safety<br> - Benjamin Graham</i>"
+date: 2024-03-21
+image: "./lever.jpg"
+twitter-card:
+  image: "./lever.jpg"
+open-graph:
+  image: "./lever.jpg"
+categories:
+  - Finance
+  - Risk
+blog-title-refs: ""
+concept-title-refs: "Mortgage vs Loans"
+category-refs: "Mortgage"
+---
+
+# What are Prime, SubPrime and Alt-A loans?
+Prime, Subprime and Alt-A are classification of loans / mortgages based on their risk profile. 
+
+The word "prime" in prime mortgage indicates a good quality. Hence, prime mortgages are good quality mortgages. Quality here refers to the quanta of risk associated with the loan; risk that the borrower may not repay the loan. Higher the quality, lower is the risk. 
+
+The prefix "sub" means lower and consequently, sub-prime mortgages refers to mortgages that are of a lower quality than prime mortgages. 
+
+Alt-A loans carry a risk that is somewhere in between that of a prime and a sub-prime mortgage. They are riskier than a prime mortgage but not as risky as a subprime mortgage. 
+
+## Why would lenders give riskier loans, if they run the risk that they will never be paid back?
+The answer to each such perplexing question lies in the monetary incentives should the risk not materialize. The fact that the loan is riskier does not necessarily mean that the loan will not be repaid. To compensate for the risk, the lenders loan the amount at a higher interest rate.
+//TODO: Talk about provisioning over here
+
+# You might also like to read
+```{python}
+#| echo: false
+#| output: asis
+
+import sys
+sys.path.insert(1, '../../pyfiles')
+from ref import ref
+ref()
+```
+
+# Further Reading & References
+[Alt-A: What it Means, Characteristics, Pros and Cons](https://www.investopedia.com/terms/a/alt-a.asp){target="_blank"}
+
