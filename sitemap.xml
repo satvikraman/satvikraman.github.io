@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://satvikraman.github.io/projects/index.html</loc>
+    <lastmod>2024-06-09T22:58:59.904Z</lastmod>
+  </url>
+  <url>
     <loc>https://satvikraman.github.io/index.html</loc>
-    <lastmod>2024-06-09T04:45:15.969Z</lastmod>
+    <lastmod>2024-07-28T10:05:46.552Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/concepts/index.html</loc>
@@ -22,27 +26,27 @@
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/index.html</loc>
-    <lastmod>2024-04-17T00:39:45.871Z</lastmod>
+    <lastmod>2024-07-28T22:58:14.479Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240421/index.html</loc>
-    <lastmod>2024-06-09T16:16:48.686Z</lastmod>
+    <lastmod>2024-06-10T01:13:46.520Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240407/index.html</loc>
-    <lastmod>2024-04-26T13:37:19.554Z</lastmod>
+    <lastmod>2024-07-28T09:35:19.423Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240331/index.html</loc>
-    <lastmod>2024-04-22T16:30:39.083Z</lastmod>
+    <lastmod>2024-06-09T23:43:27.747Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240414/index.html</loc>
-    <lastmod>2024-04-22T15:20:58.320Z</lastmod>
+    <lastmod>2024-07-28T10:10:41.881Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/blog/20240428/index.html</loc>
-    <lastmod>2024-04-22T15:21:29.900Z</lastmod>
+    <lastmod>2024-07-28T12:13:34.150Z</lastmod>
   </url>
   <url>
     <loc>https://satvikraman.github.io/concepts/Hedging/index.html</loc>
@@ -63,5 +67,9 @@
   <url>
     <loc>https://satvikraman.github.io/concepts/mortgage-backed-securities/index.html</loc>
     <lastmod>2024-04-16T23:27:19.810Z</lastmod>
+  </url>
+  <url>
+    <loc>https://satvikraman.github.io/projects/copycat-investment/index.html</loc>
+    <lastmod>2024-06-09T22:55:59.385Z</lastmod>
   </url>
 </urlset>

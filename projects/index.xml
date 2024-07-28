@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Satvik&#39;s Portfolio</title>
+<link>https://satvikraman.github.io/projects/</link>
+<atom:link href="https://satvikraman.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog on the current financial stories through the eyes of a kid</description>
+<generator>quarto-1.4.552</generator>
+<lastBuildDate>Wed, 20 Mar 2024 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Copycat Investment</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/projects/copycat-investment/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="copycat-investment" class="level1">
+<h1>Copycat Investment</h1>
+<p>Mohnish Pabrai</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Trading</category>
+  <guid>https://satvikraman.github.io/projects/copycat-investment/</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/projects/copycat-investment" medium="image"/>
+</item>
+</channel>
+</rss>

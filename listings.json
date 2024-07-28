@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/copycat-investment/index.html"
+    ]
+  },
+  {
     "listing": "/concepts/index.html",
     "items": [
       "/concepts/Hedging/index.html",
