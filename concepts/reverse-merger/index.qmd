@@ -1,0 +1,29 @@
+---
+title: "What are Reverse Mergers?"
+subtitle: "<i>Reverse refers to the idea of a private firm acquiring an already public company</i>"
+date: 2024-04-14
+image: "./reverse-merger.png"
+twitter-card:
+  image: "./reverse-merger.png"
+open-graph:
+  image: "./reverse-merger.png"
+categories:
+  - Finance
+  - Leverage
+format:
+  html:
+    code-tools: true
+    echo: false
+execute:
+    echo: false
+---
+A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. 
+
+I would like to think of reverse merger as a process where a private company merges itself into an existing public company and hence becomes public itself. In a reverse merger, a private company first acquires a majority (>50%) stake in a public company. This transaction usually happens by means of a stock swap, where the private company "barters" its share to purchase the shares of the public company. The public company now owns shares of the private company and vice versa. Essentially, by becoming a subsidiary of a publicly traded company, the private company can itself be considered as a public company. [^1]
+
+Many a time, a publicly listed shell company is used to reverse merge into. A shell company, exists only on paper and does not engage in any active business. 
+
+However, there are instances where active public companies have been reverse merged into. ICICI Bank is a publicly traded and one of the largest non-state owned bank in India. In 2002, the ICICI group and two of its subsidiaries ICICI Personal Finance Services Ltd and ICICI Capital Services Ltd, reverse merged with ICICI Bank [^2]
+
+[1]: [Reverse Merger](https://www.wallstreetprep.com/knowledge/reverse-merger/)
+[2]: [De-jargoned: Reverse Merger](https://www.livemint.com/Money/FHPKVXE6bcRF1cdFOUqrzN/Dejargoned-reverse-merger.html)

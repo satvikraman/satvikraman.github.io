@@ -2,15 +2,47 @@
 title: "Vodafone's FPO"
 subtitle: ""
 date: 2024-04-28
-image: ""
+image: "./20240428_title.png"
 twitter-card:
-  image: ""
+  image: "./20240428_title.png"
 open-graph:
-  image: ""
+  image: "./20240428_title.png"
 categories:
   - Finance
 ---
+# Vodafone journey in India
+India is a massive market for telecom. It is the 2nd largest consumer of data. And while one would have expected a global brand like Vodafone, the 2nd largest telecom operator in the world, to have a dream run in India, it has been anything but that. So much so that, the parent group Vodafone sees no remaining value in its Indian operation and isn't considering infusing any further cash into it, as per its consolidated financial statements for FY2023 [^1]. In this post, I recall Vodafone's journey in India and along the way touch upon and explain a few financial concepts.
 
+Vodafone's journey in India started in 2007, when it entered the country by acquiring a controlling 67% stake in Hutchison. The remainder of the stake was held by an Indian entity named Essar. Vodafone bought over Essar's stake in 2014 once the Government allowed 100% Foreign Direct Investment (FDI) in the telecom sector. And it journey hasn't been smooth since. 
 
+It first locked horns with Essar while trying to buy over its stake. Vodafone wanted to buyout Essar's 33% stake. However, Essar wanted to reverse merge its stake in the Vodafone-Essar joint venture into one of its publicly listed entity, India Securities Limited (ISL). It wanted to do this to seek better valuations for its stake and the court ruled in Essar's favour stating Vodafone could not force Essar to sell its stake on its terms. Eventually, Vodafone had to fork out $5.46 billion buyout Essar's stake. 
+
+::: {#nte-reverse-merger .callout-note collapse="true"}
+## What is a reverse merger?
+A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. Want to read more, then click on [What are Reverse Mergers?](./../../concepts/reverse-merger/index.qmd)
+:::
+
+Vodafone's acquisition of the 67% stake in Hutchison also came under a lot of Government scrutiny. A Cayman Island company, CGP Investments, initially owned this stake. Ideally any entity making profits is obliged to pay a portion of its gains as taxes to the local Government. However, in this case, since the transfer of CGP Investment's stake to Vodafone happened outside India and between two non-Indian entities, the Indian Government didn't get paid anything in taxes. The Government however asserted that the transaction should be taxable in India since it involved the transfer of assets located in the country. They held Vodafone accountable for not having withheld the tax on CGP Investment's capital gains and sought to recover INR 7,900 crores from it. To override the courts judgement which was in Vodafone's favour, the Indian Government retrospectively amended the Income Tax laws in 2012 and increased their demand to INR 14,200 crores including interest and penalties. Vodafone sought international arbitration which again ruled in Vodafone's favour in 2020. Eventually, after nearly a decade, in 2021, the Indian Government nullified the retrospective tax claims. Even though Vodafone came out unhurt from this legal challenge, it was an unpleasant experience from any measure.
+
+And if that was not enough, Reliance Jio, entered the telecom market in 2016 and triggered a price war, leaving many of the telcos bleeding. In 2017, Vodafone India announced merger with Idea Cellular creating Vi. Vodafone and the Aditya Birla Group (the parent company of Idea Cellular) held ~45% and 26% of the merged entity. The rest was held by the public. The merged entity instantly became the country's largest telecom operator both by subscriber base and revenue and was yet another attempt from Vodafone to make its Indian dreams come true. 
+
+Forward to today, and Vodafone's woes haven't ended. From being the largest telco operator in the country in 2017, it now stands third behind Reliance Jio and Bharti Airtel. It has been reporting quarterly losses, losing subscribers month on month and its Average Revenue Per User (ARPU) is the lowest. 
+
+The Indian Government became Vi's largest shareholder in 2023 as part of a financial bailout package through which it converted the INR 16,130 crore that Vi owed it on spectrum and other license fee payments into a 33% equity in the telco. Vi's debt stands at INR 2.15 lakh crore and is yet another case of too big to fail. Vi still has a market share of 21% [^2] and to maintain a competitive market the Government has repeatedly expressed its stance against a duopoly in the telco sector. Further, the Government wouldn't like the narrative and optics associated with a company as large and high-profile as Vodafone crashing in India, which could impact future FDI inflows into the country.
+
+# What's next?
+Vi needs more cash to expand its existing 4G network and rollout its 5G service. It is planning to raise INR 45,000 crore through debt and equity. Vi's INR 18,000 crore FPO issue, the largest FPO fund raising exercise in the country, is a part of this plan. VI's FPO is a dilution FPO{#nte-fpo}, where the proceeds of the share sale will go the company to fund its capex.
+
+::: {#nte-fpo .callout-note collapse="true"}
+## What is a FPO?
+A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital. In contrast, an IPO is a process where shares are being issued to the public for the very first time. Want to read more, then click on [What is a FPO?](./../../concepts/fpo/index.qmd)
+:::
+
+Vodafone's FPO was fully subscribed, which means Vodafone was able to raise the capital it had hoped to raise. This reflects the confidence these new investors have in the company's future. However, if you ask me I think the telco sector is capex intensive and operators have struggled to monetize their assets beyond the traditional voice, internet and SMS services. OTT players have been more successful in terms of providing value added entertainment, communication and enterprise services on the same network the operators painstakingly laid. 
+
+So while the FPO saw participation from both marquee institutional investors and retail investors only time will tell, if the FPO will script a turnaround story for the debt laden company.
+
+[^1]: [Vodafone sees no remaining value in Indian operation](https://www.telecoms.com/ai/vodafone-sees-no-remaining-value-in-indian-operation#close-modal){target="_blank"}
+[^2]: [The Indian Telecom Services Performance Indicators, 31st May 2023 - Table 1.11 and Point 1.19 ] (https://www.trai.gov.in/sites/default/files/QPIR_31052023_0.pdf){target="_blank"}
 
 # You might also like to read

@@ -2,11 +2,11 @@
 title: "What are Futures?"
 subtitle: "<i>There are only three ways a smart person can go broke: liquor, ladies and leverage<br> - Charlie Munger</i>"
 date: 2024-03-21
-image: "./lever.jpg"
+image: "./futures.png"
 twitter-card:
-  image: "./lever.jpg"
+  image: "./futures.png"
 open-graph:
-  image: "./lever.jpg"
+  image: "./futures.png"
 categories:
   - Finance
   - Leverage
