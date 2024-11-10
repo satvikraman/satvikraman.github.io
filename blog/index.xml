@@ -24,7 +24,8 @@
 <section id="vodafone-journey-in-india" class="level1">
 <h1>Vodafone journey in India</h1>
 <p>India is a massive market for telecom. It is the 2nd largest consumer of data. And while one would have expected a global brand like Vodafone, the 2nd largest telecom operator in the world, to have a dream run in India, it has been anything but that. So much so that, the parent group Vodafone sees no remaining value in its Indian operation and isn’t considering infusing any further cash into it, as per its consolidated financial statements for FY2023 <sup>1</sup>. In this post, I recall Vodafone’s journey in India and along the way touch upon and explain a few financial concepts.</p>
-<p>Vodafone’s journey in India started in 2007, when it entered the country by acquiring a controlling 67% stake in Hutchison. The remainder of the stake was held by an Indian entity named Essar. Vodafone bought over Essar’s stake in 2014 once the Government allowed 100% Foreign Direct Investment (FDI) in the telecom sector. And it journey hasn’t been snooth since. It first locked horns with Essar while trying to buy over its stake. Vodafone wanted to assess the market value of Essar’s 33% stake, while the latter wated a reverse merger. The court ruled in Essar’s favour and Vodafone had to fork out $5.46 billion to complete the acquisition. Then in 2012, when the Indian Government retrospectively ammended the Income Tax laws, it asked Vodafone to pay INR 14,200 crore in taxes, interest and penalty for its acquisition of its initial 67% stake in Hutchison. The case is currently being fought in the Internal Court of Justice. And just when it thought its troubles were over, Reliance Jio, entered the telecom market as a disruptive force in 2016 and triggered a price war that left many telcos bleeding. In 2017, Vodafone India announced merger with Idea Cellular creating Vi. Back then, the merged entity became the country’s largest telecom operator and was yet another attempt from Vodafone to make its Indian dreams come true.</p>
+<p>Vodafone’s journey in India started in 2007, when it entered the country by acquiring a controlling 67% stake in Hutchison. The remainder of the stake was held by an Indian entity named Essar. Vodafone bought over Essar’s stake in 2014 once the Government allowed 100% Foreign Direct Investment (FDI) in the telecom sector. And it journey hasn’t been smooth since.</p>
+<p>It first locked horns with Essar while trying to buy over its stake. Vodafone wanted to buyout Essar’s 33% stake. However, Essar wanted to reverse merge its stake in the Vodafone-Essar joint venture into one of its publicly listed entity, India Securities Limited (ISL). It wanted to do this to seek better valuations for its stake and the court ruled in Essar’s favour stating Vodafone could not force Essar to sell its stake on its terms. Eventually, Vodafone had to fork out $5.46 billion buyout Essar’s stake.</p>
 <div id="nte-reverse-merger" class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -37,16 +38,19 @@ Note&nbsp;1: What is a reverse merger?
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. Want to read more, then click on <a href="../../concepts/reverse-merger/index.html">What are Reverse Mergers?</a></p>
 </div>
 </div>
 </div>
-<p>Forward to today, and Vodafone’s woes havent ended. From being the largest telco operator in the country in 2017, it now stands third behind Reliance Jio and Bharti Airtel. It has been reporting quartely losses, losing subscribers month on month and its Average Revenue Per User (ARPU), a key performance metric, is the lowest. The Indian Government became Vi’s largest shareholder in 2023 as part of a financial bailout package through which it converted the INR 16,130 crore that Vi owed it on spectrum and other license fee payments into a 33% equity in the telco. Vi’s debt stands at INR 2.15 lakh crore and is yet another case of too big to fail. Vi still has a market share of 21% <sup>2</sup> and to maintain a competitive market the Government has repeatedly expressed its stance against a duopoly in the telco sector. Further, the Government wouldn’t like the narrative and optics of a company as large and high-profile as Vodafone crashing in India, which could impact future FDI inflows into the country.</p>
+<p>Vodafone’s acquisition of the 67% stake in Hutchison also came under a lot of Government scrutiny. A Cayman Island company, CGP Investments, initially owned this stake. Ideally any entity making profits is obliged to pay a portion of its gains as taxes to the local Government. However, in this case, since the transfer of CGP Investment’s stake to Vodafone happened outside India and between two non-Indian entities, the Indian Government didn’t get paid anything in taxes. The Government however asserted that the transaction should be taxable in India since it involved the transfer of assets located in the country. They held Vodafone accountable for not having withheld the tax on CGP Investment’s capital gains and sought to recover INR 7,900 crores from it. To override the courts judgement which was in Vodafone’s favour, the Indian Government retrospectively amended the Income Tax laws in 2012 and increased their demand to INR 14,200 crores including interest and penalties. Vodafone sought international arbitration which again ruled in Vodafone’s favour in 2020. Eventually, after nearly a decade, in 2021, the Indian Government nullified the retrospective tax claims. Even though Vodafone came out unhurt from this legal challenge, it was an unpleasant experience from any measure.</p>
+<p>And if that was not enough, Reliance Jio, entered the telecom market in 2016 and triggered a price war, leaving many of the telcos bleeding. In 2017, Vodafone India announced merger with Idea Cellular creating Vi. Vodafone and the Aditya Birla Group (the parent company of Idea Cellular) held ~45% and 26% of the merged entity. The rest was held by the public. The merged entity instantly became the country’s largest telecom operator both by subscriber base and revenue and was yet another attempt from Vodafone to make its Indian dreams come true.</p>
+<p>Forward to today, and Vodafone’s woes haven’t ended. From being the largest telco operator in the country in 2017, it now stands third behind Reliance Jio and Bharti Airtel. It has been reporting quarterly losses, losing subscribers month on month and its Average Revenue Per User (ARPU) is the lowest.</p>
+<p>The Indian Government became Vi’s largest shareholder in 2023 as part of a financial bailout package through which it converted the INR 16,130 crore that Vi owed it on spectrum and other license fee payments into a 33% equity in the telco. Vi’s debt stands at INR 2.15 lakh crore and is yet another case of too big to fail. Vi still has a market share of 21% <sup>2</sup> and to maintain a competitive market the Government has repeatedly expressed its stance against a duopoly in the telco sector. Further, the Government wouldn’t like the narrative and optics associated with a company as large and high-profile as Vodafone crashing in India, which could impact future FDI inflows into the country.</p>
 </section>
 <section id="whats-next" class="level1">
 <h1>What’s next?</h1>
-<p>Vi needs more cash to expand its existing 4G network and rollout its 5G service. It is planning to raise INR 45,000 crore through debt and equity. Vi’s INR 18,000 crore FPO issue, the 2nd largest fund raising exercise in the country, is a part of this plan.</p>
-<div id="nte-debuntures" class="callout callout-style-default callout-note callout-titled">
+<p>Vi needs more cash to expand its existing 4G network and rollout its 5G service. It is planning to raise INR 45,000 crore through debt and equity. Vi’s INR 18,000 crore FPO issue, the largest FPO fund raising exercise in the country, is a part of this plan. VI’s FPO is a dilution FPO{#nte-fpo}, where the proceeds of the share sale will go the company to fund its capex.</p>
+<div id="nte-fpo" class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -58,10 +62,12 @@ Note&nbsp;2: What is a FPO?
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital. In contrast, an IPO is a process where shares are being issued to the public for the very first time. Want to read more, then click on <a href="../../concepts/fpo/index.html">What is a FPO?</a></p>
 </div>
 </div>
 </div>
+<p>Vodafone’s FPO was fully subscribed, which means Vodafone was able to raise the capital it had hoped to raise. This reflects the confidence these new investors have in the company’s future. However, if you ask me I think the telco sector is capex intensive and operators have struggled to monetize their assets beyond the traditional voice, internet and SMS services. OTT players have been more successful in terms of providing value added entertainment, communication and enterprise services on the same network the operators painstakingly laid.</p>
+<p>So while the FPO saw participation from both marquee institutional investors and retail investors only time will tell, if the FPO will script a turnaround story for the debt laden company.</p>
 </section>
 <section id="you-might-also-like-to-read" class="level1">
 <h1>You might also like to read</h1>
@@ -74,7 +80,7 @@ Note&nbsp;2: What is a FPO?
 
 <ol>
 <li id="fn1"><p><a href="https://www.telecoms.com/ai/vodafone-sees-no-remaining-value-in-indian-operation#close-modal" target="_blank">Vodafone sees no remaining value in Indian operation</a>↩︎</p></li>
-<li id="fn2"><p>[The Indian Telecom Services Performance Indicators, 31st May 2023 - Table 1.11 and Point 1.19 ] (https://www.trai.gov.in/sites/default/files/QPIR_31052023_0.pdf)↩︎</p></li>
+<li id="fn2"><p>[The Indian Telecom Services Performance Indicators, 31st May 2023 - Table 1.11 and Point 1.19 ] (https://www.trai.gov.in/sites/default/files/QPIR_31052023_0.pdf){target=“_blank”}↩︎</p></li>
 </ol>
 </section></div> ]]></description>
   <category>Finance</category>
@@ -119,7 +125,7 @@ Note&nbsp;1: What are Futures?
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A future is a derivative contract that a buyer and seller get into. Because it is a derivative, it derives its value from an underlying asset, which could be a stock or a commodity. The contract attribute, standardizes the agreement by defining the quanta of the asset being traded and the pre-determined price of the asset on a pre-determined future date. The pre-dertermined future date is the date at which the contract expires. The buyer of the contract expects the price of the underlying to increase by expiry date, while the contract seller has an opposing view. Want to read more, then click on <a href="../../concepts/futures/index.html">What are Futures?</a></p>
+<p>A future is a derivative contract that a buyer and seller get into. Because it is a derivative, it derives its value from an underlying asset, which could be a stock or a commodity. The contract attribute, standardizes the agreement by defining the quanta of the asset being traded and the pre-determined price of the asset on a pre-determined future date. The pre-determined future date is the date at which the contract expires. The buyer of the contract expects the price of the underlying to increase by expiry date, while the contract seller has an opposing view. Want to read more, then click on <a href="../../concepts/futures/index.html">What are Futures?</a></p>
 </div>
 </div>
 </div>
@@ -179,7 +185,7 @@ Figure&nbsp;4: Annual increase in the price of chocolates in major EU countries 
 </figure>
 </div>
 <p>Some businesses might absorb the price increase and reduce their margins, but that’s not something that they can continue to do, if the prices continue to increase as projected through the year. This brings us to an important question. Can’t buesinesses do anything to protect themselves against the vagaries of the market. The answer goes back to the concept we introduced earlier in this post - Futures Contract in Note&nbsp;1. Hersheys and other companies hedge their cocoa purchase by buying futures contract. While they don’t use the futures contract to take physical delivery of the underlying (in this case cocoa beans), they use this strategy to minimise their loses should the market move against their views.</p>
-<p>However, many others will resort to whats called <em>Shrinkflation</em> and <em>Skimpflation</em>. Shrinkflation refers to the practice of reducing the pack size marginally in a way that it is not immediately noticable to the end consumer. Nestlé has reduced their Kit Kat bar size from 17 to 14 grams., while Mars has reduced the size of its large milk chocolate Easter egg from 252 to 201 grams. Skimpflation on the other hand refers to the practice of changing the recipe of the product itself. Manufactures substitue the pricier ingredient with a cheaper substitute. For example, chocolates can be categorized into two major categories - [1] Couverture, that’s made of cocoa butter and cocoa mass and [2] Compund chocolate, thats made of cheaper fats like vegetable, coconut or palm oil. Manufactures using coverture chocolates may substitute part of the recipe with compound chocolate to reduce the production cost, especially in lower income countries like India.</p>
+<p>However, many others will resort to what’s called <em>Shrinkflation</em> and <em>Skimpflation</em>. Shrinkflation refers to the practice of reducing the pack size marginally in a way that it is not immediately noticeable to the end consumer. Nestlé has reduced their Kit Kat bar size from 17 to 14 grams., while Mars has reduced the size of its large milk chocolate Easter egg from 252 to 201 grams. Skimpflation on the other hand refers to the practice of changing the recipe of the product itself. Manufactures substitute the pricier ingredient with a cheaper substitute. For example, chocolates can be categorized into two major categories - [1] Couverture, that’s made of cocoa butter and cocoa mass and [2] Compund chocolate, that’s made of cheaper fats like vegetable, coconut or palm oil. Manufactures using coverture chocolates may substitute part of the recipe with compound chocolate to reduce the production cost, especially in lower income countries like India.</p>
 </section>
 <section id="the-way-forward" class="level1">
 <h1>The Way Forward?</h1>
@@ -331,7 +337,7 @@ What’s the difference between Cacao and Cocoa?
 </section>
 <section id="dilution-of-the-net-capital-requirement" class="level2">
 <h2 class="anchored" data-anchor-id="dilution-of-the-net-capital-requirement">Dilution of the net-capital requirement</h2>
-<p>In 2004, SEC reduced the Net Capital Requirement (NCR). NCR refers to the minimum ratio of liquid capital to risk weighted assets, financial institutions are required to maintain as a safeguard measure. Put other ways, for every risky asset a financial institutions owns, they are expectd to also have liquid capital amounting to a certain percetage of the value of the risky asset. Should the risky asset lose value, the liquid capital with the financial institution would allow it to continue its operation. A lower NCR increases the leverage financial institutions can use. This increases business risk, should their assets turn sour.</p>
+<p>In 2004, SEC reduced the Net Capital Requirement (NCR). NCR refers to the minimum ratio of liquid capital to risk weighted assets, financial institutions are required to maintain as a safeguard measure. Put other ways, for every risky asset a financial institutions owns, they are expected to also have liquid capital amounting to a certain percentage of the value of the risky asset. Should the risky asset lose value, the liquid capital with the financial institution would allow it to continue its operation. A lower NCR increases the leverage financial institutions can use. This increases business risk, should their assets turn sour.</p>
 <p>An MBS is certainly an example of a risky asset. A lower NCR mandate by the SEC, allowed financial institutions to invest in MBS’s more than what would have been allowed otherwise. While this helped financial institutions earn big profits when the going was good, it also resulted in a greater than desired exposure to risky assets, since the rise in the value of the MBS’s was based on the premise that the housing prices would continue to rise.</p>
 </section>
 </section>
@@ -353,10 +359,10 @@ What’s the difference between Cacao and Cocoa?
 <a href="../../blog/20240331/index.html">Collapse of Lehman Brothers</a>
 </li>
 <li>
-<a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, SubPrime and Alt-A loans</a>
+<a href="../../concepts/prime-subprime-alt-a/index.html">What are Prime, SubPrime and Alt-A loans</a>
 </li>
 <li>
-<a href="../../concepts/Mortgage-Loan/index.html">Mortgage vs Loans</a>
+<a href="../../concepts/mortgage-loan/index.html">Mortgage vs Loans</a>
 </li>
 <li>
 <a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a>
@@ -433,7 +439,7 @@ What are Prime, Subprime and Alt-A loans?
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on <a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, Subprime and Alt-A loans</a></p>
+<p>Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on <a href="./../../concepts/Prime-SubPrime-Alt-A/index.qmd">What are Prime, Subprime and Alt-A loans</a></p>
 </div>
 </div>
 </div>
@@ -508,7 +514,7 @@ What are treasury securities?
 </div>
 </div>
 </div>
-<div id="fig-treasury-yield" class="quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018" data-fig-align="left">
+<div id="fig-treasury-yield" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-treasury-yield-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://satvikraman.github.io/blog/20240331/web2_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018">
@@ -520,7 +526,7 @@ Figure&nbsp;3: Yield on the 10 year Americal treasury <sup>3</sup>
 </div>
 <p>The yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that’s relatively higher than the yield on the treasure securities. This is done to compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates.</p>
 <p>This allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008.</p>
-<div id="fig-household-debt" class="quarto-figure quarto-figure-left quarto-float anchored" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more" data-fig-align="left">
+<div id="fig-household-debt" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-household-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://satvikraman.github.io/blog/20240331/web3_Lehman-Brothers.webp" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more">
@@ -568,7 +574,7 @@ stateDiagram-v2
 <a href="../../blog/20240407/index.html">Subprime Crisis</a>
 </li>
 <li>
-<a href="../../concepts/Prime-SubPrime-Alt-A/index.html">What are Prime, SubPrime and Alt-A loans</a>
+<a href="../../concepts/prime-subprime-alt-a/index.html">What are Prime, SubPrime and Alt-A loans</a>
 </li>
 <li>
 <a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a>

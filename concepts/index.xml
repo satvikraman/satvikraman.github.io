@@ -10,167 +10,32 @@
 <atom:link href="https://satvikraman.github.io/concepts/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog on the current financial stories through the eyes of a kid</description>
 <generator>quarto-1.4.552</generator>
-<lastBuildDate>Wed, 20 Mar 2024 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 13 Apr 2024 18:30:00 GMT</lastBuildDate>
 <item>
-  <title>Hedging</title>
+  <title>What are Reverse Mergers?</title>
   <dc:creator>Satvik Raman</dc:creator>
-  <link>https://satvikraman.github.io/concepts/Hedging/</link>
+  <link>https://satvikraman.github.io/concepts/reverse-merger/</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="what-is-a-hedge" class="level1">
-<h1>What is a Hedge?</h1>
-<p>Hedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of insurance. However, unlike insurance where you a pay a premium to insure your property, hedging in the financial world involves trading in other securities to reduce the risk of unfavourable price movement. In more technical terms, to hedge, you trade in securities that are negatively correlated to the security whose position you are trying to hedge.</p>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is correlation?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Correlation is a derivative of the term “co-related”. Any two things which are co-related to each other exhibit correlation. Correlation is measured as a coefficient, whose value ranges between -1 and 1. A value of -1 indicates, perfect negative correlation, which means if a price of a security moves up by “x%”, the price of the other security would move down by the same “x%”. Similarly a value of 1 indicates, perfect positive correlation, which means if a price of a security moves up by “x%”, the price of the other security would also move up by the same “x%”. Often the correlation coefficient would be in between -1 and 1.</p>
-</div>
-</div>
-</div>
-<p>This post explains what hedging is with an example, rather than going into the different strategies available to hedge a position.</p>
-<p>Lets work with an example. Assume you buy 100 stocks of a company “ABC” for $50 a share, thinking the price would go up in due course of time. To limit your losses from an adverse price movement, you buy a put option with a strike price of $40.</p>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is put option?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The amount paid to buy the put option is called “premium”. The put option provides you the right (not obligation) to sell the security at $40 on the day of maturity. Therefore, even if the price of the security falls below $40, you retain the right to sell it at $40. Conversely, if the price of the security goes above $40, you will do nothing. The amount lost in this case would be the premium amount you initially paid to buy the put option.</p>
-</div>
-</div>
-</div>
-<p>If the price of the security falls below $40, the initial buy position incurs more loss which is offseted by the gains of the bought put option.</p>
-<p>Conversely, if the price of the security moves above $40, the initial buy position gains value (losses reduce and the eventually turns into a gain once the price moves above $50) while the bought put option incurs a loss equal to the premium amount.</p>
-<p>As the example above shows, a hedge, helps reduces the risk associated with a position. Firstly, it limits the amount of loss that can be incurred from a position. And because it reduces the risk of a position it also reduces the profit (in the example mentioned above, by an amount equal to the premium paid to buy the put option)</p>
-<p>Hedging can also be done in the commodities market. For example, an airlines company might enter into a Futures contract to buy ATF at a fixed price (called the strike price) on a certain future date (called the expiry date). A futures contract obligates the buyer pay the strike price to buy the commodity. On the expiry date, even if the ATF is trading above the strike price, the airlines company will only pay the strike price to buy the quanta of ATF negotiated in the contract. On the flip side, even if the ATF is trading at a price below the strike price, the airlines company will need to pay the strike price to buy the ATF. Hedging via Futures helps a company budget future expenses and not be exposed to volatile price movements of a commodity.</p>
-</section>
-<section id="posts-referencing-this-concept" class="level1">
-<h1>Posts referencing this concept</h1>
-<p><a href="../../concepts/financial-leverage/index.html">Financial Leverage</a></p>
-</section>
-<section id="additional-concepts-you-may-be-interested-in" class="level1">
-<h1>Additional concepts you may be interested in</h1>
-<p><a href="">Options</a> <a href="">Futures</a></p>
-</section>
-<section id="further-reading-references" class="level1">
-<h1>Further Reading &amp; References</h1>
-<p><a href="https://www.investopedia.com/trading/hedging-beginners-guide/" target="_blank">Beginner’s Guide to Hedging</a></p>
+<p>A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route.</p>
+<p>I would like to think of reverse merger as a process where a private company merges itself into an existing public company and hence becomes public itself. In a reverse merger, a private company first acquires a majority (&gt;50%) stake in a public company. This transaction usually happens by means of a stock swap, where the private company “barters” its share to purchase the shares of the public company. The public company now owns shares of the private company and vice versa. Essentially, by becoming a subsidiary of a publicly traded company, the private company can itself be considered as a public company. [^1]</p>
+<p>Many a time, a publicly listed shell company is used to reverse merge into. A shell company, exists only on paper and does not engage in any active business.</p>
+<p>However, there are instances where active public companies have been reverse merged into. ICICI Bank is a publicly traded and one of the largest non-state owned bank in India. In 2002, the ICICI group and two of its subsidiaries ICICI Personal Finance Services Ltd and ICICI Capital Services Ltd, reverse merged with ICICI Bank [^2]</p>
+<p>[1]: <a href="https://www.wallstreetprep.com/knowledge/reverse-merger/">Reverse Merger</a> [2]: <a href="https://www.livemint.com/Money/FHPKVXE6bcRF1cdFOUqrzN/Dejargoned-reverse-merger.html">De-jargoned: Reverse Merger</a></p>
 
 
-</section>
+<!-- -->
+
 
  ]]></description>
   <category>Finance</category>
   <category>Leverage</category>
-  <guid>https://satvikraman.github.io/concepts/Hedging/</guid>
-  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
-  <media:content url="https://satvikraman.github.io/concepts/Hedging" medium="image"/>
-</item>
-<item>
-  <title>Mortgage vs Loans</title>
-  <dc:creator>Satvik Raman</dc:creator>
-  <link>https://satvikraman.github.io/concepts/Mortgage-Loan/</link>
-  <description><![CDATA[ 
-
-
-
-
-<h1 href="./../mortgage-backed-securities/index.qmd">
-Mortgage Backed Securities
-</h1>
-<section id="whats-the-difference-between-a-mortgage-and-a-loan" class="level1">
-<h1>What’s the difference between a mortgage and a loan</h1>
-<p>Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between mortgage and person loan primarily rests around how you can use the borrowed money.</p>
-<p>Mortgages are linked to real estate purchases, where the property is also attached to the mortgage as a collateral. In case of a default, the bank may liquidate the collateralized property to recover the amount its due.</p>
-<p>A personal loan on the other hand is much more flexible in its use. You may use it to buy a car, refurbish your house, go on a vacation or fund your education. It may or may not necessarily require a collateral.</p>
-</section>
-<section id="why-differentiate-between-a-mortgage-and-a-loan" class="level1">
-<h1>Why differentiate between a mortgage and a loan</h1>
-<p>It is useful to differentiate a mortgage from a loan because mortgages help fulfill one of life’s basic nessesities. For this reason, the terms associated with a mortgage are also design to enable and encourage more people to buy a property. For instance, mortgages provide a much larger repayment window (20 to 30 years) as compared to a loan. Many countries provide income tax deduction proportionate to the amount paid to repay the mortgage.</p>
-<p>Not only that, in my opinion, the construction of a house concentrates the benefit to the local economy unlike any other commercial activity.</p>
-<p>Let me explain. If you go abroad on a vacation by taking a personal loan, most of the commercial activity associated with your vacation is actually happening outside of your local economy - the hotel stays, shopping, travel etc… You could buy a car from a local manufacturer, but its parts might be imported and hence its benefits may not be concentrated to your local economy.</p>
-<p>Contrast this with the construction of a house. The construction of a house is both a capital and labour intensive work. It helps consume capital goods like steel, cement, bricks etc… which is typically sourced locally. It also helps generate employment opportunities at scale, local to the economy, both for skilled and unskilled workers. Being gainfully employed, these workers can then spend their money on goods and services which has further positive ripple effects on the economy.</p>
-<p>For these reasons, while on the face of it both mortgages are loans are a way of borrowing money, it is reasonable and perhaps warranted to treat them differently.</p>
-</section>
-<section id="posts-referencing-this-concept" class="level1">
-<h1>Posts referencing this concept</h1>
-<p><a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a></p>
-
-
-</section>
-
- ]]></description>
-  <category>Mortgage</category>
-  <category>Loan</category>
-  <guid>https://satvikraman.github.io/concepts/Mortgage-Loan/</guid>
-  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
-  <media:content url="https://satvikraman.github.io/concepts/Mortgage-Loan/Mortgage-and-a-Loan.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>What are Prime, SubPrime and Alt-A loans</title>
-  <dc:creator>Satvik Raman</dc:creator>
-  <link>https://satvikraman.github.io/concepts/Prime-SubPrime-Alt-A/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="what-are-prime-subprime-and-alt-a-loans" class="level1">
-<h1>What are Prime, SubPrime and Alt-A loans?</h1>
-<p>Prime, Subprime and Alt-A are classification of loans / mortgages based on their risk profile.</p>
-<p>The word “prime” in prime mortgage indicates a good quality. Hence, prime mortgages are good quality mortgages. Quality here refers to the quanta of risk associated with the loan; risk that the borrower may not repay the loan. Higher the quality, lower is the risk.</p>
-<p>The prefix “sub” means lower and consequently, sub-prime mortgages refers to mortgages that are of a lower quality than prime mortgages.</p>
-<p>Alt-A loans carry a risk that is somewhere in between that of a prime and a sub-prime mortgage. They are riskier than a prime mortgage but not as risky as a subprime mortgage.</p>
-<section id="why-would-lenders-give-riskier-loans-if-they-run-the-risk-that-they-will-never-be-paid-back" class="level2">
-<h2 class="anchored" data-anchor-id="why-would-lenders-give-riskier-loans-if-they-run-the-risk-that-they-will-never-be-paid-back">Why would lenders give riskier loans, if they run the risk that they will never be paid back?</h2>
-<p>The answer to each such perplexing question lies in the monetary incentives should the risk not materialize. The fact that the loan is riskier does not necessarily mean that the loan will not be repaid. To compensate for the risk, the lenders loan the amount at a higher interest rate. //TODO: Talk about provisioning over here</p>
-</section>
-</section>
-<section id="you-might-also-like-to-read" class="level1">
-<h1>You might also like to read</h1>
-<ul>
-<li>
-<a href="../../blog/20240331/index.html">Collapse of Lehman Brothers</a>
-</li>
-<li>
-<a href="../../blog/20240407/index.html">Subprime Crisis</a>
-</li>
-<li>
-<a href="../../projects/copycat-investment/index.html">Copycat Investment</a>
-</li>
-</ul>
-</section>
-<section id="further-reading-references" class="level1">
-<h1>Further Reading &amp; References</h1>
-<p><a href="https://www.investopedia.com/terms/a/alt-a.asp" target="_blank">Alt-A: What it Means, Characteristics, Pros and Cons</a></p>
-
-
-</section>
-
- ]]></description>
-  <category>Finance</category>
-  <category>Risk</category>
-  <guid>https://satvikraman.github.io/concepts/Prime-SubPrime-Alt-A/</guid>
-  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
-  <media:content url="https://satvikraman.github.io/concepts/Prime-SubPrime-Alt-A/lever.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://satvikraman.github.io/concepts/reverse-merger/</guid>
+  <pubDate>Sat, 13 Apr 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/concepts/reverse-merger/reverse-merger.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>Collateralized Debt Obligations</title>
@@ -1620,7 +1485,7 @@ Figure&nbsp;1: Slippery slope: Yield curve of a non leveraged position (black) v
 </section>
 <section id="additional-concepts-you-may-be-interested-in" class="level1">
 <h1>Additional concepts you may be interested in</h1>
-<p><a href="../../concepts/Hedging/index.html">Hedging</a></p>
+<p><a href="./../Hedging/index.qmd">Hedging</a></p>
 
 
 <!-- -->
@@ -1633,6 +1498,37 @@ Figure&nbsp;1: Slippery slope: Yield curve of a non leveraged position (black) v
   <guid>https://satvikraman.github.io/concepts/financial-leverage/</guid>
   <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
   <media:content url="https://satvikraman.github.io/concepts/financial-leverage/lever.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What is FPO?</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/concepts/fpo/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-is-fpo" class="level1">
+<h1>What is FPO?</h1>
+<p>A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital.</p>
+<p>There are 2 types of FPO [^1] ## Dilution FPO: In this case, the company sells new shares to the public and pockets the proceeds. The <em>share float</em> or the total number of shares issued by the company increases by the amount of new shares issued during the FPO. Consequently, the ownership of existing shareholders in percentage terms reduces and the term Dilution refers to this reduction.</p>
+<section id="non-dilution-fpo" class="level2">
+<h2 class="anchored" data-anchor-id="non-dilution-fpo">Non-Dilution FPO:</h2>
+<p>In this case, existing shareholders sell a portion of their shares to the public. The proceeds of the share sale goes to selling shareholders. Since the total number of shares issued by the company remains unchanged, the ownership percentage of existing shareholders (who did not sell or buy shares in the process) also does not change.</p>
+<p>[1]: <a href="https://www.icicidirect.com/research/equity/finace/what-is-fpo" target="_blank">What is FPO?</a></p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Finance</category>
+  <category>Leverage</category>
+  <guid>https://satvikraman.github.io/concepts/fpo/</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/concepts/fpo/follow-on-offering.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>What are Futures?</title>
@@ -1653,7 +1549,80 @@ Figure&nbsp;1: Slippery slope: Yield curve of a non leveraged position (black) v
   <category>Leverage</category>
   <guid>https://satvikraman.github.io/concepts/futures/</guid>
   <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
-  <media:content url="https://satvikraman.github.io/concepts/futures/lever.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://satvikraman.github.io/concepts/futures/futures.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>Hedging</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/concepts/hedging/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-is-a-hedge" class="level1">
+<h1>What is a Hedge?</h1>
+<p>Hedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of insurance. However, unlike insurance where you a pay a premium to insure your property, hedging in the financial world involves trading in other securities to reduce the risk of unfavourable price movement. In more technical terms, to hedge, you trade in securities that are negatively correlated to the security whose position you are trying to hedge.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is correlation?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Correlation is a derivative of the term “co-related”. Any two things which are co-related to each other exhibit correlation. Correlation is measured as a coefficient, whose value ranges between -1 and 1. A value of -1 indicates, perfect negative correlation, which means if a price of a security moves up by “x%”, the price of the other security would move down by the same “x%”. Similarly a value of 1 indicates, perfect positive correlation, which means if a price of a security moves up by “x%”, the price of the other security would also move up by the same “x%”. Often the correlation coefficient would be in between -1 and 1.</p>
+</div>
+</div>
+</div>
+<p>This post explains what hedging is with an example, rather than going into the different strategies available to hedge a position.</p>
+<p>Lets work with an example. Assume you buy 100 stocks of a company “ABC” for $50 a share, thinking the price would go up in due course of time. To limit your losses from an adverse price movement, you buy a put option with a strike price of $40.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is put option?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The amount paid to buy the put option is called “premium”. The put option provides you the right (not obligation) to sell the security at $40 on the day of maturity. Therefore, even if the price of the security falls below $40, you retain the right to sell it at $40. Conversely, if the price of the security goes above $40, you will do nothing. The amount lost in this case would be the premium amount you initially paid to buy the put option.</p>
+</div>
+</div>
+</div>
+<p>If the price of the security falls below $40, the initial buy position incurs more loss which is offseted by the gains of the bought put option.</p>
+<p>Conversely, if the price of the security moves above $40, the initial buy position gains value (losses reduce and the eventually turns into a gain once the price moves above $50) while the bought put option incurs a loss equal to the premium amount.</p>
+<p>As the example above shows, a hedge, helps reduces the risk associated with a position. Firstly, it limits the amount of loss that can be incurred from a position. And because it reduces the risk of a position it also reduces the profit (in the example mentioned above, by an amount equal to the premium paid to buy the put option)</p>
+<p>Hedging can also be done in the commodities market. For example, an airlines company might enter into a Futures contract to buy ATF at a fixed price (called the strike price) on a certain future date (called the expiry date). A futures contract obligates the buyer pay the strike price to buy the commodity. On the expiry date, even if the ATF is trading above the strike price, the airlines company will only pay the strike price to buy the quanta of ATF negotiated in the contract. On the flip side, even if the ATF is trading at a price below the strike price, the airlines company will need to pay the strike price to buy the ATF. Hedging via Futures helps a company budget future expenses and not be exposed to volatile price movements of a commodity.</p>
+</section>
+<section id="posts-referencing-this-concept" class="level1">
+<h1>Posts referencing this concept</h1>
+<p><a href="../../concepts/financial-leverage/index.html">Financial Leverage</a></p>
+</section>
+<section id="additional-concepts-you-may-be-interested-in" class="level1">
+<h1>Additional concepts you may be interested in</h1>
+<p><a href="">Options</a> <a href="">Futures</a></p>
+</section>
+<section id="further-reading-references" class="level1">
+<h1>Further Reading &amp; References</h1>
+<p><a href="https://www.investopedia.com/trading/hedging-beginners-guide/" target="_blank">Beginner’s Guide to Hedging</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Finance</category>
+  <category>Leverage</category>
+  <guid>https://satvikraman.github.io/concepts/hedging/</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/concepts/hedging" medium="image"/>
 </item>
 <item>
   <title>Mortgage Backed Securities</title>
@@ -1684,6 +1653,99 @@ Figure&nbsp;1: Slippery slope: Yield curve of a non leveraged position (black) v
   <guid>https://satvikraman.github.io/concepts/mortgage-backed-securities/</guid>
   <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
   <media:content url="https://satvikraman.github.io/concepts/mortgage-backed-securities" medium="image"/>
+</item>
+<item>
+  <title>Mortgage vs Loans</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/concepts/mortgage-loan/</link>
+  <description><![CDATA[ 
+
+
+
+
+<h1 href="./../mortgage-backed-securities/index.qmd">
+Mortgage Backed Securities
+</h1>
+<section id="whats-the-difference-between-a-mortgage-and-a-loan" class="level1">
+<h1>What’s the difference between a mortgage and a loan</h1>
+<p>Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between mortgage and person loan primarily rests around how you can use the borrowed money.</p>
+<p>Mortgages are linked to real estate purchases, where the property is also attached to the mortgage as a collateral. In case of a default, the bank may liquidate the collateralized property to recover the amount its due.</p>
+<p>A personal loan on the other hand is much more flexible in its use. You may use it to buy a car, refurbish your house, go on a vacation or fund your education. It may or may not necessarily require a collateral.</p>
+</section>
+<section id="why-differentiate-between-a-mortgage-and-a-loan" class="level1">
+<h1>Why differentiate between a mortgage and a loan</h1>
+<p>It is useful to differentiate a mortgage from a loan because mortgages help fulfill one of life’s basic nessesities. For this reason, the terms associated with a mortgage are also design to enable and encourage more people to buy a property. For instance, mortgages provide a much larger repayment window (20 to 30 years) as compared to a loan. Many countries provide income tax deduction proportionate to the amount paid to repay the mortgage.</p>
+<p>Not only that, in my opinion, the construction of a house concentrates the benefit to the local economy unlike any other commercial activity.</p>
+<p>Let me explain. If you go abroad on a vacation by taking a personal loan, most of the commercial activity associated with your vacation is actually happening outside of your local economy - the hotel stays, shopping, travel etc… You could buy a car from a local manufacturer, but its parts might be imported and hence its benefits may not be concentrated to your local economy.</p>
+<p>Contrast this with the construction of a house. The construction of a house is both a capital and labour intensive work. It helps consume capital goods like steel, cement, bricks etc… which is typically sourced locally. It also helps generate employment opportunities at scale, local to the economy, both for skilled and unskilled workers. Being gainfully employed, these workers can then spend their money on goods and services which has further positive ripple effects on the economy.</p>
+<p>For these reasons, while on the face of it both mortgages are loans are a way of borrowing money, it is reasonable and perhaps warranted to treat them differently.</p>
+</section>
+<section id="posts-referencing-this-concept" class="level1">
+<h1>Posts referencing this concept</h1>
+<p><a href="../../concepts/mortgage-backed-securities/index.html">Mortgage Backed Securities</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Mortgage</category>
+  <category>Loan</category>
+  <guid>https://satvikraman.github.io/concepts/mortgage-loan/</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/concepts/mortgage-loan/Mortgage-and-a-Loan.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What are Prime, SubPrime and Alt-A loans</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/concepts/prime-subprime-alt-a/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-are-prime-subprime-and-alt-a-loans" class="level1">
+<h1>What are Prime, SubPrime and Alt-A loans?</h1>
+<p>Prime, Subprime and Alt-A are classification of loans / mortgages based on credit worthiness of the borrower.</p>
+<p>The word “prime” in prime mortgage indicates good quality. Prime mortgages are good quality mortgages. Quality here refers to the quanta of risk associated with the loan; risk that the borrower may not repay the loan. Higher the quality, lower is the risk.</p>
+<p>The prefix “sub” means lower and consequently, sub-prime mortgages refers to mortgages that are of a lower quality than prime mortgages.</p>
+<p>Alt-A loans carry a risk that is somewhere in between that of a prime and a sub-prime mortgage. They are riskier than a prime mortgage but not as risky as a subprime mortgage.</p>
+<section id="why-would-lenders-give-riskier-loans" class="level2">
+<h2 class="anchored" data-anchor-id="why-would-lenders-give-riskier-loans">Why would lenders give riskier loans?</h2>
+<p>The answer lies in the monetary incentives should the risk not materialize. The fact that the loan is riskier does not necessarily mean that the loan will not be repaid. To compensate for the risk, lenders loan the amount at a higher interest rate and hence earn more on riskier loans.</p>
+</section>
+<section id="how-do-the-banks-mitigate-the-risk-of-the-borrower-defaulting" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-the-banks-mitigate-the-risk-of-the-borrower-defaulting">How do the banks mitigate the risk of the borrower defaulting?</h2>
+<p>Typically, once a bank detects some kind of a risk or default with a loan, it qualifies it as a Non-Performing Asset (NPA). A loan being classified as a NPA does not necessarily mean that it will not be paid. However it does reflect a risk, and based on the quanta of risk, banks need to set aside or “provision” a percentage of the loan amount to cover potential losses should the risk materialize.</p>
+<p>Provisioning helps banks mitigate the impact of NPAs on their financial health. It ensures banks have enough capital to cover for potential losses and continue operations even if a some borrowers default.</p>
+</section>
+</section>
+<section id="you-might-also-like-to-read" class="level1">
+<h1>You might also like to read</h1>
+<ul>
+<li>
+<a href="../../blog/20240331/index.html">Collapse of Lehman Brothers</a>
+</li>
+<li>
+<a href="../../blog/20240407/index.html">Subprime Crisis</a>
+</li>
+<li>
+<a href="../../projects/copycat-investment/index.html">Copycat Investment</a>
+</li>
+</ul>
+</section>
+<section id="further-reading-references" class="level1">
+<h1>Further Reading &amp; References</h1>
+<p><a href="https://www.investopedia.com/terms/a/alt-a.asp" target="_blank">Alt-A: What it Means, Characteristics, Pros and Cons</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Finance</category>
+  <category>Risk</category>
+  <guid>https://satvikraman.github.io/concepts/prime-subprime-alt-a/</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/concepts/prime-subprime-alt-a/subprime.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>

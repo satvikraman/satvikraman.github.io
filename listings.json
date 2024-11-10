@@ -6,19 +6,6 @@
     ]
   },
   {
-    "listing": "/concepts/index.html",
-    "items": [
-      "/concepts/Hedging/index.html",
-      "/concepts/Mortgage-Loan/index.html",
-      "/concepts/Prime-SubPrime-Alt-A/index.html",
-      "/concepts/collateralized-debt-obligations/index.html",
-      "/concepts/financial-engineering/index.html",
-      "/concepts/financial-leverage/index.html",
-      "/concepts/futures/index.html",
-      "/concepts/mortgage-backed-securities/index.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/20240428/index.html",
@@ -26,6 +13,21 @@
       "/blog/20240414/index.html",
       "/blog/20240407/index.html",
       "/blog/20240331/index.html"
+    ]
+  },
+  {
+    "listing": "/concepts/index.html",
+    "items": [
+      "/concepts/reverse-merger/index.html",
+      "/concepts/collateralized-debt-obligations/index.html",
+      "/concepts/financial-engineering/index.html",
+      "/concepts/financial-leverage/index.html",
+      "/concepts/fpo/index.html",
+      "/concepts/futures/index.html",
+      "/concepts/hedging/index.html",
+      "/concepts/mortgage-backed-securities/index.html",
+      "/concepts/mortgage-loan/index.html",
+      "/concepts/prime-subprime-alt-a/index.html"
     ]
   }
 ]
