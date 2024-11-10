@@ -1,0 +1,31 @@
+---
+title: "What is FPO?"
+subtitle: "<i>A FPO is a process where an already public company issues new shares to raise more capital.</i>"
+date: 2024-03-21
+image: "./follow-on-offering.png"
+twitter-card:
+  image: "./follow-on-offering.png"
+open-graph:
+  image: "./follow-on-offering.png"
+categories:
+  - Finance
+  - Leverage
+format:
+  html:
+    code-tools: true
+    echo: false
+execute:
+    echo: false
+---
+
+# What is FPO?
+A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital. 
+
+There are 2 types of FPO [^1]
+## Dilution FPO: 
+In this case, the company sells new shares to the public and pockets the proceeds. The *share float* or the total number of shares issued by the company increases by the amount of new shares issued during the FPO. Consequently, the ownership of existing shareholders in percentage terms reduces and the term Dilution refers to this reduction. 
+
+## Non-Dilution FPO:
+In this case, existing shareholders sell a portion of their shares to the public. The proceeds of the share sale goes to selling shareholders. Since the total number of shares issued by the company remains unchanged, the ownership percentage of existing shareholders (who did not sell or buy shares in the process) also does not change.
+
+[1]: [What is FPO?](https://www.icicidirect.com/research/equity/finace/what-is-fpo){target="_blank"}

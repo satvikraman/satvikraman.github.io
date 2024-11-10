@@ -2,11 +2,11 @@
 title: "Subprime Crisis"
 subtitle: ""
 date: 2024-04-07
-image: ""
+image: "./subprime-crisis.jpg"
 twitter-card:
-  image: ""
+  image: "./subprime-crisis.jpg"
 open-graph:
-  image: ""
+  image: "./subprime-crisis.jpg"
 categories:
   - Finance
   - Leverage
@@ -19,33 +19,35 @@ concept-title-refs:
 category-refs: ""  
 ---
 
-We referred to the subprime crisis in the [Collapse of the Lehman Brothers](./../20240331/index.qmd) post. Lets dive deeper into the crisis itself here. 
+We referred to the subprime crisis in the [Collapse of the Lehman Brothers](./../20240331/index.qmd) post. Let's dive deeper into the crisis itself here. 
 
-The subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders. It was the onset of the Great Recession (2007-2009), thats regarded as the worst economic downturn since the Great Depression.
+The subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders. It was the onset of the Great Recession (2007-2009), that's regarded as the worst economic downturn since the Great Depression.
 
 # Causes
 ## Lowering of Federal Interest Rates
-US Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 and Dec 2001 [^1]. Interest rates were lowered from 6% in 2001 to about 1% in 2003 [^3] [^4]. Economic growth -> increased demand for homes -> mortgages. Drop in interest rates allowed them to lend to even subprime borrowers. The extent to which lending standards had been relaxed can be guaged by the fact that NINJA loans were also being offeredn
+US Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 to Dec 2001 [^1]. Interest rates were lowered from ~6% in 2001 to about ~1% in 2003 [^3] [^4]. Lower interest rates allowed businesses to borrow and invest resulting in economic growth. With more disposable income at hand, the demand for homes increased which also resulted in an increased demand for mortgages. 
+
+With rising home ownership levels, banks had difficulty finding new home buyers and resorted to lending to subprime borrowers to maintain the growth of their loans. Subprime borrowers were those who would traditionally not qualify for a loan. The extent to which lending standards had been relaxed can be guaged by the fact that NINJA loans were also being offered. NINJA was an acronym for No Income, No Job or Assests. Essentially anyone willing to take a loan was being offered a loan. The low interest rate regime certainly helped fuel this exaggerated demand for homes and mortgages. 
 
 ## Restructuring of banking loans
-Changes in banking laws allowed banks to offfer loans to subprime customers with balloon payments or adjustable interest rates. Balloon payments: where large payments are intentionally shifted right towards the end of the loan period. Adjustable Rate Mortgages (ARMs): Rates that remained fixed and at relatively low leves for an initial period and then float a few percentage points higher with respect to the federal funds rate thereafter.
+Changes in banking laws allowed banks to offfer loans to subprime customers with balloon payments or Adjustable Rate Mortgages (ARM). Balloon payments refers to an arrangement where large payments are intentionally shifted right towards the end of the loan period. It is obvious balloon payments would result in a higher interest component in the overall loan repayment schedule. Nevertheless it worked as a win-win solution. As banks earned a higher interest income, borrowers who couldn't afford to start repaying their loans immediately were enabled to avail these loans by shifting their payments to a later date. ARMs also helped sub-prime borrowers by initially keeping the interest rates fixed and at relatively low leves and then keeping it a few percentage points higher with respect to the federal funds rate. 
 
-Until the housing prices were increasing, subprime borrowers were able to protect themselves by either refinancing, borrowing against the increased value of their homes or selling their homes at a profit and paying off their mortgages. In case of a default, the banks would reposses the property and sellt it for an amount more than the oirginal loan and hence book profits. SInce it seemed like a relatively safe way to make money, banks started aggressively marketing subprime loans. The share of subprime mortgages increased from about 2.5% to about 15% from 1990's to 2004-07.
+Both balloon payments and ARMs enticed people into taking loans they couldn't afford. Until the housing prices were increasing, subprime borrowers were able to protect themselves by either refinancing their loans or borrowing against the increased value of their homes or even selling their homes at a profit and paying off their mortgages. In case of a default or a foreclosure, the banks would repossess the property and sell it for an amount higher than the original loan and book profits. Since it seemed like a relatively safe way to make money, banks started aggressively marketing subprime loans and their share in their books increased from about 2.5% to about 15% from 1990's to 2004-07.
 
 ## Securitization of mortgages
-Further contributing to the growth of subprime mortgages was the practice of securitizating mortgages. Banks would bundle hundreds and thousands of subprime mortgages and sell them in the capital markets as securities (bonds). These bonds were known as Mortgage Back Securities (MBSs). The MBSs buyer was entitles a share of the interest and principal payments on the underlying loan. In some sense by selling MBSs, the banks were no longer lending money from their own reserves. Rather they acted as a broken between the borrower and the financial institutions buying the MBSs.
-
-As home prices continued their meteoric rise through the early 2000s, MBSs became widely popular, and their prices in capital markets increased accordingly.
+Further contributing to the growth of subprime mortgages was the practice of securitizing mortgages. Banks would bundle subprime mortgages and sell them in the capital markets as securities (bonds). These bonds were known as Mortgage Back Securities (MBSs). MBS is a derivative product and is an output of a stream of study called financial engineering. Derivatives derive their value from an underlying assest, which in this case were the mortgages. The MBS buyer was entitled to a share of the interest and principal payments on the underlying loan. These MBSs could also be traded in the capital market and their prices steadily increased until the home prices continued their meteoric rise and until there were no defaults on the mortgages. MBSs were thus considered a sure way of earning profits and hence were very popular with the financial institutions. In some sense by selling MBSs, the banks were no longer lending money from their own reserves. Rather they acted as a broker between the borrower and the financial institutions buying the MBSs.
 
 ## Dilution of the net-capital requirement
-In 2004, SEC reduced the net-capital requirement (the ratio of assets to debt financial institutions are required to maintain to safeguard from insolvency). This allowed financial instituions to make use of leverage to finance their shopping spree. 
+In 2004, SEC reduced the Net Capital Requirement (NCR). NCR refers to the minimum ratio of liquid capital to risk weighted assets, financial institutions are required to maintain as a safeguard measure. Put other ways, for every risky asset a financial institutions owns, they are expected to also have liquid capital amounting to a certain percentage of the value of the risky asset. Should the risky asset lose value, the liquid capital with the financial institution would allow it to continue its operation. A lower NCR increases the leverage financial institutions can use. This increases business risk, should their assets turn sour. 
+
+An MBS is certainly an example of a risky asset. A lower NCR mandate by the SEC, allowed financial institutions to invest in MBS's more than what would have been allowed otherwise. While this helped financial institutions earn big profits when the going was good, it also resulted in a greater than desired exposure to risky assets, since the rise in the value of the MBS's was based on the premise that the housing prices would continue to rise. 
 
 # Keys Events Leading to the Crisis
 ## Rise in Federal Interest Rates
-Beginning 2004 to 2006, the US Federal reserve raised the interest rates from 1.25% to 5.25%. This resulted in defaults from subprime borrowers holding ARMs. Since the housing bubble had reached a level of saturation the housing prices were no longer increasing as they did in the past. The subprime borrowers were unable to resort to the old trick of refinancing their loans, borrowing against the increased value of their hourse or selling their house for profits to repay their mortgages. As more and more subprime borrowers defaulted, the MBSs lost value resulting in a loss to the financial institutions holding them. These MBSs were bought and sold in countries outside of the US and hence the impact of this crisis spread globally. 
+From 2004 to 2006, the US Federal Reserve did a U-turn on the interest rate trajectory and raised the interest rate from 1.25% to 5.25%. Subprime borrowers who chose ARM mortgages saw their lending interest rates go up, which led to a higher EMI payment than they could afford and eventually defaulted. Since the housing bubble had reached a level of saturation, the housing prices were no longer increasing as they had in the past. The subprime borrowers were unable to resort to the old trick of refinancing their loans, borrowing against the increased value of their house or selling their house for profits to repay their mortgages. As more and more subprime borrowers defaulted, the MBS's lost value, resulting in a loss to the financial institutions holding them. Since these MBSs were also bought and sold in countries outside the US, the impact of this crisis spread globally. 
 
 ## Irony in the midst of the crisis
-Rating agencies downgraded the same MBSs they had once initially given a 5 star rating.
+Rating agencies that had initially given a 5 star rating to the MBS's were now treating them as toxic or worthless assets. It became apparent that conflict of interest guided their initial 5 star rating decision since they were paid by the same banks whose MBS's they were rating. 
 
 # You might also like to read
 ```{python}
