@@ -50,8 +50,6 @@ From 2004 to 2006, the US Federal Reserve did a U-turn on the interest rate traj
 Rating agencies that had initially given a 5 star rating to the MBS's were now treating them as toxic or worthless assets. It became apparent that conflict of interest guided their initial 5 star rating decision since they were paid by the same banks whose MBS's they were rating. 
 
 # You might also like to read
-
-
 [^1]: [Financial Crisis of 2007-08](https://www.britannica.com/money/financial-crisis-of-2007-2008){target="_blank"}
 [^2]: [What was the Subprime Meltdown?](https://www.investopedia.com/terms/s/subprime-meltdown.asp){target="_blank"}
 [^3]: [Federal Reserve: Open Market Operation](https://www.federalreserve.gov/monetarypolicy/openmarket.htm){target="_blank"}

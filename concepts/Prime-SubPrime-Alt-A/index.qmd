@@ -34,15 +34,7 @@ Typically, once a bank detects some kind of a risk or default with a loan, it qu
 Provisioning helps banks mitigate the impact of NPAs on their financial health. It ensures banks have enough capital to cover for potential losses and continue operations even if a some borrowers default.
 
 # You might also like to read
-```{python}
-#| echo: false
-#| output: asis
 
-import sys
-sys.path.insert(1, '../../pyfiles')
-from ref import ref
-ref()
-```
 
 # Further Reading & References
 [Alt-A: What it Means, Characteristics, Pros and Cons](https://www.investopedia.com/terms/a/alt-a.asp){target="_blank"}

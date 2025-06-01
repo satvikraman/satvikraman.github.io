@@ -78,12 +78,3 @@ Cacao refers to the raw material: the cacao beans that are harvested from the ca
 :::
 
 # You might also like to read
-```{python}
-#| echo: false
-#| output: asis
-
-import sys
-sys.path.insert(1, '../../pyfiles')
-from ref import ref
-ref()
-```
