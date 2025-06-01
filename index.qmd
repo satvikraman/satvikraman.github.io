@@ -22,11 +22,11 @@ lightbox: auto
 ---
 #####
 :::{#hero-heading}
-I'm a grade 10 student at Sri Kumaran's Children's Home school.  I love Maths and intend to pursue Commerce going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.
+I'm a grade 11 student at Sri Kumaran's Children's Home school.  I love Maths and intend to pursue business studies and economics going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.
 
-I am passionate about football. I play for my school's football and tabletennis teams. I have represented them in CBSE cluster tournaments  which progresses from a state to a national level competition involving  schools affiliated to CBSE board. 
+I am passionate about football. I play for my school's football and table-tennis teams and have represented them in CBSE cluster tournaments (The CBSE cluster tournaments are inter school level competitions that progresses from a state to a national level competition among schools affiliated to the CBSE board). 
 
-I also play for the Young Blue Elite FC, an U17 elite team of the [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}
+I have been playing football at the club level for the last 2 years as part of the U17 Young Blue Elite FC team [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}. This year I will be a part of their U19 squad.
 :::
 
 ## Education
