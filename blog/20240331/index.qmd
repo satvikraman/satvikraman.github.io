@@ -114,12 +114,3 @@ stateDiagram-v2
 ```
 
 # You might also like to read
-```{python}
-#| echo: false
-#| output: asis
-
-import sys
-sys.path.insert(1, '../../pyfiles')
-from ref import ref
-ref()
-```

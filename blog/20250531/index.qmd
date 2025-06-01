@@ -1,0 +1,80 @@
+---
+title: "Left Behind in the Ice Cream Race"
+subtitle: ""
+date: 2025-05-31
+image: "./20250531_title.png"
+twitter-card:
+  image: "./20250531_title.png"
+open-graph:
+  image: "./20250531_title.png"
+categories:
+  - Brand
+---
+
+# 🍦 Left Behind in the Ice Cream Race: Why HUL Missed the Scoop
+
+## 🧊 Introduction: A Chilly Wake-Up Call for HUL
+In the scorching heat of India's summer, ice cream should be a sure-shot business win, right? But for Hindustan Unilever Limited (HUL), the Indian FMCG (Fast Moving Consumer Goods) giant, their ice cream division *Kwality Wall’s* has been melting down — both in sales and in relevance.
+
+Despite a strong brand (HUL owns household brands like Lux, Horlicks, Dove, Bru, Axe and many more) and access to robust supply chains, HUL has lost ground to smaller, nimbler, and trendier competitors like Naturals, Baskin-Robbins, and regional players. This blog explores how HUL — known for dominating categories like shampoos and soaps — struggled to rule the ice cream business.
+
+## 📉 What Went Wrong for HUL?
+### 1. **Underestimating India's Changing Palate**
+HUL’s flagship ice cream brand, *Kwality Wall’s*, stuck with mass-market, low-margin products like cones and frozen desserts. HUL cold not call *Kwality Wall’s* an ice cream since Indian regulations mandate ice creams to be made out of milk. In HUL's case, they were using hydrogenated vegetable fat and were also referred to as the the "Dalda" wala ice cream, Dalda being yet another hydrogenated vegetable fat product from HUL which it eventually sold in 2003 [^1]. HUL didn’t adapt itself to the Indian market. It didn't offer Kulfi, which by itself is 10-15% of the market. The Indian consumer simply started moving towards:
+
+* Premium ice creams 🍨
+* Natural flavors 🥭
+* Artisanal and regional brands 🌿
+
+### 2. **A Misfit in the Cold Chain**
+HUL is amazing at managing ambient and dry goods like soaps and detergents. But cold chains are a different beast. Managing a freezer-to-fork delivery chain is capital intensive and operationally demanding.
+
+Meanwhile, companies like *Havmor* (owned by Lotte), *Amul*, and *Cream Stone* invested heavily in cold chain logistics, ensuring their products reached consumers in perfect form.
+
+### 3. **The D2C Miss**
+Direct-to-consumer (D2C) brands soared during the pandemic. Ice cream startups like *Go Zero* and *Minus 30* found loyal customers via Instagram and Swiggy. HUL’s digital game in this space was late and lukewarm.
+
+> According to a report by *Statista*, India’s online food delivery market is expected to grow by 12.25% annually from 2024–2028, hitting over \$26 billion in revenue by 2028. That’s a trend no brand can afford to miss [^3].
+
+## 🍧 Who Ate HUL’s Ice Cream?
+### 🥇 Amul – The Dairy King
+Amul’s massive dairy presence gave it a head start. Its branding as a *“true milk ice cream”* gave it an edge against frozen dessert makers.
+
+### 🥈 Naturals – Homegrown & Hip
+Naturals leveraged:
+* Fresh ingredients
+* Seasonal fruits
+* Social media buzz
+
+This Mumbai-born brand expanded across India and won over urban youth.
+
+### 🥉 Baskin-Robbins – Global Yet Local
+Baskin-Robbins re-strategized with local flavors and better store experience — winning the premium market HUL ignored.
+
+Even after trying hard for 30 years, HUL remains a distant 2nd in the ice cream market. The business contributes to less than 3% of HUL's FY24 revenur of ~60K INR crore.
+
+## Way Forward
+Immediately, HUL is demerging its ice cream business, Kwality Wall's (India) or KWIL [^4], into a separate, publicly listed entity. HUL is probably likely to sell of its ice cream business [^5]. RJ Corp that operates the QSR (Quick Service Restaurant) chain KFC and Pizza Hut already sells the Cream Bell brand of ice-cream and is interested in HUL's business. Even MMG Group which runs McDonald's in North and East India is evaluating HUL's ice-cream business.
+
+Read more at:
+https://economictimes.indiatimes.com/industry/cons-products/food/huls-scoop-in-a-hot-market-all-scream-for-ice-cream/articleshow/113232181.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
+
+## 🌐 My Take
+As someone interested in economics and business strategy, I found this story eye-opening. It shows how even the biggest companies can fall behind if they:
+
+* Ignore consumer trends
+* Rely too much on legacy systems
+* Underinvest in innovation and D2C tech
+
+In today’s fast-changing market, agility beats legacy. HUL might still bounce back, but they'll need more than just brand power — they need reinvention.
+---
+
+## 📚 References & Further Reading
+[^1]: [HLL sells Dalda to US-based Bunge(Jun 2003)](https://timesofindia.indiatimes.com/business/india-business/hll-sells-dalda-to-us-based-bunge/articleshow/33310.cms)
+[^2]:  [Economic Times Original Article (May 2025)](https://economictimes.indiatimes.com/prime/consumer/left-out-in-a-hot-market-how-a-melted-ice-cream-business-gave-hul-the-chills/)
+[^3]: [Statista: India’s Online Food Delivery Forecast (2024-2028)](https://www.statista.com/outlook/dmo/eservices/online-food-delivery/india)
+[^4]: [Hindustan Unilever Gets Regulatory Nod to Spin Off Ice Cream Business (May 2025)] (https://www.outlookbusiness.com/markets/hul-gets-regulatory-nod-to-spin-off-ice-cream-business-key-details-here)
+[^5]: [HUL's scoop: In a hot market, all scream for ice cream (Sep 2024)](https://economictimes.indiatimes.com/industry/cons-products/food/huls-scoop-in-a-hot-market-all-scream-for-ice-cream/articleshow/113232181.cms?from=mdr)
+---
+
+*Thanks for reading! Let me know in the comments what you think HUL should do to make a comeback in the ice cream biz!*
