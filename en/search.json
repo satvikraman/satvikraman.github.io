@@ -1,0 +1,366 @@
+[
+  {
+    "objectID": "projects/index-en.html",
+    "href": "projects/index-en.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCopycat Investment\n\n\n\nTrading\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index-en.html",
+    "href": "index-en.html",
+    "title": "Satvik Raman",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Share\n  \n\n      \n I’m a grade 11 student at Sri Kumaran’s Children’s Home school. I love Maths and intend to pursue business studies and economics going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.\nI am passionate about football. I play for my school’s football and table-tennis teams and have represented them in CBSE cluster tournaments (The CBSE cluster tournaments are inter school level competitions that progresses from a state to a national level competition among schools affiliated to the CBSE board).\nI have been playing football at the club level for the last 2 years as part of the U17 Young Blue Elite FC team Bengaluru FC Soccer School. This year I will be a part of their U19 squad."
+  },
+  {
+    "objectID": "index-en.html#education",
+    "href": "index-en.html#education",
+    "title": "Satvik Raman",
+    "section": "Education",
+    "text": "Education\nSri Kumaran’s Children’s Home school | Bengaluru"
+  },
+  {
+    "objectID": "index-en.html#awards-and-recognitions",
+    "href": "index-en.html#awards-and-recognitions",
+    "title": "Satvik Raman",
+    "section": "🏆 Awards and Recognitions",
+    "text": "🏆 Awards and Recognitions\n\n\n\nState level CBSE clusters TT tournament - 2020 - Runners Up\n\nI represented my school at the state level CBSE clusters competition and we came runners up.\n\n\n\n\n\n\nGoogle Code To Learn - 2019 - Winner\n\nCreated an Android application. Video demo\n\n\n\n\n\n\nNational level CBSE clusters TT tournament - 2020\n\nI represented my school at the national level. The competition was held in Noorpur, Uttar Pradesh.\n\n\n\n\n\n\nState level CBSE clusters TT tournament - 2019 - Winner\n\nWe won the state level competition and were selected to compete at the national level."
+  },
+  {
+    "objectID": "index-en.html#certifications",
+    "href": "index-en.html#certifications",
+    "title": "Satvik Raman",
+    "section": "📜 Certifications",
+    "text": "📜 Certifications\n\n\n\nGerman A2\n\nI cleared the A2 level German language proficiency test in 2023.\n\n\n\n\n\n\nGerman A1\n\nI cleared the A1 level German language proficiency test in 2022."
+  },
+  {
+    "objectID": "concepts/mortgage-backed-securities/index-en.html",
+    "href": "concepts/mortgage-backed-securities/index-en.html",
+    "title": "Mortgage Backed Securities",
+    "section": "",
+    "text": "Posts referencing this concept\n\n\nAdditional concepts you may be interested in\n\n\nFurther Reading & References"
+  },
+  {
+    "objectID": "concepts/financial-leverage/index-en.html",
+    "href": "concepts/financial-leverage/index-en.html",
+    "title": "Financial Leverage",
+    "section": "",
+    "text": "Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force.\n\n\n\n\n\nGive me a lever long enough… and I shall move the world\n\n\nAnalogous to that, a financial leverage helps us invest larger sums by using less of our own money. In simple terms, when you invest borrowed money you are using financial leverage. Leverage boosts returns if the trade works favourably. However, it is a double edged sword. If the trade does not go as planned it will also exaggerate the losses. Leverage therefore works like a magnifying glass, magnifying both gains and losses.\nLet’s work with an example. For the purpose of this discussion lets ignore the any additional cost including that of financing, brokerage etc… We will only focus on the impact of leverage in isolation.\nAssume you have $100 and you borrow another $100 to invest a total of $200. This is a financial leverage of 1:1 i.e. for every $1 of your own money you are borrowing another $1.\nThe yield curve for the 1:1 leverage and no leverage positions are drawn in red and green colour respectively in the “Example” tab of Figure 1. The “X” axis is the return that a security can provide. The “Y” axis is the return experienced by trading in that security. Ideally the return experienced by trading a security should be the same as the return provided by the security, the green line. However, with leverage, the returns experienced gets magnified and thats the red line.\n\nplotVals = []\ninitial_capital = 100\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  for(let leverage = 0; leverage &lt; 100; leverage+=1) {\n    let leveraged_capital = initial_capital * (1 + leverage)\n    {\n      for (let move_perc = -50; move_perc &lt;= 50; move_perc+=10) {       \n        let corpus = leveraged_capital * (1 + move_perc/100)\n        let pnl = corpus - leveraged_capital\n        let pnl_perc = pnl * 100 / initial_capital\n\n        plotVals.push({\"Market Return %\": move_perc, \"Portfolio Return %\": pnl_perc, \"lev\": leverage})\n      }\n    }  \n  }\n  return\n}\n\n\n\n\n\n\n\n\n\n\nExamplePlotInteractive\n\n\n\nPlot.plot({\n  x: {domain: [-100, 100], grid: true},\n  y: {domain: [-100, 100], grid: true},\n  marks: [\n      Plot.gridX({interval: 5, stroke: \"#d2d2d2\", strokeOpacity: 0.5}),\n      Plot.gridY({interval: 5, stroke: \"#d2d2d2\", strokeOpacity: 0.5}),\n\n      Plot.line(plotVals.filter(d =&gt; d.lev == 0), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"red\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 1), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"green\"}),\n      Plot.ruleX([20], {y1: 0, y2: 40, stroke: \"#b2b2b2\"}),\n      Plot.ruleX([-10], {y1: 0, y2: -20, stroke: \"#b2b2b2\"}),\n      Plot.ruleY([20, 40], {x1: -100, x2: 20, stroke: \"#b2b2b2\"}),\n      Plot.ruleY([-10, -20], {x1: -100, x2: -10, stroke: \"#b2b2b2\"}),\n      Plot.ruleY([0], {stroke: \"blue\"}),\n      Plot.ruleX([0], {stroke: \"blue\"}),\n    ],\n})\n\n\n\n\n\n\n1:1 leverage yield curve used as an example in the text\n\n\n\nPlot.plot({\n  grid: true,\n  x: {domain: [-50, 50], grid: true},\n  y: {domain: [-100, 100], grid: true},\n  marks: [\n      Plot.line(plotVals.filter(d =&gt; d.lev == 0), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 1), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 2), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 4), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 5), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 10), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 20), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 30), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 40), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == 50), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"})\n    ],\n  color: {legend: true}\n})\n\n\n\n\n\n\nA graph showing the yield curve at different leverage ratios\n\n\n\nviewof leverage = Inputs.range(\n  [1, 100], \n  {value: 1, step: 1, label: \"Leverage ratio:\"}\n)\n\nPlot.plot({\n  grid: true,\n  x: {domain: [-50, 50], grid: true},\n  y: {domain: [-100, 100], grid: true},\n  marks: [\n      Plot.line(plotVals.filter(d =&gt; d.lev == 0), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"}),\n      Plot.line(plotVals.filter(d =&gt; d.lev == leverage), {x: \"Market Return %\", y: \"Portfolio Return %\", stroke: \"lev\"})\n    ],\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMove the slider to see how the slope of the yield curve change with leverage\n\n\n\n\n\nFigure 1: Slippery slope: Yield curve of a non leveraged position (black) vs. a leveraged position\n\n\n\nContinuing with the “Example” tab, assume that the security moves favourably by 20%. Because of the leverage, your returns are $40 (20% of $200) which is significantly larger than the $20 (20% of $100) you would have made without it. A $40 return translates to a 40% return on your initial capital of $100, even though the security moved only by 20%. In percentage terms, a 1:1 leverage, doubles your gain percentage. A 10% gain in the security, causes you to gain 20% of your capital. Isn’t that awesome.\nBut lets also look at the flip side. What if the market security in the opposite direction by 10%. Because of the leverage, your loss will be $20 (10% of $200) which is again significantly larger than $10 (10% of $100) you would have lost had you not leveraged your position. Similar to the favourable case above, in percentage terms, a 1:1 leverage, doubles your loss percentage. A 10% drop in the security, causes you to lose 20% of your capital.\nLeverage can be addictive, more so if you experienced beginner’s luck. However, if your trades don’t work out and you continue using leverage it can quickly wipe out your investing capital. The use of leverage without adequate caution can be disastrous.\nRefer the “Plot” tab in Figure 1. I compare leverage to a slippery slope. The different coloured lines depict the yield curve at different leverages. The leverage ratio increases as the color transitions from black  blue  green  yellow  red. Higher the leverage, higher is the slope of the yield curve which translates to a higher boost to both your gain and loss. No one complains when the going is good. But when panic strikes, and fear spreads much faster than greed, things can very quickly get out of control.\nIf you want a more interactive feel to see how quickly the slope of the yield curve changes switch to the “Interactive” tab in Figure 1 and play with the slide rule. You would notice that the slope increases quite rapidly with every unit change in the leverage. And as the slope increases, so does the risk.\nIt is worth noting that certain financial instruments have leverage built into them. Many brokers provide leverage on intra-day trading. Derivative products like futures and options also provide leverage. These financial instruments therefore need to be used with proper knowledge and abundant caution. As Warren Buffett said, “When you combine ignorance and leverage you get some pretty interesting results”\n\n\nThere is of couse a cost associated with financial leverage. Since financial leverage is nothing short of borrowing money, the borrower would need to pay a financing cost proportional to the interest rate and the principal being borrowed to the lender. While buying securities, this is often factored into the brokerage pricing.\nThe use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would."
+  },
+  {
+    "objectID": "concepts/financial-leverage/index-en.html#but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it",
+    "href": "concepts/financial-leverage/index-en.html#but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it",
+    "title": "Financial Leverage",
+    "section": "",
+    "text": "There is of couse a cost associated with financial leverage. Since financial leverage is nothing short of borrowing money, the borrower would need to pay a financing cost proportional to the interest rate and the principal being borrowed to the lender. While buying securities, this is often factored into the brokerage pricing.\nThe use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would."
+  },
+  {
+    "objectID": "concepts/collateralized-debt-obligations/index-en.html#additional-concepts-you-may-be-interested-in",
+    "href": "concepts/collateralized-debt-obligations/index-en.html#additional-concepts-you-may-be-interested-in",
+    "title": "Collateralized Debt Obligations",
+    "section": "Additional concepts you may be interested in",
+    "text": "Additional concepts you may be interested in"
+  },
+  {
+    "objectID": "concepts/collateralized-debt-obligations/index-en.html#further-reading-references",
+    "href": "concepts/collateralized-debt-obligations/index-en.html#further-reading-references",
+    "title": "Collateralized Debt Obligations",
+    "section": "Further Reading & References",
+    "text": "Further Reading & References"
+  },
+  {
+    "objectID": "concepts/Mortgage-Loan/index-en.html",
+    "href": "concepts/Mortgage-Loan/index-en.html",
+    "title": "Mortgage vs Loans",
+    "section": "",
+    "text": "What’s the difference between a mortgage and a loan\nBoth mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between mortgage and person loan primarily rests around how you can use the borrowed money.\nMortgages are linked to real estate purchases, where the property is also attached to the mortgage as a collateral. In case of a default, the bank may liquidate the collateralized property to recover the amount its due.\nA personal loan on the other hand is much more flexible in its use. You may use it to buy a car, refurbish your house, go on a vacation or fund your education. It may or may not necessarily require a collateral.\n\n\nWhy differentiate between a mortgage and a loan\nIt is useful to differentiate a mortgage from a loan because mortgages help fulfill one of life’s basic nessesities. For this reason, the terms associated with a mortgage are also design to enable and encourage more people to buy a property. For instance, mortgages provide a much larger repayment window (20 to 30 years) as compared to a loan. Many countries provide income tax deduction proportionate to the amount paid to repay the mortgage.\nNot only that, in my opinion, the construction of a house concentrates the benefit to the local economy unlike any other commercial activity.\nLet me explain. If you go abroad on a vacation by taking a personal loan, most of the commercial activity associated with your vacation is actually happening outside of your local economy - the hotel stays, shopping, travel etc… You could buy a car from a local manufacturer, but its parts might be imported and hence its benefits may not be concentrated to your local economy.\nContrast this with the construction of a house. The construction of a house is both a capital and labour intensive work. It helps consume capital goods like steel, cement, bricks etc… which is typically sourced locally. It also helps generate employment opportunities at scale, local to the economy, both for skilled and unskilled workers. Being gainfully employed, these workers can then spend their money on goods and services which has further positive ripple effects on the economy.\nFor these reasons, while on the face of it both mortgages are loans are a way of borrowing money, it is reasonable and perhaps warranted to treat them differently.\n\n\nPosts referencing this concept\nMortgage Backed Securities"
+  },
+  {
+    "objectID": "blog/index-en.html",
+    "href": "blog/index-en.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLeft Behind in the Ice Cream Race\n\n\n\nBrand\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMay 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nVodafone’s FPO\n\n\n\nFinance\n\n\n\n\n\n\n\nSatvik Raman\n\n\nApr 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCocoa crisis\n\n\n\nFutures\n\nCocoa\n\n\n\nFrom trading at $3000 a ton at the start of the year 2024, cocoa is now trading at $12000 a ton in April. A 4x multiple in just 3 months!!! Will my chocolate cost that much…\n\n\n\nSatvik Raman\n\n\nApr 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy the world trades in USDs?\n\n\n\nEconomics\n\n\n\n\n\n\n\nSatvik Raman\n\n\nApr 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubprime Crisis\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nApr 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollapse of Lehman Brothers\n\n\n\nLehman\n\nLeverage\n\nMortgage Backed Securities\n\nRisk\n\n\n\nThe history of Lehman brothers dates back to 1884, when three German brothers started a general store in Alabama. Tailwinds from the US economy’s growth, helped them grow to…\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/20240428/index-en.html",
+    "href": "blog/20240428/index-en.html",
+    "title": "Vodafone’s FPO",
+    "section": "",
+    "text": "India is a massive market for telecom. It is the 2nd largest consumer of data. And while one would have expected a global brand like Vodafone, the 2nd largest telecom operator in the world, to have a dream run in India, it has been anything but that. So much so that, the parent group Vodafone sees no remaining value in its Indian operation and isn’t considering infusing any further cash into it, as per its consolidated financial statements for FY2023 1. In this post, I recall Vodafone’s journey in India and along the way touch upon and explain a few financial concepts.\nVodafone’s journey in India started in 2007, when it entered the country by acquiring a controlling 67% stake in Hutchison. The remainder of the stake was held by an Indian entity named Essar. Vodafone bought over Essar’s stake in 2014 once the Government allowed 100% Foreign Direct Investment (FDI) in the telecom sector. And it journey hasn’t been smooth since.\nIt first locked horns with Essar while trying to buy over its stake. Vodafone wanted to buyout Essar’s 33% stake. However, Essar wanted to reverse merge its stake in the Vodafone-Essar joint venture into one of its publicly listed entity, India Securities Limited (ISL). It wanted to do this to seek better valuations for its stake and the court ruled in Essar’s favour stating Vodafone could not force Essar to sell its stake on its terms. Eventually, Vodafone had to fork out $5.46 billion buyout Essar’s stake.\n\n\n\n\n\n\nNote 1: What is a reverse merger?\n\n\n\n\n\nA reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. Want to read more, then click on What are Reverse Mergers?\n\n\n\nVodafone’s acquisition of the 67% stake in Hutchison also came under a lot of Government scrutiny. A Cayman Island company, CGP Investments, initially owned this stake. Ideally any entity making profits is obliged to pay a portion of its gains as taxes to the local Government. However, in this case, since the transfer of CGP Investment’s stake to Vodafone happened outside India and between two non-Indian entities, the Indian Government didn’t get paid anything in taxes. The Government however asserted that the transaction should be taxable in India since it involved the transfer of assets located in the country. They held Vodafone accountable for not having withheld the tax on CGP Investment’s capital gains and sought to recover INR 7,900 crores from it. To override the courts judgement which was in Vodafone’s favour, the Indian Government retrospectively amended the Income Tax laws in 2012 and increased their demand to INR 14,200 crores including interest and penalties. Vodafone sought international arbitration which again ruled in Vodafone’s favour in 2020. Eventually, after nearly a decade, in 2021, the Indian Government nullified the retrospective tax claims. Even though Vodafone came out unhurt from this legal challenge, it was an unpleasant experience from any measure.\nAnd if that was not enough, Reliance Jio, entered the telecom market in 2016 and triggered a price war, leaving many of the telcos bleeding. In 2017, Vodafone India announced merger with Idea Cellular creating Vi. Vodafone and the Aditya Birla Group (the parent company of Idea Cellular) held ~45% and 26% of the merged entity. The rest was held by the public. The merged entity instantly became the country’s largest telecom operator both by subscriber base and revenue and was yet another attempt from Vodafone to make its Indian dreams come true.\nForward to today, and Vodafone’s woes haven’t ended. From being the largest telco operator in the country in 2017, it now stands third behind Reliance Jio and Bharti Airtel. It has been reporting quarterly losses, losing subscribers month on month and its Average Revenue Per User (ARPU) is the lowest.\nThe Indian Government became Vi’s largest shareholder in 2023 as part of a financial bailout package through which it converted the INR 16,130 crore that Vi owed it on spectrum and other license fee payments into a 33% equity in the telco. Vi’s debt stands at INR 2.15 lakh crore and is yet another case of too big to fail. Vi still has a market share of 21% 2 and to maintain a competitive market the Government has repeatedly expressed its stance against a duopoly in the telco sector. Further, the Government wouldn’t like the narrative and optics associated with a company as large and high-profile as Vodafone crashing in India, which could impact future FDI inflows into the country."
+  },
+  {
+    "objectID": "blog/20240428/index-en.html#footnotes",
+    "href": "blog/20240428/index-en.html#footnotes",
+    "title": "Vodafone’s FPO",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nVodafone sees no remaining value in Indian operation↩︎\n[The Indian Telecom Services Performance Indicators, 31st May 2023 - Table 1.11 and Point 1.19 ] (https://www.trai.gov.in/sites/default/files/QPIR_31052023_0.pdf){target=“_blank”}↩︎"
+  },
+  {
+    "objectID": "blog/20240414/index-en.html",
+    "href": "blog/20240414/index-en.html",
+    "title": "Why the world trades in USDs?",
+    "section": "",
+    "text": "The US Dollar, also known as the greenback, is the dominant reserve currency in the world. Around 60% of all international trade is setlled in the US dollar and most countries prefer storing the excess reservces in US dollars. Why is that countries prefer trading in the dollar, when that’s not their local currency. This article tries to understand this puzzling practice."
+  },
+  {
+    "objectID": "blog/20240414/index-en.html#the-bretton-woods-agreement",
+    "href": "blog/20240414/index-en.html#the-bretton-woods-agreement",
+    "title": "Why the world trades in USDs?",
+    "section": "The Bretton Woods Agreement",
+    "text": "The Bretton Woods Agreement\nIn 1944, delegates from 44 allied countries agreed to peg their currency against the US dollar as an alternative to the gold standard. The US dollar was chosen since US held the largest gold reserves at that time and it agreed to continue to follow the gold standard. As per the agreement, a country could redeem its US dollar reserves for an equal amount of gold on demand. The US dollar was thus crowned the worlds reserve currency.\nThe system seemed fair and not to anyones disadvantage. Countries retained some degree of control over their currency in case it became too strong or too weak relative to the dollar. They could sell or buy their currency to regulate money supply and bring their currency back to levels they felt comfortable 2."
+  },
+  {
+    "objectID": "blog/20240414/index-en.html#does-the-us-follow-the-gold-standard-even-today",
+    "href": "blog/20240414/index-en.html#does-the-us-follow-the-gold-standard-even-today",
+    "title": "Why the world trades in USDs?",
+    "section": "Does the US follow the gold standard even today?",
+    "text": "Does the US follow the gold standard even today?\nShort answer, not any more.\nIn due course of time, the US flooded the market with paper money to service demands for its US treasury securities and to fund its own domestic programs and its war in Vietnam. Sensing concerns over the stability of the US dollar, countries started converting their US dollars into gold. The demand for this conversion was so high, that President Nixon had to step-in and announce economic policies in 1971 (referred to as the Nixon Shock) delinking the US dollar and the gold, which led to the current system of floating echange rates."
+  },
+  {
+    "objectID": "blog/20240414/index-en.html#footnotes",
+    "href": "blog/20240414/index-en.html#footnotes",
+    "title": "Why the world trades in USDs?",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe Dollar: The World’s Reserve Currency(https://www.cfr.org/backgrounder/dollar-worlds-reserve-currency){target=“_blank”}↩︎\nHow the U.S. Dollar Became the World’s Reserve Currency(https://www.investopedia.com/articles/forex-currencies/092316/how-us-dollar-became-worlds-reserve-currency.asp){target=“_blank”}↩︎\nThe US dollar’s dominance in global trade and finance is steadily declining(https://ctmfile.com/story/the-us-dollars-dominance-in-global-trade-and-finance-is-steadily-declining){target=“_blank”}↩︎"
+  },
+  {
+    "objectID": "blog/20240331/index-en.html",
+    "href": "blog/20240331/index-en.html",
+    "title": "Collapse of Lehman Brothers",
+    "section": "",
+    "text": "Pageviews:\nI have a close association with this story. I was born on the exact day Lehman brothers filed for bankruptcy, September 15, 2008. I therefore wanted to start my blog series by exploring what led to the Lehman Brother’s fall."
+  },
+  {
+    "objectID": "blog/20240331/index-en.html#heavily-leveraged-position",
+    "href": "blog/20240331/index-en.html#heavily-leveraged-position",
+    "title": "Collapse of Lehman Brothers",
+    "section": "Heavily leveraged position",
+    "text": "Heavily leveraged position\nDespite this, in 2007, Lehman bought more MBS than any other company. They built up a portfolio, worth $85 billion, of these securities, which was worth 4 times it shareholder’s equity. Lehman was leaning forward and using financial leverage to fund its purchase completely ignoring all the warning signs.\n\n\n\n\n\n\nFigure 2: Levarage ratios for major investment banks 2\n\n\n\nAs can be seen in Figure 2, the use of leverage was increasing in each of the major investment banks since 2003. In 2007, Lehman had an exceptionally high level of leverage, 31:1 and its huge portfolio of MBS made it very vulnerable to the worsening US housing market conditions. At such a high leverage even a small correction in the value of the MBS would have had a huge impact on Lehman’s portfolio. And in 2008, we were not talking about a small correction. When the housing market in the US went into a tail-spin, also referred to as the sub-prime crisis, mortgage defaults spiralled and so did Lehman’s problems.\n\n\n\n\n\n\nWhat is a leveraged position?\n\n\n\n\n\nLeveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on Financial Leverage"
+  },
+  {
+    "objectID": "blog/20240331/index-en.html#how-could-lehman-afford-such-high-leverage",
+    "href": "blog/20240331/index-en.html#how-could-lehman-afford-such-high-leverage",
+    "title": "Collapse of Lehman Brothers",
+    "section": "How could Lehman afford such high leverage",
+    "text": "How could Lehman afford such high leverage\nWhen I first read about this story, I wondered how Lehman was able to fund a leverage of 31:1. Surely there must be a financing cost associated with all the money they were borrowing. And it was not just Lehman, every other investment bank seemed to be doing it. The remainder of the post delves into this topic.\n\nDollar Economics\nPost the World War II, global trading moved towards the US dollar. Central banks around the world were thus flush with dollar reserves and since they wanted to earn a yield on these reserves, these reserves eventually got invested into American treasury securities and other American debt securities. All this money coming into the US helped keep interest rates low. Look at it this way, the US government didn’t have to give any special incentives to attract this money. Money kept flowing into the US and the government continued to keep the treasury interest rates low. See Figure 3.\n\n\n\n\n\n\nWhat are treasury securities?\n\n\n\n\n\nTreasury securities are issued by the US government to fund its budget deficit, or the amount the government borrows to fill the gap between what it earns and what it spends. Treasury securities offer a fixed interest rate if held until its maturity and are considered the safest form of investment.\n\n\n\n\n\n\n\n\n\nFigure 3: Yield on the 10 year Americal treasury 3\n\n\n\nThe yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that’s relatively higher than the yield on the treasure securities. This is done to compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates.\nThis allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008.\n\n\n\n\n\n\nFigure 4: Rise in US household debt\n\n\n\nIn my opinion trading in US dollar has created a viscious cycle. Americans borrowed at low interest rates and bought cars from Japan and apparels and electronics from China. China and Japan would invest the earned dollars back into US by buying their treasury securities. Because of inflow of dollars, the US Government kept their interest rates low allowing Americans to borrow even more and so the cycle continued.\n\n\n\n\n\n---\ntitle: The Viscious Cycle\n---\nstateDiagram-v2\n  USGB: US Government Borrowed\n  TRL: US government kept treasury interest rates low\n  USB: US borrowed at low interest rates\n  USS: US Spent\n  CJE: China / Japan earned\n  CJL: China / Japan lent\n  USB --&gt; USS\n  USS --&gt; CJE\n  CJE --&gt; CJL\n  CJL --&gt; USGB\n  USGB --&gt; TRL\n  TRL --&gt; USB"
+  },
+  {
+    "objectID": "blog/20240331/index-en.html#footnotes",
+    "href": "blog/20240331/index-en.html#footnotes",
+    "title": "Collapse of Lehman Brothers",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAnnual year end stock price for Lehman Brothers from 1995 to 2008↩︎\nThe Lehman Brothers Bankruptcy A: Overview in Journal of Financial Crises, Figure 3↩︎\nWhat happened during the 2008 Lehman crisis↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Satvik's Portfolio",
+    "section": "",
+    "text": "title: Redirecting… format: html page-layout: full —\n\n\nRedirecting… If not, click here."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html",
+    "href": "blog/20240407/index-en.html",
+    "title": "Subprime Crisis",
+    "section": "",
+    "text": "We referred to the subprime crisis in the Collapse of the Lehman Brothers post. Let’s dive deeper into the crisis itself here.\nThe subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders 1. It was the onset of the Great Recession (2007-2009), that’s regarded as the worst economic downturn since the Great Depression."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#lowering-of-federal-interest-rates",
+    "href": "blog/20240407/index-en.html#lowering-of-federal-interest-rates",
+    "title": "Subprime Crisis",
+    "section": "Lowering of Federal Interest Rates",
+    "text": "Lowering of Federal Interest Rates\nUS Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 to Dec 2001 2. Interest rates were lowered from ~6% in 2001 to about ~1% in 2003 3 4. Lower interest rates allowed businesses to borrow and invest resulting in economic growth. With more disposable income at hand, the demand for homes increased which also resulted in an increased demand for mortgages.\nWith rising home ownership levels, banks had difficulty finding new home buyers and resorted to lending to subprime borrowers to maintain the growth of their loans. Subprime borrowers were those who would traditionally not qualify for a loan. The extent to which lending standards had been relaxed can be guaged by the fact that NINJA loans were also being offered. NINJA was an acronym for No Income, No Job or Assests. Essentially anyone willing to take a loan was being offered a loan. The low interest rate regime certainly helped fuel this exaggerated demand for homes and mortgages."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#restructuring-of-banking-loans",
+    "href": "blog/20240407/index-en.html#restructuring-of-banking-loans",
+    "title": "Subprime Crisis",
+    "section": "Restructuring of banking loans",
+    "text": "Restructuring of banking loans\nChanges in banking laws allowed banks to offfer loans to subprime customers with balloon payments or Adjustable Rate Mortgages (ARM). Balloon payments refers to an arrangement where large payments are intentionally shifted right towards the end of the loan period. It is obvious balloon payments would result in a higher interest component in the overall loan repayment schedule. Nevertheless it worked as a win-win solution. As banks earned a higher interest income, borrowers who couldn’t afford to start repaying their loans immediately were enabled to avail these loans by shifting their payments to a later date. ARMs also helped sub-prime borrowers by initially keeping the interest rates fixed and at relatively low leves and then keeping it a few percentage points higher with respect to the federal funds rate.\nBoth balloon payments and ARMs enticed people into taking loans they couldn’t afford. Until the housing prices were increasing, subprime borrowers were able to protect themselves by either refinancing their loans or borrowing against the increased value of their homes or even selling their homes at a profit and paying off their mortgages. In case of a default or a foreclosure, the banks would repossess the property and sell it for an amount higher than the original loan and book profits. Since it seemed like a relatively safe way to make money, banks started aggressively marketing subprime loans and their share in their books increased from about 2.5% to about 15% from 1990’s to 2004-07."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#securitization-of-mortgages",
+    "href": "blog/20240407/index-en.html#securitization-of-mortgages",
+    "title": "Subprime Crisis",
+    "section": "Securitization of mortgages",
+    "text": "Securitization of mortgages\nFurther contributing to the growth of subprime mortgages was the practice of securitizing mortgages. Banks would bundle subprime mortgages and sell them in the capital markets as securities (bonds). These bonds were known as Mortgage Back Securities (MBSs). MBS is a derivative product and is an output of a stream of study called financial engineering. Derivatives derive their value from an underlying assest, which in this case were the mortgages. The MBS buyer was entitled to a share of the interest and principal payments on the underlying loan. These MBSs could also be traded in the capital market and their prices steadily increased until the home prices continued their meteoric rise and until there were no defaults on the mortgages. MBSs were thus considered a sure way of earning profits and hence were very popular with the financial institutions. In some sense by selling MBSs, the banks were no longer lending money from their own reserves. Rather they acted as a broker between the borrower and the financial institutions buying the MBSs."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#dilution-of-the-net-capital-requirement",
+    "href": "blog/20240407/index-en.html#dilution-of-the-net-capital-requirement",
+    "title": "Subprime Crisis",
+    "section": "Dilution of the net-capital requirement",
+    "text": "Dilution of the net-capital requirement\nIn 2004, SEC reduced the Net Capital Requirement (NCR). NCR refers to the minimum ratio of liquid capital to risk weighted assets, financial institutions are required to maintain as a safeguard measure. Put other ways, for every risky asset a financial institutions owns, they are expected to also have liquid capital amounting to a certain percentage of the value of the risky asset. Should the risky asset lose value, the liquid capital with the financial institution would allow it to continue its operation. A lower NCR increases the leverage financial institutions can use. This increases business risk, should their assets turn sour.\nAn MBS is certainly an example of a risky asset. A lower NCR mandate by the SEC, allowed financial institutions to invest in MBS’s more than what would have been allowed otherwise. While this helped financial institutions earn big profits when the going was good, it also resulted in a greater than desired exposure to risky assets, since the rise in the value of the MBS’s was based on the premise that the housing prices would continue to rise."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#rise-in-federal-interest-rates",
+    "href": "blog/20240407/index-en.html#rise-in-federal-interest-rates",
+    "title": "Subprime Crisis",
+    "section": "Rise in Federal Interest Rates",
+    "text": "Rise in Federal Interest Rates\nFrom 2004 to 2006, the US Federal Reserve did a U-turn on the interest rate trajectory and raised the interest rate from 1.25% to 5.25%. Subprime borrowers who chose ARM mortgages saw their lending interest rates go up, which led to a higher EMI payment than they could afford and eventually defaulted. Since the housing bubble had reached a level of saturation, the housing prices were no longer increasing as they had in the past. The subprime borrowers were unable to resort to the old trick of refinancing their loans, borrowing against the increased value of their house or selling their house for profits to repay their mortgages. As more and more subprime borrowers defaulted, the MBS’s lost value, resulting in a loss to the financial institutions holding them. Since these MBSs were also bought and sold in countries outside the US, the impact of this crisis spread globally."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#irony-in-the-midst-of-the-crisis",
+    "href": "blog/20240407/index-en.html#irony-in-the-midst-of-the-crisis",
+    "title": "Subprime Crisis",
+    "section": "Irony in the midst of the crisis",
+    "text": "Irony in the midst of the crisis\nRating agencies that had initially given a 5 star rating to the MBS’s were now treating them as toxic or worthless assets. It became apparent that conflict of interest guided their initial 5 star rating decision since they were paid by the same banks whose MBS’s they were rating."
+  },
+  {
+    "objectID": "blog/20240407/index-en.html#footnotes",
+    "href": "blog/20240407/index-en.html#footnotes",
+    "title": "Subprime Crisis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWhat was the Subprime Meltdown?↩︎\nFinancial Crisis of 2007-08↩︎\nFederal Reserve: Open Market Operation↩︎\nFederal Reserve: Open Market Operation Archive↩︎"
+  },
+  {
+    "objectID": "blog/20240421/index-en.html",
+    "href": "blog/20240421/index-en.html",
+    "title": "Cocoa crisis",
+    "section": "",
+    "text": "Pageviews:\nCocoa is the new Bitcoin if you are into crypto currency or Nvidia if you like the good old stocks. From trading at $3000 a ton at the start of the year 2024, cocoa is now trading at $12000 a ton in April. A 4x multiple in just 3 months!!! And thats not the peak as per famed commodities trader, Pierre Andurand. He has bet big on Cocoa and predicts Cocoa futures to touch $20000 this year 1.\nIn this article I try and explain what’s happening and touch upon a few financial concepts along the way."
+  },
+  {
+    "objectID": "blog/20240421/index-en.html#footnotes",
+    "href": "blog/20240421/index-en.html#footnotes",
+    "title": "Cocoa crisis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFamed Oil Trader Andurand Bet on Cocoa Just Before Price Surge↩︎\nPrice of Cocoa Futures for the last one year starting Jun’23↩︎\nThe meltdown in chocolate is coming↩︎\nCan Swiss chocolate giant Lindt thrive with sky-high cocoa prices?↩︎\nAnnual increase in the price of chocolates in major EU countries in Apr’24↩︎"
+  },
+  {
+    "objectID": "blog/20250531/index-en.html",
+    "href": "blog/20250531/index-en.html",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "In the scorching heat of India’s summer, ice cream should be a sure-shot business win, right? But for Hindustan Unilever Limited (HUL), the Indian FMCG (Fast Moving Consumer Goods) giant, their ice cream division Kwality Wall’s has been melting down — both in sales and in relevance.\nDespite a strong brand (HUL owns household brands like Lux, Horlicks, Dove, Bru, Axe and many more) and access to robust supply chains, HUL has lost ground to smaller, nimbler, and trendier competitors like Naturals, Baskin-Robbins, and regional players. This article explores how HUL — known for dominating categories like shampoos and soaps — struggled to rule the ice cream business.\n\n\n\n\n\nHUL’s flagship ice cream brand, Kwality Wall’s, stuck with mass-market, low-margin products like cones and frozen desserts. HUL cold not call Kwality Wall’s an ice cream since Indian regulations mandate ice creams to be made out of milk. In HUL’s case, they were using hydrogenated vegetable fat and were also referred to as the the “Dalda” wala ice cream.Dalda was yet another hydrogenated vegetable fat product from HUL which it eventually sold in 2003 1. HUL didn’t adapt itself to the Indian market. It didn’t offer Kulfi, which by itself is 10-15% of the market 2. The Indian consumer simply started moving towards:\n\nPremium ice creams 🍨\nNatural flavors 🥭\nArtisanal and regional brands 🌿\n\n\n\n\nHUL is amazing at managing ambient and dry goods like soaps and detergents. But cold chains are a different beast. Managing a freezer-to-fork delivery chain is capital intensive and operationally demanding.\nMeanwhile, companies like Havmor (owned by Lotte), Amul, and Cream Stone invested heavily in cold chain logistics, ensuring their products reached consumers in perfect form.\n\n\n\nDirect-to-consumer (D2C) brands soared during the pandemic. Ice cream startups like Go Zero and Minus 30 found loyal customers via Instagram and Swiggy. HUL’s digital game in this space was late and lukewarm.\n\nAccording to a report by Statista, India’s online food delivery market is expected to grow by 12.25% annually from 2024–2028, hitting over $26 billion in revenue by 2028. That’s a trend no brand can afford to miss 3.\n\n\n\n\n\n\n\nAmul’s massive dairy presence gave it a head start. Its branding as a “true milk ice cream” gave it an edge against frozen dessert makers.\n\n\n\nNaturals leveraged: * Fresh ingredients * Seasonal fruits * Social media buzz\nThis Mumbai-born brand expanded across India and won over urban youth.\n\n\n\nBaskin-Robbins re-strategized with local flavors and better store experience — winning the premium market HUL ignored.\nEven after trying hard for 30 years, HUL remains a distant 2nd in the ice cream market. The business contributes to less than 3% of HUL’s FY24 revenur of ~60K INR crore.\n\n\n\n\nImmediately, HUL is demerging its ice cream business, Kwality Wall’s (India) or KWIL 4, into a separate, publicly listed entity. HUL is probably likely to sell of its ice cream business [^5]. RJ Corp that operates the QSR (Quick Service Restaurant) chain KFC and Pizza Hut already sells the Cream Bell brand of ice-cream and is interested in HUL’s business. Even MMG Group which runs McDonald’s in North and East India is evaluating HUL’s ice-cream business.\nRead more at: https://economictimes.indiatimes.com/industry/cons-products/food/huls-scoop-in-a-hot-market-all-scream-for-ice-cream/articleshow/113232181.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst\n\n\n\nAs someone interested in economics and business strategy, I found this story eye-opening. It shows how even the biggest companies can fall behind if they:\n\nIgnore consumer trends\nRely too much on legacy systems\nUnderinvest in innovation and D2C tech\n\n\n\n\n\n\n\n\n\n\nThanks for reading! Let me know in the comments what you think HUL should do to make a comeback in the ice cream biz!"
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#introduction-a-chilly-wake-up-call-for-hul",
+    "href": "blog/20250531/index-en.html#introduction-a-chilly-wake-up-call-for-hul",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "In the scorching heat of India’s summer, ice cream should be a sure-shot business win, right? But for Hindustan Unilever Limited (HUL), the Indian FMCG (Fast Moving Consumer Goods) giant, their ice cream division Kwality Wall’s has been melting down — both in sales and in relevance.\nDespite a strong brand (HUL owns household brands like Lux, Horlicks, Dove, Bru, Axe and many more) and access to robust supply chains, HUL has lost ground to smaller, nimbler, and trendier competitors like Naturals, Baskin-Robbins, and regional players. This article explores how HUL — known for dominating categories like shampoos and soaps — struggled to rule the ice cream business."
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#what-went-wrong-for-hul",
+    "href": "blog/20250531/index-en.html#what-went-wrong-for-hul",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "HUL’s flagship ice cream brand, Kwality Wall’s, stuck with mass-market, low-margin products like cones and frozen desserts. HUL cold not call Kwality Wall’s an ice cream since Indian regulations mandate ice creams to be made out of milk. In HUL’s case, they were using hydrogenated vegetable fat and were also referred to as the the “Dalda” wala ice cream.Dalda was yet another hydrogenated vegetable fat product from HUL which it eventually sold in 2003 1. HUL didn’t adapt itself to the Indian market. It didn’t offer Kulfi, which by itself is 10-15% of the market 2. The Indian consumer simply started moving towards:\n\nPremium ice creams 🍨\nNatural flavors 🥭\nArtisanal and regional brands 🌿\n\n\n\n\nHUL is amazing at managing ambient and dry goods like soaps and detergents. But cold chains are a different beast. Managing a freezer-to-fork delivery chain is capital intensive and operationally demanding.\nMeanwhile, companies like Havmor (owned by Lotte), Amul, and Cream Stone invested heavily in cold chain logistics, ensuring their products reached consumers in perfect form.\n\n\n\nDirect-to-consumer (D2C) brands soared during the pandemic. Ice cream startups like Go Zero and Minus 30 found loyal customers via Instagram and Swiggy. HUL’s digital game in this space was late and lukewarm.\n\nAccording to a report by Statista, India’s online food delivery market is expected to grow by 12.25% annually from 2024–2028, hitting over $26 billion in revenue by 2028. That’s a trend no brand can afford to miss 3."
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#who-ate-huls-ice-cream",
+    "href": "blog/20250531/index-en.html#who-ate-huls-ice-cream",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "Amul’s massive dairy presence gave it a head start. Its branding as a “true milk ice cream” gave it an edge against frozen dessert makers.\n\n\n\nNaturals leveraged: * Fresh ingredients * Seasonal fruits * Social media buzz\nThis Mumbai-born brand expanded across India and won over urban youth.\n\n\n\nBaskin-Robbins re-strategized with local flavors and better store experience — winning the premium market HUL ignored.\nEven after trying hard for 30 years, HUL remains a distant 2nd in the ice cream market. The business contributes to less than 3% of HUL’s FY24 revenur of ~60K INR crore."
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#way-forward",
+    "href": "blog/20250531/index-en.html#way-forward",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "Immediately, HUL is demerging its ice cream business, Kwality Wall’s (India) or KWIL 4, into a separate, publicly listed entity. HUL is probably likely to sell of its ice cream business [^5]. RJ Corp that operates the QSR (Quick Service Restaurant) chain KFC and Pizza Hut already sells the Cream Bell brand of ice-cream and is interested in HUL’s business. Even MMG Group which runs McDonald’s in North and East India is evaluating HUL’s ice-cream business.\nRead more at: https://economictimes.indiatimes.com/industry/cons-products/food/huls-scoop-in-a-hot-market-all-scream-for-ice-cream/articleshow/113232181.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst"
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#my-take",
+    "href": "blog/20250531/index-en.html#my-take",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "As someone interested in economics and business strategy, I found this story eye-opening. It shows how even the biggest companies can fall behind if they:\n\nIgnore consumer trends\nRely too much on legacy systems\nUnderinvest in innovation and D2C tech"
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#huls-scoop-in-a-hot-market-all-scream-for-ice-cream-sep-2024",
+    "href": "blog/20250531/index-en.html#huls-scoop-in-a-hot-market-all-scream-for-ice-cream-sep-2024",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "",
+    "text": "Thanks for reading! Let me know in the comments what you think HUL should do to make a comeback in the ice cream biz!"
+  },
+  {
+    "objectID": "blog/20250531/index-en.html#footnotes",
+    "href": "blog/20250531/index-en.html#footnotes",
+    "title": "Left Behind in the Ice Cream Race",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHLL sells Dalda to US-based Bunge(Jun 2003)↩︎\nEconomic Times Original Article (May 2025)↩︎\nStatista: India’s Online Food Delivery Forecast (2024-2028)↩︎\nHindustan Unilever Gets Regulatory Nod to Spin Off Ice Cream Business (May 2025)↩︎"
+  },
+  {
+    "objectID": "concepts/Hedging/index-en.html",
+    "href": "concepts/Hedging/index-en.html",
+    "title": "Hedging",
+    "section": "",
+    "text": "What is a Hedge?\nHedging is a risk management strategy that helps reduce the risk of loss from an existing position, if the price moves unfavourably. You can think of it as a form of insurance. However, unlike insurance where you a pay a premium to insure your property, hedging in the financial world involves trading in other securities to reduce the risk of unfavourable price movement. In more technical terms, to hedge, you trade in securities that are negatively correlated to the security whose position you are trying to hedge.\n\n\n\n\n\n\nWhat is correlation?\n\n\n\n\n\nCorrelation is a derivative of the term “co-related”. Any two things which are co-related to each other exhibit correlation. Correlation is measured as a coefficient, whose value ranges between -1 and 1. A value of -1 indicates, perfect negative correlation, which means if a price of a security moves up by “x%”, the price of the other security would move down by the same “x%”. Similarly a value of 1 indicates, perfect positive correlation, which means if a price of a security moves up by “x%”, the price of the other security would also move up by the same “x%”. Often the correlation coefficient would be in between -1 and 1.\n\n\n\nThis post explains what hedging is with an example, rather than going into the different strategies available to hedge a position.\nLets work with an example. Assume you buy 100 stocks of a company “ABC” for $50 a share, thinking the price would go up in due course of time. To limit your losses from an adverse price movement, you buy a put option with a strike price of $40.\n\n\n\n\n\n\nWhat is put option?\n\n\n\n\n\nThe amount paid to buy the put option is called “premium”. The put option provides you the right (not obligation) to sell the security at $40 on the day of maturity. Therefore, even if the price of the security falls below $40, you retain the right to sell it at $40. Conversely, if the price of the security goes above $40, you will do nothing. The amount lost in this case would be the premium amount you initially paid to buy the put option.\n\n\n\nIf the price of the security falls below $40, the initial buy position incurs more loss which is offseted by the gains of the bought put option.\nConversely, if the price of the security moves above $40, the initial buy position gains value (losses reduce and the eventually turns into a gain once the price moves above $50) while the bought put option incurs a loss equal to the premium amount.\nAs the example above shows, a hedge, helps reduces the risk associated with a position. Firstly, it limits the amount of loss that can be incurred from a position. And because it reduces the risk of a position it also reduces the profit (in the example mentioned above, by an amount equal to the premium paid to buy the put option)\nHedging can also be done in the commodities market. For example, an airlines company might enter into a Futures contract to buy ATF at a fixed price (called the strike price) on a certain future date (called the expiry date). A futures contract obligates the buyer pay the strike price to buy the commodity. On the expiry date, even if the ATF is trading above the strike price, the airlines company will only pay the strike price to buy the quanta of ATF negotiated in the contract. On the flip side, even if the ATF is trading at a price below the strike price, the airlines company will need to pay the strike price to buy the ATF. Hedging via Futures helps a company budget future expenses and not be exposed to volatile price movements of a commodity.\n\n\nPosts referencing this concept\nFinancial Leverage\n\n\nAdditional concepts you may be interested in\nOptions Futures\n\n\nFurther Reading & References\nBeginner’s Guide to Hedging"
+  },
+  {
+    "objectID": "concepts/Prime-SubPrime-Alt-A/index-en.html",
+    "href": "concepts/Prime-SubPrime-Alt-A/index-en.html",
+    "title": "What are Prime, SubPrime and Alt-A loans",
+    "section": "",
+    "text": "Prime, Subprime and Alt-A are classification of loans / mortgages based on credit worthiness of the borrower.\nThe word “prime” in prime mortgage indicates good quality. Prime mortgages are good quality mortgages. Quality here refers to the quanta of risk associated with the loan; risk that the borrower may not repay the loan. Higher the quality, lower is the risk.\nThe prefix “sub” means lower and consequently, sub-prime mortgages refers to mortgages that are of a lower quality than prime mortgages.\nAlt-A loans carry a risk that is somewhere in between that of a prime and a sub-prime mortgage. They are riskier than a prime mortgage but not as risky as a subprime mortgage.\n\n\nThe answer lies in the monetary incentives should the risk not materialize. The fact that the loan is riskier does not necessarily mean that the loan will not be repaid. To compensate for the risk, lenders loan the amount at a higher interest rate and hence earn more on riskier loans.\n\n\n\nTypically, once a bank detects some kind of a risk or default with a loan, it qualifies it as a Non-Performing Asset (NPA). A loan being classified as a NPA does not necessarily mean that it will not be paid. However it does reflect a risk, and based on the quanta of risk, banks need to set aside or “provision” a percentage of the loan amount to cover potential losses should the risk materialize.\nProvisioning helps banks mitigate the impact of NPAs on their financial health. It ensures banks have enough capital to cover for potential losses and continue operations even if a some borrowers default."
+  },
+  {
+    "objectID": "concepts/Prime-SubPrime-Alt-A/index-en.html#why-would-lenders-give-riskier-loans",
+    "href": "concepts/Prime-SubPrime-Alt-A/index-en.html#why-would-lenders-give-riskier-loans",
+    "title": "What are Prime, SubPrime and Alt-A loans",
+    "section": "",
+    "text": "The answer lies in the monetary incentives should the risk not materialize. The fact that the loan is riskier does not necessarily mean that the loan will not be repaid. To compensate for the risk, lenders loan the amount at a higher interest rate and hence earn more on riskier loans."
+  },
+  {
+    "objectID": "concepts/Prime-SubPrime-Alt-A/index-en.html#how-do-the-banks-mitigate-the-risk-of-the-borrower-defaulting",
+    "href": "concepts/Prime-SubPrime-Alt-A/index-en.html#how-do-the-banks-mitigate-the-risk-of-the-borrower-defaulting",
+    "title": "What are Prime, SubPrime and Alt-A loans",
+    "section": "",
+    "text": "Typically, once a bank detects some kind of a risk or default with a loan, it qualifies it as a Non-Performing Asset (NPA). A loan being classified as a NPA does not necessarily mean that it will not be paid. However it does reflect a risk, and based on the quanta of risk, banks need to set aside or “provision” a percentage of the loan amount to cover potential losses should the risk materialize.\nProvisioning helps banks mitigate the impact of NPAs on their financial health. It ensures banks have enough capital to cover for potential losses and continue operations even if a some borrowers default."
+  },
+  {
+    "objectID": "concepts/financial-engineering/index-en.html#additional-concepts-you-may-be-interested-in",
+    "href": "concepts/financial-engineering/index-en.html#additional-concepts-you-may-be-interested-in",
+    "title": "Financial Engineering",
+    "section": "Additional concepts you may be interested in",
+    "text": "Additional concepts you may be interested in"
+  },
+  {
+    "objectID": "concepts/financial-engineering/index-en.html#further-reading-references",
+    "href": "concepts/financial-engineering/index-en.html#further-reading-references",
+    "title": "Financial Engineering",
+    "section": "Further Reading & References",
+    "text": "Further Reading & References"
+  },
+  {
+    "objectID": "concepts/fpo/index-en.html",
+    "href": "concepts/fpo/index-en.html",
+    "title": "What is FPO?",
+    "section": "",
+    "text": "A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital.\nThere are 2 types of FPO [^1] ## Dilution FPO: In this case, the company sells new shares to the public and pockets the proceeds. The share float or the total number of shares issued by the company increases by the amount of new shares issued during the FPO. Consequently, the ownership of existing shareholders in percentage terms reduces and the term Dilution refers to this reduction.\n\n\nIn this case, existing shareholders sell a portion of their shares to the public. The proceeds of the share sale goes to selling shareholders. Since the total number of shares issued by the company remains unchanged, the ownership percentage of existing shareholders (who did not sell or buy shares in the process) also does not change.\n[1]: What is FPO?"
+  },
+  {
+    "objectID": "concepts/fpo/index-en.html#non-dilution-fpo",
+    "href": "concepts/fpo/index-en.html#non-dilution-fpo",
+    "title": "What is FPO?",
+    "section": "",
+    "text": "In this case, existing shareholders sell a portion of their shares to the public. The proceeds of the share sale goes to selling shareholders. Since the total number of shares issued by the company remains unchanged, the ownership percentage of existing shareholders (who did not sell or buy shares in the process) also does not change.\n[1]: What is FPO?"
+  },
+  {
+    "objectID": "concepts/index-en.html",
+    "href": "concepts/index-en.html",
+    "title": "Concepts",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat are Reverse Mergers?\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nApr 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHedging\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMortgage vs Loans\n\n\n\nMortgage\n\nLoan\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat are Prime, SubPrime and Alt-A loans\n\n\n\nFinance\n\nRisk\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollateralized Debt Obligations\n\n\n\nCDO\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinancial Engineering\n\n\n\nFinancial Engineering\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinancial Leverage\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is FPO?\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat are Futures?\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMortgage Backed Securities\n\n\n\nFinance\n\nLeverage\n\n\n\n\n\n\n\nSatvik Raman\n\n\nMar 21, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "concepts/reverse-merger/index-en.html",
+    "href": "concepts/reverse-merger/index-en.html",
+    "title": "What are Reverse Mergers?",
+    "section": "",
+    "text": "A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route.\nI would like to think of reverse merger as a process where a private company merges itself into an existing public company and hence becomes public itself. In a reverse merger, a private company first acquires a majority (&gt;50%) stake in a public company. This transaction usually happens by means of a stock swap, where the private company “barters” its share to purchase the shares of the public company. The public company now owns shares of the private company and vice versa. Essentially, by becoming a subsidiary of a publicly traded company, the private company can itself be considered as a public company. [^1]\nMany a time, a publicly listed shell company is used to reverse merge into. A shell company, exists only on paper and does not engage in any active business.\nHowever, there are instances where active public companies have been reverse merged into. ICICI Bank is a publicly traded and one of the largest non-state owned bank in India. In 2002, the ICICI group and two of its subsidiaries ICICI Personal Finance Services Ltd and ICICI Capital Services Ltd, reverse merged with ICICI Bank [^2]\n[1]: Reverse Merger [2]: De-jargoned: Reverse Merger"
+  },
+  {
+    "objectID": "projects/copycat-investment/index-en.html",
+    "href": "projects/copycat-investment/index-en.html",
+    "title": "Copycat Investment",
+    "section": "",
+    "text": "Copycat Investment\nMohnish Pabrai"
+  }
+]
