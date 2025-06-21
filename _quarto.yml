@@ -1,20 +1,23 @@
 project:
   type: website
   output-dir: docs
-
   preview: 
     browser: true
     port: 5555
     watch-inputs: true
     navigate: true
-
   render:
-    - "*.qmd"
+    - "index.qmd"
+
+profile:
+  default: def
+  group: 
+    - [def,en,hi,kn,ta]
 
 website:
-  title: Satvik's Portfolio
+  title: "Satvik's Portfolio"
+  description: "A blog on the current financial stories through the eyes of a kid"
   site-url: "https://satvikraman.github.io"
-  description: A blog on the current financial stories through the eyes of a kid
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
 
   twitter-card:
@@ -27,33 +30,6 @@ website:
     image: "/files/profiles/twitter_card.png"
     locale: en_US  
 
-  navbar:
-    pinned: false
-    left:
-      - text: "About"
-        href: "index.qmd"
-      - text: "Blog"
-        file: blog/index.qmd
-      - text: "Concepts"
-        file: concepts/index.qmd
-      - text: "Projects"
-        file: projects/index.qmd
-
-    right:
-      - icon: rss
-        href: /blog/index.xml
-      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
-        href: "mailto:satvikraman@gmail.com"
-      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
-        href: https://github.com/satvikraman
-        rel: me
-      - text: "{{< iconify bi youtube size=1.1em title='YouTube' >}}"
-        href: https://www.youtube.com/satvikraman
-        rel: me
-      - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
-        href: https://www.linkedin.com/in/satvikraman
-        rel: me
-
   page-footer:
     left: |
       <div class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman</div>
@@ -65,3 +41,8 @@ website:
 format:
   html:
     theme: journal
+    css: /assets/styles.css
+
+lang: en-US
+language:
+  ui: en  # Default UI language
