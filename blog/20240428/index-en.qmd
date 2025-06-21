@@ -19,7 +19,7 @@ It first locked horns with Essar while trying to buy over its stake. Vodafone wa
 
 ::: {#nte-reverse-merger .callout-note collapse="true"}
 ## What is a reverse merger?
-A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. Want to read more, then click on [What are Reverse Mergers?](./../../concepts/reverse-merger/index.qmd)
+A reverse merger is an alternative way for private companies to go public and is a less time consuming and less expensive option than the conventional Initial Public Offer (IPO) route. Want to read more, then click on [What are Reverse Mergers?](./../../concepts/reverse-merger/index-en.qmd)
 :::
 
 Vodafone's acquisition of the 67% stake in Hutchison also came under a lot of Government scrutiny. A Cayman Island company, CGP Investments, initially owned this stake. Ideally any entity making profits is obliged to pay a portion of its gains as taxes to the local Government. However, in this case, since the transfer of CGP Investment's stake to Vodafone happened outside India and between two non-Indian entities, the Indian Government didn't get paid anything in taxes. The Government however asserted that the transaction should be taxable in India since it involved the transfer of assets located in the country. They held Vodafone accountable for not having withheld the tax on CGP Investment's capital gains and sought to recover INR 7,900 crores from it. To override the courts judgement which was in Vodafone's favour, the Indian Government retrospectively amended the Income Tax laws in 2012 and increased their demand to INR 14,200 crores including interest and penalties. Vodafone sought international arbitration which again ruled in Vodafone's favour in 2020. Eventually, after nearly a decade, in 2021, the Indian Government nullified the retrospective tax claims. Even though Vodafone came out unhurt from this legal challenge, it was an unpleasant experience from any measure.
@@ -35,7 +35,7 @@ Vi needs more cash to expand its existing 4G network and rollout its 5G service.
 
 ::: {#nte-fpo .callout-note collapse="true"}
 ## What is a FPO?
-A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital. In contrast, an IPO is a process where shares are being issued to the public for the very first time. Want to read more, then click on [What is a FPO?](./../../concepts/fpo/index.qmd)
+A Follow-on Public Offer (FPO) is a process where an already public company (a company that has already gone through the IPO process), issues new shares to raise more capital. In contrast, an IPO is a process where shares are being issued to the public for the very first time. Want to read more, then click on [What is a FPO?](./../../concepts/fpo/index-en.qmd)
 :::
 
 Vodafone's FPO was fully subscribed, which means Vodafone was able to raise the capital it had hoped to raise. This reflects the confidence these new investors have in the company's future. However, if you ask me I think the telco sector is capex intensive and operators have struggled to monetize their assets beyond the traditional voice, internet and SMS services. OTT players have been more successful in terms of providing value added entertainment, communication and enterprise services on the same network the operators painstakingly laid. 

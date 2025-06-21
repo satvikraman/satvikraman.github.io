@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs/hi
+  preview: 
+    browser: true
+    port: 5555
+    watch-inputs: true
+    navigate: true
+  render:
+    - "*-hi.qmd"
+
+website:
+  title: "सात्विक का पोर्टफोलियो"
+  description: "A blog on the current financial stories through the eyes of a kid"
+  site-url: "https://satvikraman.github.io"
+  repo-url: "https://github.com/satvikraman/satvikraman.github.io"
+
+  twitter-card:
+    image: "/files/profiles/twitter_card.png"
+    card-style: summary_large_image
+    creator: "@satvikraman"
+    site: "@satvikraman"
+  
+  open-graph: 
+    image: "/files/profiles/twitter_card.png"
+    locale: en_US  
+
+  page-footer:
+    left: |
+      <div class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman</div>
+      <div class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</div>
+    right: |
+      <div class="faux-block">Made with {{< fa brands python >}} and [Quarto](https://quarto.org/)</div>
+      <div class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</div>
+
+  navbar:
+    pinned: false
+    left:
+      - text: "परिचय"
+        href: index-hi.html
+      - text: "ब्लॉग"
+        file: blog/index-hi.html
+      - text: "कॉन्सेप्ट्स"
+        file: concepts/index-hi.html
+      - text: "प्रोजेक्ट्स"
+        file: projects/index-hi.html
+
+    right:
+      - text: "{{< iconify uil language size=1.1em title='Languages' >}}"
+        menu:
+          - text: English
+            href: ../en/index-en.html
+          - text: हिन्दी
+            href: ../hi/index-hi.html
+          - text: ಕನ್ನಡ
+            href: ../kn/
+      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+        href: "mailto:satvikraman@gmail.com"
+      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
+        href: https://github.com/satvikraman
+        rel: me
+      - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
+        href: https://www.linkedin.com/in/satvikraman
+        rel: me
+
+format:
+  html:
+    theme: journal
+    css: /assets/styles.css
+
+lang: en-US
+language:
+  ui: en  # Default UI language

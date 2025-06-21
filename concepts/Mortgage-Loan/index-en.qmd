@@ -13,13 +13,6 @@ categories:
   - Loan
 ---
 
-```{python}
-#| echo: false
-#| output: asis
-
-print('<h1 href=./../mortgage-backed-securities/index.qmd>Mortgage Backed Securities</h1>')
-```
-
 # What's the difference between a mortgage and a loan
 Both mortgage and loan involve borrowing money from a lender, typically a bank and repaying the amount with some added interest over a time window. The difference between mortgage and person loan primarily rests around how you can use the borrowed money. 
 
@@ -39,4 +32,4 @@ Contrast this with the construction of a house. The construction of a house is b
 For these reasons, while on the face of it both mortgages are loans are a way of borrowing money, it is reasonable and perhaps warranted to treat them differently.
 
 # Posts referencing this concept
-[Mortgage Backed Securities](./../mortgage-backed-securities/index.qmd)
+[Mortgage Backed Securities](./../mortgage-backed-securities/index-en.qmd)

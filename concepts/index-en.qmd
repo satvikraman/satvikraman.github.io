@@ -2,7 +2,7 @@
 title: "Concepts"
 listing: 
   contents: 
-    - "*.qmd"
+    - "*-en.qmd"
   type: grid
   sort:
     - "date desc"

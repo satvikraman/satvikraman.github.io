@@ -10,22 +10,15 @@ open-graph:
 categories:
   - Finance
   - Leverage
-blog-title-refs: 
-  - "Collapse of Lehman Brothers"
-concept-title-refs: 
-  - "What are Prime, SubPrime and Alt-A loans"
-  - "Mortgage vs Loans"
-  - "Mortgage Backed Securities"
-category-refs: ""  
 ---
 
-We referred to the subprime crisis in the [Collapse of the Lehman Brothers](./../20240331/index.qmd) post. Let's dive deeper into the crisis itself here. 
+We referred to the subprime crisis in the [Collapse of the Lehman Brothers](./../20240331/index-en.qmd) post. Let's dive deeper into the crisis itself here. 
 
-The subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders. It was the onset of the Great Recession (2007-2009), that's regarded as the worst economic downturn since the Great Depression.
+The subprime crisis refers to the collapse of the US housing market in 2007-2008 that caused the failure of many financial institutions including investments banks, insurance companies and mortgage lenders [^1]. It was the onset of the Great Recession (2007-2009), that's regarded as the worst economic downturn since the Great Depression.
 
 # Causes
 ## Lowering of Federal Interest Rates
-US Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 to Dec 2001 [^1]. Interest rates were lowered from ~6% in 2001 to about ~1% in 2003 [^3] [^4]. Lower interest rates allowed businesses to borrow and invest resulting in economic growth. With more disposable income at hand, the demand for homes increased which also resulted in an increased demand for mortgages. 
+US Federal reserve lowered interest rates to give a boost to the US economy after the dot-com bubble of 2000 and the 9/11 attacks in 2001. They reduced the interest rate 11 times from May 2000 to Dec 2001 [^2]. Interest rates were lowered from ~6% in 2001 to about ~1% in 2003 [^3] [^4]. Lower interest rates allowed businesses to borrow and invest resulting in economic growth. With more disposable income at hand, the demand for homes increased which also resulted in an increased demand for mortgages. 
 
 With rising home ownership levels, banks had difficulty finding new home buyers and resorted to lending to subprime borrowers to maintain the growth of their loans. Subprime borrowers were those who would traditionally not qualify for a loan. The extent to which lending standards had been relaxed can be guaged by the fact that NINJA loans were also being offered. NINJA was an acronym for No Income, No Job or Assests. Essentially anyone willing to take a loan was being offered a loan. The low interest rate regime certainly helped fuel this exaggerated demand for homes and mortgages. 
 
@@ -50,7 +43,7 @@ From 2004 to 2006, the US Federal Reserve did a U-turn on the interest rate traj
 Rating agencies that had initially given a 5 star rating to the MBS's were now treating them as toxic or worthless assets. It became apparent that conflict of interest guided their initial 5 star rating decision since they were paid by the same banks whose MBS's they were rating. 
 
 # You might also like to read
-[^1]: [Financial Crisis of 2007-08](https://www.britannica.com/money/financial-crisis-of-2007-2008){target="_blank"}
-[^2]: [What was the Subprime Meltdown?](https://www.investopedia.com/terms/s/subprime-meltdown.asp){target="_blank"}
+[^1]: [What was the Subprime Meltdown?](https://www.investopedia.com/terms/s/subprime-meltdown.asp){target="_blank"}
+[^2]: [Financial Crisis of 2007-08](https://www.britannica.com/money/financial-crisis-of-2007-2008){target="_blank"}
 [^3]: [Federal Reserve: Open Market Operation](https://www.federalreserve.gov/monetarypolicy/openmarket.htm){target="_blank"}
 [^4]: [Federal Reserve: Open Market Operation Archive](https://www.federalreserve.gov/monetarypolicy/openmarket_archive.htm){target="_blank"}

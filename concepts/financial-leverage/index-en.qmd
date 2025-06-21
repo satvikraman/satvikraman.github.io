@@ -145,7 +145,7 @@ There is of couse a cost associated with financial leverage. Since financial lev
 The use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would.
 
 # Posts referencing this concept
-[Collapse of Lehman Brothers](./../../blog/20240331/index.qmd)
+[Collapse of Lehman Brothers](./../../blog/20240331/index-en.qmd)
 
 # Additional concepts you may be interested in
-[Hedging](./../Hedging/index.qmd)
+[Hedging](./../Hedging/index-en.qmd)

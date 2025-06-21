@@ -1,0 +1,93 @@
+---
+title: "Satvik Raman"
+about:
+    id: hero-heading
+    template: solana
+    image-shape: rounded
+    links:
+        - icon: github
+          text: Github
+          href: https://github.com/satvikraman
+        - icon: linkedin
+          text: LinkedIn
+          href: https://linkedin.com/satvikraman
+        - icon: share
+          text: Share
+          href: satvikraman.github.io
+format:
+    html:
+        page-layout: full
+lightbox: auto
+---
+#####
+:::{#hero-heading}
+![](/assets/profile/satvik_photo_20230101.jpg){.right-align width=15%}
+I'm a grade 11 student at Sri Kumaran's Children's Home school.  I love Maths and intend to pursue business studies and economics going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.
+
+I am passionate about football. I play for my school's football and table-tennis teams and have represented them in CBSE cluster tournaments (The CBSE cluster tournaments are inter school level competitions that progresses from a state to a national level competition among schools affiliated to the CBSE board). 
+
+I have been playing football at the club level for the last 2 years as part of the U17 Young Blue Elite FC team [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}. This year I will be a part of their U19 squad.
+:::
+
+## Education
+Sri Kumaran's Children's Home school | Bengaluru
+
+## 🏆 Awards and Recognitions
+
+::: {.awards-container}
+
+::: {.award-item}
+<div class="award-text">
+### State level CBSE clusters TT tournament - 2020 - Runners Up
+<p>I represented my school at the state level CBSE clusters competition and we came runners up.</p>
+</div>
+![](/assets/profile/TT-State-2020-2nd.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### Google Code To Learn - 2019 - Winner
+<p>Created an Android application. [Video demo](https://www.youtube.com/watch?v=M2hzPp6bmkQ)</p>
+</div>
+![](/assets/profile/Google-Code-To-Learn.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### National level CBSE clusters TT tournament - 2020
+<p>I represented my school at the national level. The competition was held in Noorpur, Uttar Pradesh.</p>
+</div>
+![](/assets/profile/TT-National-2019-Paticipation.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### State level CBSE clusters TT tournament - 2019 - Winner
+<p>We won the state level competition and were selected to compete at the national level.</p>
+</div>
+![](/assets/profile/TT-State-2019-1st.jpeg){.award-image}
+:::
+
+:::
+
+## 📜 Certifications
+
+::: {.awards-container}
+
+::: {.award-item}
+<div class="award-text">
+### German A2
+<p>I cleared the A2 level German language proficiency test in 2023.</p>
+</div>
+![](/assets/profile/German-A2.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### German A1
+<p>I cleared the A1 level German language proficiency test in 2022.</p>
+</div>
+![](/assets/profile/German-A1.jpeg){.award-image}
+:::
+
+:::

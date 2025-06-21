@@ -12,14 +12,6 @@ categories:
   - Leverage
   - Mortgage Backed Securities
   - Risk
-blog-title-refs: 
-  - "Subprime Crisis"
-  - "Why does the world trade in US dollars?"
-concept-title-refs: 
-  - "What are Prime, SubPrime and Alt-A loans"
-  - "Mortgage Backed Securities"
-  - "Financial Engineering"
-category-refs: ""
 ---
 
 <p><b>Pageviews:</b> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M247.31 124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57 61.26 162.88 48 128 48S61.43 61.26 36.34 86.35C17.51 105.18 9 124 8.69 124.76a8 8 0 0 0 0 6.5c.35.79 8.82 19.57 27.65 38.4C61.43 194.74 93.12 208 128 208s66.57-13.26 91.66-38.34c18.83-18.83 27.3-37.61 27.65-38.4a8 8 0 0 0 0-6.5M128 168a40 40 0 1 1 40-40a40 40 0 0 1-40 40"/></svg> <span class="waline-pageview-count"></i><p>
@@ -34,17 +26,17 @@ Lehman Brothers branched out into Mortgage Backed Securities (MBS) and Collatera
 
 ::: {.callout-caution collapse="true"}
 ## What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)?
-MBSs and CDOs are a product of Financial Engineering. MBS, are securities similar to bonds that are backed by a bundle of home loans. CDO are a financial product which is backed by a pool of loans and other assets. Want to read more, then click on [What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)](./../../concepts/mortgage-backed-securities/index.qmd)
+MBSs and CDOs are a product of Financial Engineering. MBS, are securities similar to bonds that are backed by a bundle of home loans. CDO are a financial product which is backed by a pool of loans and other assets. Want to read more, then click on [What are Mortgage Backed Securities (MBS) and Collateralized Debt Obligations (CDO)](./../../concepts/mortgage-backed-securities/index-en.qmd)
 :::
 
 ::: {.callout-caution collapse="true"}
 ## What are Prime, Subprime and Alt-A loans?
-Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on [What are Prime, Subprime and Alt-A loans](./../../concepts/Prime-SubPrime-Alt-A/index.qmd)
+Prime, Sub-Prime and Alt-A refers to the classification of a mortgage based on its risk profile. Relatively, Prime carries the least amount of risk, then comes Alt-A and then Sub-Prime. Want to read more, then click on [What are Prime, Subprime and Alt-A loans](./../../concepts/Prime-SubPrime-Alt-A/index-en.qmd)
 :::
 
 Lehman’s real estate business made a lot of money in the capital markets unit by securitizing morgages. In simple terms, banks that lent money to the home buyers, bundled mortgages as securities and sold them to investment banks like Lehman. Lehman securitized $146 billion worth of mortgages in 2006 alone. This helped their revenue grow by 56% from 2004 to 2006 and allowed them to report record profits every year from 2005 to 2007. In February 2007, Lehman's stock price reached an all time high driving its market capitalization to nearly $60 billion. 
 
-![Lehman Stock Price [^1]](LehmanStockPrice.png "Title: Lehman's stock price"){#fig-lehman-stock-price fig-alt="Figure showing Lehman Brother's stock price from 1995 to 2008"}
+![Lehman Stock Price [^1]](./LehmanStockPrice.png "Title: Lehman's stock price"){#fig-lehman-stock-price fig-alt="Figure showing Lehman Brother's stock price from 1995 to 2008"}
 
 [^1]: [Annual year end stock price for Lehman Brothers from 1995 to 2008](https://www.statista.com/statistics/1349730/global-financial-crisis-lehman-brothers-stock-price/){target="_blank"}
 
@@ -55,7 +47,7 @@ Lehman and its subsidiaries were buying securities backed by Alt-A and sub-prime
 ## Heavily leveraged position
 Despite this, in 2007, Lehman bought more MBS than any other company. They built up a portfolio, worth $85 billion, of these securities, which was worth 4 times it shareholder's equity. Lehman was leaning forward and using financial leverage to fund its purchase completely ignoring all the warning signs. 
 
-![Levarage ratios for major investment banks [^2]](LeverageRatioInvestmentBanks.png){#fig-lehman-leverage fig-alt="Figure showing the leverage used by major investment banks from 2003 to 2007"}
+![Levarage ratios for major investment banks [^2]](./LeverageRatioInvestmentBanks.png){#fig-lehman-leverage fig-alt="Figure showing the leverage used by major investment banks from 2003 to 2007"}
 
 As can be seen in @fig-lehman-leverage, the use of leverage was increasing in each of the major investment banks since 2003. In 2007, Lehman had an exceptionally high level of leverage, 31:1 and its huge portfolio of MBS made it very vulnerable to the worsening US housing market conditions. At such a high leverage even a small correction in the value of the MBS would have had a huge impact on Lehman's portfolio. And in 2008, we were not talking about a small correction. When the housing market in the US went into a tail-spin, also referred to as the sub-prime crisis, mortgage defaults spiralled and so did Lehman's problems. 
 
@@ -63,7 +55,7 @@ As can be seen in @fig-lehman-leverage, the use of leverage was increasing in ea
 
 ::: {.callout-caution collapse="true"}
 ## What is a leveraged position?
-Leveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on [Financial Leverage](./../../concepts/financial-leverage//index.qmd)
+Leveraged position or financial leverage is the act of borrowing money to invest. Leverage helps boosts returns when the trade is favourable but can also increase losses if the trade is unfavourable. Want to read more, then click on [Financial Leverage](./../../concepts/financial-leverage/index-en.qmd)
 :::
 
 # Implosion
@@ -82,13 +74,13 @@ Post the World War II, global trading moved towards the US dollar. Central banks
 Treasury securities are issued by the US government to fund its budget deficit, or the amount the government borrows to fill the gap between what it earns and what it spends. Treasury securities offer a fixed interest rate if held until its maturity and are considered the safest form of investment.
 :::
 
-![Yield on the 10 year Americal treasury [^3]](web2_Lehman-Brothers.webp){#fig-treasury-yield fig-alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018" fig-align="left"}
+![Yield on the 10 year Americal treasury [^3]](./web2_Lehman-Brothers.webp){#fig-treasury-yield fig-alt="Figure showing the yield on the 10 year American treasury security from 1995 to 2018" fig-align="left"}
 
 The yield on the treasury securities sets a reference for the overall interest rate scenario in the country. As lending to individuals and corporates is considered riskier than lending to the government, individuals and corporates are lent money at an interest rate that's relatively higher than the yield on the treasure securities. This is done to  compensate for the additional risk being taken. The risk profile of the borrower determines how much higher the interest rates are pegged in comparison to the yield on the treasury securities. But since the yield on the treasury securities was low to start with, individuals, banks and corporates were able to borrow money at reasonably low interest rates. 
 
 This allowed banks and financial firms to borrow more and more money in order to speculate in the financial markets and spruce up their returns. It also allowed individuals to borrow more than what they could ever repay and that eventually led to the real estate bubble. The total household debt in the US, went up dramatically from $7.2 trillion in early 2003 to a peak of $12.7 trillion in 2008. 
 
-![Rise in US household debt](web3_Lehman-Brothers.webp){#fig-household-debt fig-alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more" fig-align="left"}
+![Rise in US household debt](./web3_Lehman-Brothers.webp){#fig-household-debt fig-alt="Figure showing the rise in the US household debt. A low treasury yield set a low interest rage regime in the US, encouraging households to borrow more" fig-align="left"}
 
 [^3]: [What happened during the 2008 Lehman crisis](https://www.livemint.com/Industry/Gi4CgVYJ4QLOiVGRKqx8JO/Learning-from-Lehman-what-goes-around.html)
 

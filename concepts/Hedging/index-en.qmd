@@ -38,7 +38,7 @@ As the example above shows, a hedge, helps reduces the risk associated with a po
 Hedging can also be done in the commodities market. For example, an airlines company might enter into a Futures contract to buy ATF at a fixed price (called the strike price) on a certain future date (called the expiry date). A futures contract obligates the buyer pay the strike price to buy the commodity. On the expiry date, even if the ATF is trading above the strike price, the airlines company will only pay the strike price to buy the quanta of ATF negotiated in the contract. On the flip side, even if the ATF is trading at a price below the strike price, the airlines company will need to pay the strike price to buy the ATF. Hedging via Futures helps a company budget future expenses and not be exposed to volatile price movements of a commodity. 
 
 # Posts referencing this concept
-[Financial Leverage](./../financial-leverage/index.qmd)
+[Financial Leverage](./../financial-leverage/index-en.qmd)
 
 # Additional concepts you may be interested in
 [Options]()
