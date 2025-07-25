@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>सात्विक का पोर्टफोलियो</title>
+<link>https://satvikraman.github.io/blog/index-hi.html</link>
+<atom:link href="https://satvikraman.github.io/blog/index-hi.xml" rel="self" type="application/rss+xml"/>
+<description>A blog on the current financial stories through the eyes of a kid</description>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Wed, 20 Mar 2024 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>लेहमन ब्रदर्स की गिरावट</title>
+  <dc:creator>सात्विक रामन</dc:creator>
+  <link>https://satvikraman.github.io/blog/20240331/index-hi.html</link>
+  <description><![CDATA[ लेहमन ब्रदर्स की कहानी 1884 से शुरू होती है, जब जर्मनी से आए तीन भाइयों ने अलबामा में एक जनरल स्टोर खोला था। अमेरिका की बढ़ती इकॉनमी ने उन्हें काफी फायदा पहुँचाया और वे देश के चौथे सबसे बड़े इन्वेस्टमेंट बैंक बन गए। इस ब्लॉग में हम समझते हैं कि कैसे और क्यों उनका पतन हुआ। ]]></description>
+  <category>दिवालिया</category>
+  <category>होम लोन पर आधारित इन्वेस्टमेंट प्रोडक्ट्स</category>
+  <guid>https://satvikraman.github.io/blog/20240331/index-hi.html</guid>
+  <pubDate>Wed, 20 Mar 2024 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20240331/lehman-brothers.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

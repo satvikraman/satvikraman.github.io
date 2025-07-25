@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Satvik Raman">
+<meta name="dcterms.date" content="2024-03-21">
+
+<title>Financial Leverage – Satvik’s Portfolio</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<!-- ... -->
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+
+
+
+<link rel="stylesheet" href="../../assets/styles.css">
+<meta property="og:title" content="Financial Leverage – Satvik’s Portfolio">
+<meta property="og:description" content="There are only three ways a smart person can go broke: liquor, ladies and leverage - Charlie Munger">
+<meta property="og:image" content="https://satvikraman.github.io/concepts/financial-leverage/lever.jpg">
+<meta property="og:site_name" content="Satvik's Portfolio">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Financial Leverage – Satvik’s Portfolio">
+<meta name="twitter:description" content="There are only three ways a smart person can go broke: liquor, ladies and leverage - Charlie Munger">
+<meta name="twitter:image" content="https://satvikraman.github.io/concepts/financial-leverage/lever.jpg">
+<meta name="twitter:creator" content="@satvikraman">
+<meta name="twitter:site" content="@satvikraman">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Satvik’s Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index-en.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index-en.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../concepts/index-en.html"> 
+<span class="menu-text">Concepts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index-en.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🌐</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="../../../index-en.html">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index-hi.html">
+ <span class="dropdown-text">हिन्दी</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../kn/">
+ <span class="dropdown-text">ಕನ್ನಡ</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:satvikraman@gmail.com"> 
+<span class="menu-text"><iconify-icon inline="" icon="bi:envelope" style="font-size: 1.1em;" aria-label="Icon envelope from bi Iconify.design set." title="E-mail"></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/satvikraman" rel="me"> 
+<span class="menu-text"><iconify-icon inline="" icon="bi:github" style="font-size: 1.1em;" aria-label="Icon github from bi Iconify.design set." title="GitHub"></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/satvikraman" rel="me"> 
+<span class="menu-text"><iconify-icon inline="" icon="bi:linkedin" style="font-size: 1.1em;" aria-label="Icon linkedin from bi Iconify.design set." title="LinkedIn"></iconify-icon></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-leverage" id="toc-what-is-leverage" class="nav-link active" data-scroll-target="#what-is-leverage">What is leverage?</a>
+  <ul class="collapse">
+  <li><a href="#but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it" id="toc-but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it" class="nav-link" data-scroll-target="#but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it">But isn’t there a cost associated with financial leverage? When does it make potentially make sense to use it?</a></li>
+  </ul></li>
+  <li><a href="#posts-referencing-this-concept" id="toc-posts-referencing-this-concept" class="nav-link" data-scroll-target="#posts-referencing-this-concept">Posts referencing this concept</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Financial Leverage</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead"><i>There are only three ways a smart person can go broke: liquor, ladies and leverage<br> - Charlie Munger</i></p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finance</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Satvik Raman </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 21, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-is-leverage" class="level1 page-columns page-full">
+<h1>What is leverage?</h1>
+<p>Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./lever.jpg" class="img-fluid figure-img"></p>
+<figcaption>Give me a lever long enough… and I shall move the world</figcaption>
+</figure>
+</div>
+</div></div><p>Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. In simple terms, when you invest borrowed money you are using financial leverage. Leverage boosts returns if the trade works favourably. However, it is a double edged sword. If the trade does not go as planned it will also exaggerate the losses. Leverage therefore works like a magnifying glass, magnifying both gains and losses.</p>
+<p>Let’s work with an example. For the purpose of this discussion lets ignore the any additional cost including that of financing, brokerage etc… We will only focus on the impact of leverage in isolation.</p>
+<p>Assume you have $100 and you borrow another $100 to invest a total of $200. This is a financial leverage of 1:1 i.e.&nbsp;for every $1 of your own money you are borrowing another $1.</p>
+<p>The yield curve for the 1:1 leverage and no leverage positions are drawn in <span style="color:red">red</span> and <span style="color:green">green</span> colour respectively in the “Example” tab of <a href="#fig-yield-curve" class="quarto-xref">Figure&nbsp;1</a>. The “X” axis is the return that a security can provide. The “Y” axis is the return experienced by trading in that security. Ideally the return experienced by trading a security should be the same as the return provided by the security, the <span style="color:green">green</span> line. However, with leverage, the returns experienced gets magnified and thats the <span style="color:green">red</span> line.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="36" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 35;"><span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>plotVals <span class="op">=</span> []</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>initial_capital <span class="op">=</span> <span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell hidden">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="40" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(<span class="kw">let</span> leverage <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> leverage <span class="op">&lt;</span> <span class="dv">100</span><span class="op">;</span> leverage<span class="op">+=</span><span class="dv">1</span>) {</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> leveraged_capital <span class="op">=</span> initial_capital <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> leverage)</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (<span class="kw">let</span> move_perc <span class="op">=</span> <span class="op">-</span><span class="dv">50</span><span class="op">;</span> move_perc <span class="op">&lt;=</span> <span class="dv">50</span><span class="op">;</span> move_perc<span class="op">+=</span><span class="dv">10</span>) {       </span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> corpus <span class="op">=</span> leveraged_capital <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> move_perc<span class="op">/</span><span class="dv">100</span>)</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> pnl <span class="op">=</span> corpus <span class="op">-</span> leveraged_capital</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> pnl_perc <span class="op">=</span> pnl <span class="op">*</span> <span class="dv">100</span> <span class="op">/</span> initial_capital</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>        plotVals<span class="op">.</span><span class="fu">push</span>({<span class="st">"Market Return %"</span><span class="op">:</span> move_perc<span class="op">,</span> <span class="st">"Portfolio Return %"</span><span class="op">:</span> pnl_perc<span class="op">,</span> <span class="st">"lev"</span><span class="op">:</span> leverage})</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    }  </span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display hidden">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="fig-yield-curve" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-yield-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Plot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Interactive</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="62" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 61;"><span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">gridX</span>({<span class="dt">interval</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#d2d2d2"</span><span class="op">,</span> <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="fl">0.5</span>})<span class="op">,</span></span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">gridY</span>({<span class="dt">interval</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#d2d2d2"</span><span class="op">,</span> <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="fl">0.5</span>})<span class="op">,</span></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"red"</span>})<span class="op">,</span></span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">1</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"green"</span>})<span class="op">,</span></span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="dv">20</span>]<span class="op">,</span> {<span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="dv">40</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="op">-</span><span class="dv">10</span>]<span class="op">,</span> {<span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="op">-</span><span class="dv">20</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">20</span><span class="op">,</span> <span class="dv">40</span>]<span class="op">,</span> {<span class="dt">x1</span><span class="op">:</span> <span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="dv">20</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="op">-</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">x1</span><span class="op">:</span> <span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">0</span>]<span class="op">,</span> {<span class="dt">stroke</span><span class="op">:</span> <span class="st">"blue"</span>})<span class="op">,</span></span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="dv">0</span>]<span class="op">,</span> {<span class="dt">stroke</span><span class="op">:</span> <span class="st">"blue"</span>})<span class="op">,</span></span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<p>1:1 leverage yield curve used as an example in the text</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="84" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 83;"><span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>  <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">50</span><span class="op">,</span> <span class="dv">50</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">1</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">2</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">4</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">5</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">10</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">20</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">30</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">40</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">50</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {<span class="dt">legend</span><span class="op">:</span> <span class="kw">true</span>}</span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<p>A graph showing the yield curve at different leverage ratios</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="108" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 107;"><span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>viewof leverage <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>(</span>
+<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a>  [<span class="dv">1</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> </span>
+<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Leverage ratio:"</span>}</span>
+<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a>  <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">50</span><span class="op">,</span> <span class="dv">50</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> leverage)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})</span>
+<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<p>Move the slider to see how the slope of the yield curve change with leverage</p>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-yield-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Slippery slope: Yield curve of a non leveraged position (black) vs.&nbsp;a leveraged position
+</figcaption>
+</figure>
+</div>
+<p>Continuing with the “Example” tab, assume that the security moves favourably by 20%. Because of the leverage, your returns are $40 (20% of $200) which is significantly larger than the $20 (20% of $100) you would have made without it. A $40 return translates to a 40% return on your initial capital of $100, even though the security moved only by 20%. In percentage terms, a 1:1 leverage, doubles your gain percentage. A 10% gain in the security, causes you to gain 20% of your capital. Isn’t that awesome.</p>
+<p>But lets also look at the flip side. What if the market security in the opposite direction by 10%. Because of the leverage, your loss will be $20 (10% of $200) which is again significantly larger than $10 (10% of $100) you would have lost had you not leveraged your position. Similar to the favourable case above, in percentage terms, a 1:1 leverage, doubles your loss percentage. A 10% drop in the security, causes you to lose 20% of your capital.</p>
+<p>Leverage can be addictive, more so if you experienced beginner’s luck. However, if your trades don’t work out and you continue using leverage it can quickly wipe out your investing capital. The use of leverage without adequate caution can be disastrous.</p>
+<p>Refer the “Plot” tab in <a href="#fig-yield-curve" class="quarto-xref">Figure&nbsp;1</a>. I compare leverage to a slippery slope. The different coloured lines depict the yield curve at different leverages. The leverage ratio increases as the color transitions from <span style="color:black">black</span> <iconify-icon inline="" icon="maki:arrow" style="font-size: 1.1em;" aria-label="Icon arrow from maki Iconify.design set." title="Icon arrow from maki Iconify.design set."></iconify-icon> <span style="color:blue">blue</span> <iconify-icon inline="" icon="maki:arrow" style="font-size: 1.1em;" aria-label="Icon arrow from maki Iconify.design set." title="Icon arrow from maki Iconify.design set."></iconify-icon> <span style="color:green">green</span> <iconify-icon inline="" icon="maki:arrow" style="font-size: 1.1em;" aria-label="Icon arrow from maki Iconify.design set." title="Icon arrow from maki Iconify.design set."></iconify-icon> <span style="color:yellow">yellow</span> <iconify-icon inline="" icon="maki:arrow" style="font-size: 1.1em;" aria-label="Icon arrow from maki Iconify.design set." title="Icon arrow from maki Iconify.design set."></iconify-icon> <span style="color:red">red</span>. Higher the leverage, higher is the slope of the yield curve which translates to a higher boost to both your gain and loss. No one complains when the going is good. But when panic strikes, and fear spreads much faster than greed, things can very quickly get out of control.</p>
+<p>If you want a more interactive feel to see how quickly the slope of the yield curve changes switch to the “Interactive” tab in <a href="#fig-yield-curve" class="quarto-xref">Figure&nbsp;1</a> and play with the slide rule. You would notice that the slope increases quite rapidly with every unit change in the leverage. And as the slope increases, so does the risk.</p>
+<p>It is worth noting that certain financial instruments have leverage built into them. Many brokers provide leverage on intra-day trading. Derivative products like futures and options also provide leverage. These financial instruments therefore need to be used with proper knowledge and abundant caution. As Warren Buffett said, “When you combine ignorance and leverage you get some pretty interesting results”</p>
+<section id="but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it" class="level2">
+<h2 class="anchored" data-anchor-id="but-isnt-there-a-cost-associated-with-financial-leverage-when-does-it-make-potentially-make-sense-to-use-it">But isn’t there a cost associated with financial leverage? When does it make potentially make sense to use it?</h2>
+<p>There is of couse a cost associated with financial leverage. Since financial leverage is nothing short of borrowing money, the borrower would need to pay a financing cost proportional to the interest rate and the principal being borrowed to the lender. While buying securities, this is often factored into the brokerage pricing.</p>
+<p>The use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would.</p>
+</section>
+</section>
+<section id="posts-referencing-this-concept" class="level1">
+<h1>Posts referencing this concept</h1>
+<p><a href="../../blog/20240331/index-en.html">Collapse of Lehman Brothers</a></p>
+<!--
+# Additional concepts you may be interested in
+[Hedging](./../Hedging/index-en.qmd)
+-->
+
+
+<!-- -->
+
+</section>
+
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InBsb3RWYWxzID0gW11cclxuaW5pdGlhbF9jYXBpdGFsID0gMTAwXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IntcclxuICBmb3IobGV0IGxldmVyYWdlID0gMDsgbGV2ZXJhZ2UgPCAxMDA7IGxldmVyYWdlKz0xKSB7XHJcbiAgICBsZXQgbGV2ZXJhZ2VkX2NhcGl0YWwgPSBpbml0aWFsX2NhcGl0YWwgKiAoMSArIGxldmVyYWdlKVxyXG4gICAge1xyXG4gICAgICBmb3IgKGxldCBtb3ZlX3BlcmMgPSAtNTA7IG1vdmVfcGVyYyA8PSA1MDsgbW92ZV9wZXJjKz0xMCkgeyAgICAgICBcclxuICAgICAgICBsZXQgY29ycHVzID0gbGV2ZXJhZ2VkX2NhcGl0YWwgKiAoMSArIG1vdmVfcGVyYy8xMDApXHJcbiAgICAgICAgbGV0IHBubCA9IGNvcnB1cyAtIGxldmVyYWdlZF9jYXBpdGFsXHJcbiAgICAgICAgbGV0IHBubF9wZXJjID0gcG5sICogMTAwIC8gaW5pdGlhbF9jYXBpdGFsXHJcblxyXG4gICAgICAgIHBsb3RWYWxzLnB1c2goe1wiTWFya2V0IFJldHVybiAlXCI6IG1vdmVfcGVyYywgXCJQb3J0Zm9saW8gUmV0dXJuICVcIjogcG5sX3BlcmMsIFwibGV2XCI6IGxldmVyYWdlfSlcclxuICAgICAgfVxyXG4gICAgfSAgXHJcbiAgfVxyXG4gIHJldHVyblxyXG59XHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlBsb3QucGxvdCh7XHJcbiAgeDoge2RvbWFpbjogWy0xMDAsIDEwMF0sIGdyaWQ6IHRydWV9LFxyXG4gIHk6IHtkb21haW46IFstMTAwLCAxMDBdLCBncmlkOiB0cnVlfSxcclxuICBtYXJrczogW1xyXG4gICAgICBQbG90LmdyaWRYKHtpbnRlcnZhbDogNSwgc3Ryb2tlOiBcIiNkMmQyZDJcIiwgc3Ryb2tlT3BhY2l0eTogMC41fSksXHJcbiAgICAgIFBsb3QuZ3JpZFkoe2ludGVydmFsOiA1LCBzdHJva2U6IFwiI2QyZDJkMlwiLCBzdHJva2VPcGFjaXR5OiAwLjV9KSxcclxuXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSAwKSwge3g6IFwiTWFya2V0IFJldHVybiAlXCIsIHk6IFwiUG9ydGZvbGlvIFJldHVybiAlXCIsIHN0cm9rZTogXCJyZWRcIn0pLFxyXG4gICAgICBQbG90LmxpbmUocGxvdFZhbHMuZmlsdGVyKGQgPT4gZC5sZXYgPT0gMSksIHt4OiBcIk1hcmtldCBSZXR1cm4gJVwiLCB5OiBcIlBvcnRmb2xpbyBSZXR1cm4gJVwiLCBzdHJva2U6IFwiZ3JlZW5cIn0pLFxyXG4gICAgICBQbG90LnJ1bGVYKFsyMF0sIHt5MTogMCwgeTI6IDQwLCBzdHJva2U6IFwiI2IyYjJiMlwifSksXHJcbiAgICAgIFBsb3QucnVsZVgoWy0xMF0sIHt5MTogMCwgeTI6IC0yMCwgc3Ryb2tlOiBcIiNiMmIyYjJcIn0pLFxyXG4gICAgICBQbG90LnJ1bGVZKFsyMCwgNDBdLCB7eDE6IC0xMDAsIHgyOiAyMCwgc3Ryb2tlOiBcIiNiMmIyYjJcIn0pLFxyXG4gICAgICBQbG90LnJ1bGVZKFstMTAsIC0yMF0sIHt4MTogLTEwMCwgeDI6IC0xMCwgc3Ryb2tlOiBcIiNiMmIyYjJcIn0pLFxyXG4gICAgICBQbG90LnJ1bGVZKFswXSwge3N0cm9rZTogXCJibHVlXCJ9KSxcclxuICAgICAgUGxvdC5ydWxlWChbMF0sIHtzdHJva2U6IFwiYmx1ZVwifSksXHJcbiAgICBdLFxyXG59KVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJQbG90LnBsb3Qoe1xyXG4gIGdyaWQ6IHRydWUsXHJcbiAgeDoge2RvbWFpbjogWy01MCwgNTBdLCBncmlkOiB0cnVlfSxcclxuICB5OiB7ZG9tYWluOiBbLTEwMCwgMTAwXSwgZ3JpZDogdHJ1ZX0sXHJcbiAgbWFya3M6IFtcclxuICAgICAgUGxvdC5saW5lKHBsb3RWYWxzLmZpbHRlcihkID0+IGQubGV2ID09IDApLCB7eDogXCJNYXJrZXQgUmV0dXJuICVcIiwgeTogXCJQb3J0Zm9saW8gUmV0dXJuICVcIiwgc3Ryb2tlOiBcImxldlwifSksXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSAxKSwge3g6IFwiTWFya2V0IFJldHVybiAlXCIsIHk6IFwiUG9ydGZvbGlvIFJldHVybiAlXCIsIHN0cm9rZTogXCJsZXZcIn0pLFxyXG4gICAgICBQbG90LmxpbmUocGxvdFZhbHMuZmlsdGVyKGQgPT4gZC5sZXYgPT0gMiksIHt4OiBcIk1hcmtldCBSZXR1cm4gJVwiLCB5OiBcIlBvcnRmb2xpbyBSZXR1cm4gJVwiLCBzdHJva2U6IFwibGV2XCJ9KSxcclxuICAgICAgUGxvdC5saW5lKHBsb3RWYWxzLmZpbHRlcihkID0+IGQubGV2ID09IDQpLCB7eDogXCJNYXJrZXQgUmV0dXJuICVcIiwgeTogXCJQb3J0Zm9saW8gUmV0dXJuICVcIiwgc3Ryb2tlOiBcImxldlwifSksXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSA1KSwge3g6IFwiTWFya2V0IFJldHVybiAlXCIsIHk6IFwiUG9ydGZvbGlvIFJldHVybiAlXCIsIHN0cm9rZTogXCJsZXZcIn0pLFxyXG4gICAgICBQbG90LmxpbmUocGxvdFZhbHMuZmlsdGVyKGQgPT4gZC5sZXYgPT0gMTApLCB7eDogXCJNYXJrZXQgUmV0dXJuICVcIiwgeTogXCJQb3J0Zm9saW8gUmV0dXJuICVcIiwgc3Ryb2tlOiBcImxldlwifSksXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSAyMCksIHt4OiBcIk1hcmtldCBSZXR1cm4gJVwiLCB5OiBcIlBvcnRmb2xpbyBSZXR1cm4gJVwiLCBzdHJva2U6IFwibGV2XCJ9KSxcclxuICAgICAgUGxvdC5saW5lKHBsb3RWYWxzLmZpbHRlcihkID0+IGQubGV2ID09IDMwKSwge3g6IFwiTWFya2V0IFJldHVybiAlXCIsIHk6IFwiUG9ydGZvbGlvIFJldHVybiAlXCIsIHN0cm9rZTogXCJsZXZcIn0pLFxyXG4gICAgICBQbG90LmxpbmUocGxvdFZhbHMuZmlsdGVyKGQgPT4gZC5sZXYgPT0gNDApLCB7eDogXCJNYXJrZXQgUmV0dXJuICVcIiwgeTogXCJQb3J0Zm9saW8gUmV0dXJuICVcIiwgc3Ryb2tlOiBcImxldlwifSksXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSA1MCksIHt4OiBcIk1hcmtldCBSZXR1cm4gJVwiLCB5OiBcIlBvcnRmb2xpbyBSZXR1cm4gJVwiLCBzdHJva2U6IFwibGV2XCJ9KVxyXG4gICAgXSxcclxuICBjb2xvcjoge2xlZ2VuZDogdHJ1ZX1cclxufSlcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC01IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGxldmVyYWdlID0gSW5wdXRzLnJhbmdlKFxyXG4gIFsxLCAxMDBdLCBcclxuICB7dmFsdWU6IDEsIHN0ZXA6IDEsIGxhYmVsOiBcIkxldmVyYWdlIHJhdGlvOlwifVxyXG4pXHJcblxyXG5QbG90LnBsb3Qoe1xyXG4gIGdyaWQ6IHRydWUsXHJcbiAgeDoge2RvbWFpbjogWy01MCwgNTBdLCBncmlkOiB0cnVlfSxcclxuICB5OiB7ZG9tYWluOiBbLTEwMCwgMTAwXSwgZ3JpZDogdHJ1ZX0sXHJcbiAgbWFya3M6IFtcclxuICAgICAgUGxvdC5saW5lKHBsb3RWYWxzLmZpbHRlcihkID0+IGQubGV2ID09IDApLCB7eDogXCJNYXJrZXQgUmV0dXJuICVcIiwgeTogXCJQb3J0Zm9saW8gUmV0dXJuICVcIiwgc3Ryb2tlOiBcImxldlwifSksXHJcbiAgICAgIFBsb3QubGluZShwbG90VmFscy5maWx0ZXIoZCA9PiBkLmxldiA9PSBsZXZlcmFnZSksIHt4OiBcIk1hcmtldCBSZXR1cm4gJVwiLCB5OiBcIlBvcnRmb2xpbyBSZXR1cm4gJVwiLCBzdHJva2U6IFwibGV2XCJ9KVxyXG4gICAgXSxcclxufSlcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdsZXZlcmFnZScpIn1dfQ==
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../concepts/financial-leverage";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/satvikraman\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Financial Leverage"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "&lt;i&gt;There are only three ways a smart person can go broke: liquor, ladies and leverage&lt;br&gt; - Charlie Munger&lt;/i&gt;"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-03-21</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> "./lever.jpg"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="an">twitter-card:</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">  image: "./lever.jpg"</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="an">open-graph:</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co">  image: "./lever.jpg"</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co">  - Finance</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co">    echo: false</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co">    echo: false</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="fu"># What is leverage?</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>Leverage comes from the word lever. Remember the simple machine you read about in physics back in your school days. A lever helps us lift objects by applying lesser force. </span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>::: {.column-margin}</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="al">![Give me a lever long enough... and I shall move the world](./lever.jpg)</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>Analogous to that, a financial leverage helps us invest larger sums by using less of our own money. In simple terms, when you invest borrowed money you are using financial leverage. Leverage boosts returns if the trade works favourably. However, it is a double edged sword. If the trade does not go as planned it will also exaggerate the losses. Leverage therefore works like a magnifying glass, magnifying both gains and losses. </span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>Let's work with an example. For the purpose of this discussion lets ignore the any additional cost including that of financing, brokerage etc... We will only focus on the impact of leverage in isolation. </span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>Assume you have $100 and you borrow another $100 to invest a total of $200. This is a financial leverage of 1:1 i.e. for every $1 of your own money you are borrowing another $1. </span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>The yield curve for the 1:1 leverage and no leverage positions are drawn in <span class="co">[</span><span class="ot">red</span><span class="co">]</span>{style="color:red"} and <span class="co">[</span><span class="ot">green</span><span class="co">]</span>{style="color:green"} colour respectively in the "Example" tab of @fig-yield-curve. The "X" axis is the return that a security can provide. The "Y" axis is the return experienced by trading in that security. Ideally the return experienced by trading a security should be the same as the return provided by the security, the <span class="co">[</span><span class="ot">green</span><span class="co">]</span>{style="color:green"} line. However, with leverage, the returns experienced gets magnified and thats the <span class="co">[</span><span class="ot">red</span><span class="co">]</span>{style="color:green"} line.</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a><span class="in">```{ojs}</span></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>plotVals <span class="op">=</span> []</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>initial_capital <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a><span class="in">```{ojs}</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a><span class="co">//| output: false</span></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(<span class="kw">let</span> leverage <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> leverage <span class="op">&lt;</span> <span class="dv">100</span><span class="op">;</span> leverage<span class="op">+=</span><span class="dv">1</span>) {</span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> leveraged_capital <span class="op">=</span> initial_capital <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> leverage)</span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (<span class="kw">let</span> move_perc <span class="op">=</span> <span class="op">-</span><span class="dv">50</span><span class="op">;</span> move_perc <span class="op">&lt;=</span> <span class="dv">50</span><span class="op">;</span> move_perc<span class="op">+=</span><span class="dv">10</span>) {       </span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> corpus <span class="op">=</span> leveraged_capital <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> move_perc<span class="op">/</span><span class="dv">100</span>)</span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> pnl <span class="op">=</span> corpus <span class="op">-</span> leveraged_capital</span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> pnl_perc <span class="op">=</span> pnl <span class="op">*</span> <span class="dv">100</span> <span class="op">/</span> initial_capital</span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a>        plotVals<span class="op">.</span><span class="fu">push</span>({<span class="st">"Market Return %"</span><span class="op">:</span> move_perc<span class="op">,</span> <span class="st">"Portfolio Return %"</span><span class="op">:</span> pnl_perc<span class="op">,</span> <span class="st">"lev"</span><span class="op">:</span> leverage})</span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a>    }  </span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span></span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a>::: {#fig-yield-curve}</span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a>::: {.panel-tabset}</span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a><span class="fu">## Example</span></span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a><span class="in">```{ojs}</span></span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">gridX</span>({<span class="dt">interval</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#d2d2d2"</span><span class="op">,</span> <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="fl">0.5</span>})<span class="op">,</span></span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">gridY</span>({<span class="dt">interval</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#d2d2d2"</span><span class="op">,</span> <span class="dt">strokeOpacity</span><span class="op">:</span> <span class="fl">0.5</span>})<span class="op">,</span></span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-76"><a href="#cb6-76" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"red"</span>})<span class="op">,</span></span>
+<span id="cb6-77"><a href="#cb6-77" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">1</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"green"</span>})<span class="op">,</span></span>
+<span id="cb6-78"><a href="#cb6-78" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="dv">20</span>]<span class="op">,</span> {<span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="dv">40</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb6-79"><a href="#cb6-79" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="op">-</span><span class="dv">10</span>]<span class="op">,</span> {<span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="op">-</span><span class="dv">20</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb6-80"><a href="#cb6-80" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">20</span><span class="op">,</span> <span class="dv">40</span>]<span class="op">,</span> {<span class="dt">x1</span><span class="op">:</span> <span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="dv">20</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb6-81"><a href="#cb6-81" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="op">-</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">x1</span><span class="op">:</span> <span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#b2b2b2"</span>})<span class="op">,</span></span>
+<span id="cb6-82"><a href="#cb6-82" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">0</span>]<span class="op">,</span> {<span class="dt">stroke</span><span class="op">:</span> <span class="st">"blue"</span>})<span class="op">,</span></span>
+<span id="cb6-83"><a href="#cb6-83" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleX</span>([<span class="dv">0</span>]<span class="op">,</span> {<span class="dt">stroke</span><span class="op">:</span> <span class="st">"blue"</span>})<span class="op">,</span></span>
+<span id="cb6-84"><a href="#cb6-84" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb6-85"><a href="#cb6-85" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb6-86"><a href="#cb6-86" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-87"><a href="#cb6-87" aria-hidden="true" tabindex="-1"></a>1:1 leverage yield curve used as an example in the text</span>
+<span id="cb6-88"><a href="#cb6-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-89"><a href="#cb6-89" aria-hidden="true" tabindex="-1"></a><span class="fu">## Plot</span></span>
+<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a><span class="in">```{ojs}</span></span>
+<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a>  <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">50</span><span class="op">,</span> <span class="dv">50</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-97"><a href="#cb6-97" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb6-98"><a href="#cb6-98" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-99"><a href="#cb6-99" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">1</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-100"><a href="#cb6-100" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">2</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-101"><a href="#cb6-101" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">4</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-102"><a href="#cb6-102" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">5</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-103"><a href="#cb6-103" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">10</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-104"><a href="#cb6-104" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">20</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-105"><a href="#cb6-105" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">30</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-106"><a href="#cb6-106" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">40</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-107"><a href="#cb6-107" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">50</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})</span>
+<span id="cb6-108"><a href="#cb6-108" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb6-109"><a href="#cb6-109" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {<span class="dt">legend</span><span class="op">:</span> <span class="kw">true</span>}</span>
+<span id="cb6-110"><a href="#cb6-110" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb6-111"><a href="#cb6-111" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-112"><a href="#cb6-112" aria-hidden="true" tabindex="-1"></a>A graph showing the yield curve at different leverage ratios</span>
+<span id="cb6-113"><a href="#cb6-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-114"><a href="#cb6-114" aria-hidden="true" tabindex="-1"></a><span class="fu">## Interactive</span></span>
+<span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a><span class="in">```{ojs}</span></span>
+<span id="cb6-118"><a href="#cb6-118" aria-hidden="true" tabindex="-1"></a>viewof leverage <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>(</span>
+<span id="cb6-119"><a href="#cb6-119" aria-hidden="true" tabindex="-1"></a>  [<span class="dv">1</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> </span>
+<span id="cb6-120"><a href="#cb6-120" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Leverage ratio:"</span>}</span>
+<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-122"><a href="#cb6-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-123"><a href="#cb6-123" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb6-124"><a href="#cb6-124" aria-hidden="true" tabindex="-1"></a>  <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb6-125"><a href="#cb6-125" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">50</span><span class="op">,</span> <span class="dv">50</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-126"><a href="#cb6-126" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span>}<span class="op">,</span></span>
+<span id="cb6-127"><a href="#cb6-127" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb6-128"><a href="#cb6-128" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> <span class="dv">0</span>)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})<span class="op">,</span></span>
+<span id="cb6-129"><a href="#cb6-129" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(plotVals<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">lev</span> <span class="op">==</span> leverage)<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"Market Return %"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"Portfolio Return %"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"lev"</span>})</span>
+<span id="cb6-130"><a href="#cb6-130" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb6-131"><a href="#cb6-131" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb6-132"><a href="#cb6-132" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-133"><a href="#cb6-133" aria-hidden="true" tabindex="-1"></a>Move the slider to see how the slope of the yield curve change with leverage</span>
+<span id="cb6-134"><a href="#cb6-134" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-135"><a href="#cb6-135" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb6-136"><a href="#cb6-136" aria-hidden="true" tabindex="-1"></a>Slippery slope: Yield curve of a non leveraged position (black) vs. a leveraged position</span>
+<span id="cb6-137"><a href="#cb6-137" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb6-138"><a href="#cb6-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-139"><a href="#cb6-139" aria-hidden="true" tabindex="-1"></a>Continuing with the "Example" tab, assume that the security moves favourably by 20%. Because of the leverage, your returns are $40 (20% of $200) which is significantly larger than the $20 (20% of $100) you would have made without it. A $40 return translates to a 40% return on your initial capital of $100, even though the security moved only by 20%. In percentage terms, a 1:1 leverage, doubles your gain percentage. A 10% gain in the security, causes you to gain 20% of your capital. Isn't that awesome.</span>
+<span id="cb6-140"><a href="#cb6-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-141"><a href="#cb6-141" aria-hidden="true" tabindex="-1"></a>But lets also look at the flip side. What if the market security in the opposite direction by 10%. Because of the leverage, your loss will be $20 (10% of $200) which is again significantly larger than $10 (10% of $100) you would have lost had you not leveraged your position. Similar to the favourable case above, in percentage terms, a 1:1 leverage, doubles your loss percentage. A 10% drop in the security, causes you to lose 20% of your capital.</span>
+<span id="cb6-142"><a href="#cb6-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-143"><a href="#cb6-143" aria-hidden="true" tabindex="-1"></a>Leverage can be addictive, more so if you experienced beginner's luck. However, if your trades don't work out and you continue using leverage it can quickly wipe out your investing capital. The use of leverage without adequate caution can be disastrous.</span>
+<span id="cb6-144"><a href="#cb6-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-145"><a href="#cb6-145" aria-hidden="true" tabindex="-1"></a>Refer the "Plot" tab in @fig-yield-curve. I compare leverage to a slippery slope.  The different coloured lines depict the yield curve at different leverages. The leverage ratio increases as the color transitions from <span class="co">[</span><span class="ot">black</span><span class="co">]</span>{style="color:black"} {{&lt; iconify maki arrow size=1.1em title='' &gt;}} <span class="co">[</span><span class="ot">blue</span><span class="co">]</span>{style="color:blue"}  {{&lt; iconify maki arrow size=1.1em title='' &gt;}} <span class="co">[</span><span class="ot">green</span><span class="co">]</span>{style="color:green"}  {{&lt; iconify maki arrow size=1.1em title='' &gt;}} <span class="co">[</span><span class="ot">yellow</span><span class="co">]</span>{style="color:yellow"}  {{&lt; iconify maki arrow size=1.1em title='' &gt;}} <span class="co">[</span><span class="ot">red</span><span class="co">]</span>{style="color:red"}. Higher the leverage, higher is the slope of the yield curve which translates to a higher boost to both your gain and loss. No one complains when the going is good. But when panic strikes, and fear spreads much faster than greed, things can very quickly get out of control.</span>
+<span id="cb6-146"><a href="#cb6-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-147"><a href="#cb6-147" aria-hidden="true" tabindex="-1"></a>If you want a more interactive feel to see how quickly the slope of the yield curve changes switch to the "Interactive" tab in @fig-yield-curve and play with the slide rule. You would notice that the slope increases quite rapidly with every unit change in the leverage. And as the slope increases, so does the risk.</span>
+<span id="cb6-148"><a href="#cb6-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-149"><a href="#cb6-149" aria-hidden="true" tabindex="-1"></a>It is worth noting that certain financial instruments have leverage built into them. Many brokers provide leverage on intra-day trading. Derivative products like futures and options also provide leverage. These financial instruments therefore need to be used with proper knowledge and abundant caution. As Warren Buffett said, "When you combine ignorance and leverage you get some pretty interesting results"</span>
+<span id="cb6-150"><a href="#cb6-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-151"><a href="#cb6-151" aria-hidden="true" tabindex="-1"></a><span class="fu">## But isn't there a cost associated with financial leverage? When does it make potentially make sense to use it?</span></span>
+<span id="cb6-152"><a href="#cb6-152" aria-hidden="true" tabindex="-1"></a>There is of couse a cost associated with financial leverage. Since financial leverage is nothing short of borrowing money, the borrower would need to pay a financing cost proportional to the interest rate and the principal being borrowed to the lender. While buying securities, this is often factored into the brokerage pricing. </span>
+<span id="cb6-153"><a href="#cb6-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-154"><a href="#cb6-154" aria-hidden="true" tabindex="-1"></a>The use of financial leverage could be justified, if the money is available cheap and the borrower expects to make a larger return than the financing cost. This way the borrower would be able to repay the borrowed amount and the financing cost and still retain a portion of the profits. However, since the markets can have a mind of their own and act finicky, it would make sense to hedge your leveraged positions to limit your losses should things not go the way you had thought it would.</span>
+<span id="cb6-155"><a href="#cb6-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-156"><a href="#cb6-156" aria-hidden="true" tabindex="-1"></a><span class="fu"># Posts referencing this concept</span></span>
+<span id="cb6-157"><a href="#cb6-157" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Collapse of Lehman Brothers</span><span class="co">](./../../blog/20240331/index-en.qmd)</span></span>
+<span id="cb6-158"><a href="#cb6-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-159"><a href="#cb6-159" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--</span></span>
+<span id="cb6-160"><a href="#cb6-160" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional concepts you may be interested in</span></span>
+<span id="cb6-161"><a href="#cb6-161" aria-hidden="true" tabindex="-1"></a><span class="co">[Hedging](./../Hedging/index-en.qmd)</span></span>
+<span id="cb6-162"><a href="#cb6-162" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt;</span></span>
+</code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<div class="faux-block">
+<i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2025 Satvik Raman
+</div>
+<div class="faux-block">
+All content licensed under<br><a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> Creative Commons CC BY 4.0</a>
+</div>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<div class="faux-block">
+Made with <i class="fa-brands fa-python" aria-label="python"></i> and <a href="https://quarto.org/">Quarto</a>
+</div>
+<div class="faux-block">
+<a href="https://github.com/satvikraman/portfolio">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a>
+</div>
+</div>
+  </div>
+</footer>
+<!-- ... -->
+
+<div id="waline"></div>
+
+<script type="module">
+
+import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+
+
+init({
+
+    el: '#waline',
+
+    serverURL: 'https://waline-portfolio.vercel.app/',
+
+    lang: 'en',
+
+    reaction: ['https://unpkg.com/@waline/emojis@1.1.0/tw/1f44d.png'],
+
+    pageview: true,
+
+});
+
+</script>
+
+
+
+
+
+</body></html>
