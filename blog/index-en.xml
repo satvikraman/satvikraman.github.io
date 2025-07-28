@@ -10,7 +10,17 @@
 <atom:link href="https://satvikraman.github.io/blog/index-en.xml" rel="self" type="application/rss+xml"/>
 <description>A blog on the current financial stories through the eyes of a kid</description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Wed, 20 Mar 2024 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Jul 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>What Does a Depository Actually Do?</title>
+  <dc:creator>Satvik Raman</dc:creator>
+  <link>https://satvikraman.github.io/blog/20250728/index-en.html</link>
+  <description><![CDATA[ Behind every share you own, there’s a digital vault keeping it safe — that’s what a depository does. We explore how depositories like NSDL and CDSL form the invisible backbone of India’s stock market. With NSDL’s IPO around the corner, it’s the perfect time to understand the world of depositories — what they are, how they work, and why they matter. ]]></description>
+  <category>Market Mechanics</category>
+  <guid>https://satvikraman.github.io/blog/20250728/index-en.html</guid>
+  <pubDate>Sun, 27 Jul 2025 18:30:00 GMT</pubDate>
+  <media:content url="https://satvikraman.github.io/blog/20250728/depositories.png" medium="image" type="image/png" height="119" width="144"/>
+</item>
 <item>
   <title>Collapse of Lehman Brothers</title>
   <dc:creator>Satvik Raman</dc:creator>

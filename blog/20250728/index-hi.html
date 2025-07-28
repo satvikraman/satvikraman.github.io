@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Satvik Raman">
+<meta name="author" content="सात्विक रामन">
+<meta name="dcterms.date" content="2025-07-28">
+<meta name="description" content="आपके हर शेयर के पीछे एक डिजिटल लॉकर होता है जो उसे सुरक्षित रखता है — यही काम करती है एक डिपॉजिटरी। NSDL और CDSL जैसी डिपॉजिटरीज़ भारत के शेयर बाजार की अदृश्य रीढ़ हैं। NSDL का IPO आने वाला है, तो ये सही मौका है ये समझने का कि डिपॉजिटरी होती क्या है, कैसे काम करती है, और क्यों ज़रूरी है।">
 
-<title>Blog – Satvik’s Portfolio</title>
+<title>डिपॉजिटरी असल में करती क्या है? – सात्विक का पोर्टफोलियो</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,28 +26,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner h1,
@@ -124,46 +95,24 @@ background: #ef6A65;
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../assets/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Satvik's Portfolio" href="index-en.xml" data-external="1"><meta property="og:title" content="Blog – Satvik’s Portfolio">
-<meta property="og:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
-<meta property="og:site_name" content="Satvik's Portfolio">
+<link rel="stylesheet" href="../../assets/styles.css">
+<link rel="stylesheet" href="../../assets/fonts-hi.css">
+<meta property="og:title" content="डिपॉजिटरी असल में करती क्या है? – सात्विक का पोर्टफोलियो">
+<meta property="og:description" content="आपके हर शेयर के पीछे एक डिजिटल लॉकर होता है जो उसे सुरक्षित रखता है — यही काम करती है एक डिपॉजिटरी। NSDL और CDSL जैसी डिपॉजिटरीज़ भारत के शेयर बाजार की अदृश्य रीढ़ हैं। NSDL का IPO आने वाला है, तो ये सही मौका है ये समझने का कि डिपॉजिटरी होती क्या है, कैसे काम करती है, और क्यों ज़रूरी है।">
+<meta property="og:image" content="https://satvikraman.github.io/blog/20250728/depositories.png">
+<meta property="og:site_name" content="सात्विक का पोर्टफोलियो">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Blog – Satvik’s Portfolio">
-<meta name="twitter:image" content="https://satvikraman.github.io/files/profiles/twitter_card.png">
+<meta property="og:image:height" content="547">
+<meta property="og:image:width" content="664">
+<meta name="twitter:title" content="डिपॉजिटरी असल में करती क्या है? – सात्विक का पोर्टफोलियो">
+<meta name="twitter:description" content="आपके हर शेयर के पीछे एक डिजिटल लॉकर होता है जो उसे सुरक्षित रखता है — यही काम करती है एक डिपॉजिटरी। NSDL और CDSL जैसी डिपॉजिटरीज़ भारत के शेयर बाजार की अदृश्य रीढ़ हैं। NSDL का IPO आने वाला है, तो ये सही मौका है ये समझने का कि डिपॉजिटरी होती क्या है, कैसे काम करती है, और क्यों ज़रूरी है।">
+<meta name="twitter:image" content="https://satvikraman.github.io/blog/20250728/depositories.png">
 <meta name="twitter:creator" content="@satvikraman">
 <meta name="twitter:site" content="@satvikraman">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="547">
+<meta name="twitter:image-width" content="664">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -173,8 +122,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Satvik’s Portfolio</span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">सात्विक का पोर्टफोलियो</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -184,20 +133,20 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index-en.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../index-hi.html"> 
+<span class="menu-text">परिचय</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index-en.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../blog/index-hi.html"> 
+<span class="menu-text">ब्लॉग</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../concepts/index-en.html"> 
-<span class="menu-text">Concepts</span></a>
+    <a class="nav-link" href="../../concepts/index-hi.html"> 
+<span class="menu-text">कॉन्सेप्ट्स</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index-en.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../projects/index-hi.html"> 
+<span class="menu-text">प्रोजेक्ट्स</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -207,15 +156,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="../../index-en.html">
+    <a class="dropdown-item" href="../../../index-en.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index-hi.html">
+    <a class="dropdown-item" href="../../../index-hi.html">
  <span class="dropdown-text">हिन्दी</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../kn/">
+    <a class="dropdown-item" href="../../../kn/">
  <span class="dropdown-text">ಕನ್ನಡ</span></a>
   </li>  
     </ul>
@@ -243,8 +192,17 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
+      <h1 class="title">डिपॉजिटरी असल में करती क्या है?</h1>
+            <p class="subtitle lead">“<i>“फाइनेंशियल सिस्टम उतना ही मजबूत होता है जितनी मजबूत उसकी नींव होती है।” — पॉल वोल्कर</i>”</p>
+                  <div>
+        <div class="description">
+          आपके हर शेयर के पीछे एक डिजिटल लॉकर होता है जो उसे सुरक्षित रखता है — यही काम करती है एक डिपॉजिटरी। NSDL और CDSL जैसी डिपॉजिटरीज़ भारत के शेयर बाजार की अदृश्य रीढ़ हैं। NSDL का IPO आने वाला है, तो ये सही मौका है ये समझने का कि डिपॉजिटरी होती क्या है, कैसे काम करती है, और क्यों ज़रूरी है।
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Market Mechanics</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -253,10 +211,16 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Satvik Raman </p>
+               <p>सात्विक रामन </p>
             </div>
     </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 28, 2025</p>
+      </div>
+    </div>
     
       
     </div>
@@ -266,8 +230,20 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmFua3J1cHRjeQ==">Bankruptcy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFya2V0JTIwTWVjaGFuaWNz">Market Mechanics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9ydGdhZ2UlMjBCYWNrZWQlMjBTZWN1cml0aWVz">Mortgage Backed Securities <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#बसकस-डपजटर-हत-कय-ह" id="toc-बसकस-डपजटर-हत-कय-ह" class="nav-link active" data-scroll-target="#बसकस-डपजटर-हत-कय-ह">बेसिक्स: डिपॉजिटरी होती क्या है?</a></li>
+  <li><a href="#डपजटर-कय-जरर-ह" id="toc-डपजटर-कय-जरर-ह" class="nav-link" data-scroll-target="#डपजटर-कय-जरर-ह">डिपॉजिटरी क्यों ज़रूरी है</a></li>
+  <li><a href="#भरत-म-द-डपजटर-ह-nsdl-और-cdsl" id="toc-भरत-म-द-डपजटर-ह-nsdl-और-cdsl" class="nav-link" data-scroll-target="#भरत-म-द-डपजटर-ह-nsdl-और-cdsl">भारत में दो डिपॉजिटरी हैं: NSDL और CDSL</a></li>
+  <li><a href="#nsdl-पर-फकस" id="toc-nsdl-पर-फकस" class="nav-link" data-scroll-target="#nsdl-पर-फकस">NSDL पर फोकस</a></li>
+  <li><a href="#और-cdsl" id="toc-और-cdsl" class="nav-link" data-scroll-target="#और-cdsl">और CDSL?</a></li>
+  <li><a href="#एक-और-उदहरण" id="toc-एक-और-उदहरण" class="nav-link" data-scroll-target="#एक-और-उदहरण">एक और उदाहरण</a></li>
+  <li><a href="#आखर-बत" id="toc-आखर-बत" class="nav-link" data-scroll-target="#आखर-बत">आख़िरी बात:</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -275,97 +251,100 @@ window.Quarto = {
 
 
 
+<p>
+<b>Pageviews:</b> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewbox="0 0 256 256"><path fill="currentColor" d="M247.31 124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57 61.26 162.88 48 128 48S61.43 61.26 36.34 86.35C17.51 105.18 9 124 8.69 124.76a8 8 0 0 0 0 6.5c.35.79 8.82 19.57 27.65 38.4C61.43 194.74 93.12 208 128 208s66.57-13.26 91.66-38.34c18.83-18.83 27.3-37.61 27.65-38.4a8 8 0 0 0 0-6.5M128 168a40 40 0 1 1 40-40a40 40 0 0 1-40 40"></path></svg> <span class="waline-pageview-count">
+</span></p><p>
+</p><section id="बसकस-डपजटर-हत-कय-ह" class="level1">
+<h1>बेसिक्स: डिपॉजिटरी होती क्या है?</h1>
+<p>चलो पहले कॉन्सेप्ट समझते हैं। सोचो जैसे आपका बैंक आपके पैसे को डिजिटल फॉर्म में संभाल कर रखता है। वैसे ही, एक <strong>डिपॉजिटरी</strong> आपके शेयर, बॉन्ड, ETF और म्यूचुअल फंड जैसी *सिक्योरिटीज़<strong> को </strong>इलेक्ट्रॉनिक फॉर्म में** स्टोर करके रखती है।</p>
+<p>तो जब आप किसी कंपनी के शेयर खरीदते हैं (जैसे Reliance), तो आपको कोई फिजिकल सर्टिफिकेट नहीं मिलता। वो शेयर सीधे आपके <strong>डिमैट अकाउंट</strong> में स्टोर हो जाते हैं — डिमैट मतलब डिमटीरियलाइज़्ड अकाउंट।”</p>
+<p>डिपॉजिटरी ये सुनिश्चित करती है कि आपकी होल्डिंग्स: - सुरक्षित रहें - आसानी से ट्रांसफर हों - सही तरीके से रिकॉर्ड हों</p>
+<p>जैसे बैंक को ब्रांच की ज़रूरत होती है, वैसे ही डिपॉजिटरीज़ <strong>डिपॉजिटरी पार्टिसिपेंट्स (DPs)</strong> के ज़रिए काम करती हैं — ये आपके ब्रोकर्स होते हैं (जैसे Zerodha, ICICI Direct या Groww)।</p>
+</section>
+<section id="डपजटर-कय-जरर-ह" class="level1">
+<h1>डिपॉजिटरी क्यों ज़रूरी है</h1>
+<p>डिपॉजिटरी आने से पहले ट्रेडिंग पेपर-बेस्ड होती थी। शेयर सर्टिफिकेट खो जाते थे, सिग्नेचर मैच नहीं होते थे, और ट्रांसफर में हफ्तों लग जाते थे।</p>
+<p>1990s में जब भारत में डिपॉजिटरी सिस्टम आया, तब सब बदला: - फिजिकल शेयर सर्टिफिकेट की ज़रूरत खत्म हो गई - T+1 सेटलमेंट शुरू हुआ (आज खरीदो, कल शेयर अकाउंट में) - ट्रेडिंग तेज़, सुरक्षित और लाखों लोगों के लिए आसान बन गई</p>
+<p>आज डिपॉजिटरी <strong>शेयर मार्केट की बैकबोन</strong> बन चुकी है — इसके बिना मॉडर्न इन्वेस्टिंग मुमकिन ही नहीं है।</p>
+</section>
+<section id="भरत-म-द-डपजटर-ह-nsdl-और-cdsl" class="level1">
+<h1>भारत में दो डिपॉजिटरी हैं: NSDL और CDSL</h1>
+<p>भारत दुनिया के उन चुनिंदा देशों में से है जहां दो लाइसेंस्ड डिपॉजिटरीज़ हैं: 1. <strong>NSDL (नेशनल सिक्योरिटीज़ डिपॉजिटरी लिमिटेड)</strong> — 1996 में बनी, NSE की मदद से 2. <strong>CDSL (सेंट्रल डिपॉजिटरी सर्विसेज लिमिटेड)</strong> — 1999 में बनी, BSE की मदद से</p>
+<p>दोनों को <strong>SEBI</strong> रेगुलेट करता है और इनका काम लगभग एक जैसा होता है। आपका ब्रोकर तय करता है कि आपका डिमैट अकाउंट किस डिपॉजिटरी में होगा।</p>
+</section>
+<section id="nsdl-पर-फकस" class="level1">
+<h1>NSDL पर फोकस</h1>
+<p><strong>NSDL</strong> भारत की <strong>पहली डिपॉजिटरी</strong> थी और आज भी <strong>होल्डिंग वैल्यू के हिसाब से सबसे बड़ी</strong> है। ये ट्रेड सेटलमेंट, सिक्योरिटी स्टोरेज और इन्वेस्टर सर्विसेज़ में अहम रोल निभाती है।</p>
+<p>NSDL क्या करती है: - <strong>सिक्योरिटीज़ को डिजिटल फॉर्म में रखती है</strong> — जैसे स्टॉक्स, बॉन्ड्स, ETF, म्यूचुअल फंड यूनिट्स<br>
+- <strong>ट्रेड सेटलमेंट करवाती है</strong> — खरीदार और विक्रेता के बीच ट्रांसफर सुनिश्चित करती है<br>
+- <strong>ओनरशिप रिकॉर्ड करती है</strong> — जो आपके PAN और आधार से लिंक होता है<br>
+- <strong>कॉर्पोरेट एक्शन सपोर्ट करती है</strong> — जैसे डिविडेंड, बोनस शेयर, राइट्स इशू<br>
+- <strong>शेयर प्लेज/अनप्लेज</strong> करने में मदद करती है, जब आप लोन के लिए शेयर गिरवी रखते हैं</p>
+<p>NSDL सरकार की इन पहलों में भी मदद करती है: - <strong>e-KYC इन्फ्रास्ट्रक्चर</strong><br>
+- <strong>नेशनल अकैडमिक डिपॉजिटरी</strong> — जहां शैक्षणिक सर्टिफिकेट स्टोर होते हैं<br>
+- <strong>इंश्योरेंस डिपॉजिटरी</strong> और <strong>डिजिटल सिग्नेचर</strong> सपोर्ट</p>
+<p>NSDL अभी लिस्टेड नहीं है, लेकिन इसका IPO जल्द ही आने वाला है। इसके बड़े इन्वेस्टर्स में IDBI Bank, NSE, SBI, HDFC Bank, Citibank और Standard Chartered शामिल हैं।</p>
+</section>
+<section id="और-cdsl" class="level1">
+<h1>और CDSL?</h1>
+<p><strong>CDSL</strong>, दूसरी डिपॉजिटरी है जो 2017 में पब्लिक हुई थी और अब खासतौर पर <strong>रिटेल इन्वेस्टर्स</strong> में काफी पॉपुलर हो गई है।</p>
+<p>अब CDSL के पास NSDL से ज़्यादा <strong>इंडिविजुअल डिमैट अकाउंट्स</strong> हैं — एक कारण ये है कि Zerodha और Upstox जैसे ब्रोकर्स CDSL यूज़ करते हैं।</p>
+<p>तुलना:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>मेट्रिक</th>
+<th>NSDL</th>
+<th>CDSL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>बनी कब</td>
+<td>1996</td>
+<td>1999</td>
+</tr>
+<tr class="even">
+<td>किसके द्वारा सपोर्टेड</td>
+<td>NSE</td>
+<td>BSE</td>
+</tr>
+<tr class="odd">
+<td>लिस्टेड?</td>
+<td>IPO जल्द आने वाला</td>
+<td>हां, 2017 से</td>
+</tr>
+<tr class="even">
+<td>डिमैट अकाउंट्स (लगभग)</td>
+<td>~3 करोड़</td>
+<td>~10 करोड़</td>
+</tr>
+<tr class="odd">
+<td>मार्केट शेयर (वैल्यू के हिसाब से)</td>
+<td>ज़्यादा</td>
+<td>कम</td>
+</tr>
+</tbody>
+</table>
+<p>दोनो का काम एक जैसा है — फर्क बस इतना है कि आपका ब्रोकर किससे जुड़ा है।</p>
+</section>
+<section id="एक-और-उदहरण" class="level1">
+<h1>एक और उदाहरण</h1>
+<p>मान लीजिए आपने अपनी ट्रेडिंग ऐप से Infosys के 10 शेयर खरीदे। अब क्या होता है? 1. आपने खरीदने का ऑर्डर दिया<br>
+2. स्टॉक एक्सचेंज ने ट्रेड मैच किया<br>
+3. <strong>डिपॉजिटरी</strong> (NSDL या CDSL) को जानकारी दी गई<br>
+4. सेटलमेंट के दिन (T+1) पर, बेचने वाले के डिमैट से शेयर काटे और आपके डिमैट में जोड़े जाते हैं</p>
+<p>इसे UPI फॉर स्टॉक्स जैसे समझें — बस पैसे की जगह शेयर की ओनरशिप ट्रांसफर हो रही है, और डिपॉजिटरी उस ट्रांजैक्शन को भरोसेमंद तरीके से संभाल रही है।</p>
+</section>
+<section id="आखर-बत" class="level1">
+<h1>आख़िरी बात:</h1>
+<p>जब आप स्टॉक्स में इन्वेस्ट करते हैं, तो आप शायद प्राइस, चार्ट्स और न्यूज़ देखते हैं। लेकिन पीछे से <strong>डिपॉजिटरीज़</strong> जैसे NSDL और CDSL आपकी होल्डिंग्स को सुरक्षित और ट्रांजैक्शन को स्मूद बनाए रखने में लगातार काम कर रही होती हैं। अगर ये न हों, तो आपको फिर से पेपरवर्क, सर्टिफिकेट खोने और लंबे सेटलमेंट टाइम से जूझना पड़ेगा।</p>
+<p>तो जब NSDL का IPO चर्चा में है, तो ये अच्छा मौका है ये समझने का कि ये “मार्केट की प्लंबिंग” किस तरह आज की इन्वेस्टिंग को आसान बना रही है। चाहे आप NSDL में इन्वेस्ट करें या न करें, इतना जानना ज़रूरी है कि ये (और CDSL) हर दिन भारत के फाइनेंशियल मार्केट्स को बिना रुके चलाते हैं।</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-categories" data-direction="asc">
-        Categories
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TWFya2V0JTIwTWVjaGFuaWNz" data-listing-date-sort="1753641000000" data-listing-file-modified-sort="1753718557341" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="979">
-<a href="../blog/20250728/index-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/20250728/depositories.png" class="thumbnail-image card-img" style="height: 480;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What Does a Depository Actually Do?
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0JTIwTWVjaGFuaWNz'); return false;">Market Mechanics</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Behind every share you own, there’s a digital vault keeping it safe — that’s what a depository does. We explore how depositories like NSDL and CDSL form the invisible…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Jul 28, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QmFua3J1cHRjeSUyQ01vcnRnYWdlJTIwQmFja2VkJTIwU2VjdXJpdGllcw==" data-listing-date-sort="1710959400000" data-listing-file-modified-sort="1753406035737" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1643">
-<a href="../blog/20240331/index-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/20240331/lehman-brothers.jpg" class="thumbnail-image card-img" style="height: 480;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Collapse of Lehman Brothers
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmFua3J1cHRjeQ=='); return false;">Bankruptcy</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9ydGdhZ2UlMjBCYWNrZWQlMjBTZWN1cml0aWVz'); return false;">Mortgage Backed Securities</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>The history of Lehman brothers dates back to 1884, when three German brothers started a general store in Alabama. Tailwinds from the US economy’s growth, helped them grow to…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satvik Raman
-</div>
-<div class="listing-date">
-Mar 21, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

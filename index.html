@@ -240,14 +240,14 @@ ul.task-list li input[type="checkbox"] {
         hiIntro: "Welcome! This is my attempt at creating a multi-lingual website - available in English, Hindi and Kannada. I hope to share interesting stories around the world through the lens of economics and finance. I plan to publish a story every week. \n You can explore the blog in your preferred language using the language options at the top of the page. \n If you would like to stay updated, please feel free to subscribe via WhatsApp. I promise not to spam you or capture any of your personal information.",
         whatsappStrongText: "Join WhatsApp Channel",
         whatsappQR: "/assets/landing/qr-whatsapp-en.png",
-        whatsappLink: 'https://whatsapp.com/channel/en',
+        whatsappLink: 'https://whatsapp.com/channel/0029VbAwFip59PwKCh7Wwi1F',
       },
       'hi': {
         hiText: "नमस्ते, मैं सात्विक हूं",
         hiIntro: "स्वागत है! ये मेरी कोशिश है एक ऐसी वेबसाइट बनाने की जो इंग्लिश, हिंदी और कन्नड़ में उपलब्ध हो। मैं दुनिया भर की दिलचस्प कहानियाँ इकॉनॉमिक्स और फाइनेंस के नज़रिए से शेयर करना चाहता हूँ। मेरी कोशिश रहेगी कि हर हफ्ते एक नई स्टोरी पब्लिश करूँ। \n आप ऊपर दिए गए भाषा विकल्पों से अपनी पसंद की भाषा में ब्लॉग पढ़ सकते हैं। \n अगर आप अपडेट्स पाना चाहते हैं तो व्हाट्सएप से सब्सक्राइब कर सकते हैं। मैं स्पैम नहीं करूंगा और आपकी कोई पर्सनल जानकारी नहीं रखूंगा।",
         whatsappStrongText: "व्हाट्सएप चैनल से जुड़ें",
         whatsappQR: '/assets/landing/qr-whatsapp-hi.png',
-        whatsappLink: 'https://whatsapp.com/channel/hi',
+        whatsappLink: 'https://whatsapp.com/channel/0029VbAl8ug4o7qMtawhPL30',
       },
       'kn': {
         hiText: "ನಮಸ್ಕಾರ, ನಾನು ಸಾತ್ವಿಕ್",
@@ -262,8 +262,6 @@ ul.task-list li input[type="checkbox"] {
     document.getElementById('hiIntro').innerText = data.hiIntro;
     document.getElementById('whatsappStrongText').innerText = data.whatsappStrongText;
     document.getElementById('qrWhatsapp').src = data.whatsappQR;
-    document.getElementById('whatsappLinkText').href = data.whatsappLink;
-    document.getElementById('whatsappLinkText').innerText = data.whatsappLink;
     document.getElementById('whatsappJoinBtn').href = data.whatsappLink;
     // 👇 Font toggle logic
     if (lang === 'hi') {
@@ -294,7 +292,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="channel-box">
     <strong id="whatsappStrongText">Join WhatsApp Channel</strong>
     <img id="qrWhatsapp" class="qr-img" src="./assets/landing/qr-whatsapp-en.png" alt="WhatsApp QR">
-    <a id="whatsappLinkText" href="https://whatsapp.com/channel/en">https://whatsapp.com/channel/en</a>
     <a id="whatsappJoinBtn" class="subscribe-btn" href="https://whatsapp.com/channel/en" style="background-color: #25D366;">
     <img src="./assets/landing/icons8-whatsapp-48.png" alt="WhatsApp"> Join WhatsApp
     </a>
