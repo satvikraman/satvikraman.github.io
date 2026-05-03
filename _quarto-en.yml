@@ -51,12 +51,12 @@ website:
           - text: Deutsch
             href: ../index-de.html
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
-        href: "mailto:satvikraman@gmail.com"
+        href: "mailto:satvikraman11@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/satvikraman
         rel: me
       - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
-        href: https://www.linkedin.com/in/satvikraman
+        href: www.linkedin.com/in/satvik-raman-bb3841407
         rel: me
 
 format:
