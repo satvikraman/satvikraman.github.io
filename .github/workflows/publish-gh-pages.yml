@@ -23,11 +23,13 @@ jobs:
     environment:
       name: github-pages
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       # 1️⃣ Checkout code
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # 2️⃣ Setup Quarto
       - name: Setup Quarto
@@ -59,17 +61,6 @@ jobs:
       - name: Copy DE files to temp folder
         run: cp -r docs/* _ghpages_temp/
 
-      # 6️⃣ Render DEF (default)
-      - name: Render Quarto Profile DE
-        uses: quarto-dev/quarto-actions/render@v2
-        env:
-          QUARTO_PROFILE: de
-        with:
-          to: html
-
-      - name: Copy DE files to temp folder
-        run: cp -r docs/* _ghpages_temp/
-
       # 🔟 Render DEF (default)
       - name: Render Quarto Profile DEF
         uses: quarto-dev/quarto-actions/render@v2
@@ -91,15 +82,15 @@ jobs:
 
       # 11️⃣ Configure GitHub Pages
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       # 12️⃣ Upload artifact for gh-pages
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _ghpages_temp
 
       # 13️⃣ Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
