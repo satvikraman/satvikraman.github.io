@@ -1,0 +1,105 @@
+# File: .github/workflows/publish-gh-pages.yml
+name: Quarto Render & Deploy Site
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - '**.qmd'
+      - '**.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Setup Quarto
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # 3️⃣ Create temporary folder for gh-pages
+      - name: Create temporary folder for gh-pages
+        run: mkdir -p _ghpages_temp
+
+      # 4️⃣ Render EN
+      - name: Render Quarto Profile EN
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: en
+        with:
+          to: html
+
+      - name: Copy EN files to temp folder
+        run: cp -r docs/* _ghpages_temp/
+
+      # 5️⃣ Render DE
+      - name: Render Quarto Profile DE
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: de
+        with:
+          to: html
+
+      - name: Copy DE files to temp folder
+        run: cp -r docs/* _ghpages_temp/
+
+      # 6️⃣ Render DEF (default)
+      - name: Render Quarto Profile DE
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: de
+        with:
+          to: html
+
+      - name: Copy DE files to temp folder
+        run: cp -r docs/* _ghpages_temp/
+
+      # 🔟 Render DEF (default)
+      - name: Render Quarto Profile DEF
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: def
+        with:
+          to: html
+
+      - name: Copy DEF files to temp folder
+        run: cp -r docs/* _ghpages_temp/
+
+      - name: List contents of _ghpages_temp
+        if: false
+        run: |
+          echo "===== ROOT CONTENTS ====="
+          ls -al _ghpages_temp
+          echo "===== RECURSIVE ====="
+          ls -alR _ghpages_temp
+
+      # 11️⃣ Configure GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 12️⃣ Upload artifact for gh-pages
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _ghpages_temp
+
+      # 13️⃣ Deploy to gh-pages branch
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
