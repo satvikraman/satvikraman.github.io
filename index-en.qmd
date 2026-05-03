@@ -22,11 +22,13 @@ lightbox: auto
 #####
 :::{#hero-heading}
 ![](/assets/profile/satvik_photo_20230101.jpg){.right-align width=15%}
-I'm a grade 11 student at Sri Kumaran's Children's Home school.  I love Maths and intend to pursue business studies and economics going forward. I have a keen interest in the financial market and would like to be eventually involved with it as I shape my career.
+I am a Grade 12 student at Sri Kumaran's Children's Home School, Bengaluru, with a passion for economics and mathematics. My desire to understand how businesses operate and how financial systems shape our world drives my academic journey. I intend to pursue these fields at the undergraduate level and build my career around them. 
 
-I am passionate about football. I play for my school's football and table-tennis teams and have represented them in CBSE cluster tournaments (The CBSE cluster tournaments are inter school level competitions that progresses from a state to a national level competition among schools affiliated to the CBSE board). 
+I believe in applying what I learn to the real world. I have been programming since my sixth grade and frequently build automations to streamline tasks and aid decision-making. I am deeply committed to social equity. Inspired by my upbringing in a polyglot family, my community service focuses on breaking down language and economic barriers, using technology, to create equal opportunities for underserved groups.
 
-I have been playing football at the club level for the last 2 years as part of the U17 Young Blue Elite FC team [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}. This year I will be a part of their U19 squad.
+Sports is equally central to my identity. I have represented my school in football and table tennis at the state and national level CBSE cluster tournaments. I have also played club-level football for the last three years with Young Blue Elite FC  [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}, across their U17, U18, and U19 teams. 
+
+Sports has taught me to value discipline, dedication, teamwork, and strategic thinking. I do my best to cross-pollinate these learnings for my academic and personal growth.
 :::
 
 ## Education

@@ -10,11 +10,4 @@ author: 'Satvik Raman'
 toc: true
 toc-depth: 3
 
-page-layout: full
-
-format:
-  html:
-    include-in-header: 
-      - file: ../head.html
-    include-after-body: 
-      - file: ../body.html    
+page-layout: full    

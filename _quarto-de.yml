@@ -1,19 +1,20 @@
 project:
   type: website
-  output-dir: docs/hi
-  preview: 
+  output-dir: docs
+  preview:
     browser: true
     port: 5555
     watch-inputs: true
     navigate: true
   render:
-    - "*-hi.qmd"
+    - "*-de.qmd"
 
 website:
-  title: "सात्विक का पोर्टफोलियो"
-  description: "A blog on the current financial stories through the eyes of a kid"
+  title: "Satvik's Portfolio"
+  description: "Meine persönliche Webseite, um meine Interessen, Projekte und Erfolge zu präsentieren."
   site-url: "https://satvikraman.github.io"
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
+  search: true
 
   twitter-card:
     image: "/files/profiles/twitter_card.png"
@@ -21,9 +22,9 @@ website:
     creator: "@satvikraman"
     site: "@satvikraman"
   
-  open-graph: 
+  open-graph:
     image: "/files/profiles/twitter_card.png"
-    locale: en_US  
+    locale: de_DE  
 
   page-footer:
     left: |
@@ -36,24 +37,19 @@ website:
   navbar:
     pinned: false
     left:
-      - text: "परिचय"
-        href: index-hi.html
-      - text: "ब्लॉग"
-        file: blog/index-hi.html
-      - text: "कॉन्सेप्ट्स"
-        file: concepts/index-hi.html
-      - text: "प्रोजेक्ट्स"
-        file: projects/index-hi.html
+      - text: "Über mich"
+        href: index-de.html
+      - text: "Projekte"
+        file: projects/index-en.html
 
     right:
-      - text: "{{< iconify uil language size=1.1em title='Languages' >}}"
+      - text: 🌐
+        aria-label: Sprachen
         menu:
           - text: English
-            href: ../en/index-en.html
-          - text: हिन्दी
-            href: ../hi/index-hi.html
-          - text: ಕನ್ನಡ
-            href: ../kn/
+            href: ../index-en.html
+          - text: Deutsch
+            href: ../index-de.html
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:satvikraman@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
@@ -68,6 +64,6 @@ format:
     theme: journal
     css: /assets/styles.css
 
-lang: en-US
+lang: de-DE
 language:
-  ui: en  # Default UI language
+  ui: de

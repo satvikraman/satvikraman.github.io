@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs/en
+  output-dir: docs
   preview: 
     browser: true
     port: 5555
@@ -11,9 +11,10 @@ project:
 
 website:
   title: "Satvik's Portfolio"
-  description: "A blog on the current financial stories through the eyes of a kid"
+  description: "My personal website to showcase my interests, projects, and achievements."
   site-url: "https://satvikraman.github.io"
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
+  search: true
 
   twitter-card:
     image: "/files/profiles/twitter_card.png"
@@ -38,22 +39,17 @@ website:
     left:
       - text: "About"
         href: index-en.html
-      - text: "Blog"
-        file: blog/index-en.html
-      - text: "Concepts"
-        file: concepts/index-en.html
       - text: "Projects"
         file: projects/index-en.html
 
     right:
-      - text: "{{< iconify uil language size=1.1em title='Languages' >}}"
+      - text: 🌐
+        aria-label: Languages
         menu:
           - text: English
-            href: ../en/index-en.html
-          - text: हिन्दी
-            href: ../hi/index-hi.html
-          - text: ಕನ್ನಡ
-            href: ../kn/
+            href: ../index-en.html
+          - text: Deutsch
+            href: ../index-de.html
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:satvikraman@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"

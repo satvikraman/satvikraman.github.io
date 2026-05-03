@@ -1,0 +1,95 @@
+---
+title: "Satvik Raman"
+about:
+    id: hero-heading
+    template: solana
+    image-shape: rounded
+    links:
+        - icon: github
+          text: Github
+          href: https://github.com/satvikraman
+        - icon: linkedin
+          text: LinkedIn
+          href: https://linkedin.com/satvikraman
+        - icon: share
+          text: Teilen
+          href: satvikraman.github.io
+format:
+    html:
+        page-layout: full
+lightbox: auto
+---
+#####
+:::{#hero-heading}
+![](/assets/profile/satvik_photo_20230101.jpg){.right-align width=15%}
+Ich besuche die 12. Klasse der Sri Kumaran's Children's Home School in Bengaluru und habe eine große Leidenschaft für Wirtschaft und Mathematik. Der Wunsch, zu verstehen, wie Unternehmen funktionieren und wie finanzielle Systeme unsere Welt prägen, treibt meinen schulischen Weg an. Ich möchte diese Fächer im Studium vertiefen und meine berufliche Laufbahn darauf aufbauen.
+
+Ich glaube daran, das Gelernte in der Praxis anzuwenden. Seit der sechsten Klasse programmiere ich und entwickle oft Automatisierungen, um Aufgaben zu vereinfachen und Entscheidungsprozesse zu unterstützen. Ich engagiere mich stark für soziale Gerechtigkeit. Inspiriert durch meine mehrsprachige Familie konzentriert sich mein gemeinnütziges Engagement darauf, sprachliche und wirtschaftliche Barrieren mit Technologie abzubauen, um benachteiligten Menschen gleiche Chancen zu ermöglichen.
+
+Sport gehört ebenso zu meiner Identität. Ich habe meine Schule im Fußball und Tischtennis bei CBSE-Cluster-Turnieren auf Landes- und Bundesebene vertreten. Außerdem spiele ich seit drei Jahren Fußball im Verein Young Blue Elite FC der Bengaluru FC Soccer School in den U17-, U18- und U19-Teams.
+
+Der Sport hat mich Disziplin, Einsatzbereitschaft, Teamarbeit und strategisches Denken gelehrt. Diese Erfahrungen versuche ich bestmöglich in mein schulisches und persönliches Wachstum zu übertragen.
+:::
+
+## Bildung
+Sri Kumaran's Children's Home School | Bengaluru
+
+## 🏆 Auszeichnungen und Anerkennungen
+
+::: {.awards-container}
+
+::: {.award-item}
+<div class="award-text">
+### Landesweit CBSE-Cluster-Tischtennisturnier - 2020 - Zweiter Platz
+<p>Ich habe meine Schule beim landesweiten CBSE-Clusterwettbewerb vertreten und wir wurden Zweiter.</p>
+</div>
+![](/assets/profile/TT-State-2020-2nd.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### Google Code To Learn - 2019 - Gewinner
+<p>Ich habe eine Android-Anwendung erstellt. [Video-Demo](https://www.youtube.com/watch?v=M2hzPp6bmkQ)</p>
+</div>
+![](/assets/profile/Google-Code-To-Learn.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### Nationales CBSE-Cluster-Tischtennisturnier - 2020
+<p>Ich habe meine Schule auf nationaler Ebene vertreten. Der Wettbewerb fand in Noorpur, Uttar Pradesh statt.</p>
+</div>
+![](/assets/profile/TT-National-2019-Paticipation.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### Landesweit CBSE-Cluster-Tischtennisturnier - 2019 - Gewinner
+<p>Wir haben den landesweiten Wettbewerb gewonnen und wurden ausgewählt, auf nationaler Ebene anzutreten.</p>
+</div>
+![](/assets/profile/TT-State-2019-1st.jpeg){.award-image}
+:::
+
+:::
+
+## 📜 Zertifikate
+
+::: {.awards-container}
+
+::: {.award-item}
+<div class="award-text">
+### Deutsch A2
+<p>Ich habe 2023 die A2-Prüfung in Deutsch bestanden.</p>
+</div>
+![](/assets/profile/German-A2.jpeg){.award-image}
+:::
+
+::: {.award-item}
+<div class="award-text">
+### Deutsch A1
+<p>Ich habe 2022 die A1-Prüfung in Deutsch bestanden.</p>
+</div>
+![](/assets/profile/German-A1.jpeg){.award-image}
+:::
+
+:::

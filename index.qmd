@@ -1,10 +1,15 @@
-title: Redirecting...
-format: html
-page-layout: full
+---
+title: "Redirecting to English portfolio"
+format:
+  html:
+    page-layout: full
 ---
 
-<script>
-  window.location.href = "/en/index-en.html";
-</script>
+<meta http-equiv="refresh" content="0; URL=index-en.html">
 
-<p>Redirecting... If not, <a href="/en/index-en.html">click here</a>.</p>
+<div style="display:flex;min-height:60vh;align-items:center;justify-content:center;text-align:center;padding:2rem;">
+  <div>
+    <h1>Redirecting to the English portfolio...</h1>
+    <p>If your browser does not redirect automatically, <a href="index-en.html">click here to continue</a>.</p>
+  </div>
+</div>
