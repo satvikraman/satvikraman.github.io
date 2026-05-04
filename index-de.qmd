@@ -10,7 +10,7 @@ about:
           href: https://github.com/satvikraman
         - icon: linkedin
           text: LinkedIn
-          href: https://linkedin.com/satvikraman
+          href: https://www.linkedin.com/in/satvik-raman-bb3841407
         - icon: share
           text: Teilen
           href: satvikraman.github.io

@@ -56,7 +56,7 @@ website:
         href: https://github.com/satvikraman
         rel: me
       - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
-        href: www.linkedin.com/in/satvik-raman-bb3841407
+        href: https://www.linkedin.com/in/satvik-raman-bb3841407
         rel: me
 
 format:
