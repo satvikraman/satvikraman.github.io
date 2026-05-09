@@ -1,0 +1,205 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+// Typography
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif !default;
+$headings-font-weight: 700 !default;
+$font-size-base: 1rem !default;
+
+// Colors
+$body-color: #334155 !default;
+$body-bg: #ffffff !default;
+$link-color: #2563eb !default;
+$link-hover-color: #1d4ed8 !default;
+$primary: #1e293b !default;
+
+// Spacing
+$spacer: 1rem !default;
+$paragraph-margin-bottom: 1.15rem !default;
+
+// Borders
+$border-radius: 0.5rem !default;
+$border-color: #e2e8f0 !default;
+
+// Navbar
+$navbar-padding-y: 0.75rem !default;
+
+/*-- scss:rules --*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0f172a;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+// Navbar — frosted glass effect
+#quarto-header .navbar {
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.7);
+  box-shadow: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#quarto-header .navbar .navbar-brand,
+#quarto-header .navbar .navbar-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+#quarto-header .navbar .nav-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #475569;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+#quarto-header .navbar .nav-link:hover {
+  color: #0f172a;
+  background: rgba(241, 245, 249, 0.8);
+}
+
+// Links
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+// About template (trestles) hero styling
+.about-entity {
+  padding: 2.5rem 0;
+}
+
+.about-entity .about-image {
+  border: 3px solid #e2e8f0 !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-entity .about-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.about-entity .about-links {
+  margin-top: 1.25rem;
+  gap: 0.5rem;
+}
+
+.about-entity .about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 8px !important;
+  padding: 0.45rem 1rem !important;
+  border: 1.5px solid #e2e8f0 !important;
+  color: #475569 !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  background: transparent !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.about-entity .about-link:hover {
+  border-color: #2563eb !important;
+  color: #2563eb !important;
+  background: #eff6ff !important;
+  transform: translateY(-1px);
+}
+
+// Page footer
+.nav-footer {
+  border-top: 1px solid #e2e8f0;
+  background: #f8fafc;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.nav-footer a {
+  color: #475569;
+}
+
+.nav-footer a:hover {
+  color: #2563eb;
+}
+
+// Content area
+#quarto-content {
+  padding-top: 0.5rem;
+}
+
+.quarto-title {
+  margin-bottom: 0;
+}
+
+// Back to top button
+#quarto-back-to-top {
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+// Search
+.search-button {
+  border-radius: 8px;
+}
+
+// Code blocks (for future project posts)
+pre {
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+// Selection color
+::selection {
+  background: #bfdbfe;
+  color: #1e293b;
+}

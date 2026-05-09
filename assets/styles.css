@@ -1,53 +1,128 @@
-.awards-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+/* ===== Achievement Cards Grid ===== */
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
 }
 
-.award-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  background-color: #f9f9f9;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  min-height: 240px; /* 🔧 Consistent vertical size */
+.achievement-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #2563eb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.award-text {
-  flex: 1 1 300px;
-  min-width: 280px;
-  padding: 0.5rem 1rem;
+.achievement-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
 }
 
-.award-image {
-  width: 220px;
-  height: 160px;
+.achievement-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0.6rem 0 0.4rem;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+}
+
+.achievement-card p {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.year-badge {
+  display: inline-block;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.15rem 0.65rem;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.achievement-thumb {
+  width: 100%;
+  max-height: 150px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0.5rem;
-  transition: transform 0.3s;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  opacity: 0.88;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  border: 1px solid #f1f5f9;
 }
 
-.award-image:hover {
-  transform: scale(1.05);
+.achievement-thumb:hover {
+  opacity: 1;
+  transform: scale(1.01);
 }
+
+/* ===== Education Entry ===== */
+
+.education-entry {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.education-entry p {
+  margin-bottom: 0.2rem;
+}
+
+.education-entry .school-name {
+  font-weight: 600;
+  color: #0f172a;
+  font-size: 1.05rem;
+}
+
+.education-entry .school-detail {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* ===== Section Spacing ===== */
+
+.content-section {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* ===== Hero Bio Text ===== */
+
+#hero-heading p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+/* ===== Responsive ===== */
 
 @media (max-width: 768px) {
-  .award-item {
-    flex-direction: column;
-    text-align: center;
+  .achievements-grid {
+    grid-template-columns: 1fr;
   }
 
-  .award-image {
-    margin-top: 1rem;
+  .content-section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 
-.right-align {
-  float: right;
-  margin-left: 10px;
+@media (max-width: 480px) {
+  .achievement-card {
+    padding: 1.15rem;
+  }
 }

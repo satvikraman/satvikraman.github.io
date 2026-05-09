@@ -9,6 +9,8 @@ on:
       - '**/*.md'
       - '**/*.yml'
       - '**/*.yaml'
+      - '**/*.css'
+      - '**/*.scss'
   workflow_dispatch:
 
 permissions:

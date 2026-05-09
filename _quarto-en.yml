@@ -10,32 +10,31 @@ project:
     - "*-en.qmd"
 
 website:
-  title: "Satvik's Portfolio"
+  title: "Satvik Raman"
   description: "My personal website to showcase my interests, projects, and achievements."
   site-url: "https://satvikraman.github.io"
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
   search: true
+  back-to-top-navigation: true
 
   twitter-card:
-    image: "/files/profiles/twitter_card.png"
+    image: "/assets/profile/twitter_card.png"
     card-style: summary_large_image
     creator: "@satvikraman"
     site: "@satvikraman"
   
   open-graph: 
-    image: "/files/profiles/twitter_card.png"
+    image: "/assets/profile/twitter_card.png"
     locale: en_US  
 
   page-footer:
     left: |
-      <div class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman</div>
-      <div class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</div>
+      <span>{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     right: |
-      <div class="faux-block">Made with {{< fa brands python >}} and [Quarto](https://quarto.org/)</div>
-      <div class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</div>
+      <span>Built with [Quarto](https://quarto.org/) · [{{< fa brands github >}} Source]({{< var github-url >}})</span>
 
   navbar:
-    pinned: false
+    pinned: true
     left:
       - text: "About"
         href: index-en.html
@@ -43,7 +42,7 @@ website:
         file: projects/index-en.html
 
     right:
-      - text: 🌐
+      - text: "{{< iconify bi globe2 size=1.1em title='Languages' >}}"
         aria-label: Languages
         menu:
           - text: English
@@ -61,9 +60,11 @@ website:
 
 format:
   html:
-    theme: journal
+    theme:
+      - cosmo
+      - /assets/theme.scss
     css: /assets/styles.css
 
 lang: en-US
 language:
-  ui: en  # Default UI language
+  ui: en

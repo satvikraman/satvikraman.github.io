@@ -10,32 +10,31 @@ project:
     - "*-de.qmd"
 
 website:
-  title: "Satvik's Portfolio"
+  title: "Satvik Raman"
   description: "Meine persönliche Webseite, um meine Interessen, Projekte und Erfolge zu präsentieren."
   site-url: "https://satvikraman.github.io"
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
   search: true
+  back-to-top-navigation: true
 
   twitter-card:
-    image: "/files/profiles/twitter_card.png"
+    image: "/assets/profile/twitter_card.png"
     card-style: summary_large_image
     creator: "@satvikraman"
     site: "@satvikraman"
   
   open-graph:
-    image: "/files/profiles/twitter_card.png"
+    image: "/assets/profile/twitter_card.png"
     locale: de_DE  
 
   page-footer:
     left: |
-      <div class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman</div>
-      <div class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</div>
+      <span>{{< fa brands creative-commons >}} {{< var years >}} Satvik Raman · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     right: |
-      <div class="faux-block">Made with {{< fa brands python >}} and [Quarto](https://quarto.org/)</div>
-      <div class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</div>
+      <span>Built with [Quarto](https://quarto.org/) · [{{< fa brands github >}} Source]({{< var github-url >}})</span>
 
   navbar:
-    pinned: false
+    pinned: true
     left:
       - text: "Über mich"
         href: index-de.html
@@ -43,7 +42,7 @@ website:
         file: projects/index-en.html
 
     right:
-      - text: 🌐
+      - text: "{{< iconify bi globe2 size=1.1em title='Sprachen' >}}"
         aria-label: Sprachen
         menu:
           - text: English
@@ -61,7 +60,9 @@ website:
 
 format:
   html:
-    theme: journal
+    theme:
+      - cosmo
+      - /assets/theme.scss
     css: /assets/styles.css
 
 lang: de-DE

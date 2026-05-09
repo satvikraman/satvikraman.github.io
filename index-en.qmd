@@ -2,94 +2,116 @@
 title: "Satvik Raman"
 about:
     id: hero-heading
-    template: solana
-    image-shape: rounded
+    template: trestles
+    image: /assets/profile/satvik_photo_20230101.jpg
+    image-shape: round
+    image-width: 14em
     links:
         - icon: github
-          text: Github
+          text: GitHub
           href: https://github.com/satvikraman
         - icon: linkedin
           text: LinkedIn
           href: https://www.linkedin.com/in/satvik-raman-bb3841407
-        - icon: share
-          text: Share
-          href: satvikraman.github.io
+        - icon: envelope
+          text: Email
+          href: mailto:satvikraman11@gmail.com
 format:
     html:
         page-layout: full
 lightbox: auto
 ---
-#####
+
 :::{#hero-heading}
-![](/assets/profile/satvik_photo_20230101.jpg){.right-align width=15%}
-I am a Grade 12 student at Sri Kumaran's Children's Home School, Bengaluru, with a passion for economics and mathematics. My desire to understand how businesses operate and how financial systems shape our world drives my academic journey. I intend to pursue these fields at the undergraduate level and build my career around them. 
+I am a Grade 12 student at Sri Kumaran's Children's Home School, Bengaluru, with a passion for economics and mathematics. My desire to understand how businesses operate and how financial systems shape our world drives my academic journey. I intend to pursue these fields at the undergraduate level and build my career around them.
 
 I believe in applying what I learn to the real world. I have been programming since my sixth grade and frequently build automations to streamline tasks and aid decision-making. I am deeply committed to social equity. Inspired by my upbringing in a polyglot family, my community service focuses on breaking down language and economic barriers, using technology, to create equal opportunities for underserved groups.
 
-Sports is equally central to my identity. I have represented my school in football and table tennis at the state and national level CBSE cluster tournaments. I have also played club-level football for the last three years with Young Blue Elite FC  [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}, across their U17, U18, and U19 teams. 
+Sports is equally central to my identity. I have represented my school in football and table tennis at the state and national level CBSE cluster tournaments. I have also played club-level football for the last three years with Young Blue Elite FC [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}, across their U17, U18, and U19 teams.
 
 Sports has taught me to value discipline, dedication, teamwork, and strategic thinking. I do my best to cross-pollinate these learnings for my academic and personal growth.
 :::
 
+::: {.content-section}
+
 ## Education
-Sri Kumaran's Children's Home school | Bengaluru
 
-## 🏆 Awards and Recognitions
+::: {.education-entry}
+[**Sri Kumaran's Children's Home School**]{.school-name} · Bengaluru, India
 
-::: {.awards-container}
-
-::: {.award-item}
-<div class="award-text">
-### State level CBSE clusters TT tournament - 2020 - Runners Up
-<p>I represented my school at the state level CBSE clusters competition and we came runners up.</p>
-</div>
-![](/assets/profile/TT-State-2020-2nd.jpeg){.award-image}
+[Grade 12 · CBSE]{.school-detail}
 :::
 
-::: {.award-item}
-<div class="award-text">
-### Google Code To Learn - 2019 - Winner
-<p>Created an Android application. [Video demo](https://www.youtube.com/watch?v=M2hzPp6bmkQ)</p>
-</div>
-![](/assets/profile/Google-Code-To-Learn.jpeg){.award-image}
+## Awards & Recognitions
+
+::: {.achievements-grid}
+
+::: {.achievement-card}
+[2020]{.year-badge}
+
+#### State CBSE Clusters TT Tournament — Runners Up
+
+Represented school at the state level CBSE clusters competition.
+
+![](/assets/profile/TT-State-2020-2nd.jpeg){group="awards" .achievement-thumb}
 :::
 
-::: {.award-item}
-<div class="award-text">
-### National level CBSE clusters TT tournament - 2020
-<p>I represented my school at the national level. The competition was held in Noorpur, Uttar Pradesh.</p>
-</div>
-![](/assets/profile/TT-National-2019-Paticipation.jpeg){.award-image}
+::: {.achievement-card}
+[2019]{.year-badge}
+
+#### Google Code To Learn — Winner
+
+Created an Android application. [Video demo](https://www.youtube.com/watch?v=M2hzPp6bmkQ){target="_blank"}
+
+![](/assets/profile/Google-Code-To-Learn.jpeg){group="awards" .achievement-thumb}
 :::
 
-::: {.award-item}
-<div class="award-text">
-### State level CBSE clusters TT tournament - 2019 - Winner
-<p>We won the state level competition and were selected to compete at the national level.</p>
-</div>
-![](/assets/profile/TT-State-2019-1st.jpeg){.award-image}
+::: {.achievement-card}
+[2020]{.year-badge}
+
+#### National CBSE Clusters TT Tournament
+
+Represented school at the national level. The competition was held in Noorpur, Uttar Pradesh.
+
+![](/assets/profile/TT-National-2019-Paticipation.jpeg){group="awards" .achievement-thumb}
+:::
+
+::: {.achievement-card}
+[2019]{.year-badge}
+
+#### State CBSE Clusters TT Tournament — Winner
+
+Won the state level competition and was selected to compete at the national level.
+
+![](/assets/profile/TT-State-2019-1st.jpeg){group="awards" .achievement-thumb}
 :::
 
 :::
 
-## 📜 Certifications
+## Certifications
 
-::: {.awards-container}
+::: {.achievements-grid}
 
-::: {.award-item}
-<div class="award-text">
-### German A2
-<p>I cleared the A2 level German language proficiency test in 2023.</p>
-</div>
-![](/assets/profile/German-A2.jpeg){.award-image}
+::: {.achievement-card}
+[2023]{.year-badge}
+
+#### German A2
+
+Cleared the A2 level German language proficiency test.
+
+![](/assets/profile/German-A2.jpeg){group="certs" .achievement-thumb}
 :::
 
-::: {.award-item}
-<div class="award-text">
-### German A1
-<p>I cleared the A1 level German language proficiency test in 2022.</p>
-</div>
-![](/assets/profile/German-A1.jpeg){.award-image}
+::: {.achievement-card}
+[2022]{.year-badge}
+
+#### German A1
+
+Cleared the A1 level German language proficiency test.
+
+![](/assets/profile/German-A1.jpeg){group="certs" .achievement-thumb}
+:::
+
 :::
 
 :::
