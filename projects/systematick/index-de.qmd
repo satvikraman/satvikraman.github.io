@@ -1,0 +1,38 @@
+---
+title: "Systematick.in"
+subtitle: "Plattform für Wirtschafts- und Finanzpublikationen"
+date: 2025-01-01
+image: /assets/projects/systematick/screenshot.png
+categories:
+  - Research & Essays
+order: 6
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Entwickelte **systematick.in** — eine persönliche Plattform für Wirtschafts- und Finanztexte, die Ideen aus Forschung und Essays in eine öffentliche Marke überführt.
+:::
+
+## Überblick
+
+Gute Texte verdienen ein Zuhause. Systematick.in ist der Ort, an dem ich Wirtschaftsanalysen, Finanzkommentare und längere Essays veröffentliche — als Brücke zwischen akademischer Forschung (wie meinem SSRN-Paper) und zugänglicher öffentlicher Diskussion. Es zeigt, dass ich nicht nur schreibe, sondern Plattformen baue, um Ideen zu teilen.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Ich produzierte Wirtschaftsessays und Forschung, hatte aber keine dedizierte Plattform, um meine Arbeit unter einer konsistenten Marke zu veröffentlichen.</li>
+<li><strong>Aufgabe:</strong> Eine professionelle Web-Präsenz für Wirtschafts- und Finanzinhalte schaffen, die meine intellektuellen Interessen widerspiegelt.</li>
+<li><strong>Maßnahme:</strong> Systematick.in entworfen, gebaut und deployed — mit Layout, Typografie und Inhaltsstruktur für sowohl allgemeine als auch akademisch orientierte Leser.</li>
+<li><strong>Ergebnis:</strong> Eine live Plattform, die meine Wirtschafts-/Finanz-Identität neben technischen Projekten und Forschungspublikationen verankert.</li>
+</ul>
+:::
+
+![](/assets/projects/systematick/screenshot.png){.project-screenshot fig-alt="Screenshot der Systematick.in-Startseite"}
+
+::: {.project-cta}
+[systematick.in besuchen](https://systematick.in){.btn-project target="_blank"}
+:::
+
+:::

@@ -1,0 +1,44 @@
+---
+title: "Chatbot in Landessprache"
+subtitle: "Sprachbarrieren mit NLP-gestütztem dialogbasiertem Zugang überwinden"
+date: 2024-06-01
+image: /assets/projects/vernacular-chatbot/thumbnail.png
+categories:
+  - Finance & Software
+order: 3
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Entwickelte einen Chatbot in Landessprachen, der Informationen und Dienste für Nutzer zugänglich macht, die sich lieber in ihrer Muttersprache als auf Englisch verständigen.
+:::
+
+## Überblick
+
+Aufgewachsen in einer mehrsprachigen Familie in Bengaluru, habe ich aus erster Hand erlebt, wie Sprache unsichtbare Barrieren für Chancen schafft. Dieses Projekt wendet NLP und Lokalisierung an, um einen Chatbot zu bauen, der in Landessprachen kommuniziert und digitale Werkzeuge für benachteiligte Gemeinschaften erreichbar macht.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Viele Menschen in Indien — besonders in informeller und Gig-Arbeit — haben keinen Zugang zu Diensten und Informationen, weil Oberflächen überwiegend auf Englisch sind.</li>
+<li><strong>Aufgabe:</strong> Einen Chatbot entwerfen und bauen, der Landessprachen versteht und darauf antwortet, um die Hürde für digitale Teilhabe zu senken.</li>
+<li><strong>Maßnahme:</strong> NLP-APIs für Intent-Erkennung und mehrsprachige Antwortgenerierung integriert; Gesprächsabläufe für Nicht-Englisch-Sprecher optimiert; mit realen Formulierungsmustern lokaler Sprachen getestet.</li>
+<li><strong>Ergebnis:</strong> Ein funktionsfähiger Prototyp, der zeigt, wie Technologie für Barrierefreiheit lokalisiert werden kann — im Einklang mit meinem Engagement für soziale Gerechtigkeit durch Technologie.</li>
+</ul>
+:::
+
+![](/assets/projects/vernacular-chatbot/thumbnail.png){.project-screenshot fig-alt="Chatbot-Oberfläche in Landessprache"}
+
+## Technologie
+
+::: {.tech-stack}
+<span class="tech-tag">Python</span>
+<span class="tech-tag">NLP</span>
+<span class="tech-tag">API-Integration</span>
+<span class="tech-tag">Lokalisierung</span>
+<span class="tech-tag">Conversational AI</span>
+:::
+
+:::

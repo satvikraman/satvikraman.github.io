@@ -1,0 +1,44 @@
+---
+title: "Vernacular Chatbot"
+subtitle: "Breaking language barriers with NLP-powered conversational access"
+date: 2024-06-01
+image: /assets/projects/vernacular-chatbot/thumbnail.png
+categories:
+  - Finance & Software
+order: 3
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Built a vernacular-language chatbot that makes information and services accessible to users who are more comfortable communicating in their native language — not English.
+:::
+
+## Overview
+
+Growing up in a polyglot family in Bengaluru, I saw firsthand how language creates invisible barriers to opportunity. This project applies natural language processing and localization principles to build a chatbot that converses in vernacular languages, making digital tools reachable for underserved communities.
+
+## What I Did
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Many people in India — especially in informal and gig-economy work — lack access to services and information because interfaces are overwhelmingly English-first.</li>
+<li><strong>Task:</strong> Design and build a chatbot that understands and responds in vernacular languages, lowering the barrier to digital participation.</li>
+<li><strong>Action:</strong> Integrated NLP APIs for intent recognition and multilingual response generation; designed conversation flows tuned for non-English speakers; tested with real-world phrasing patterns common in local languages.</li>
+<li><strong>Result:</strong> A working prototype that demonstrates how technology can be localized for accessibility — aligning with my broader commitment to social equity through tech.</li>
+</ul>
+:::
+
+![](/assets/projects/vernacular-chatbot/thumbnail.png){.project-screenshot fig-alt="Vernacular chatbot interface"}
+
+## Tech Stack
+
+::: {.tech-stack}
+<span class="tech-tag">Python</span>
+<span class="tech-tag">NLP</span>
+<span class="tech-tag">API Integration</span>
+<span class="tech-tag">Localization</span>
+<span class="tech-tag">Conversational AI</span>
+:::
+
+:::

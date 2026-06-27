@@ -1,0 +1,52 @@
+---
+title: "Finanzkompetenz bei Gig-Arbeitern in Bangalore"
+subtitle: "Empirische Forschung auf SSRN veröffentlicht"
+date: 2025-06-01
+image: /assets/projects/gig-workers-research/thumbnail.png
+categories:
+  - Featured
+  - Research & Essays
+order: 4
+---
+
+::: {.project-detail}
+
+::: {.featured-badge}
+Highlight
+:::
+
+::: {.project-hook}
+Führte originäre empirische Forschung zur Finanzkompetenz bei Gig-Arbeitern in Bangalore durch — mit Veröffentlichung auf SSRN noch während der Schulzeit.
+:::
+
+## Abstract
+
+Gig-Arbeiter bilden ein schnell wachsendes Segment der städtischen Belegschaft Bangalores, doch ihre Finanzkompetenz und die Auswirkungen auf die wirtschaftliche Sicherheit sind wenig erforscht. Diese Arbeit präsentiert eine empirische Analyse von Finanzwissen, Sparverhalten und Zugang zu formalen Finanzdienstleistungen bei Gig-Ökonomie-Arbeitern in Bangalore. Die Ergebnisse zeigen erhebliche Lücken in der Finanzkompetenz, die mit Einkommensschwankungen und begrenztem Zugang zu strukturierter Finanzplanung korrelieren.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Bangalores Gig-Ökonomie wächst schnell, aber es gibt wenig empirische Forschung zur Finanzkompetenz der Arbeitnehmer in diesem Sektor.</li>
+<li><strong>Aufgabe:</strong> Eine rigorose empirische Studie entwerfen und durchführen, Daten analysieren und Ergebnisse in einem akademischen Forum veröffentlichen.</li>
+<li><strong>Maßnahme:</strong> Forschungsrahmen entwickelt, Umfragedaten von Gig-Arbeitern in Bangalore erhoben und analysiert, Ergebnisse statistisch fundiert aufgeschrieben.</li>
+<li><strong>Ergebnis:</strong> Paper auf SSRN veröffentlicht: *„Financial Literacy in Bangalore Gig Workers: An Empirical Analysis."*</li>
+</ul>
+:::
+
+## Technologie
+
+::: {.tech-stack}
+<span class="tech-tag">Empirische Forschung</span>
+<span class="tech-tag">Ökonometrie</span>
+<span class="tech-tag">Umfragedesign</span>
+<span class="tech-tag">Finanzkompetenz</span>
+<span class="tech-tag">SSRN</span>
+:::
+
+::: {.project-cta}
+[Auf SSRN lesen](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6086709){.btn-project target="_blank"}
+[PDF herunterladen](/assets/docs/gig-workers-research.pdf){.btn-project .btn-project-secondary target="_blank"}
+:::
+
+:::

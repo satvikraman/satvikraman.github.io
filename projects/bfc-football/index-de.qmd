@@ -1,0 +1,48 @@
+---
+title: "Bengaluru FC Fußball"
+subtitle: "Clubfußball bei Young Blue Elite FC — BFC Soccer School"
+date: 2023-01-01
+image: /assets/projects/bfc-football/action-photo.jpeg
+categories:
+  - Athletics
+order: 7
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Drei Jahre Clubfußball bei **Young Blue Elite FC** an der [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"} — in U17-, U18- und U19-Mannschaften.
+:::
+
+## Überblick
+
+Fußball ist für mich genauso zentral wie Wirtschaft und Programmierung. Training und Wettkampf an der Akademie von Bengaluru FC — einem der besten Fußball-Nachwuchsprogramme Indiens — hat geprägt, wie ich Disziplin, Teamarbeit und strategisches Denken in allen anderen Lebensbereichen angehe.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Ich wollte auf dem höchsten Niveau des Jugend-Clubfußballs in Bengaluru antreten und dabei intensives Training mit schulischen Verpflichtungen vereinbaren.</li>
+<li><strong>Aufgabe:</strong> Einen Platz in BFC Soccer School-Mannschaften über drei Alterskategorien halten und gleichzeitig in der Schule excellieren.</li>
+<li><strong>Maßnahme:</strong> Drei Jahre konsequent mit Young Blue Elite FC trainiert; durch U17-, U18- und U19-Kader aufgestiegen; taktische Disziplin und Teamarbeit unter Wettkampfbedingungen angewendet.</li>
+<li><strong>Ergebnis:</strong> Anhaltende Club-Vertretung an einer Spitzenakademie — mit körperlicher Exzellenz, Zeitmanagement und Führungsqualitäten, die in akademische und technische Arbeit einfließen.</li>
+</ul>
+:::
+
+![](/assets/projects/bfc-football/action-photo.jpeg){.project-screenshot fig-alt="Actionfoto vom BFC-Fußballtraining oder Spiel"}
+
+## Highlights
+
+::: {.tech-stack}
+<span class="tech-tag">Young Blue Elite FC</span>
+<span class="tech-tag">BFC Soccer School</span>
+<span class="tech-tag">U17 · U18 · U19</span>
+<span class="tech-tag">Clubfußball</span>
+<span class="tech-tag">3 Jahre</span>
+:::
+
+::: {.project-cta}
+[BFC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){.btn-project target="_blank"}
+:::
+
+:::

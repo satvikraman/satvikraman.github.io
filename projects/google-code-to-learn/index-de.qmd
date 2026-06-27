@@ -1,0 +1,57 @@
+---
+title: "Google Code To Learn"
+subtitle: "Nationaler Sieger — Android-App mit Scratch"
+date: 2019-01-01
+image: /assets/projects/google-code-to-learn/thumbnail.jpeg
+categories:
+  - Featured
+  - Finance & Software
+order: 1
+---
+
+::: {.project-detail}
+
+::: {.featured-badge}
+Highlight
+:::
+
+::: {.project-hook}
+Gewann den **1. Preis** beim Google Code To Learn, Indiens nationalem Programmierwettbewerb für Schüler, mit einer funktionsfähigen Android-Anwendung.
+:::
+
+## Überblick
+
+Google Code To Learn forderte Schüler auf, mit visuellen Programmierwerkzeugen echte Software zu entwickeln. Ich entwarf und baute eine Android-App, die kreatives Problemlösen und technische Umsetzung verband — und erhielt mit 13 Jahren nationale Anerkennung.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Google lud Schüler in ganz Indien ein, mit Scratch-basierten Tools funktionierende Anwendungen zu entwickeln und um nationale Anerkennung zu konkurrieren.</li>
+<li><strong>Aufgabe:</strong> Eine originelle Android-Anwendung entwerfen, entwickeln und präsentieren, die ein sinnvolles Problem löst.</li>
+<li><strong>Maßnahme:</strong> Eine vollständige Android-App von Grund auf entwickelt und UX sowie Funktionalität iterativ verbessert.</li>
+<li><strong>Ergebnis:</strong> **1. Preis** auf nationaler Ebene. Das Zertifikat ist auf meiner [Über-mich-Seite](/index-de.html#hero-heading) zu sehen.</li>
+</ul>
+:::
+
+## Demo
+
+::: {.video-embed}
+<iframe src="https://www.youtube.com/embed/M2hzPp6bmkQ" title="Google Code To Learn — App-Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+## Technologie
+
+::: {.tech-stack}
+<span class="tech-tag">Scratch</span>
+<span class="tech-tag">Android</span>
+<span class="tech-tag">Visuelle Programmierung</span>
+<span class="tech-tag">App-Design</span>
+:::
+
+::: {.project-cta}
+[Auf YouTube ansehen](https://www.youtube.com/watch?v=M2hzPp6bmkQ){.btn-project target="_blank"}
+[Zertifikat ansehen](/index-de.html#hero-heading){.btn-project .btn-project-secondary}
+:::
+
+:::

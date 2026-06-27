@@ -1,0 +1,43 @@
+---
+title: "The Economics of Artificial Intelligence"
+subtitle: "Beitrag zum Berkeley High School Essay Contest"
+date: 2025-09-01
+image: /assets/projects/economics-of-ai-essay/thumbnail.png
+categories:
+  - Research & Essays
+order: 5
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Analysierte, wie KI-Adoption die Arbeitsnachfrage entlang der Qualifikationsverteilung in den USA verändert — und schlug eine Anpassungspolitik für Arbeitnehmer vor — für den Berkeley High School Essay Contest.
+:::
+
+## Wettbewerbsaufgabe
+
+::: {.prompt-block}
+*The Economics of Artificial Intelligence:* Künstliche Intelligenz wird Arbeitnehmer entlang der Qualifikationsverteilung unterschiedlich betreffen. Analysieren Sie, wie KI-Adoption die Arbeitsnachfrage für hoch-, mittel- und geringqualifizierte Arbeitnehmer in den USA verändern kann — unter Berücksichtigung produktivitätssteigernder und verdrängender Effekte. Diskutieren Sie die Auswirkungen auf Lohnungleichheit. Schlagen Sie eine konkrete Politikmaßnahme vor und bewerten Sie diese kritisch.
+:::
+
+## Überblick
+
+Dieser Essay untersucht die dualen Kräfte der KI auf dem Arbeitsmarkt — Produktivitätssteigerung für hochqualifizierte Arbeitnehmer und Verdrängungsrisiko für mittel- und geringqualifizierte Rollen — und leitet die Implikationen für Lohnungleichheit ab. Anschließend wird eine konkrete Anpassungspolitik vorgeschlagen und kritisch bewertet.
+
+## Was ich getan habe
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> KI verändert Arbeitsmärkte weltweit, aber politische Antworten bleiben umstritten — besonders für Arbeitnehmer an verschiedenen Punkten der Qualifikationsleiter.</li>
+<li><strong>Aufgabe:</strong> Einen rigorosen Wirtschaftsessay schreiben, der KI-Auswirkungen auf hoch-, mittel- und geringqualifizierte Arbeitnehmer analysiert und eine glaubwürdige Anpassungspolitik vorschlägt.</li>
+<li><strong>Maßnahme:</strong> Arbeitsmarktliteratur zu qualifikationsverzerrender technologischer Veränderung recherchiert; Argumente um Produktivitäts- vs. Verdrängungseffekte strukturiert; eine gezielte Anpassungspolitik entworfen und kritisch bewertet.</li>
+<li><strong>Ergebnis:</strong> Essay eingereicht beim [Berkeley High School Essay Contest](https://econreview.studentorg.berkeley.edu/high-school-essay/){target="_blank"}, als Antwort auf Aufgabe 1 zur Ökonomie der KI.</li>
+</ul>
+:::
+
+::: {.project-cta}
+[Essay lesen (PDF)](/assets/docs/economics-of-ai-essay.pdf){.btn-project target="_blank"}
+[Wettbewerbsseite](https://econreview.studentorg.berkeley.edu/high-school-essay/){.btn-project .btn-project-secondary target="_blank"}
+:::
+
+:::

@@ -1,0 +1,70 @@
+---
+title: "Automated Trading System"
+subtitle: "Programmatic trade replication from ICICI Direct recommendations"
+date: 2024-03-21
+image: /assets/projects/automated-trading/ui-screenshot.png
+categories:
+  - Finance & Software
+order: 2
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Built an end-to-end trading system that programmatically replicates trade recommendations from ICICI Direct — then extended it with a custom UI for manual trade entry and overrides.
+:::
+
+## Overview
+
+What started as an automation to mirror broker recommendations evolved into a full product: a backend pipeline that ingests signals, processes them, and executes orders — plus a frontend that gives me full control when I want to intervene manually.
+
+## Phase 1 — Automated Replication
+
+::: {.phase-block}
+#### Phase 1 · Automated Pipeline
+
+<ul class="star-list">
+<li><strong>Situation:</strong> ICICI Direct publishes trade recommendations that require fast, consistent execution to be useful.</li>
+<li><strong>Task:</strong> Build a system that receives these recommendations and places corresponding trades programmatically, without manual intervention.</li>
+<li><strong>Action:</strong> Designed a pipeline with three stages — <strong>data intake</strong> (capturing recommendations from ICICI Direct), <strong>processing</strong> (parsing, validating, and mapping signals to orders), and <strong>execution</strong> (placing trades via the broker API).</li>
+<li><strong>Result:</strong> Trades are replicated automatically with minimal latency, removing the friction of manual order entry for every recommendation.</li>
+</ul>
+:::
+
+## Phase 2 — Manual Trade UI
+
+::: {.phase-block}
+#### Phase 2 · Product Upgrade
+
+<ul class="star-list">
+<li><strong>Situation:</strong> Fully automated replication worked well, but I sometimes needed to add trades manually or override the system's decisions.</li>
+<li><strong>Task:</strong> Extend the system with a user interface for manual trade entry and intervention.</li>
+<li><strong>Action:</strong> Built a custom frontend UI on top of the existing pipeline, allowing me to input trades, review pending orders, and override automated actions when needed.</li>
+<li><strong>Result:</strong> A hybrid system — automated by default, manually controllable when context demands it. The UI turned a backend script into a usable trading tool.</li>
+</ul>
+:::
+
+![](/assets/projects/automated-trading/ui-screenshot.png){.project-screenshot fig-alt="Trading system UI showing manual trade entry interface"}
+
+## Architecture
+
+```mermaid
+flowchart LR
+  icici["ICICI Direct Recommendations"] --> intake["Data Intake"]
+  intake --> process["Signal Processing"]
+  process --> execute["Order Execution"]
+  ui["Manual Trade UI"] --> process
+  execute --> broker["Broker API"]
+```
+
+## Tech Stack
+
+::: {.tech-stack}
+<span class="tech-tag">Python</span>
+<span class="tech-tag">API Integration</span>
+<span class="tech-tag">Web UI</span>
+<span class="tech-tag">Automated Trading</span>
+<span class="tech-tag">ICICI Direct</span>
+:::
+
+:::

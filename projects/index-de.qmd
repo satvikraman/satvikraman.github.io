@@ -1,10 +1,10 @@
 ---
-title: "Projects"
+title: "Projekte"
 listing:
   - id: featured
     contents:
-      - google-code-to-learn/index-en.qmd
-      - gig-workers-research/index-en.qmd
+      - google-code-to-learn/index-de.qmd
+      - gig-workers-research/index-de.qmd
     type: grid
     sort: false
     image-height: "280"
@@ -12,7 +12,7 @@ listing:
     fields: [title, subtitle, categories, date, image]
   - id: all-projects
     contents:
-      - "*/index-en.qmd"
+      - "*/index-de.qmd"
     type: grid
     sort:
       - "date desc"
@@ -24,12 +24,12 @@ listing:
     fields: [title, subtitle, categories, date, image]
 ---
 
-## Featured
+## Highlights
 
 ::: {#listing-featured}
 :::
 
-## All Projects
+## Alle Projekte
 
 ::: {#listing-all-projects}
 :::

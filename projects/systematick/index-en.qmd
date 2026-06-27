@@ -1,0 +1,38 @@
+---
+title: "Systematick.in"
+subtitle: "Economics and finance publishing platform"
+date: 2025-01-01
+image: /assets/projects/systematick/screenshot.png
+categories:
+  - Research & Essays
+order: 6
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Built **systematick.in** — a personal platform for publishing economics and finance writing, turning ideas from research and essays into a public-facing brand.
+:::
+
+## Overview
+
+Strong writing deserves a home. Systematick.in is where I publish economic analysis, financial commentary, and long-form essays — bridging the gap between academic research (like my SSRN paper) and accessible public discourse. It demonstrates that I don't just write; I build platforms to share ideas.
+
+## What I Did
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> I was producing economics essays and research but lacked a dedicated platform to publish and organize my work under a consistent brand.</li>
+<li><strong>Task:</strong> Create a professional web presence for economics and finance content that reflects my intellectual interests.</li>
+<li><strong>Action:</strong> Designed, built, and deployed systematick.in — choosing layout, typography, and content structure to serve both casual readers and academically inclined visitors.</li>
+<li><strong>Result:</strong> A live publishing platform that anchors my economics/finance identity alongside my technical projects and research publications.</li>
+</ul>
+:::
+
+![](/assets/projects/systematick/screenshot.png){.project-screenshot fig-alt="Systematick.in homepage screenshot"}
+
+::: {.project-cta}
+[Visit systematick.in](https://systematick.in){.btn-project target="_blank"}
+:::
+
+:::

@@ -39,7 +39,7 @@ website:
       - text: "Über mich"
         href: index-de.html
       - text: "Projekte"
-        file: projects/index-en.html
+        file: projects/index-de.html
 
     right:
       - text: "{{< iconify bi globe2 size=1.1em title='Sprachen' >}}"

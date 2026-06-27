@@ -1,0 +1,57 @@
+---
+title: "Google Code To Learn"
+subtitle: "National winner — Android app built in Scratch"
+date: 2019-01-01
+image: /assets/projects/google-code-to-learn/thumbnail.jpeg
+categories:
+  - Featured
+  - Finance & Software
+order: 1
+---
+
+::: {.project-detail}
+
+::: {.featured-badge}
+Featured
+:::
+
+::: {.project-hook}
+Won **1st prize** at Google Code To Learn, India's national coding competition for school students, by building a functional Android application.
+:::
+
+## Overview
+
+Google Code To Learn challenged students to create real software using visual programming. I designed and built an Android app that demonstrated both creative problem-solving and technical execution — earning national recognition at age 13.
+
+## What I Did
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Google invited school students across India to build working applications using Scratch-based tools, competing for national recognition.</li>
+<li><strong>Task:</strong> Design, develop, and present an original Android application that solved a meaningful problem.</li>
+<li><strong>Action:</strong> Built a complete Android app from scratch, iterating on UX and functionality until the product was demo-ready.</li>
+<li><strong>Result:</strong> Won **1st prize** nationally. The certificate is displayed on my [About page](/index-en.html#hero-heading).</li>
+</ul>
+:::
+
+## Demo
+
+::: {.video-embed}
+<iframe src="https://www.youtube.com/embed/M2hzPp6bmkQ" title="Google Code To Learn — App Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+## Tech Stack
+
+::: {.tech-stack}
+<span class="tech-tag">Scratch</span>
+<span class="tech-tag">Android</span>
+<span class="tech-tag">Visual Programming</span>
+<span class="tech-tag">App Design</span>
+:::
+
+::: {.project-cta}
+[Watch on YouTube](https://www.youtube.com/watch?v=M2hzPp6bmkQ){.btn-project target="_blank"}
+[View Certificate](/index-en.html#hero-heading){.btn-project .btn-project-secondary}
+:::
+
+:::

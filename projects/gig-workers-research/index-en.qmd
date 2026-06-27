@@ -1,0 +1,52 @@
+---
+title: "Financial Literacy in Bangalore Gig Workers"
+subtitle: "Empirical research published on SSRN"
+date: 2025-06-01
+image: /assets/projects/gig-workers-research/thumbnail.png
+categories:
+  - Featured
+  - Research & Essays
+order: 4
+---
+
+::: {.project-detail}
+
+::: {.featured-badge}
+Featured
+:::
+
+::: {.project-hook}
+Conducted original empirical research on financial literacy among Bangalore's gig workers — with findings published on SSRN while still in high school.
+:::
+
+## Abstract
+
+Gig workers form a rapidly growing segment of Bangalore's urban workforce, yet their financial literacy levels and implications for economic security remain under-studied. This paper presents an empirical analysis of financial knowledge, savings behaviour, and access to formal financial services among gig-economy workers in Bangalore. The findings reveal significant gaps in financial literacy that correlate with income volatility and limited access to structured financial planning — highlighting the need for targeted financial education interventions in India's informal economy.
+
+## What I Did
+
+::: {.project-section}
+<ul class="star-list">
+<li><strong>Situation:</strong> Bangalore's gig economy is expanding rapidly, but little empirical research exists on the financial literacy of workers in this sector.</li>
+<li><strong>Task:</strong> Design and conduct a rigorous empirical study, analyse the data, and publish findings in an academic forum.</li>
+<li><strong>Action:</strong> Developed a research framework, collected and analysed survey data from gig workers across Bangalore, and wrote up findings with statistical rigour.</li>
+<li><strong>Result:</strong> Paper published on SSRN: *"Financial Literacy in Bangalore Gig Workers: An Empirical Analysis."*</li>
+</ul>
+:::
+
+## Tech Stack
+
+::: {.tech-stack}
+<span class="tech-tag">Empirical Research</span>
+<span class="tech-tag">Econometrics</span>
+<span class="tech-tag">Survey Design</span>
+<span class="tech-tag">Financial Literacy</span>
+<span class="tech-tag">SSRN</span>
+:::
+
+::: {.project-cta}
+[Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6086709){.btn-project target="_blank"}
+[Download PDF](/assets/docs/gig-workers-research.pdf){.btn-project .btn-project-secondary target="_blank"}
+:::
+
+:::
