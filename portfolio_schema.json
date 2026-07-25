@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PortfolioData",
+  "type": "object",
+  "properties": {
+    "personal": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "thesis": { "type": "string" },
+        "accolades": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["name", "thesis", "accolades"]
+    },
+    "heroProjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "rank": { "type": "integer" },
+          "title": { "type": "string" },
+          "category": { "type": "string", "enum": ["research", "software", "athletics", "essay"] },
+          "badge": { "type": "string" },
+          "shortSummary": { "type": "string" },
+          "metrics": { "type": "array", "items": { "type": "string" } },
+          "evidenceTypes": { "type": "array", "items": { "type": "string" } },
+          "links": {
+            "type": "object",
+            "properties": {
+              "pdf": { "type": "string" },
+              "github": { "type": "string" },
+              "ssrn": { "type": "string" },
+              "live": { "type": "string" }
+            }
+          },
+          "narrative": {
+            "type": "object",
+            "properties": { "wordCount": { "type": "integer" }, "markdownContent": { "type": "string" } }
+          }
+        },
+        "required": ["id", "rank", "title", "category", "badge", "shortSummary", "metrics", "evidenceTypes"]
+      }
+    },
+    "labIndex": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "year": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string" },
+          "summary": { "type": "string" },
+          "link": { "type": "string" }
+        }
+      }
+    }
+  }
+}

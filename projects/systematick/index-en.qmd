@@ -1,38 +1,107 @@
 ---
-title: "Systematick.in"
-subtitle: "Economics and finance publishing platform"
+title: "Systematick"
+subtitle: "A programmable platform for more transparent investment decisions"
 date: 2025-01-01
 image: /assets/projects/systematick/screenshot.png
 categories:
-  - Research & Essays
-order: 6
+  - Finance & Software
+order: 2
 ---
 
 ::: {.project-detail}
 
 ::: {.project-hook}
-Built **systematick.in** — a personal platform for publishing economics and finance writing, turning ideas from research and essays into a public-facing brand.
+Systematick began with a question: **can good investment decisions become more systematic, transparent, and repeatable?**
 :::
 
-## Overview
+<p class="venture-status"><strong>Status:</strong> Independent venture in development. Company registration is planned but not yet claimed.</p>
 
-Strong writing deserves a home. Systematick.in is where I publish economic analysis, financial commentary, and long-form essays — bridging the gap between academic research (like my SSRN paper) and accessible public discourse. It demonstrates that I don't just write; I build platforms to share ideas.
+## The problem
 
-## What I Did
+Most investment software is designed to deliver answers: a rating, a signal, or a list of stocks. I was more interested in the process that produces an answer.
 
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Situation:</strong> I was producing economics essays and research but lacked a dedicated platform to publish and organize my work under a consistent brand.</li>
-<li><strong>Task:</strong> Create a professional web presence for economics and finance content that reflects my intellectual interests.</li>
-<li><strong>Action:</strong> Designed, built, and deployed systematick.in — choosing layout, typography, and content structure to serve both casual readers and academically inclined visitors.</li>
-<li><strong>Result:</strong> A live publishing platform that anchors my economics/finance identity alongside my technical projects and research publications.</li>
-</ul>
+An investor may have a clear philosophy in their head—quality, valuation, resilience, or some combination of the three—but applying it consistently across years of company data is difficult. The rules drift. Sources disagree. Past decisions become hard to reconstruct.
+
+Systematick is my attempt to turn that reasoning into a process that can be inspected, tested, and improved.
+
+## What I am building
+
+The platform combines programmable screening logic with the data infrastructure needed to support it. The visible interface is only one layer. Much of the work has involved questions beneath it:
+
+- How should years of financial and market data be stored efficiently?
+- How should corporate actions alter historical series?
+- Where should authentication and user-specific logic live?
+- How can a result remain explainable after parts of the workflow are automated?
+- Which architectural decisions remain sensible if the project grows?
+
+Those questions led me into Parquet, DuckDB, Azure storage, authentication, schema design, and deployment. The technologies changed as the architecture improved. The objective remained stable.
+
+## Architecture
+
+```mermaid
+flowchart LR
+  sources["Market & company data"] --> pipeline["Validation and data pipeline"]
+  pipeline --> store["Historical data layer"]
+  philosophy["Investor-defined philosophy"] --> engine["Programmable screening engine"]
+  store --> engine
+  engine --> explanation["Result + visible reasoning"]
+  explanation --> review["Human review"]
+```
+
+## What changed in my thinking
+
+I originally treated data as an input to the product. I now see it as part of the product.
+
+An elegant screening rule is not useful if the historical data is inconsistent, a corporate action is mishandled, or the user cannot trace a number back to its source. Data quality must come before analytics, and transparency must come before automation.
+
+## From project to venture
+
+Systematick is not an extension of my ICICI Direct automation. The earlier system explored disciplined execution of external recommendations. Systematick begins one level earlier: how an investor defines a philosophy, tests it against reliable history, and preserves the reasoning behind each decision.
+
+The venture now includes product positioning, infrastructure choices, a public domain, and the work required to turn a personal tool into something another investor can understand and use.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Rough product document</span>
+
+**Defining the problem before the interface**
+
+An early working document records the movement from “stock screener” toward a transparent decision system. A public excerpt will be added once access is confirmed.
 :::
 
-![](/assets/projects/systematick/screenshot.png){.project-screenshot fig-alt="Systematick.in homepage screenshot"}
+::: {.process-card}
+<span>02 · Architecture</span>
+
+**Data became part of the product**
+
+Parquet, DuckDB, cloud storage, authentication, and schema design emerged from the need to make historical decisions reproducible.
+:::
+
+::: {.process-card}
+<span>03 · Working product</span>
+
+![](/assets/projects/systematick/screenshot.png){fig-alt="Systematick working interface"}
+:::
+:::
+
+## If I rebuilt the first version today
+
+I would begin with a smaller set of investor decisions and design the explanation layer alongside the calculation layer. It is easier to add another metric later than to make an opaque system explainable after the fact.
+
+## Working principles
+
+::: {.tech-stack}
+<span class="tech-tag">Process before prediction</span>
+<span class="tech-tag">Data quality before analytics</span>
+<span class="tech-tag">Transparency before automation</span>
+<span class="tech-tag">Architecture before implementation</span>
+:::
 
 ::: {.project-cta}
-[Visit systematick.in](https://systematick.in){.btn-project target="_blank"}
+[Visit Systematick](https://systematick.in){.btn-project target="_blank"}
+[View the repository](https://github.com/satvikraman/systematick){.btn-project .btn-project-secondary target="_blank"}
 :::
 
 :::

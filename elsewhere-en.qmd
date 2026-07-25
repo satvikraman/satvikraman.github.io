@@ -1,0 +1,71 @@
+---
+title: "Elsewhere"
+pagetitle: "Elsewhere — Satvik Raman"
+description: "Travel, match days, and observations away from the desk."
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.atlas-page .elsewhere-page}
+
+::: {.elsewhere-hero}
+<p class="eyebrow">Elsewhere · A growing visual notebook</p>
+
+# Places teach differently when I stop trying to summarize them.
+
+This will become a set of small photo essays from England, Bhutan, Thailand, Vietnam, Hong Kong, and BFC match days. Each essay will begin with a place, a handful of photographs, and one observation worth carrying home.
+:::
+
+::: {.elsewhere-preview}
+::: {.elsewhere-note}
+<span>01</span>
+
+## England
+
+Architecture, museums, football, and the unexpected details that survive after the itinerary fades.
+
+<small>Photographs and field note to be added</small>
+:::
+
+::: {.elsewhere-note}
+<span>02</span>
+
+## Bhutan
+
+A future essay about pace, landscape, and what a place chooses not to optimize.
+
+<small>Photographs and field note to be added</small>
+:::
+
+::: {.elsewhere-note}
+<span>03</span>
+
+## Southeast and East Asia
+
+Thailand, Vietnam, and Hong Kong—three different encounters with density, movement, food, and public space.
+
+<small>Photographs and field notes to be added</small>
+:::
+
+::: {.elsewhere-note}
+<span>04</span>
+
+## Match days
+
+Football observed from the stands: shape, momentum, communication, and the crowd as part of the system.
+
+<small>BFC photographs and captions to be added</small>
+:::
+:::
+
+::: {.elsewhere-principle}
+<p class="eyebrow">Editorial principle</p>
+
+## A visual notebook, not a travel résumé.
+
+The section will use real photographs and brief observations rather than generic destination descriptions. Until the photographs and dates are selected, these entries remain deliberately incomplete.
+:::
+
+:::

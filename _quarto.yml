@@ -41,8 +41,8 @@ format:
   html:
     theme:
       - cosmo
-      - /assets/theme.scss
-    css: /assets/styles.css
+      - assets/theme.scss
+    css: assets/styles.css
 
 lang: en-US
 language:

@@ -1,35 +1,50 @@
 ---
-title: "Projects"
-listing:
-  - id: featured
-    contents:
-      - google-code-to-learn/index-en.qmd
-      - gig-workers-research/index-en.qmd
-    type: grid
-    sort: false
-    image-height: "280"
-    categories: false
-    fields: [title, subtitle, categories, date, image]
-  - id: all-projects
-    contents:
-      - "*/index-en.qmd"
-    type: grid
-    sort:
-      - "date desc"
-    date-format: medium
-    image-height: "240"
-    categories: true
-    sort-ui: [date, categories]
-    filter-ui: true
-    fields: [title, subtitle, categories, date, image]
+title: "Curiosity Atlas"
+pagetitle: "Curiosity Atlas — Satvik Raman"
+description: "Major projects organized by the questions, decisions, and evidence that shaped them."
+format:
+  html:
+    page-layout: full
+    toc: false
+include-after-body:
+  - ../assets/portfolio-data.js
+  - ../assets/portfolio.js
+  - ../assets/atlas.js
 ---
 
-## Featured
+::: {.atlas-page .projects-page}
 
-::: {#listing-featured}
+::: {.projects-hero}
+<p class="eyebrow">Curiosity Atlas · 2019—now</p>
+
+# The work matters because it changed the next question.
+
+These are the substantial inquiries: research, ventures, internships, software, service, and sport. Each case study separates the original question, what I personally did, the evidence, and what changed in my thinking.
 :::
 
-## All Projects
+::: {.filter-bar aria-label="Filter major work"}
+<span>Trace by domain</span>
+<div class="filter-controls">
+<button class="filter-button is-active" data-filter="all" type="button">All</button>
+<button class="filter-button" data-filter="research" type="button">Research</button>
+<button class="filter-button" data-filter="internship" type="button">Internships</button>
+<button class="filter-button" data-filter="entrepreneurship" type="button">Venture</button>
+<button class="filter-button" data-filter="software" type="button">Build</button>
+<button class="filter-button" data-filter="service" type="button">Service</button>
+<button class="filter-button" data-filter="sport" type="button">Sport</button>
+</div>
+:::
 
-::: {#listing-all-projects}
+<div class="atlas-card-list" data-atlas-grid></div>
+
+::: {.atlas-footer-cta}
+<p class="eyebrow">The complete account</p>
+
+## A story is selective. The Record is not.
+
+Awards, certifications, leadership, competitions, and smaller experiments live in a compact dossier so that narrative focus never erases breadth.
+
+[Open the complete Record](../record-en.qmd){.large-link}
+:::
+
 :::

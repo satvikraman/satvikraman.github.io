@@ -1,117 +1,82 @@
 ---
 title: "Satvik Raman"
-about:
-    id: hero-heading
-    template: trestles
-    image: /assets/profile/satvik_photo_20230101.jpg
-    image-shape: round
-    image-width: 14em
-    links:
-        - icon: github
-          text: GitHub
-          href: https://github.com/satvikraman
-        - icon: linkedin
-          text: LinkedIn
-          href: https://www.linkedin.com/in/satvik-raman-bb3841407
-        - icon: envelope
-          text: Email
-          href: mailto:satvikraman11@gmail.com
+pagetitle: "Satvik Raman — Research, systems, and the questions between them"
+description: "A Grade 12 researcher-builder working across economics, software, language access, and sport."
 format:
-    html:
-        page-layout: full
+  html:
+    page-layout: full
+    toc: false
+include-after-body:
+  - assets/portfolio-data.js
+  - assets/portfolio.js
 lightbox: auto
 ---
 
-:::{#hero-heading}
-I am a Grade 12 student at Sri Kumaran's Children's Home School, Bengaluru, with a passion for economics and mathematics. My desire to understand how businesses operate and how financial systems shape our world drives my academic journey. I intend to pursue these fields at the undergraduate level and build my career around them.
+::: {.atlas-page .home-page data-portfolio-root="home"}
 
-I believe in applying what I learn to the real world. I have been programming since my sixth grade and frequently build automations to streamline tasks and aid decision-making. I am deeply committed to social equity. Inspired by my upbringing in a polyglot family, my community service focuses on breaking down language and economic barriers, using technology, to create equal opportunities for underserved groups.
+::: {.atlas-hero}
+::: {.hero-copy}
+<p class="eyebrow">Bengaluru · Economics, finance & computing</p>
 
-Sports is equally central to my identity. I have represented my school in football and table tennis at the state and national level CBSE cluster tournaments. I have also played club-level football for the last three years with Young Blue Elite FC [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"}, across their U17, U18, and U19 teams.
+# I begin with curiosity—and follow the evidence far enough to build something.
 
-Sports has taught me to value discipline, dedication, teamwork, and strategic thinking. I do my best to cross-pollinate these learnings for my academic and personal growth.
+I’m Satvik Raman, a Grade 12 researcher-builder using economics, evidence, and software to understand how people and markets make decisions.
+
+::: {.hero-actions}
+[Explore the Atlas](projects/index-en.qmd){.atlas-button}
+[View the complete Record](record-en.qmd){.atlas-text-link}
 :::
 
-::: {.content-section}
-
-## Education
-
-::: {.education-entry}
-[**Sri Kumaran's Children's Home School**]{.school-name} · Bengaluru, India
-
-[Grade 12 · CBSE]{.school-detail}
+<div class="hero-proof-grid" data-home-proof aria-label="Selected evidence"></div>
 :::
 
-## Awards & Recognitions
-
-::: {.achievements-grid}
-
-::: {.achievement-card}
-[2020]{.year-badge}
-
-#### State CBSE Clusters TT Tournament — Runners Up
-
-Represented school at the state level CBSE clusters competition.
-
-![](/assets/profile/TT-State-2020-2nd.jpeg){group="awards" .achievement-thumb}
+::: {.hero-portrait}
+![](/assets/profile/satvik_photo_20230101.jpg){fig-alt="Portrait of Satvik Raman"}
+<p class="margin-note">The subjects change. The habit does not: understand the system before judging the outcome.</p>
+:::
 :::
 
-::: {.achievement-card}
-[2019]{.year-badge}
+::: {.home-bridge}
+<p class="eyebrow">The connecting idea</p>
 
-#### Google Code To Learn — Winner
+## I move between research, building, and explanation.
 
-Created an Android application. [Video demo](https://www.youtube.com/watch?v=M2hzPp6bmkQ){target="_blank"}
-
-![](/assets/profile/Google-Code-To-Learn.jpeg){group="awards" .achievement-thumb}
+Across financial-literacy fieldwork, investment software, multilingual writing, and football, I keep returning to the same challenge: understand how decisions emerge from larger systems—and make the reasoning visible to others.
 :::
 
-::: {.achievement-card}
-[2020]{.year-badge}
+::: {.atlas-section .home-featured}
+::: {.section-intro}
+<p class="eyebrow">Three ways of working</p>
 
-#### National CBSE Clusters TT Tournament
+## Begin with evidence. Build what is missing. Explain what remains.
 
-Represented school at the national level. The competition was held in Noorpur, Uttar Pradesh.
-
-![](/assets/profile/TT-National-2019-Paticipation.jpeg){group="awards" .achievement-thumb}
+The homepage is intentionally selective. The Atlas tells the deeper stories; the Record holds the complete account.
 :::
 
-::: {.achievement-card}
-[2019]{.year-badge}
+<div class="home-story-grid" data-home-stories></div>
 
-#### State CBSE Clusters TT Tournament — Winner
-
-Won the state level competition and was selected to compete at the national level.
-
-![](/assets/profile/TT-State-2019-1st.jpeg){group="awards" .achievement-thumb}
+::: {.home-route-row}
+[Explore every major inquiry](projects/index-en.qmd){.large-link}
+[Scan the complete record](record-en.qmd){.large-link}
+:::
 :::
 
+::: {.atlas-section .personal-section}
+::: {.personal-story}
+<p class="eyebrow">Away from the desk</p>
+
+## Some of my best classrooms have had no blackboard.
+
+Football taught me to read movement before intervening. Long drives to training became conversations with my father about work, history, business, and the future. Travel gives me another version of the same lesson: pay attention before reaching a conclusion.
+
+[Visit Elsewhere](elsewhere-en.qmd){.card-link}
 :::
 
-## Certifications
+::: {.personal-aside}
+> “Can I understand this deeply enough to explain it simply?”
 
-::: {.achievements-grid}
-
-::: {.achievement-card}
-[2023]{.year-badge}
-
-#### German A2
-
-Cleared the A2 level German language proficiency test.
-
-![](/assets/profile/German-A2.jpeg){group="certs" .achievement-thumb}
+<p>This is the question I return to—whether I am studying a market, designing software, or revising a paragraph.</p>
 :::
-
-::: {.achievement-card}
-[2022]{.year-badge}
-
-#### German A1
-
-Cleared the A1 level German language proficiency test.
-
-![](/assets/profile/German-A1.jpeg){group="certs" .achievement-thumb}
-:::
-
 :::
 
 :::

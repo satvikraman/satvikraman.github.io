@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  pre-render:
+    - node scripts/build-portfolio-data.mjs
+  resources:
+    - assets/data/portfolio.json
+    - assets/docs/satvik-raman-activity-sheet.pdf
+    - assets/record/**
   preview: 
     browser: true
     port: 5555
@@ -11,7 +17,7 @@ project:
 
 website:
   title: "Satvik Raman"
-  description: "My personal website to showcase my interests, projects, and achievements."
+  description: "Questions, research, and systems by Satvik Raman."
   site-url: "https://satvikraman.github.io"
   repo-url: "https://github.com/satvikraman/satvikraman.github.io"
   search: true
@@ -36,10 +42,14 @@ website:
   navbar:
     pinned: true
     left:
-      - text: "About"
+      - text: "Home"
         href: index-en.html
-      - text: "Projects"
+      - text: "Curiosity Atlas"
         file: projects/index-en.html
+      - text: "Record"
+        file: record-en.html
+      - text: "Elsewhere"
+        file: elsewhere-en.html
 
     right:
       - text: "{{< iconify bi globe2 size=1.1em title='Languages' >}}"
@@ -62,8 +72,8 @@ format:
   html:
     theme:
       - cosmo
-      - /assets/theme.scss
-    css: /assets/styles.css
+      - assets/theme.scss
+    css: assets/styles.css
 
 lang: en-US
 language:

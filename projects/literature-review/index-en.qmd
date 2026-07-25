@@ -1,0 +1,54 @@
+---
+title: "Economics Literature Review"
+subtitle: "From a research question to a defensible synthesis"
+date: 2026-07-01
+categories:
+  - Research & Essays
+order: 2
+---
+
+::: {.project-detail}
+
+<span class="featured-badge">In progress</span>
+
+::: {.project-hook}
+The project asks a different kind of research question: **how do I represent a field honestly when the literature disagrees with itself?**
+:::
+
+## Current stage
+
+The research question has been defined and a working draft is in development. The public page deliberately does not claim submission, acceptance, or publication. The final paper and SSRN link will replace this status only after submission.
+
+## What I am learning
+
+A literature review is not a list of summaries. It requires decisions about inclusion, evidence quality, competing explanations, and the boundary between what a source establishes and what I infer from it.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Question</span>
+
+**Initial research question**
+
+The original working document will appear here once public-view access is confirmed.
+:::
+
+::: {.process-card}
+<span>02 · Search</span>
+
+**Source map**
+
+Search terms, inclusion decisions, and the evolving literature map will show how the evidence base was assembled.
+:::
+
+::: {.process-card}
+<span>03 · Revision</span>
+
+**Working draft**
+
+Selected revision fragments will be shown only as authentic excerpts, with the complete paper linked after submission.
+:::
+:::
+
+:::

@@ -57,6 +57,38 @@ flowchart LR
   execute --> broker["Broker API"]
 ```
 
+## Where the idea came from
+
+Two examples stayed with me: Mohnish Pabrai’s account of learning by studying Warren Buffett’s decisions, and an investing video by Shankar Nath about systematic imitation. I translated that curiosity into a narrower experiment: could a transparent system reproduce published ICICI Direct recommendations while preserving the ability to review and intervene?
+
+This project is separate from Systematick. It tests execution and control around an external recommendation stream; Systematick is a venture for defining and testing an investor’s own philosophy.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Source</span>
+
+**Broker and analyst reports**
+
+![](/assets/projects/automated-trading/stock-report-plus.png){fig-alt="Stock Reports Plus example used as an input to systematic investment research"}
+:::
+
+::: {.process-card}
+<span>02 · Rules</span>
+
+**Trading-rules spreadsheet**
+
+The real rules sheet will appear here after public-view access is confirmed. It also records the naming origin of Systematick.
+:::
+
+::: {.process-card}
+<span>03 · Interface</span>
+
+![](/assets/projects/automated-trading/ui-screenshot.png){fig-alt="Manual trade-entry and override interface"}
+:::
+:::
+
 ## Tech Stack
 
 ::: {.tech-stack}

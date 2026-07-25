@@ -1,0 +1,83 @@
+---
+title: "Bizkit"
+subtitle: "An experiment in teaching economics through stories"
+date: 2025-01-15
+categories:
+  - Research & Essays
+order: 3
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Bizkit asks a deceptively simple question: **how can economics become interesting before it becomes difficult?**
+:::
+
+<p class="venture-status"><strong>Current practice:</strong> one story each week, usually on Sunday, published in English, Hindi, Tamil, Telugu, Kannada, and German.</p>
+
+## Why it began
+
+Economics is often introduced through definitions. Students meet elasticity, adverse selection, or opportunity cost before they have a reason to care about them.
+
+That order never felt natural to me. I was drawn to economics because it explained decisions I could already observe: why a company changed its price, why two firms valued the same deal differently, or why a policy produced an unintended response.
+
+Bizkit reverses the conventional sequence. It starts with the story.
+
+## An inheritance—and a different choice
+
+::: {.personal-origin}
+::: {.personal-origin-image}
+![](/assets/projects/bizkit/satvik-visvesvaraya.jpeg){fig-alt="A young Satvik Raman standing beside a bust of Bharat Ratna Sir M. Visvesvaraya"}
+
+<p class="artifact-caption">Beside a bust of Sir M. Visvesvaraya in 2018. We share a birthday: 15 September.</p>
+:::
+
+::: {.personal-origin-copy}
+Engineering is woven through my family across generations—from my parents and grandparents to my great-grandparents. I was also born on the birthday of Sir M. Visvesvaraya, one of India’s most celebrated engineers. My family reasonably imagined that I would continue the pattern.
+
+Instead, I became fascinated by economics: not a rejection of the systems-thinking I inherited, but a decision to apply it to people, incentives, firms, and markets. I opened Bizkit with that irony because it explains something central about the project. It is where an engineering inheritance meets the subject I chose for myself.
+:::
+:::
+
+## The method
+
+Every piece follows a common path:
+
+1. A real company, decision, or market outcome
+2. The detail that makes the outcome surprising
+3. A question the reader now wants answered
+4. The economic concept that makes the story legible
+5. A return to the original decision with a stronger mental model
+
+The project is partly educational and partly diagnostic. If I cannot explain an idea without relying on its textbook definition, I probably do not understand it well enough.
+
+## What writing changed
+
+I used to think writing presented finished thought. Repeated revision changed that belief.
+
+A sentence that feels awkward often reveals an argument that is still unclear. A transition that refuses to work can expose two ideas that do not actually connect. Writing slowly enough makes assumptions visible.
+
+Bizkit therefore became more than a collection of articles. It became a way to test my own understanding while making economics more accessible to another student.
+
+## If I extended it today
+
+I would keep the story-first structure but make the reader more active: short decisions, interactive cases, or simulations in which a concept emerges from a choice rather than an explanation. The purpose would remain unchanged—curiosity before instruction.
+
+## Community-service direction
+
+I intend to take this story-first, multilingual approach into government schools. That outreach has not happened yet, so the site makes no participation or impact claim. A field-notes and photograph module is reserved but will remain hidden until visits occur and the necessary school and student permissions are secured.
+
+## Editorial principles
+
+::: {.tech-stack}
+<span class="tech-tag">Story before theory</span>
+<span class="tech-tag">Clarity without simplification</span>
+<span class="tech-tag">Real decisions</span>
+<span class="tech-tag">Revision as thinking</span>
+:::
+
+::: {.project-cta}
+[Read Bizkit](https://bizkit.co.in/index-en.html){.btn-project target="_blank"}
+:::
+
+:::

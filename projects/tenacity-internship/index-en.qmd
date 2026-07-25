@@ -1,0 +1,55 @@
+---
+title: "Deep-Tech Investment Research"
+subtitle: "Internship work at Tenacity Ventures"
+date: 2026-01-01
+categories:
+  - Internships
+  - Research & Essays
+order: 3
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+At an early-growth investment firm, I studied a practical question: **what makes a deep-tech company investable rather than merely technically impressive?**
+:::
+
+## Context
+
+[Tenacity Ventures](https://www.tenacity.vc/){target="_blank"} invests in early-growth, technology-led Indian businesses. During my internship, I researched deep-tech companies in India, prepared a presentation, and produced a project report.
+
+## My contribution
+
+The case study will focus on the work products rather than borrowing the firm’s reputation: how I selected companies, compared technical and commercial signals, organized evidence, and changed my view of what constitutes a defensible investment thesis.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Plan</span>
+
+**Internship work plan**
+
+Reserved for a genuine excerpt once the working document is publicly viewable.
+:::
+
+::: {.process-card}
+<span>02 · Communicate</span>
+
+**Deep-tech presentation**
+
+Selected slides will show how the research was structured and communicated.
+:::
+
+::: {.process-card}
+<span>03 · Synthesize</span>
+
+**India deep-tech report**
+
+The final report will be linked as the primary artifact after publication permission is confirmed.
+:::
+:::
+
+<p class="evidence-note"><strong>Documentation note:</strong> exact internship dates and public artifact permissions remain to be added.</p>
+
+:::

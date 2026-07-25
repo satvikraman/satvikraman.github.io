@@ -1,7 +1,7 @@
 ---
 title: "The Economics of Artificial Intelligence"
 subtitle: "Berkeley High School Essay Contest entry"
-date: 2025-09-01
+date: 2026-03-08
 image: /assets/projects/economics-of-ai-essay/thumbnail.png
 categories:
   - Research & Essays
@@ -11,10 +11,10 @@ order: 5
 ::: {.project-detail}
 
 ::: {.project-hook}
-Analysed how AI adoption reshapes labour demand across the skill distribution in the United States — and proposed a policy to help workers adapt — for the Berkeley High School Essay Contest.
+Analysed how AI adoption reshapes labour demand across the skill distribution in the United States—and proposed a policy to help workers adapt—for the Berkeley High School Essay Contest.
 :::
 
-## Contest Prompt
+## Contest prompt
 
 ::: {.prompt-block}
 *The Economics of Artificial Intelligence:* Artificial intelligence is expected to affect workers differently across the skill distribution. Analyze how AI adoption may reshape labor demand for high-skill, middle-skill, and low-skill workers in the United States, considering both productivity-enhancing and displacement effects. Discuss how these impacts might influence wage inequality. Propose and critically evaluate one specific policy designed to help workers adapt to AI-driven changes.
@@ -22,22 +22,31 @@ Analysed how AI adoption reshapes labour demand across the skill distribution in
 
 ## Overview
 
-This essay examines the dual forces of AI on the labour market — productivity enhancement for high-skill workers and displacement risk for middle- and low-skill roles — and traces the implications for wage inequality. It then proposes and critically evaluates a specific adaptation policy, weighing feasibility against equity outcomes.
+This essay examines the dual forces of AI on the labour market—productivity enhancement for high-skill workers and displacement risk for middle- and low-skill roles—and traces the implications for wage inequality. It then proposes and critically evaluates a specific adaptation policy, weighing feasibility against equity outcomes.
 
-## What I Did
+## What I did
 
 ::: {.project-section}
 <ul class="star-list">
-<li><strong>Situation:</strong> AI is reshaping labour markets globally, but policy responses remain contested — especially for workers at different points on the skill ladder.</li>
+<li><strong>Situation:</strong> AI is reshaping labour markets globally, but policy responses remain contested—especially for workers at different points on the skill ladder.</li>
 <li><strong>Task:</strong> Write a rigorous economics essay analysing AI's differential impact on high-, middle-, and low-skill workers, and propose a credible adaptation policy.</li>
-<li><strong>Action:</strong> Researched labour economics literature on skill-biased technological change; structured arguments around productivity vs. displacement effects; designed and critically evaluated a targeted worker-adaptation policy.</li>
-<li><strong>Result:</strong> Completed essay submitted to the [Berkeley High School Essay Contest](https://econreview.studentorg.berkeley.edu/high-school-essay/){target="_blank"}, responding to Prompt 1 on the economics of AI.</li>
+<li><strong>Action:</strong> Researched labour economics literature on skill-biased technological change; structured arguments around productivity versus displacement effects; designed and critically evaluated a targeted worker-adaptation policy.</li>
+<li><strong>Result:</strong> Submitted the completed essay to the [Berkeley High School Essay Contest](https://econreview.studentorg.berkeley.edu/high-school-essay/){target="_blank"} on 8 March 2026, responding to Prompt 1 on the economics of AI.</li>
 </ul>
 :::
 
-::: {.project-cta}
-[Read Essay (PDF)](/assets/docs/economics-of-ai-essay.pdf){.btn-project target="_blank"}
-[Contest Page](https://econreview.studentorg.berkeley.edu/high-school-essay/){.btn-project .btn-project-secondary target="_blank"}
+::: {.project-cta .essay-file-actions}
+[Open essay full screen](/assets/docs/economics-of-ai-essay.pdf){.btn-project target="_blank"}
+[Download essay PDF](/assets/docs/economics-of-ai-essay.pdf){.btn-project .btn-project-secondary download="Satvik-Raman-Economics-of-AI-Berkeley-Essay.pdf"}
+[Contest page](https://econreview.studentorg.berkeley.edu/high-school-essay/){.btn-project .btn-project-secondary target="_blank"}
+:::
+
+## Read the submitted essay
+
+::: {.pdf-reader aria-label="The Economics of Artificial Intelligence essay"}
+<object data="/assets/docs/economics-of-ai-essay.pdf" type="application/pdf">
+  <p>Your browser cannot display the PDF inline. <a href="/assets/docs/economics-of-ai-essay.pdf" target="_blank">Open the essay in a new tab</a> or <a href="/assets/docs/economics-of-ai-essay.pdf" download="Satvik-Raman-Economics-of-AI-Berkeley-Essay.pdf">download it</a>.</p>
+</object>
 :::
 
 :::

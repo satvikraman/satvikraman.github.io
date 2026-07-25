@@ -1,0 +1,71 @@
+---
+title: "Record"
+pagetitle: "Complete Record — Satvik Raman"
+description: "A comprehensive record of Satvik Raman’s research, ventures, projects, leadership, service, sport, awards, and languages."
+format:
+  html:
+    page-layout: full
+    toc: false
+include-after-body:
+  - assets/portfolio-data.js
+  - assets/portfolio.js
+---
+
+::: {.atlas-page .record-page data-portfolio-root="record"}
+
+::: {.record-hero}
+<p class="eyebrow">Complete record · Evidence before adjectives</p>
+
+# The story is selective. This page keeps the full account.
+
+The Curiosity Atlas explains how the major work changed my thinking. This dossier records the work itself: role, dates, outcome, status, and available evidence.
+
+::: {.record-actions}
+[Explore the Curiosity Atlas](projects/index-en.qmd){.atlas-button}
+[Download the activity sheet](/assets/docs/satvik-raman-activity-sheet.pdf){.atlas-text-link target="_blank"}
+[Open the printable version](activity-sheet-en.qmd){.atlas-text-link}
+:::
+:::
+
+::: {.record-highlights-section}
+<p class="eyebrow">Admissions-significance highlights</p>
+
+## Six signals of sustained initiative
+
+<div class="record-highlight-grid" data-record-highlights></div>
+:::
+
+::: {.record-ledger-section}
+::: {.record-ledger-heading}
+<div>
+<p class="eyebrow">Complete ledger</p>
+
+## Research, work, building, service, leadership, and life
+</div>
+<span data-record-count aria-live="polite"></span>
+:::
+
+::: {.record-filter-bar aria-label="Filter the complete record"}
+<button class="filter-button is-active" data-record-filter="all" type="button">All</button>
+<button class="filter-button" data-record-filter="research" type="button">Research</button>
+<button class="filter-button" data-record-filter="internship" type="button">Internships</button>
+<button class="filter-button" data-record-filter="entrepreneurship" type="button">Venture</button>
+<button class="filter-button" data-record-filter="software" type="button">Software</button>
+<button class="filter-button" data-record-filter="service" type="button">Service</button>
+<button class="filter-button" data-record-filter="leadership" type="button">Leadership</button>
+<button class="filter-button" data-record-filter="writing" type="button">Writing</button>
+<button class="filter-button" data-record-filter="sport" type="button">Sport</button>
+<button class="filter-button" data-record-filter="language" type="button">Languages</button>
+<button class="filter-button" data-record-filter="award" type="button">Awards</button>
+:::
+
+<div class="record-ledger" data-record-ledger></div>
+:::
+
+::: {.record-method-note}
+<p class="eyebrow">Claim standard</p>
+
+This record distinguishes completed, ongoing, submitted, and published work. Public links establish context; artifacts establish what I built; first-person accounts are scoped to my own contribution.
+:::
+
+:::
