@@ -1,44 +1,84 @@
 ---
-title: "Vernacular Chatbot"
-subtitle: "Breaking language barriers with NLP-powered conversational access"
+title: "Vernacular Financial-Access Prototype"
+subtitle: "A working proof of concept for language-first access to financial information"
 date: 2024-06-01
 image: /assets/projects/vernacular-chatbot/thumbnail.png
 categories:
   - Finance & Software
-order: 3
+  - Research & Essays
+order: 7
 ---
 
 ::: {.project-detail}
 
 ::: {.project-hook}
-Built a vernacular-language chatbot that makes information and services accessible to users who are more comfortable communicating in their native language — not English.
+What changes when a financial-information interface begins in the user’s language rather than asking the user to adapt to English?
 :::
 
-## Overview
+## What I built
 
-Growing up in a polyglot family in Bengaluru, I saw firsthand how language creates invisible barriers to opportunity. This project applies natural language processing and localization principles to build a chatbot that converses in vernacular languages, making digital tools reachable for underserved communities.
+I developed and deployed a multilingual proof of concept that lets users ask financial questions through web and Telegram interfaces, using both voice and text. Instead of treating deployment as the finish line, I also built a protected analytics view to compare interaction patterns across languages and modalities.
 
-## What I Did
-
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Situation:</strong> Many people in India — especially in informal and gig-economy work — lack access to services and information because interfaces are overwhelmingly English-first.</li>
-<li><strong>Task:</strong> Design and build a chatbot that understands and responds in vernacular languages, lowering the barrier to digital participation.</li>
-<li><strong>Action:</strong> Integrated NLP APIs for intent recognition and multilingual response generation; designed conversation flows tuned for non-English speakers; tested with real-world phrasing patterns common in local languages.</li>
-<li><strong>Result:</strong> A working prototype that demonstrates how technology can be localized for accessibility — aligning with my broader commitment to social equity through tech.</li>
-</ul>
-:::
+- Designed a multilingual frontend and backend service
+- Created Telegram and web interaction paths
+- Supported voice and text input across local-language interactions
+- Added authentication and protected user metrics
+- Deployed cloud infrastructure using infrastructure-as-code
+- Built an analytics dashboard comparing language and modality patterns
 
 ![](/assets/projects/vernacular-chatbot/thumbnail.png){.project-screenshot fig-alt="Vernacular chatbot interface"}
 
-## Tech Stack
+## Research problem behind the prototype
 
-::: {.tech-stack}
-<span class="tech-tag">Python</span>
-<span class="tech-tag">NLP</span>
-<span class="tech-tag">API Integration</span>
-<span class="tech-tag">Localization</span>
-<span class="tech-tag">Conversational AI</span>
+The prototype grew from time spent alongside researchers exploring a larger question: how might AI make reliable financial information more accessible to rural and suburban customers who communicate most naturally in local languages?
+
+[Project SATHI](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank"} is an IISc-led institutional initiative designed around that challenge. Its published description combines information about government financial schemes with translation, local-language voice queries, audio responses, and field testing. The project brought together IISc researchers and collaborators including Oxford Brookes University, Akaike, and Kotak Mahindra Bank.
+
+That institutional initiative provided the research context—not a title or grant affiliation for me. I was not a named member of the core team or a participant in the grant. My contribution was the independently implemented proof of concept presented here. The Grand Challenges funding supported the institutional project, not my personal work.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Prototype</span>
+
+**Conversation flow**
+
+The interface began with a deliberately narrow question: can a user ask a financial question in a familiar language and receive an accessible response without first adapting to an English-only workflow?
 :::
+
+::: {.process-card}
+<span>02 · Infrastructure</span>
+
+**From local code to cloud deployment**
+
+The implementation evolved from a local conversation flow into authenticated services, serverless deployment, infrastructure-as-code, protected webhooks, and two interaction channels.
+:::
+
+::: {.process-card}
+<span>03 · Observe</span>
+
+**Usage dashboard**
+
+The deployed dashboard makes language and voice-versus-text patterns visible, turning a working interface into something that could also support observation and iteration.
+:::
+:::
+
+## Institutional context and architecture
+
+These sources establish the larger initiative’s purpose, architecture, collaborators, and funding. They are presented as context for the problem I encountered—not as evidence of personal membership in the funded team.
+
+- [IISc announcement: Grand Challenges grant for equitable AI use](https://www.iisc.ac.in/events/iisc-faculty-receives-grand-challenges-grant-for-equitable-ai-use/){target="_blank"}
+- [Project SAATHI technical architecture](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank"}
+- [Grand Challenges grant record](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank"}
+- [Oxford Brookes profile documenting the MFIbot collaboration](https://www.brookes.ac.uk/profiles/staff/uma-urs){target="_blank"}
+- [Supplementary project context on LinkedIn](https://www.linkedin.com/posts/umaurs_innovation-newproduct-teamspirit-ugcPost-7112382607178248192-ACM5/){target="_blank"}
+
+::: {.project-cta}
+[Open the live dashboard](https://vernacular-voice-bot.web.app/){.btn-project target="_blank"}
+[Explore Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){.btn-project .btn-project-secondary target="_blank"}
+:::
+
+<p class="evidence-note"><strong>Repository safety:</strong> the public source link is withheld until exposed credentials have been rotated and removed from its history.</p>
 
 :::

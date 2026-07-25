@@ -1,0 +1,34 @@
+---
+title: "Sport and Leadership"
+subtitle: "Learning to read a team from different positions"
+date: 2026-07-01
+image: /assets/record/school-prefect-parents.jpg
+categories:
+  - Athletics
+  - Leadership
+order: 9
+---
+
+::: {.project-detail}
+
+::: {.project-hook}
+Leadership became more concrete when I had to practise it in different systems: a football midfield, a school team, and the student council.
+:::
+
+## School Prefect
+
+In 2026, I was selected as School Prefect at Sri Kumaran Children’s Home. The role adds a formal responsibility to habits I had already been learning through sport: notice what others cannot see, communicate early, and represent a group rather than only myself.
+
+![](/assets/record/school-prefect-parents.jpg){.project-screenshot fig-alt="Satvik Raman with his parents after being appointed School Prefect"}
+
+## Football
+
+My longer football story remains a separate case study: the shift from goalkeeper to midfield, competitive training with Young Blue Elite FC, and representation across U17, U18, and U19.
+
+[Read the football story](../bfc-football/index-en.qmd){.card-link}
+
+## The wider record
+
+School football, basketball, tennis, and earlier table tennis belong in the complete Record. Photographs, certificates, dates, and tournament details will be added only as they are documented.
+
+:::

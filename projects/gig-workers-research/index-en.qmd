@@ -1,52 +1,122 @@
 ---
 title: "Financial Literacy in Bangalore Gig Workers"
-subtitle: "Empirical research published on SSRN"
-date: 2025-06-01
+subtitle: "A sole-authored empirical study available on SSRN"
+date: 2026-01-26
 image: /assets/projects/gig-workers-research/thumbnail.png
 categories:
   - Featured
   - Research & Essays
-order: 4
+order: 1
 ---
 
 ::: {.project-detail}
 
-::: {.featured-badge}
-Featured
-:::
+<span class="featured-badge">Featured research</span>
 
 ::: {.project-hook}
-Conducted original empirical research on financial literacy among Bangalore's gig workers — with findings published on SSRN while still in high school.
+Designed, conducted, analysed, and wrote a sole-authored empirical study of financial literacy among 40 security guards in Bangalore. The paper is available on SSRN with a DOI.
 :::
 
-## Abstract
+## The study
 
-Gig workers form a rapidly growing segment of Bangalore's urban workforce, yet their financial literacy levels and implications for economic security remain under-studied. This paper presents an empirical analysis of financial knowledge, savings behaviour, and access to formal financial services among gig-economy workers in Bangalore. The findings reveal significant gaps in financial literacy that correlate with income volatility and limited access to structured financial planning — highlighting the need for targeted financial education interventions in India's informal economy.
+The research used focus-group administration of a five-question quiz with 40 security guards. It examined numerical ability, financial knowledge, and financial awareness, then used Bayesian logistic regression to explore which demographic characteristics predicted financial-literacy outcomes.
 
-## What I Did
+## What I did
 
 ::: {.project-section}
 <ul class="star-list">
-<li><strong>Situation:</strong> Bangalore's gig economy is expanding rapidly, but little empirical research exists on the financial literacy of workers in this sector.</li>
-<li><strong>Task:</strong> Design and conduct a rigorous empirical study, analyse the data, and publish findings in an academic forum.</li>
-<li><strong>Action:</strong> Developed a research framework, collected and analysed survey data from gig workers across Bangalore, and wrote up findings with statistical rigour.</li>
-<li><strong>Result:</strong> Paper published on SSRN: *"Financial Literacy in Bangalore Gig Workers: An Empirical Analysis."*</li>
+<li><strong>Question:</strong> Which demographic factors best predict financial literacy among the workers in this sample?</li>
+<li><strong>Fieldwork:</strong> Personally administered the primary-data collection with 40 participants.</li>
+<li><strong>Analysis:</strong> Used Bayesian logistic regression to examine differences associated with migration status and age.</li>
+<li><strong>Output:</strong> Wrote the complete paper as sole author and posted it on SSRN on 26 January 2026.</li>
 </ul>
 :::
 
-## Tech Stack
+## Research environment and ownership
+
+The study developed in an active research environment at IISc. Conversations with researchers sharpened my thinking, and the team helped facilitate access to the fieldwork setting and participants. Within that environment, I independently framed the question, designed the instrument, conducted the primary-data collection, performed the analysis, and wrote the paper as sole author.
+
+## Process desk
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Question</span>
+
+**From vulnerability to a testable question**
+
+Gig workers often make consequential financial decisions without the protections associated with formal employment. I asked which demographic characteristics best predicted financial literacy within the group I could study directly.
+:::
+
+::: {.process-card}
+<span>02 · Instrument</span>
+
+**Five questions, three dimensions**
+
+I designed a five-question quiz covering numerical ability, financial knowledge, and financial awareness. The instrument itself will remain private until an authentic public excerpt is ready.
+:::
+
+::: {.process-card}
+<span>03 · Access</span>
+
+**Turning access into primary evidence**
+
+Researchers helped facilitate access to the setting and participants. I personally administered the quiz to 40 security guards using a focus-group format.
+:::
+
+::: {.process-card .process-card-wide}
+<span>04 · Fieldwork</span>
+
+**Administering the primary-data session**
+
+![](/assets/projects/gig-workers-research/fieldwork/primary-data-session.jpeg){fig-alt="Satvik Raman standing at the front of a meeting room while administering a financial-literacy questionnaire to security guards"}
+
+<p class="artifact-caption">During primary-data collection in Bangalore. I explained and administered the five-question instrument while participants recorded their responses. Publication permission has been confirmed for the people shown.</p>
+:::
+
+::: {.process-card}
+<span>05 · Preparation</span>
+
+**From responses to analysable variables**
+
+I organised the responses across the three literacy dimensions and demographic characteristics, then prepared the data for descriptive comparison and model-based analysis.
+:::
+
+::: {.process-card}
+<span>06 · Analysis</span>
+
+**Testing what predicted literacy**
+
+I used Bayesian logistic regression to examine how migration status and age related to the probability of financial literacy in this sample.
+:::
+
+::: {.process-card}
+<span>07 · Findings</span>
+
+**Evidence, with its limits visible**
+
+The results indicated lower odds of financial literacy among migrant workers and differences by age. The study is intentionally bounded: a sample of 40 security guards can reveal patterns worth investigating, not represent every gig worker in Bangalore.
+:::
+:::
+
+::: {.fieldwork-closing}
+![](/assets/projects/gig-workers-research/fieldwork/post-session-group.jpeg){fig-alt="Satvik Raman with security guards and members of the research environment after the primary-data session"}
+
+<p class="artifact-caption">Following the primary-data session with participants and members of the surrounding research environment. The photograph documents the setting; authorship of the study and paper is solely mine.</p>
+
+[View the public fieldwork reference on LinkedIn](https://www.linkedin.com/posts/how-financially-literate-are-gig-casual-ugcPost-7371475629902458880-hejk/){.evidence-link target="_blank"}
+:::
 
 ::: {.tech-stack}
 <span class="tech-tag">Empirical Research</span>
-<span class="tech-tag">Econometrics</span>
-<span class="tech-tag">Survey Design</span>
+<span class="tech-tag">Bayesian Logistic Regression</span>
+<span class="tech-tag">Primary Data</span>
 <span class="tech-tag">Financial Literacy</span>
 <span class="tech-tag">SSRN</span>
 :::
 
 ::: {.project-cta}
 [Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6086709){.btn-project target="_blank"}
-[Download PDF](/assets/docs/gig-workers-research.pdf){.btn-project .btn-project-secondary target="_blank"}
+[Download the paper](/assets/docs/gig-workers-research.pdf){.btn-project .btn-project-secondary download="Satvik-Raman-Gig-Worker-Financial-Literacy-Research.pdf"}
 :::
 
 :::

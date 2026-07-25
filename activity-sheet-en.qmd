@@ -1,0 +1,77 @@
+---
+title: "Activity Sheet"
+pagetitle: "Activity Sheet — Satvik Raman"
+description: "A concise printable summary of research, ventures, projects, leadership, service, awards, and languages."
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.activity-sheet}
+
+::: {.activity-header}
+::: {.activity-name}
+# Satvik Raman
+
+Grade 12 · Bengaluru · Economics, finance & computing
+:::
+
+::: {.activity-contact}
+[Portfolio](index-en.qmd) · [Complete Record](record-en.qmd) · [GitHub](https://github.com/satvikraman)
+
+<button class="print-button" type="button" onclick="window.print()">Print / Save as PDF</button>
+:::
+:::
+
+## Research
+
+**Financial Literacy in Bangalore Gig Workers — Sole author and field researcher (2026)**  
+Designed and conducted primary research with 40 security guards; analysed predictors of financial literacy using Bayesian logistic regression. Sole-authored empirical paper available on SSRN with DOI.
+
+**Economics literature review — Author (2026–)**  
+Developing a structured literature review for eventual SSRN submission.
+
+## Entrepreneurship, software, and finance
+
+**Systematick — Founder and builder (2025–)**  
+Building a programmable investment-screening platform focused on transparent, repeatable decision processes and reliable historical data.
+
+**ICICI Direct trading system — Designer and developer (2024)**  
+Built a recommendation-ingestion and order-execution pipeline with a manual review and override interface.
+
+**Vernacular financial-access prototype — Proof-of-concept developer (2024–25)**  
+Developed and deployed a multilingual chatbot prototype after working alongside researchers exploring language-first access to financial information.
+
+## Internships and writing
+
+**Tenacity Ventures — Intern (2026; exact dates to document)**  
+Researched India’s deep-tech landscape and produced a presentation and company research report.
+
+**StockEngineering.in — Intern (2026; documentation in progress)**  
+Worked in the context of algorithmic trading; project report in preparation.
+
+**Bizkit — Founder and weekly writer (2025–)**  
+Publishes story-led economics writing in English, Hindi, Tamil, Telugu, Kannada, and German.
+
+## Leadership, sport, and recognition
+
+**School Prefect — Sri Kumaran Children’s Home (2026)**  
+Selected to serve on the student council and represent the wider school community.
+
+**Outstanding Delegate — Kumarans Model United Nations (2026)**  
+Represented the French Republic; awarded Outstanding Delegate.
+
+**Club football — Young Blue Elite FC / BFC Soccer School (2023–)**  
+Competed across U17, U18, and U19 as goalkeeper and midfielder.
+
+**Google Code to Learn — National winner (2019)**  
+Received national recognition for an early software project.
+
+**Table tennis — CBSE state winner and national participant (2019)**  
+Represented school at state and national levels.
+
+**German — Goethe-Zertifikat A2 (2023)**  
+Externally assessed certification; later levels will be added after documentation.
+
+:::

@@ -1,0 +1,53 @@
+---
+title: "Algorithmic-Trading Internship"
+subtitle: "Work in the context of StockEngineering.in"
+date: 2026-01-01
+categories:
+  - Internships
+  - Finance & Software
+order: 4
+---
+
+::: {.project-detail}
+
+<span class="featured-badge">Documentation in progress</span>
+
+::: {.project-hook}
+This internship placed algorithmic trading in its professional context: not only writing a rule, but asking how data, execution, risk, and review fit together.
+:::
+
+## Current public account
+
+I worked with StockEngineering.in, an algorithmic-trading company. I am preparing a project report that will document the exact problem, my responsibilities, the implementation, and what I learned.
+
+The page remains intentionally brief until that report is complete. It does not yet claim a specific system, performance result, or business impact.
+
+## Process desk reserved
+
+::: {.process-desk}
+::: {.process-card}
+<span>01 · Problem</span>
+
+**Scope and constraints**
+
+To be added from the project report.
+:::
+
+::: {.process-card}
+<span>02 · Build</span>
+
+**Technical contribution**
+
+To be added with safe code or architecture excerpts.
+:::
+
+::: {.process-card}
+<span>03 · Review</span>
+
+**Learning and limitations**
+
+To be added without publishing proprietary company information.
+:::
+:::
+
+:::
