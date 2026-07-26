@@ -1,6 +1,6 @@
 ---
 title: "Satvik Raman"
-pagetitle: "Satvik Raman — Research, systems, and the questions between them"
+pagetitle: "Satvik Raman - Research, systems, and the questions between them"
 description: "A Grade 12 researcher-builder working across economics, software, language access, and sport."
 format:
   html:
@@ -16,66 +16,27 @@ lightbox: auto
 
 ::: {.atlas-hero}
 ::: {.hero-copy}
-<p class="eyebrow">Bengaluru · Economics, finance & computing</p>
+# I build to understand
 
-# I begin with curiosity—and follow the evidence far enough to build something.
-
-I’m Satvik Raman, a Grade 12 researcher-builder using economics, evidence, and software to understand how people and markets make decisions.
+I'm Satvik Raman, a researcher-builder. I use economics to explore how the world works; and turn what I learn into tools, research, and stories that help others understand it too.
 
 ::: {.hero-actions}
-[Explore the Atlas](projects/index-en.qmd){.atlas-button}
-[View the complete Record](record-en.qmd){.atlas-text-link}
+[Featured Explorations](projects/index-en.qmd){.atlas-button}
 :::
 
-<div class="hero-proof-grid" data-home-proof aria-label="Selected evidence"></div>
+<div class="hero-proof-grid home-pillars" data-home-proof aria-label="Featured explorations"></div>
 :::
 
 ::: {.hero-portrait}
 ![](/assets/profile/satvik_photo_20230101.jpg){fig-alt="Portrait of Satvik Raman"}
-<p class="margin-note">The subjects change. The habit does not: understand the system before judging the outcome.</p>
-:::
-:::
-
-::: {.home-bridge}
-<p class="eyebrow">The connecting idea</p>
-
-## I move between research, building, and explanation.
-
-Across financial-literacy fieldwork, investment software, multilingual writing, and football, I keep returning to the same challenge: understand how decisions emerge from larger systems—and make the reasoning visible to others.
-:::
-
-::: {.atlas-section .home-featured}
-::: {.section-intro}
-<p class="eyebrow">Three ways of working</p>
-
-## Begin with evidence. Build what is missing. Explain what remains.
-
-The homepage is intentionally selective. The Atlas tells the deeper stories; the Record holds the complete account.
-:::
-
-<div class="home-story-grid" data-home-stories></div>
-
-::: {.home-route-row}
-[Explore every major inquiry](projects/index-en.qmd){.large-link}
-[Scan the complete record](record-en.qmd){.large-link}
-:::
-:::
-
-::: {.atlas-section .personal-section}
-::: {.personal-story}
-<p class="eyebrow">Away from the desk</p>
-
-## Some of my best classrooms have had no blackboard.
-
-Football taught me to read movement before intervening. Long drives to training became conversations with my father about work, history, business, and the future. Travel gives me another version of the same lesson: pay attention before reaching a conclusion.
-
-[Visit Elsewhere](elsewhere-en.qmd){.card-link}
-:::
-
-::: {.personal-aside}
-> “Can I understand this deeply enough to explain it simply?”
-
-<p>This is the question I return to—whether I am studying a market, designing software, or revising a paragraph.</p>
+<p class="margin-note hero-process" aria-label="Question, Build, Learn, loop">
+  <span>Question</span>
+  <span class="process-arrow" aria-hidden="true"></span>
+  <span>Build</span>
+  <span class="process-arrow" aria-hidden="true"></span>
+  <span>Learn</span>
+  <span class="process-loop" aria-hidden="true">↺</span>
+</p>
 :::
 :::
 

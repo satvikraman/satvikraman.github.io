@@ -26,14 +26,51 @@
 
   const itemLink = (item, label = "Open case study") => {
     if (!item.atlasUrl) return "";
-    return `<a class="record-link" href="${safeUrl(item.atlasUrl)}">${escapeHtml(label)} →</a>`;
+    return `<a class="record-link" href="${safeUrl(item.atlasUrl)}">${escapeHtml(label)} &#8594;</a>`;
   };
 
-  const proofMarkup = (item) => `
-    <a class="hero-proof" href="${safeUrl(item.atlasUrl || "record-en.html")}">
-      <span>${escapeHtml(item.categoryLabel)}</span>
-      <strong>${escapeHtml(item.outcome)}</strong>
-    </a>`;
+  const homeExplorations = [
+    {
+      id: "gig-literacy",
+      label: "Research",
+      subtext: "Why are some people working the hardest also the least financially prepared?"
+    },
+    {
+      id: "systematick",
+      label: "Entrepreneurship",
+      subtext: "When everyone has investment ideas why do very few have an investment process?"
+    },
+    {
+      id: "bizkit",
+      label: "Community",
+      subtext: "If the stories were memorable, why couldn’t the economic ideas be too?"
+    },
+    {
+      id: "bfc-football",
+      label: "Sports",
+      subtext: "Some of my best classrooms have had no blackboard"
+    },
+    {
+      id: "literature-review",
+      label: "Research",
+      subtext: "Why does AI create opportunity and precarity at the same time?"
+    },
+    {
+      id: "vernacular-chatbot",
+      label: "Community",
+      subtext: "Technology reached millions. Language still left many behind."
+    }
+  ];
+
+  const proofMarkup = (entry, index, itemsById) => {
+    const item = itemsById.get(entry.id);
+    if (!item) return "";
+    return `
+      <a class="hero-proof${index >= 3 ? " hero-proof-row-two" : ""}" href="${safeUrl(item.atlasUrl || "record-en.html")}">
+        <span>${escapeHtml(entry.label)}</span>
+        <strong>${escapeHtml(entry.subtext)}</strong>
+      </a>`;
+  };
 
   const storyMarkup = (item) => `
     <article class="story-card">
@@ -104,11 +141,15 @@
       const byId = new Map(items.map((item) => [item.id, item]));
 
       if (homeProof) {
-        homeProof.innerHTML = data.highlights.slice(0, 3)
-          .map((id) => byId.get(id))
-          .filter(Boolean)
-          .map(proofMarkup)
-          .join("");
+        const proofs = homeExplorations
+          .map((entry, index) => proofMarkup(entry, index, byId))
+          .filter(Boolean);
+
+        homeProof.innerHTML = [
+          ...proofs.slice(0, 3),
+          '<span class="hero-proof-divider" aria-hidden="true"></span>',
+          ...proofs.slice(3),
+        ].join("");
       }
 
       if (homeStories) {
