@@ -3,9 +3,7 @@
   "highlights": [
     "gig-literacy",
     "systematick",
-    "tenacity",
-    "vernacular-chatbot",
-    "school-prefect",
+    "bizkit",
     "bfc-football"
   ],
   "featuredStories": [
@@ -22,8 +20,8 @@
       "year": "2026",
       "organization": "Independent study · Sri Kumaran Children’s Home",
       "role": "Sole author and field researcher",
-      "summary": "Designed, conducted, analysed, and wrote an empirical study of financial literacy among 40 security guards, using focus-group administration and Bayesian logistic regression.",
-      "outcome": "Sole-authored empirical paper available on SSRN with DOI",
+      "summary": "Designed, conducted, analysed, and wrote an empirical study of financial literacy among gig workers, using focus-group administration and Bayesian logistic regression.",
+      "outcome": "Sole-authored empirical paper available on SSRN",
       "status": "Available on SSRN",
       "priority": 1,
       "atlasUrl": "projects/gig-workers-research/index-en.html",
@@ -92,7 +90,7 @@
       "organization": "Independent venture",
       "role": "Founder and builder",
       "summary": "Building a programmable platform that makes investment screening more systematic, transparent, and repeatable.",
-      "outcome": "Working product, data infrastructure, and venture in development",
+      "outcome": "Working product and venture in development",
       "status": "Ongoing venture",
       "priority": 2,
       "atlasUrl": "projects/systematick/index-en.html",
