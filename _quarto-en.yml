@@ -44,8 +44,6 @@ website:
     left:
       - text: "Home"
         href: index-en.html
-      - text: "Curiosity Atlas"
-        file: projects/index-en.html
       - text: "Record"
         file: record-en.html
       - text: "Elsewhere"

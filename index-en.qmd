@@ -16,58 +16,27 @@ lightbox: auto
 
 ::: {.atlas-hero}
 ::: {.hero-copy}
-<p class="eyebrow">Single-screen editorial cover</p>
+# I build to understand
 
-# I learn by building. I understand by explaining.
-
-I’m Satvik Raman, a Grade 12 researcher-builder using economics, evidence, and software to understand how people and markets make decisions.
+I'm Satvik Raman, a researcher-builder. I use economics to explore how the world works; and turn what I learn into tools, research, and stories that help others understand it too.
 
 ::: {.hero-actions}
-[Explore the Atlas](projects/index-en.qmd){.atlas-button}
-[View the complete Record](record-en.qmd){.atlas-text-link}
+[Featured Explorations](projects/index-en.qmd){.atlas-button}
 :::
 
-<div class="hero-proof-grid home-pillars" data-home-proof aria-label="Selected evidence"></div>
+<div class="hero-proof-grid home-pillars" data-home-proof aria-label="Featured explorations"></div>
 :::
 
 ::: {.hero-portrait}
 ![](/assets/profile/satvik_photo_20230101.jpg){fig-alt="Portrait of Satvik Raman"}
-<p class="margin-note">Four pillars. One habit: turn a question into something other people can use.</p>
-:::
-:::
-
-::: {.atlas-section .home-featured}
-::: {.section-intro}
-<p class="eyebrow">The four pillars</p>
-
-## Tension first. Evidence second.
-
-Each entry opens with the question that created the work, then shows the project that answered it.
-:::
-
-<div class="home-story-grid" data-home-stories></div>
-
-::: {.home-route-row}
-[Explore every major inquiry](projects/index-en.qmd){.large-link}
-[Scan the complete record](record-en.qmd){.large-link}
-:::
-:::
-
-::: {.atlas-section .personal-section}
-::: {.personal-story}
-<p class="eyebrow">Sport</p>
-
-## Some of my best classrooms have had no blackboard.
-
-Football taught me to read movement, communicate early, and trust timing before trying to force an outcome. It belongs on the homepage because it is part of the way I work, not a side note to it.
-
-[Visit Elsewhere](elsewhere-en.qmd){.card-link}
-:::
-
-::: {.personal-aside}
-> "Can I understand this deeply enough to explain it simply?"
-
-<p>I return to this question whether I am studying a market, designing software, or revising a paragraph.</p>
+<p class="margin-note hero-process" aria-label="Question, Build, Learn, loop">
+  <span>Question</span>
+  <span class="process-arrow" aria-hidden="true"></span>
+  <span>Build</span>
+  <span class="process-arrow" aria-hidden="true"></span>
+  <span>Learn</span>
+  <span class="process-loop" aria-hidden="true">↺</span>
+</p>
 :::
 :::
 
