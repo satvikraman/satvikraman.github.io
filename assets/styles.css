@@ -1176,3 +1176,27 @@
   .activity-sheet { margin: 0; max-width: none; padding: 0; }
   @page { margin: 0.45in; size: A4; }
 }
+
+/* Align the home page with the other pages: same edges, same compact top. */
+body:has(.home-page) main.content { margin-top: 0; padding-top: 0; }
+.home-page .atlas-hero {
+  max-width: 72rem;
+  min-height: 0;
+  padding: 1rem 0 2rem;
+  row-gap: 1.5rem;
+}
+.home-page .hero-copy h1 { font-size: clamp(2.25rem, 4.2vw, 3.25rem); margin: 0.35rem 0 0.75rem; }
+.home-page .hero-actions { margin-top: 1rem; }
+.home-page .hero-portrait { margin-top: 0.5rem; }
+
+/* Home cards: label, question and project line each align across a row. */
+.home-page .hero-proof-grid { row-gap: 0; }
+.home-page .hero-proof {
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+}
+.home-page .hero-proof > * { align-self: start; }
+@media (max-width: 640px) {
+  .home-page .hero-proof { display: block; grid-row: auto; }
+}

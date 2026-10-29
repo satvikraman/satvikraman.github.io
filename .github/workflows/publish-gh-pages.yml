@@ -43,20 +43,8 @@ jobs:
       - name: Create temporary folder for gh-pages
         run: mkdir -p _ghpages_temp
 
-      # 4️⃣ Render EN
-      - name: Render Quarto Profile EN
-        uses: quarto-dev/quarto-actions/render@v2
-        env:
-          QUARTO_PROFILE: en
-        with:
-          to: html
-
-      - name: Copy EN files to temp folder
-        run: cp -r docs/* _ghpages_temp/
-
-      # 5️⃣ DE profile is not published until the German pages are updated.
-
-      # 🔟 Render DEF (default)
+      # 4️⃣ Render DEF (default) first, so the EN render below
+      #    overwrites shared files such as search.json and sitemap.xml
       - name: Render Quarto Profile DEF
         uses: quarto-dev/quarto-actions/render@v2
         env:
@@ -65,6 +53,19 @@ jobs:
           to: html
 
       - name: Copy DEF files to temp folder
+        run: cp -r docs/* _ghpages_temp/
+
+      # 5️⃣ DE profile is not published until the German pages are updated.
+
+      # 6️⃣ Render EN last
+      - name: Render Quarto Profile EN
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: en
+        with:
+          to: html
+
+      - name: Copy EN files to temp folder
         run: cp -r docs/* _ghpages_temp/
 
       - name: List contents of _ghpages_temp
