@@ -1,0 +1,725 @@
+/* English-only components for the redesigned project pages (DECISIONS D3).
+   Loaded only by _quarto-en.yml, so German pages are unaffected.
+   Everything is scoped under .sx (story pages); tokens come from theme.scss. */
+
+/* Visible keyboard focus everywhere on the English site. */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+/* Story pages carry their own hero, so Quarto's author/date title block is hidden. */
+body:has(.sx) #title-block-header { display: none; }
+
+.sx {
+  --sx-measure: 42rem;
+  color: var(--ink);
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 0 0 4rem;
+}
+
+.sx p,
+.sx li { line-height: 1.7; }
+
+.sx-label {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Page hero: text first, one strong visual. */
+.sx-hero {
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 2.5rem;
+  padding: 2.5rem 0 3rem;
+}
+
+.sx-hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.sx-lede {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  line-height: 1.35;
+  margin: 0 0 1.25rem;
+}
+
+.sx-hero p:not(.sx-lede):not(.sx-label) {
+  color: var(--muted);
+  max-width: 34rem;
+}
+
+/* Framed screenshot on the deeper paper tone. */
+.sx-frame {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  margin: 0;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.sx-frame img,
+.sx-frame video,
+.sx-frame iframe {
+  border: 1px solid var(--line);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.sx-frame figcaption,
+.sx-figure figcaption {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 0.75rem;
+}
+
+.sx-hero .sx-frame { max-width: 30rem; justify-self: center; }
+.sx-frame iframe { aspect-ratio: 16 / 9; }
+.sx-hero-solo { display: block; }
+
+/* Fact strip: verified, dated items. */
+.sx-facts {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sx-facts li {
+  border-top: 1px solid var(--line);
+  padding: 1rem 1rem 1rem 0;
+}
+
+.sx-facts strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.sx-facts span {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+/* Sections. */
+.sx-section {
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0;
+}
+
+.sx-section h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 500;
+  margin: 0.5rem 0 1rem;
+}
+
+.sx-section p,
+.sx-section > ul { max-width: var(--sx-measure); }
+
+.sx-section::after { clear: both; content: ""; display: table; }
+
+/* Quarto wraps each h2 and what follows in a <section>; keep it flush. */
+.sx-section section { margin: 0; padding: 0; }
+
+.sx-figure { margin: 2rem 0 0; }
+
+/* Process flow: an ordered list drawn as a diagram, readable as text. */
+.sx-flow {
+  counter-reset: sx-step;
+  display: grid;
+  gap: 0;
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.sx-flow li {
+  background: #fff;
+  border: 1px solid var(--line);
+  counter-increment: sx-step;
+  line-height: 1.5;
+  padding: 1rem 1.1rem;
+  position: relative;
+}
+
+.sx-flow li + li { margin-top: 1.5rem; }
+
+.sx-flow li + li::before {
+  color: var(--red);
+  content: "↓";
+  font-size: 1.1rem;
+  left: 1.1rem;
+  position: absolute;
+  top: -1.45rem;
+}
+
+.sx-flow b {
+  display: block;
+  font-weight: 600;
+}
+
+.sx-flow b::before {
+  color: var(--red);
+  content: counter(sx-step, decimal-leading-zero) "  ";
+  font-family: var(--mono);
+  font-weight: 400;
+}
+
+.sx-flow span {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+/* Research pages read like a paper: a narrower measure. */
+.sx-paper { --sx-measure: 38rem; }
+
+/* Survey or quiz items as numbered cards. */
+.sx-quiz {
+  counter-reset: sx-q;
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 1.5rem 0;
+  max-width: 48rem;
+  padding: 0;
+}
+
+.sx-quiz li {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--ink);
+  counter-increment: sx-q;
+  padding: 0.85rem 1rem;
+}
+
+.sx-quiz b {
+  color: var(--muted);
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sx-quiz b::before { content: "Q" counter(sx-q) " · "; color: var(--red); }
+
+/* Annotation inside a flow step (e.g. where an intervention acts). */
+.sx-tag {
+  border-top: 1px dashed var(--red);
+  color: var(--red);
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  margin-top: 0.6rem;
+  padding-top: 0.4rem;
+}
+
+.sx-frame .sx-flow { margin: 0; }
+
+/* The same text side by side in two languages. */
+.sx-parallel {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.sx-parallel blockquote {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--ink);
+  margin: 0;
+  padding: 1rem 1.1rem;
+}
+
+.sx-parallel blockquote p { font-size: 1rem; max-width: none; }
+
+/* Small personal photo floated beside text on wide screens. */
+.sx-inline { margin: 0 0 1.5rem; max-width: 16rem; }
+.sx-inline img { border: 1px solid var(--line); display: block; height: auto; width: 100%; }
+.sx-inline figcaption { color: var(--muted); font-size: 0.875rem; margin-top: 0.5rem; }
+
+/* Two photos side by side, cropped to the same shape so they line up. */
+.sx-two.sx-pair { align-items: stretch; }
+.sx-pair img { aspect-ratio: 4 / 3; object-fit: cover; }
+
+/* Photo strip: a short timeline of small captioned images. */
+.sx-strip {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.sx-strip img {
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--line);
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.sx-strip span { color: var(--muted); display: block; font-size: 0.875rem; line-height: 1.5; margin-top: 0.5rem; }
+.sx-strip b { color: var(--red); display: block; font-family: var(--mono); font-weight: 400; }
+
+/* Plain reading tables. */
+.sx-table {
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  margin: 1.5rem 0;
+  max-width: 48rem;
+  width: 100%;
+}
+
+.sx-table caption {
+  caption-side: top;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.sx-table th,
+.sx-table td {
+  border-top: 1px solid var(--line);
+  padding: 0.7rem 1rem 0.7rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.sx-table thead th {
+  border-top: 1px solid var(--ink);
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.sx-table tbody th { font-weight: 600; width: 40%; }
+
+/* Static SVG charts drawn with the page tokens. */
+.sx-chart { margin-bottom: 1.5rem; overflow-x: auto; }
+.sx-chart svg { min-width: 540px; }
+.sx-chart figcaption { max-width: 44rem; }
+.sx-chart svg { display: block; height: auto; max-width: 44rem; width: 100%; }
+.sx-chart text { fill: var(--ink); font-family: var(--sans); font-size: 13px; }
+.sx-chart .ax line { stroke: var(--line); stroke-width: 1; }
+.sx-chart .ax line.one { stroke: var(--ink); stroke-dasharray: 4 3; }
+.sx-chart .ax text { fill: var(--muted); font-family: var(--mono); font-size: 11px; text-anchor: middle; }
+.sx-chart .ax text.note { text-anchor: start; }
+.sx-chart .ax text.note[y="222"] { text-anchor: middle; }
+.sx-chart .row text { font-weight: 600; }
+.sx-chart .row text.sub { fill: var(--muted); font-size: 11px; font-weight: 400; }
+.sx-chart .row line { stroke: var(--ink); stroke-width: 2; }
+.sx-chart .row circle { fill: var(--red); }
+
+/* Pull question: at most one per page. */
+.sx-pull {
+  border-left: 3px solid var(--red);
+  margin: 0;
+  max-width: var(--sx-measure);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+}
+
+.sx-pull p { color: var(--ink); }
+
+.sx-pull p:first-child {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 2.6vw, 1.8rem);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+
+/* Status chip: text plus a border, never colour alone. */
+.sx-chip {
+  border: 1px solid var(--ink);
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.45rem;
+  text-transform: uppercase;
+  vertical-align: 0.2em;
+}
+
+/* Links out and related work. */
+.sx-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.sx-button {
+  background: var(--ink);
+  color: var(--paper) !important;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.7rem 1.1rem;
+  text-decoration: none;
+}
+
+.sx-button:hover { background: var(--red); }
+
+.sx-related {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.sx-related a {
+  border-top: 1px solid var(--ink);
+  color: var(--ink);
+  display: block;
+  padding-top: 0.75rem;
+  text-decoration: none;
+}
+
+.sx-related a:hover { color: var(--red); }
+
+.sx-related small {
+  color: var(--muted);
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.sx-related strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Record page: an intro without a hero visual. */
+.sx-intro { border-bottom: 1px solid var(--line); padding: 2.5rem 0 3rem; }
+.sx-intro h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0.75rem 0 1.25rem;
+}
+.sx-intro p:not(.sx-label) { color: var(--muted); max-width: 36rem; }
+
+/* Card grid linking to the featured pages. */
+.sx-cards {
+  display: grid;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.sx-cards a {
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 0 1rem;
+  text-decoration: none;
+}
+
+.sx-cards a:hover { border-color: var(--ink); }
+.sx-cards a:hover strong { color: var(--red); }
+
+.sx-cards img,
+.sx-card-type {
+  aspect-ratio: 16 / 9;
+  border-bottom: 1px solid var(--line);
+  display: block;
+  height: auto;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.sx-cards img.is-top { object-position: top; }
+
+.sx-card-type {
+  align-items: center;
+  background: var(--paper-deep);
+  display: flex;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.25;
+  padding: 1rem 1.25rem;
+}
+
+.sx-cards small,
+.sx-cards strong,
+.sx-cards span,
+.sx-cards em { margin: 0 1rem; }
+
+.sx-cards small {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.sx-cards strong {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 0.25rem;
+}
+
+.sx-cards span { color: var(--muted); font-size: 0.9375rem; line-height: 1.5; margin-top: 0.4rem; }
+.sx-cards em { align-self: flex-start; font-style: normal; margin-top: auto; padding-top: 0.75rem; }
+.sx-cards em.sx-chip { margin-left: 1rem; padding: 0.1rem 0.45rem; }
+
+/* Numbered activity rows. */
+.sx-rows {
+  border-bottom: 1px solid var(--line);
+  counter-reset: sx-row;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  max-width: 56rem;
+  padding: 0;
+}
+
+.sx-rows li { border-top: 1px solid var(--line); counter-increment: sx-row; scroll-margin-top: 5rem; }
+
+.sx-rows a,
+.sx-rows li > div {
+  color: var(--ink);
+  display: grid;
+  gap: 0.25rem 1.25rem;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.sx-rows a::before,
+.sx-rows li > div::before {
+  color: var(--red);
+  content: counter(sx-row, decimal-leading-zero);
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  grid-row: 1 / span 2;
+  padding-top: 0.2rem;
+}
+
+.sx-rows a:hover strong { color: var(--red); }
+.sx-when { color: var(--muted); font-family: var(--mono); font-size: 0.8125rem; }
+.sx-what strong { font-weight: 600; }
+.sx-what > span { color: var(--muted); display: block; font-size: 0.9375rem; line-height: 1.55; margin-top: 0.2rem; }
+
+.sx-what i {
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  font-style: normal;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.35rem;
+  text-transform: uppercase;
+  vertical-align: 0.15em;
+}
+
+.sx-go { color: var(--blue); font-size: 0.9375rem; grid-column: 2; }
+
+/* Evidence shown in a popup on the same page (the link still works without JS). */
+.sx-dialog {
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  max-height: 90vh;
+  max-width: min(56rem, 94vw);
+  padding: 2.5rem 1.25rem 1rem;
+}
+
+.sx-dialog::backdrop { background: rgb(0 0 0 / 0.6); }
+.sx-dialog img { display: block; height: auto; max-height: 75vh; max-width: 100%; margin: 0 auto; }
+.sx-dialog p { color: var(--muted); font-size: 0.875rem; margin: 0.75rem 0 0; }
+
+.sx-dialog-close {
+  background: none;
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1.75rem;
+  line-height: 1;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.5rem;
+}
+
+/* Grouped short lists. */
+.sx-groups { display: grid; gap: 0 3rem; }
+.sx-groups h3 { font-family: var(--serif); font-size: 1.25rem; font-weight: 500; margin: 1.5rem 0 0.75rem; }
+.sx-groups ul { margin: 0; padding-left: 1.1rem; }
+.sx-groups li { margin-bottom: 0.6rem; }
+
+/* Elsewhere: photo galleries that keep each photo's shape. */
+/* Justified rows: the page splits photos into rows in advance, and each figure's
+   width is proportional to its aspect ratio (--r), so every photo in a row has
+   the same height and the row fills the width. On phones a row may wrap. */
+.sx-gallery { display: grid; gap: 1.25rem; margin: 1.25rem 0 0; }
+
+.sx-row { align-items: flex-start; display: flex; flex-wrap: wrap; gap: 1rem 0.6rem; }
+
+.sx-row figure {
+  flex: var(--r) 1 calc(var(--r) * 4.5rem);
+  margin: 0;
+  min-width: 0;
+}
+
+.sx-gallery img,
+.sx-gallery video {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.sx-gallery figcaption { color: var(--muted); font-size: 0.8125rem; line-height: 1.45; margin-top: 0.4rem; }
+.sx-note { color: var(--muted); font-family: var(--mono); font-size: 0.6875rem; text-transform: uppercase; }
+
+.sx-tile a {
+  aspect-ratio: var(--r);
+  background: var(--paper-deep);
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.sx-tile small { color: var(--muted); display: block; font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; }
+.sx-tile a { overflow: hidden; }
+.sx-tile strong { display: block; font-family: var(--serif); font-size: 1.05rem; font-weight: 500; line-height: 1.3; margin: 0.3rem 0 0.5rem; }
+.sx-tile em { color: var(--blue); font-style: normal; }
+.sx-tile a:hover strong { color: var(--red); }
+
+.sx-block { border-top: 1px solid var(--line); margin-top: 2.5rem; padding-top: 1.25rem; scroll-margin-top: 5rem; }
+.sx-block h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 500; margin: 0; }
+.sx-block-head .sx-label { margin: 0.25rem 0 0; }
+.sx-block-head p:not(.sx-label) { color: var(--muted); font-size: 0.9375rem; line-height: 1.55; margin: 0.6rem 0 0; }
+.sx-more { margin-top: 1.5rem; }
+
+@media (min-width: 640px) {
+  .sx-row { flex-wrap: nowrap; gap: 0.75rem; }
+  .sx-row figure { flex: var(--r) 1 0; }
+}
+
+@media (min-width: 960px) {
+  .sx-block { display: grid; gap: 2rem; grid-template-columns: 11rem minmax(0, 1fr); }
+  .sx-block .sx-gallery { margin-top: 0; }
+}
+
+@media (min-width: 640px) {
+  .sx-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sx-rows a,
+  .sx-rows li > div { grid-template-columns: 2.5rem 8rem minmax(0, 1fr) auto; }
+  .sx-rows a::before,
+  .sx-rows li > div::before { grid-row: auto; }
+  .sx-go { grid-column: auto; white-space: nowrap; }
+  .sx-when { padding-top: 0.15rem; }
+}
+
+@media (min-width: 960px) {
+  .sx-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sx-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 640px) {
+  .sx-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .sx-related { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sx-parallel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sx-strip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .sx-inline { float: right; margin: 0 0 1rem 2rem; }
+}
+
+@media (min-width: 960px) {
+  .sx-hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 4rem; }
+  .sx-two { display: grid; gap: 3rem; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+  .sx-two .sx-flow { margin-top: 0; }
+}
+
+/* Résumé preview: large enough to read on desktop. */
+.sx-hero .sx-frame-doc { max-width: 38rem; }
+.sx-frame-doc { background: transparent; border: 0; padding: 0; }
+
+/* Wide charts scroll sideways on phones; say so. */
+.sx-swipe { display: none; }
+@media (max-width: 600px) {
+  .sx-swipe { color: var(--muted); display: block; font-family: var(--mono); font-size: 0.6875rem; margin: 0 0 0.5rem; text-transform: uppercase; }
+}
+@media (min-width: 960px) {
+  .sx-hero:has(.sx-frame-doc) { grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr); }
+}
+
+/* Link tile over a blurred photo: the text stays the focus. */
+.sx-tile-photo a {
+  border-color: transparent;
+  color: #fff;
+  isolation: isolate;
+  position: relative;
+}
+.sx-tile-photo a::before {
+  background: var(--bg) center / cover no-repeat;
+  content: "";
+  filter: blur(5px) brightness(0.5) saturate(0.9);
+  inset: -12px;
+  position: absolute;
+  transition: filter 0.2s ease;
+  z-index: -1;
+}
+.sx-tile-photo a:hover::before { filter: blur(3px) brightness(0.45); }
+.sx-tile-photo small { color: rgba(255, 255, 255, 0.8); }
+.sx-tile-photo strong { color: #fff; }
+.sx-tile-photo em { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.sx-tile-photo a:hover strong { color: #fff; }
+
+/* In-page jump links: arrows sit between the links, spaced evenly. */
+.sx-jump { align-items: baseline; gap: 0.75rem 0.9rem; }
+.sx-jump span { color: var(--muted); }
+
+/* Compact page header: on a laptop screen the first section's content
+   should be visible without scrolling. */
+.sx-intro { padding: 1rem 0 1.5rem; }
+.sx-intro h1 { font-size: clamp(2.25rem, 4.2vw, 3.25rem); margin: 0.35rem 0 0.75rem; }
+.sx-intro p:not(.sx-label) { margin-bottom: 0; max-width: 48rem; }
+.sx-intro .sx-actions { margin-top: 0.85rem; }
+.sx-intro + .sx-section { padding-top: 1.75rem; }
+.sx-intro + .sx-section > h2,
+.sx-intro + .sx-section > section > h2 { margin-bottom: 1rem; }
+body:has(.sx-intro) main.content { margin-top: 0; padding-top: 0; }

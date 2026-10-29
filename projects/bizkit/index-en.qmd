@@ -1,83 +1,127 @@
 ---
 title: "Bizkit"
-subtitle: "An experiment in teaching economics through stories"
-date: 2025-01-15
+subtitle: "Economics explained through real events, in six languages"
+description: "Bizkit is a blog I founded and write: business and economics explained through real-world events, without jargon, in English, Hindi, Kannada, Tamil, Telugu and German. 125+ posts since 2024."
+date: 2024-03-31
+image: /assets/projects/bizkit/bz-social.jpg
 categories:
   - Research & Essays
 order: 3
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-Bizkit asks a deceptively simple question: **how can economics become interesting before it becomes difficult?**
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Writing · Mar 2024 – now · <span class="sx-chip">Ongoing</span></p>
+
+# Bizkit
+
+<p class="sx-lede">If a story about a company is memorable, the economics behind it can be too.</p>
+
+Bizkit is a blog I founded and write. Each post starts with something that really happened, such as a bank collapse, a company splitting in two or a banknote being withdrawn, and uses it to explain one idea in business or economics without jargon. Every post appears in six languages, so a student does not need English to read it.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://bizkit.co.in/index-en.html" target="_blank" rel="noopener">Read Bizkit</a>
+<a href="https://bizkit.co.in/blog/20251108/index-en.html" target="_blank" rel="noopener">Read the banknote post →</a>
+</div>
 :::
 
-<p class="venture-status"><strong>Current practice:</strong> one story each week, usually on Sunday, published in English, Hindi, Tamil, Telugu, Kannada, and German.</p>
+<figure class="sx-frame">
+<img src="/assets/projects/bizkit/bz-banknote-post.webp" width="1220" height="790" fetchpriority="high" alt="A Bizkit post titled The Life and Death of a Banknote: How the RBI Manages Currency, published 8 November 2025, opening with the RBI's announcement that ₹5,817 crore of ₹2,000 notes were still in circulation.">
+<figcaption>A post from November 2025 on bizkit.co.in, captured 29 October 2026.</figcaption>
+</figure>
 
-## Why it began
-
-Economics is often introduced through definitions. Students meet elasticity, adverse selection, or opportunity cost before they have a reason to care about them.
-
-That order never felt natural to me. I was drawn to economics because it explained decisions I could already observe: why a company changed its price, why two firms valued the same deal differently, or why a policy produced an unintended response.
-
-Bizkit reverses the conventional sequence. It starts with the story.
-
-## An inheritance—and a different choice
-
-::: {.personal-origin}
-::: {.personal-origin-image}
-![](/assets/projects/bizkit/satvik-visvesvaraya.jpeg){fig-alt="A young Satvik Raman standing beside a bust of Bharat Ratna Sir M. Visvesvaraya"}
-
-<p class="artifact-caption">Beside a bust of Sir M. Visvesvaraya in 2018. We share a birthday: 15 September.</p>
 :::
 
-::: {.personal-origin-copy}
-Engineering is woven through my family across generations—from my parents and grandparents to my great-grandparents. I was also born on the birthday of Sir M. Visvesvaraya, one of India’s most celebrated engineers. My family reasonably imagined that I would continue the pattern.
+<ul class="sx-facts">
+<li><strong>125+ posts</strong><span>As of October 2026</span></li>
+<li><strong>6 languages</strong><span>English, Hindi, Kannada, Tamil, Telugu, German</span></li>
+<li><strong>500+ readers</strong><span>Website and WhatsApp channel</span></li>
+<li><strong>Since 2024</strong><span>Largely maintaining a weekly cadence</span></li>
+</ul>
 
-Instead, I became fascinated by economics: not a rejection of the systems-thinking I inherited, but a decision to apply it to people, incentives, firms, and markets. I opened Bizkit with that irony because it explains something central about the project. It is where an engineering inheritance meets the subject I chose for myself.
+::: {.sx-section}
+<p class="sx-label">Why it began</p>
+
+## Students meet economics as definitions before they have a reason to care
+
+Elasticity, adverse selection and opportunity cost usually arrive as terms to memorise. I came to economics the other way round: through decisions I could already see, like why a company changed its price or why two firms valued the same deal differently. Bizkit puts the story first and the concept second.
+
+Science and programming have plenty written for young readers; how businesses and economies work has very little, and almost none of it outside English. That is why every post is published in five languages besides English.
+:::
+
+::: {.sx-section}
+<p class="sx-label">How a post is made</p>
+
+## One real event, one idea, six languages
+
+::: {.sx-two}
+
+::: {}
+I pick an event from the news, find the economic idea that explains why it turned out the way it did, and write the post around the question a curious reader would ask. If I cannot explain an idea without leaning on its textbook definition, I take that as a sign I do not understand it well enough yet.
+
+The translations into Hindi, Kannada, Tamil, Telugu and German are machine-generated, and the header images are made with AI. The site is built with Quarto and published as a static website, with a WhatsApp channel for new posts.
+:::
+
+<ol class="sx-flow" aria-label="How a Bizkit post is made">
+<li><b>A real event</b><span>A company, market or policy decision in the news</span></li>
+<li><b>The surprising detail</b><span>What makes the outcome worth explaining</span></li>
+<li><b>The idea</b><span>The economic concept that makes it make sense</span></li>
+<li><b>Write and revise</b><span>Plain language, no jargon</span></li>
+<li><b>Translate and publish</b><span>Five more languages; shared on the WhatsApp channel</span></li>
+</ol>
+
 :::
 :::
 
-## The method
+::: {.sx-section}
+<p class="sx-label">The same post, two languages</p>
 
-Every piece follows a common path:
+## Reaching readers outside English-medium schools
 
-1. A real company, decision, or market outcome
-2. The detail that makes the outcome surprising
-3. A question the reader now wants answered
-4. The economic concept that makes the story legible
-5. A return to the original decision with a stronger mental model
+<div class="sx-parallel">
+<blockquote lang="en">
+<p class="sx-label">English</p>
+<p>In late October 2025, the Reserve Bank of India (RBI) announced that ₹2,000 notes worth ₹5,817 crore were still in circulation. This might sound like a large number, but it is actually just a tiny fraction, barely 1.6% of the ₹2,000 notes that once existed.</p>
+<p><a href="https://bizkit.co.in/blog/20251108/index-en.html" target="_blank" rel="noopener">Read in English →</a></p>
+</blockquote>
+<blockquote lang="hi">
+<p class="sx-label">हिन्दी · Hindi</p>
+<p>अक्टूबर 2025 के अंत में, भारतीय रिज़र्व बैंक (RBI) ने घोषणा की कि ₹2,000 के नोटों में से ₹5,817 करोड़ मूल्य के नोट अब भी प्रचलन में हैं। यह राशि बड़ी लग सकती है, लेकिन वास्तव में यह सिर्फ एक बहुत छोटा हिस्सा है — उन सभी ₹2,000 नोटों का मात्र 1.6% जो कभी प्रचलन में थे।</p>
+<p><a href="https://bizkit.co.in/blog/20251108/index-hi.html" target="_blank" rel="noopener" lang="en">Read in Hindi →</a></p>
+</blockquote>
+</div>
 
-The project is partly educational and partly diagnostic. If I cannot explain an idea without relying on its textbook definition, I probably do not understand it well enough.
-
-## What writing changed
-
-I used to think writing presented finished thought. Repeated revision changed that belief.
-
-A sentence that feels awkward often reveals an argument that is still unclear. A transition that refuses to work can expose two ideas that do not actually connect. Writing slowly enough makes assumptions visible.
-
-Bizkit therefore became more than a collection of articles. It became a way to test my own understanding while making economics more accessible to another student.
-
-## If I extended it today
-
-I would keep the story-first structure but make the reader more active: short decisions, interactive cases, or simulations in which a concept emerges from a choice rather than an explanation. The purpose would remain unchanged—curiosity before instruction.
-
-## Community-service direction
-
-I intend to take this story-first, multilingual approach into government schools. That outreach has not happened yet, so the site makes no participation or impact claim. A field-notes and photograph module is reserved but will remain hidden until visits occur and the necessary school and student permissions are secured.
-
-## Editorial principles
-
-::: {.tech-stack}
-<span class="tech-tag">Story before theory</span>
-<span class="tech-tag">Clarity without simplification</span>
-<span class="tech-tag">Real decisions</span>
-<span class="tech-tag">Revision as thinking</span>
+A few more posts: [Lehman Brothers and the subprime time bomb](https://bizkit.co.in/blog/20240331/index-en.html){target="_blank" rel="noopener"} (the first, March 2024), [Demergers: breaking up to build value](https://bizkit.co.in/blog/20250823/index-en.html){target="_blank" rel="noopener"} and [The rise of Jio Financial](https://bizkit.co.in/blog/20260104/index-en.html){target="_blank" rel="noopener"}.
 :::
 
-::: {.project-cta}
-[Read Bizkit](https://bizkit.co.in/index-en.html){.btn-project target="_blank"}
+::: {.sx-section}
+<p class="sx-label">Where it comes from</p>
+
+## An engineering family, and a different choice
+
+Engineering runs through my family for generations, and I was born on the birthday of Sir M. Visvesvaraya, one of India's most celebrated engineers. I became fascinated by economics instead: not a rejection of the systems thinking I grew up with, but a decision to apply it to people, incentives, firms and markets.
+
+Writing changed how I think. A sentence that feels awkward often means the argument underneath is still unclear, and writing slowly enough makes my assumptions visible.
+
+<blockquote class="sx-pull">
+<p>If I extended it today, what would change?</p>
+<p>I would make the reader more active: short decisions, interactive cases or simulations in which the idea emerges from a choice rather than an explanation. I specifically like how <a href="https://yadayadayadaecon.com/" target="_blank" rel="noopener">Yada Yada Yada Econ</a>, <a href="https://economicsoftheoffice.com/" target="_blank" rel="noopener">Economics of the Office</a> and <a href="https://www.bazinganomics.com/bazinganomics//time-is-too-valuable" target="_blank" rel="noopener">Bazinganomics</a> have made economics fun. I wonder what a Bazinganomics version of Bizkit would look like.</p>
+</blockquote>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/vernacular-chatbot/index-en.html"><small>Also about language</small><strong>Multilingual voicebot</strong></a></li>
+<li><a href="/projects/literature-review/index-en.html"><small>Next exploration →</small><strong>The AI-Gig Paradox</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
+</ul>
 :::
 
 :::

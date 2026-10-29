@@ -1,102 +1,101 @@
 ---
 title: "Automated Trading System"
-subtitle: "Programmatic trade replication from ICICI Direct recommendations"
+subtitle: "Broker recommendations from ICICI Direct and Paytm Money, turned into orders automatically"
+description: "An open-source trading system Satvik built: it fetches broker recommendations from ICICI Direct and Paytm Money, places the orders through broker APIs, and has a screen for manual trades and overrides."
 date: 2024-03-21
-image: /assets/projects/automated-trading/ui-screenshot.png
+image: /assets/projects/automated-trading/at-recommendations.webp
 categories:
   - Finance & Software
 order: 2
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-Built an end-to-end trading system that programmatically replicates trade recommendations from ICICI Direct — then extended it with a custom UI for manual trade entry and overrides.
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Software · 2024 – 2026</p>
+
+# Automated trading system
+
+<p class="sx-lede">Brokers publish trade recommendations every day. I wanted to see what happens if you follow them exactly, without anyone placing the orders by hand.</p>
+
+I built an open-source system that fetches recommendations from ICICI Direct and Paytm Money, using broker APIs and web scraping, and places the orders through the broker's API. Once it is running it needs no manual order entry or daily intervention. A custom screen, the Trade Manager, shows every recommendation and position and lets me add or override trades.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://github.com/satvikraman/trading" target="_blank" rel="noopener">See the code on GitHub</a>
+</div>
 :::
 
-## Overview
+<figure class="sx-frame">
+<img src="/assets/projects/automated-trading/at-recommendations.webp" width="1600" height="1000" fetchpriority="high" alt="The Trade Manager screen filtered to ICICI Direct's iCLICK-2-GAIN recommendations from May and June 2025: each row shows the stock, the strategy, the recommendation date and time, the recommended price range, target, stop loss and quantity, and whether the position is still open.">
+<figcaption>The Trade Manager, filtered to one ICICI Direct recommendation stream (iCLICK-2-GAIN), captured October 2026. Each row is one recommendation the system picked up, with the status of the position it opened.</figcaption>
+</figure>
 
-What started as an automation to mirror broker recommendations evolved into a full product: a backend pipeline that ingests signals, processes them, and executes orders — plus a frontend that gives me full control when I want to intervene manually.
+:::
 
-## Phase 1 — Automated Replication
-
-::: {.phase-block}
-#### Phase 1 · Automated Pipeline
-
-<ul class="star-list">
-<li><strong>Situation:</strong> ICICI Direct publishes trade recommendations that require fast, consistent execution to be useful.</li>
-<li><strong>Task:</strong> Build a system that receives these recommendations and places corresponding trades programmatically, without manual intervention.</li>
-<li><strong>Action:</strong> Designed a pipeline with three stages — <strong>data intake</strong> (capturing recommendations from ICICI Direct), <strong>processing</strong> (parsing, validating, and mapping signals to orders), and <strong>execution</strong> (placing trades via the broker API).</li>
-<li><strong>Result:</strong> Trades are replicated automatically with minimal latency, removing the friction of manual order entry for every recommendation.</li>
+<ul class="sx-facts">
+<li><strong>2 brokers</strong><span>ICICI Direct and Paytm Money</span></li>
+<li><strong>985 entries</strong><span>In the Trade Manager, Oct 2026</span></li>
+<li><strong>No manual orders</strong><span>Execution through broker APIs</span></li>
+<li><strong>Open source</strong><span>Code on GitHub</span></li>
 </ul>
+
+::: {.sx-section}
+<p class="sx-label">Where the idea came from</p>
+
+## Could a system follow published advice exactly?
+
+Two examples stayed with me: Mohnish Pabrai's account of learning by studying Warren Buffett's decisions, and an investing video by Shankar Nath about systematic imitation. Broker recommendations are only useful if they are acted on quickly and consistently, which is hard to do by hand alongside school. So I narrowed the idea to an experiment: could a transparent system reproduce published recommendations, while still letting me review and step in?
 :::
 
-## Phase 2 — Manual Trade UI
+::: {.sx-section}
+<p class="sx-label">What I built</p>
 
-::: {.phase-block}
-#### Phase 2 · Product Upgrade
+## Fetch, check, place, and keep a record
 
-<ul class="star-list">
-<li><strong>Situation:</strong> Fully automated replication worked well, but I sometimes needed to add trades manually or override the system's decisions.</li>
-<li><strong>Task:</strong> Extend the system with a user interface for manual trade entry and intervention.</li>
-<li><strong>Action:</strong> Built a custom frontend UI on top of the existing pipeline, allowing me to input trades, review pending orders, and override automated actions when needed.</li>
-<li><strong>Result:</strong> A hybrid system — automated by default, manually controllable when context demands it. The UI turned a backend script into a usable trading tool.</li>
+::: {.sx-two}
+
+::: {}
+The system collects each new recommendation from the broker: the stock, the price range to buy in, the target and the stop loss. It checks and normalises it, works out the order, and sends it through the broker's API. Every recommendation and its status stays in a table, so I can see what was bought, what is still held, and what was closed at the target or the stop loss.
+
+Fully automatic was not quite enough. Sometimes I wanted to add a trade of my own or correct one the system had made, so I added the Trade Manager: a screen for filtering by source and status, editing prices and quantities, and entering new trades by hand.
+:::
+
+<ol class="sx-flow" aria-label="How a recommendation becomes an order">
+<li><b>Fetch</b><span>New recommendations from ICICI Direct and Paytm Money</span></li>
+<li><b>Check</b><span>Parse the stock, price range, target and stop loss</span></li>
+<li><b>Place</b><span>Send the order through the broker's API</span></li>
+<li><b>Track</b><span>Record the position until it is closed</span></li>
+<li><b>Review</b><span>Override or add trades in the Trade Manager</span></li>
+</ol>
+
+:::
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/automated-trading/at-new-trade.webp" width="1600" height="1000" loading="lazy" alt="The Trade Manager's New trade form, with fields for mode, market symbol, source, strategy, recommendation date and time, low and high price, target, stop loss and quantity.">
+<figcaption>Adding a trade by hand. Manual trades sit in the same table as the brokers' recommendations, marked with the source MANUAL.</figcaption>
+</figure>
+:::
+
+::: {.sx-section}
+<p class="sx-label">What came next</p>
+
+## From following other people's ideas to testing your own
+
+This system executes someone else's recommendations. It made me want to start one step earlier: how an investor defines an idea in the first place, and checks it against honest market history before trading it. That became [Systematick](/projects/systematick/index-en.html).
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/systematick/index-en.html"><small>What came next</small><strong>Systematick</strong></a></li>
+<li><a href="/projects/vernacular-chatbot/index-en.html"><small>Also software</small><strong>Multilingual voicebot</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
-:::
-
-![](/assets/projects/automated-trading/ui-screenshot.png){.project-screenshot fig-alt="Trading system UI showing manual trade entry interface"}
-
-## Architecture
-
-```mermaid
-flowchart LR
-  icici["ICICI Direct Recommendations"] --> intake["Data Intake"]
-  intake --> process["Signal Processing"]
-  process --> execute["Order Execution"]
-  ui["Manual Trade UI"] --> process
-  execute --> broker["Broker API"]
-```
-
-## Where the idea came from
-
-Two examples stayed with me: Mohnish Pabrai’s account of learning by studying Warren Buffett’s decisions, and an investing video by Shankar Nath about systematic imitation. I translated that curiosity into a narrower experiment: could a transparent system reproduce published ICICI Direct recommendations while preserving the ability to review and intervene?
-
-This project is separate from Systematick. It tests execution and control around an external recommendation stream; Systematick is a venture for defining and testing an investor’s own philosophy.
-
-## Process desk
-
-::: {.process-desk}
-::: {.process-card}
-<span>01 · Source</span>
-
-**Broker and analyst reports**
-
-![](/assets/projects/automated-trading/stock-report-plus.png){fig-alt="Stock Reports Plus example used as an input to systematic investment research"}
-:::
-
-::: {.process-card}
-<span>02 · Rules</span>
-
-**Trading-rules spreadsheet**
-
-The real rules sheet will appear here after public-view access is confirmed. It also records the naming origin of Systematick.
-:::
-
-::: {.process-card}
-<span>03 · Interface</span>
-
-![](/assets/projects/automated-trading/ui-screenshot.png){fig-alt="Manual trade-entry and override interface"}
-:::
-:::
-
-## Tech Stack
-
-::: {.tech-stack}
-<span class="tech-tag">Python</span>
-<span class="tech-tag">API Integration</span>
-<span class="tech-tag">Web UI</span>
-<span class="tech-tag">Automated Trading</span>
-<span class="tech-tag">ICICI Direct</span>
 :::
 
 :::

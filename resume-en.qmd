@@ -1,0 +1,31 @@
+---
+title: "Résumé"
+description: "Satvik Raman's résumé as a PDF: education, leadership, research, entrepreneurship, internships and recognition."
+title-block-style: none
+toc: false
+format:
+  html:
+    page-layout: full
+---
+
+::: {.sx}
+
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Résumé · Updated October 2026</p>
+
+# Résumé
+
+<div class="sx-actions">
+<a class="sx-button" href="/assets/docs/satvik-raman-resume.pdf">Download the PDF</a>
+</div>
+:::
+
+<figure class="sx-frame sx-frame-doc">
+<a href="/assets/docs/satvik-raman-resume.pdf"><img src="/assets/docs/satvik-raman-resume-p1.webp" width="935" height="1210" fetchpriority="high" alt="The first page of Satvik Raman's résumé: education, leadership and research experience."></a>
+</figure>
+
+:::
+
+:::

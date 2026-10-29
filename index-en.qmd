@@ -1,35 +1,30 @@
 ---
 title: "Satvik Raman"
-pagetitle: "Satvik Raman - Research, systems, and the questions between them"
-description: "A Grade 12 researcher-builder working across economics, software, language access, and sport."
+pagetitle: "Satvik Raman"
+description: "Satvik Raman, a Grade 12 student in Bengaluru: field research on financial literacy among gig workers, Systematick, Bizkit, and football with Bengaluru FC's Young Blues Elite."
 format:
   html:
     page-layout: full
     toc: false
-include-after-body:
-  - assets/portfolio-data.js
-  - assets/portfolio.js
 lightbox: auto
 ---
 
-::: {.atlas-page .home-page data-portfolio-root="home"}
+::: {.atlas-page .home-page}
 
 ::: {.atlas-hero}
 ::: {.hero-copy}
-# I build to understand
+# I build to learn
 
-I'm Satvik Raman, a researcher-builder. I use economics to explore how the world works; and turn what I learn into tools, research, and stories that help others understand it too.
+I'm Satvik Raman, a Grade 12 student in Bengaluru. I start with a question, build something to answer it, and learn from what it shows me. So far that has meant surveying 40 security guards at IISc, building a voicebot that answers money questions in Indian languages, writing 125+ posts explaining economics in six languages, and building Systematick, a tool for testing trading ideas on honest market history. I also play central midfield for Bengaluru FC's Young Blues Elite.
 
 ::: {.hero-actions}
-[Featured Explorations](projects/index-en.qmd){.atlas-button}
+[See Work & Pursuits](record-en.qmd#explorations){.atlas-button}
 :::
-
-<div class="hero-proof-grid home-pillars" data-home-proof aria-label="Featured explorations"></div>
 :::
 
 ::: {.hero-portrait}
-![](/assets/profile/satvik_photo_20230101.jpg){fig-alt="Portrait of Satvik Raman"}
-<p class="margin-note hero-process" aria-label="Question, Build, Learn, loop">
+![](/assets/profile/satvik-2026.webp){fig-alt="Satvik Raman, smiling, in a maroon sweater, sitting on an orange sofa against a yellow wall" width="760" height="950"}
+<p class="margin-note hero-process" aria-label="Question, Build, Learn, repeat">
   <span>Question</span>
   <span class="process-arrow" aria-hidden="true"></span>
   <span>Build</span>
@@ -38,6 +33,42 @@ I'm Satvik Raman, a researcher-builder. I use economics to explore how the world
   <span class="process-loop" aria-hidden="true">↺</span>
 </p>
 :::
+
+```{=html}
+<div class="hero-proof-grid home-pillars" aria-label="Featured work">
+<a class="hero-proof" href="/projects/gig-workers-research/index-en.html">
+<span>Research</span>
+<strong>Why are some people working the hardest also the least financially prepared?</strong>
+<em class="hero-proof-key"><b>Financial Literacy in Bangalore Gig Workers</b> · sole-authored field study of 40 workers at IISc · SSRN</em>
+</a>
+<a class="hero-proof" href="/projects/systematick/index-en.html">
+<span>Entrepreneurship</span>
+<strong>When everyone has investment ideas, why do very few have an investment process?</strong>
+<em class="hero-proof-key"><b>Systematick</b> · founder and solo builder · backtesting platform, 250+ users</em>
+</a>
+<a class="hero-proof" href="/projects/bizkit/index-en.html">
+<span>Community &amp; Social Impact</span>
+<strong>If the stories were memorable, why couldn't the economic ideas be too?</strong>
+<em class="hero-proof-key"><b>Bizkit</b> · founder and writer · 125+ posts in six languages</em>
+</a>
+<span class="hero-proof-divider" aria-hidden="true"></span>
+<a class="hero-proof hero-proof-row-two" href="/projects/bfc-football/index-en.html">
+<span>Sport</span>
+<strong>What does it take to lead a team you're also competing in?</strong>
+<em class="hero-proof-key"><b>Football</b> · rotational captain, Bengaluru FC Young Blues Elite U17 &amp; U19</em>
+</a>
+<a class="hero-proof hero-proof-row-two" href="/projects/literature-review/index-en.html">
+<span>Research</span>
+<strong>Why does AI create opportunity and precarity at the same time?</strong>
+<em class="hero-proof-key"><b>The AI-Gig Paradox</b> · sole-authored literature review · SSRN</em>
+</a>
+<a class="hero-proof hero-proof-row-two" href="/projects/vernacular-chatbot/index-en.html">
+<span>Technical Projects</span>
+<strong>Technology reached millions. Language still left many behind.</strong>
+<em class="hero-proof-key"><b>Multilingual voicebot</b> · built for IISc's rural finance-access project</em>
+</a>
+</div>
+```
 :::
 
 :::

@@ -4,9 +4,43 @@ project:
   pre-render:
     - node scripts/build-portfolio-data.mjs
   resources:
-    - assets/data/portfolio.json
-    - assets/docs/satvik-raman-activity-sheet.pdf
-    - assets/record/**
+    - assets/record/ktta-ranking-2019.jpg
+    - assets/docs/satvik-raman-resume.pdf
+    - assets/elsewhere/bt-desk-2010.webp
+    - assets/elsewhere/bt-exhibit.webp
+    - assets/elsewhere/bt-hackathon.webp
+    - assets/elsewhere/bt-science-quiz.webp
+    - assets/elsewhere/bt-sunlight.webp
+    - assets/elsewhere/bt-toy-car.webp
+    - assets/elsewhere/bt-visvesvaraya.webp
+    - assets/elsewhere/cb-laptop.webp
+    - assets/elsewhere/cb-solve-clip.mp4
+    - assets/elsewhere/cb-solve-clip.webp
+    - assets/elsewhere/ch-game.webp
+    - assets/elsewhere/ch-grandfather-clip.mp4
+    - assets/elsewhere/ch-grandfather-clip.webp
+    - assets/elsewhere/ch-tournament.webp
+    - assets/elsewhere/cr-helmet.webp
+    - assets/elsewhere/cr-indoors.webp
+    - assets/elsewhere/fb-beach-2016.webp
+    - assets/elsewhere/fb-overhead-kick.webp
+    - assets/elsewhere/rk-tennis.webp
+    - assets/elsewhere/tr-ae-ifly.webp
+    - assets/elsewhere/tr-in-gujarat-crab.webp
+    - assets/elsewhere/tr-in-kashmir.webp
+    - assets/elsewhere/tr-in-ladakh.webp
+    - assets/elsewhere/tr-uk-chelsea.webp
+    - assets/elsewhere/tr-vn-park-clip.mp4
+    - assets/elsewhere/tr-vn-park-clip.webp
+    - assets/elsewhere/tt-cluster-2019.webp
+    - assets/elsewhere/tt-medals-2017.webp
+    - assets/elsewhere/tt-nationals-2019.webp
+    - assets/elsewhere/tt-republic-day-2020.webp
+    - assets/elsewhere/tt-ttpeople-2021.webp
+    - assets/projects/sport-leadership/ld-investiture-2026.mp4
+    - assets/projects/sport-leadership/ld-investiture-2026-poster.jpg
+    - assets/projects/literature-review/lr-card.webp
+    - assets/projects/bfc-football/fb-goal-2020.webp
   preview: 
     browser: true
     port: 5555
@@ -31,7 +65,7 @@ website:
   
   open-graph: 
     image: "/assets/profile/twitter_card.png"
-    locale: en_US  
+    locale: en_GB  
 
   page-footer:
     left: |
@@ -44,21 +78,16 @@ website:
     left:
       - text: "Home"
         href: index-en.html
-      - text: "Record"
+      - text: "Work & Pursuits"
         file: record-en.html
-      - text: "Elsewhere"
+      - text: "Roots & Routes"
         file: elsewhere-en.html
+      - text: "Résumé"
+        file: resume-en.html
 
     right:
-      - text: "{{< iconify bi globe2 size=1.1em title='Languages' >}}"
-        aria-label: Languages
-        menu:
-          - text: English
-            href: ../index-en.html
-          - text: Deutsch
-            href: ../index-de.html
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
-        href: "mailto:satvikraman11@gmail.com"
+        href: "mailto:satvikraman.edu@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/satvikraman
         rel: me
@@ -71,8 +100,10 @@ format:
     theme:
       - cosmo
       - assets/theme.scss
-    css: assets/styles.css
+    css:
+      - assets/styles.css
+      - assets/en.css
 
-lang: en-US
+lang: en-GB
 language:
   ui: en

@@ -1,52 +1,95 @@
 ---
 title: "The Economics of Artificial Intelligence"
-subtitle: "Berkeley High School Essay Contest entry"
+subtitle: "An essay for the Berkeley Economic Review High School Essay Contest, 2026"
+description: "Satvik's essay on how AI may reshape demand for high-, middle- and low-skill work in the United States, why that could widen wage inequality, and two policies in response: tax parity between labour and capital, and lifelong learning accounts."
 date: 2026-03-08
-image: /assets/projects/economics-of-ai-essay/thumbnail.png
 categories:
   - Research & Essays
 order: 5
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx .sx-paper}
 
-::: {.project-hook}
-Analysed how AI adoption reshapes labour demand across the skill distribution in the United States—and proposed a policy to help workers adapt—for the Berkeley High School Essay Contest.
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Writing · March 2026</p>
+
+# The Economics of Artificial Intelligence
+
+<p class="sx-lede">In 1589 Queen Elizabeth I refused a patent for a knitting machine because she feared it would turn her people into beggars. AI brings the same anxiety to a different kind of work.</p>
+
+My entry to the Berkeley Economic Review High School Essay Contest. The prompt asked how AI may reshape demand for high-, middle- and low-skill workers in the United States, how that could affect wage inequality, and for one policy to help workers adapt.
+
+<div class="sx-actions">
+<a class="sx-button" href="#essay">Read the essay</a>
+<a href="https://econreview.studentorg.berkeley.edu/high-school-essay/" target="_blank" rel="noopener">The contest →</a>
+</div>
 :::
 
-## Contest prompt
+<figure class="sx-frame">
+<ol class="sx-flow" aria-label="The essay's argument, by skill level">
+<li><b>High-skill</b><span>AI takes over routine cognitive tasks and raises productivity, but workers keep the gains only if they offer judgement AI cannot</span></li>
+<li><b>Middle-skill</b><span>Rule-based jobs are substituted, not complemented, and the "bridge" jobs into the middle class disappear</span></li>
+<li><b>Low-skill</b><span>Manual work is hard to automate, but displaced middle-skill workers crowd into it</span></li>
+<li><b>Result</b><span>A U-shaped labour market and wider wage inequality</span><i class="sx-tag">Where the policies act</i></li>
+</ol>
+<figcaption>The essay's argument, simplified: my own summary.</figcaption>
+</figure>
 
-::: {.prompt-block}
-*The Economics of Artificial Intelligence:* Artificial intelligence is expected to affect workers differently across the skill distribution. Analyze how AI adoption may reshape labor demand for high-skill, middle-skill, and low-skill workers in the United States, considering both productivity-enhancing and displacement effects. Discuss how these impacts might influence wage inequality. Propose and critically evaluate one specific policy designed to help workers adapt to AI-driven changes.
 :::
 
-## Overview
-
-This essay examines the dual forces of AI on the labour market—productivity enhancement for high-skill workers and displacement risk for middle- and low-skill roles—and traces the implications for wage inequality. It then proposes and critically evaluates a specific adaptation policy, weighing feasibility against equity outcomes.
-
-## What I did
-
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Situation:</strong> AI is reshaping labour markets globally, but policy responses remain contested—especially for workers at different points on the skill ladder.</li>
-<li><strong>Task:</strong> Write a rigorous economics essay analysing AI's differential impact on high-, middle-, and low-skill workers, and propose a credible adaptation policy.</li>
-<li><strong>Action:</strong> Researched labour economics literature on skill-biased technological change; structured arguments around productivity versus displacement effects; designed and critically evaluated a targeted worker-adaptation policy.</li>
-<li><strong>Result:</strong> Submitted the completed essay to the [Berkeley High School Essay Contest](https://econreview.studentorg.berkeley.edu/high-school-essay/){target="_blank"} on 8 March 2026, responding to Prompt 1 on the economics of AI.</li>
+<ul class="sx-facts">
+<li><strong>Participant</strong><span>Berkeley Economic Review contest, 2026</span></li>
+<li><strong>Prompt: "The Economics of Artificial Intelligence"</strong><span>How AI may reshape demand for high-, middle- and low-skill workers, and one policy to help them adapt</span></li>
+<li><strong>Two models</strong><span>Task-based model and skill-biased technological change</span></li>
+<li><strong>Two policies</strong><span>Tax parity and lifelong learning accounts</span></li>
 </ul>
+
+::: {.sx-section}
+<p class="sx-label">The prompt</p>
+
+## "The Economics of Artificial Intelligence"
+
+> Artificial intelligence is expected to affect workers differently across the skill distribution. Analyze how AI adoption may reshape labor demand for high-skill, middle-skill, and low-skill workers in the United States, considering both productivity-enhancing and displacement effects. Discuss how these impacts might influence wage inequality. Propose and critically evaluate one specific policy designed to help workers adapt to AI-driven changes.
 :::
 
-::: {.project-cta .essay-file-actions}
-[Open essay full screen](/assets/docs/economics-of-ai-essay.pdf){.btn-project target="_blank"}
-[Download essay PDF](/assets/docs/economics-of-ai-essay.pdf){.btn-project .btn-project-secondary download="Satvik-Raman-Economics-of-AI-Berkeley-Essay.pdf"}
-[Contest page](https://econreview.studentorg.berkeley.edu/high-school-essay/){.btn-project .btn-project-secondary target="_blank"}
+::: {.sx-section}
+<p class="sx-label">The argument</p>
+
+## AI is not a neutral force
+
+Using the task-based model, which treats a job as a bundle of tasks, and the idea of skill-biased technological change, the essay argues that AI speeds up the polarisation of the labour market. It complements high-skill workers by automating the routine parts of their jobs, but a productivity gain is not the same as a pay rise: only workers whose judgement AI cannot replace capture the value. Middle-skill jobs such as accounting and paralegal work are rule-based, so AI substitutes for them directly. Low-skill manual jobs are hard to automate, yet they are exposed when displaced workers move into them. The result is a U-shaped labour market, a falling labour share of income and wider wage inequality.
 :::
 
-## Read the submitted essay
+::: {.sx-section}
+<p class="sx-label">The policies</p>
+
+## Tax parity now, lifelong learning accounts for the long run
+
+In the short term, the essay proposes tax parity: the US tax code taxes workers through payroll taxes while generous depreciation rules effectively subsidise automation, so firms are nudged towards replacing people. In the long term, it proposes lifelong learning accounts, so that retraining can keep pace with displacement.
+:::
+
+::: {.sx-section #essay}
+<p class="sx-label">The essay</p>
 
 ::: {.pdf-reader aria-label="The Economics of Artificial Intelligence essay"}
 <object data="/assets/docs/economics-of-ai-essay.pdf" type="application/pdf">
-  <p>Your browser cannot display the PDF inline. <a href="/assets/docs/economics-of-ai-essay.pdf" target="_blank">Open the essay in a new tab</a> or <a href="/assets/docs/economics-of-ai-essay.pdf" download="Satvik-Raman-Economics-of-AI-Berkeley-Essay.pdf">download it</a>.</p>
+  <p>Your browser cannot display the PDF here. <a href="/assets/docs/economics-of-ai-essay.pdf" target="_blank" rel="noopener">Open the essay in a new tab</a>.</p>
 </object>
+:::
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/literature-review/index-en.html"><small>Also on AI and work</small><strong>The AI-Gig Paradox</strong></a></li>
+<li><a href="/projects/bizkit/index-en.html"><small>More writing</small><strong>Bizkit</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
+</ul>
 :::
 
 :::

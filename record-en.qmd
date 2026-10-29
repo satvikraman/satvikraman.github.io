@@ -1,71 +1,131 @@
 ---
-title: "Record"
-pagetitle: "Complete Record — Satvik Raman"
-description: "A comprehensive record of Satvik Raman’s research, ventures, projects, leadership, service, sport, awards, and languages."
+title: "Work & Pursuits"
+description: "Research questions pursued beyond the classroom; ideas developed into projects, products and writing. Alongside them, years of football, leadership and learning by doing."
+title-block-style: none
+toc: false
 format:
   html:
     page-layout: full
-    toc: false
-include-after-body:
-  - assets/portfolio-data.js
-  - assets/portfolio.js
 ---
 
-::: {.atlas-page .record-page data-portfolio-root="record"}
+::: {.sx .sx-record}
 
-::: {.record-hero}
-<p class="eyebrow">Complete record · Evidence before adjectives</p>
+::: {.sx-intro}
+<p class="sx-label">Work &amp; Pursuits</p>
 
-# The story is selective. This page keeps the full account.
+# Work & Pursuits
 
-The Curiosity Atlas explains how the major work changed my thinking. This dossier records the work itself: role, dates, outcome, status, and available evidence.
+Research questions pursued beyond the classroom; ideas developed into projects, products and writing. Alongside them, years of football, leadership and learning by doing.
 
-::: {.record-actions}
-[Explore the Curiosity Atlas](projects/index-en.qmd){.atlas-button}
-[Download the activity sheet](/assets/docs/satvik-raman-activity-sheet.pdf){.atlas-text-link target="_blank"}
-[Open the printable version](activity-sheet-en.qmd){.atlas-text-link}
-:::
-:::
-
-::: {.record-highlights-section}
-<p class="eyebrow">Admissions-significance highlights</p>
-
-## Six signals of sustained initiative
-
-<div class="record-highlight-grid" data-record-highlights></div>
-:::
-
-::: {.record-ledger-section}
-::: {.record-ledger-heading}
-<div>
-<p class="eyebrow">Complete ledger</p>
-
-## Research, work, building, service, leadership, and life
+<div class="sx-actions sx-jump">
+<a href="#explorations">Featured Explorations</a>
+<span aria-hidden="true">→</span>
+<a href="#activities">Activities</a>
 </div>
-<span data-record-count aria-live="polite"></span>
 :::
 
-::: {.record-filter-bar aria-label="Filter the complete record"}
-<button class="filter-button is-active" data-record-filter="all" type="button">All</button>
-<button class="filter-button" data-record-filter="research" type="button">Research</button>
-<button class="filter-button" data-record-filter="internship" type="button">Internships</button>
-<button class="filter-button" data-record-filter="entrepreneurship" type="button">Venture</button>
-<button class="filter-button" data-record-filter="software" type="button">Software</button>
-<button class="filter-button" data-record-filter="service" type="button">Service</button>
-<button class="filter-button" data-record-filter="leadership" type="button">Leadership</button>
-<button class="filter-button" data-record-filter="writing" type="button">Writing</button>
-<button class="filter-button" data-record-filter="sport" type="button">Sport</button>
-<button class="filter-button" data-record-filter="language" type="button">Languages</button>
-<button class="filter-button" data-record-filter="award" type="button">Awards</button>
+::: {.sx-section #explorations}
+<p class="sx-label">Featured Explorations</p>
+
+## The work I would show first
+
+<ul class="sx-cards">
+<li><a href="/projects/gig-workers-research/index-en.html">
+<img src="/assets/projects/gig-workers-research/fl-session.webp" width="1599" height="899" loading="lazy" alt="">
+<small>Research · 2025 – 2026</small>
+<strong>Financial literacy in Bangalore gig workers</strong>
+<span>Sole-authored study of 40 security guards, with a Bayesian model. On SSRN.</span></a></li>
+<li><a href="/projects/systematick/index-en.html">
+<img class="is-top" src="/assets/projects/systematick/sk-live-demo.webp" width="1176" height="1580" loading="lazy" alt="">
+<small>Venture · 2025 – now</small>
+<strong>Systematick</strong>
+<span>Test your own trading rules on Indian market history. Live public beta.</span></a></li>
+<li><a href="/projects/bfc-football/index-en.html">
+<img src="/assets/projects/bfc-football/fb-squad-2024.webp" width="1400" height="713" loading="lazy" alt="">
+<small>Sport · 2016 – 2026</small>
+<strong>Football</strong>
+<span>Central midfielder and rotational captain, Young Blues Elite FC, U17 and U19.</span></a></li>
+<li><a href="/projects/bizkit/index-en.html">
+<img class="is-top" src="/assets/projects/bizkit/bz-banknote-post.webp" width="1220" height="790" loading="lazy" alt="">
+<small>Writing · 2024 – now</small>
+<strong>Bizkit</strong>
+<span>Economics through real events: 125+ posts, published in six languages.</span></a></li>
+<li><a href="/projects/literature-review/index-en.html">
+<img src="/assets/projects/literature-review/lr-card.webp" width="1200" height="800" loading="lazy" alt="">
+<small>Research · 2026</small>
+<strong>The AI-Gig Paradox</strong>
+<span>A review of 22 sources on algorithmic control and India's gig workers. On SSRN.</span></a></li>
+<li><a href="/projects/vernacular-chatbot/index-en.html">
+<img class="is-top" src="/assets/projects/vernacular-chatbot/vb-dashboard.webp" width="1240" height="520" loading="lazy" alt="">
+<small>Software · 2023 – 2025</small>
+<strong>Multilingual voicebot</strong>
+<span>Built for IISc's rural finance-access project: ask a money question by voice, in your own language.</span></a></li>
+</ul>
 :::
 
-<div class="record-ledger" data-record-ledger></div>
+::: {.sx-section #activities}
+<p class="sx-label">Activities</p>
+
+## What I have done outside the classroom
+
+<ol class="sx-rows">
+<li><a href="/projects/gig-workers-research/index-en.html"><span class="sx-when">2025 – 2026</span><span class="sx-what"><strong>Financial literacy research</strong><span>Sole author and field researcher. Designed a five-question quiz, ran it with 40 security guards at IISc and wrote the paper.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/systematick/index-en.html"><span class="sx-when">2025 – now</span><span class="sx-what"><strong>Systematick</strong><span>Founder and builder. A platform for writing trading rules and testing them on Indian market data.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/bfc-football/index-en.html"><span class="sx-when">2016 – 2026</span><span class="sx-what"><strong>Club football</strong><span>Central midfielder and rotational captain, Young Blues Elite FC (Bengaluru FC), U17 and U19, 2023 – 2026.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/bizkit/index-en.html"><span class="sx-when">2024 – now</span><span class="sx-what"><strong>Bizkit</strong><span>Founder and writer. Business and economics explained through real events, in six languages.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/literature-review/index-en.html"><span class="sx-when">2026</span><span class="sx-what"><strong>The AI-Gig Paradox</strong><span>Author. A literature review on why financial literacy alone cannot fix gig-work insecurity.</span></span><span class="sx-go">Read →</span></a></li>
+<li id="stockengineering"><div><span class="sx-when">2026</span><span class="sx-what"><strong>StockEngineering.in</strong><span>Quantitative research intern at an algorithmic-trading company. The work is confidential, so it is described here at role level only.</span></span></div></li>
+<li><a href="/projects/vernacular-chatbot/index-en.html"><span class="sx-when">2023</span><span class="sx-what"><strong>Multilingual voicebot</strong><span>Builder. A voicebot prototype for IISc's rural finance-access research project, reachable on Telegram or by phone call.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/automated-trading/index-en.html"><span class="sx-when">2024 – 2026</span><span class="sx-what"><strong>Automated trading system</strong><span>Builder. Fetches recommendations from ICICI Direct and Paytm Money and places the orders through broker APIs, with a screen for manual trades.</span></span><span class="sx-go">Read →</span></a></li>
+<li id="tenacity"><div><span class="sx-when">2025</span><span class="sx-what"><strong>Tenacity Ventures</strong><span>Intern at an early-growth technology investor in Mumbai. The work is confidential, so it is described here at role level only.</span></span></div></li>
+<li id="prefect"><a href="/projects/sport-leadership/index-en.html"><span class="sx-when">2026 – 2027</span><span class="sx-what"><strong>School prefect</strong><span>Sri Kumaran's Children's Home School. Represent the student body on the student council; organiser of Kumaran's Vyapar finance event, July 2026.</span></span><span class="sx-go">Read →</span></a></li>
+</ol>
 :::
 
-::: {.record-method-note}
-<p class="eyebrow">Claim standard</p>
+::: {.sx-section #further}
+<p class="sx-label">More</p>
 
-This record distinguishes completed, ongoing, submitted, and published work. Public links establish context; artifacts establish what I built; first-person accounts are scoped to my own contribution.
+## Recognition, languages and writing
+
+::: {.sx-groups}
+
+::: {}
+### Recognition
+
+- **Outstanding Delegate**, KMUN (Kumaran's Model United Nations), as the delegate of the French Republic, July 2026
+- **Ranked 19th in Karnataka** in table tennis, KTTA state ranking (cadet boys), 2019 · <a class="sx-pop" href="/assets/record/ktta-ranking-2019.jpg" data-dialog="ktta-ranking">ranking table</a>
+- **Runner-up (team)**, Republic Day Cup state-level inter-school table tennis, January 2020
+- **First (team)**, CBSE cluster table tennis, boys under 14, September 2019, and a participant in the CBSE national championship, November 2019
+- **Winner, Class 5 & 6 category**, Google India Code to Learn Contest 2019 (national) · [project](/projects/google-code-to-learn/index-en.html)
 :::
+
+::: {}
+### Languages
+
+- **German:** Goethe-Zertifikat A2 (2023) and B1 modules (2025)
+
+### Writing
+
+- [The Economics of AI](/projects/economics-of-ai-essay/index-en.html): an essay on how AI may change the demand for work and wages, 2026
+- [Bizkit](/projects/bizkit/index-en.html): 125+ posts since 2024
+:::
+
+:::
+:::
+
+<dialog class="sx-dialog" id="ktta-ranking" aria-label="KTTA state ranking, cadet boys, 2019">
+<form method="dialog"><button class="sx-dialog-close" aria-label="Close">×</button></form>
+<img src="/assets/record/ktta-ranking-2019.jpg" alt="The Karnataka Table Tennis Association points table for cadet boys, June 2019, showing Satvik Raman at rank 19. Other players' names are blurred.">
+<p>KTTA state ranking, cadet boys, June 2019. Other players' names are blurred.</p>
+</dialog>
+
+<script>
+document.querySelectorAll('a[data-dialog]').forEach((a) => {
+  const d = document.getElementById(a.dataset.dialog);
+  if (!d || !d.showModal) return;
+  a.addEventListener('click', (e) => { e.preventDefault(); d.showModal(); });
+  d.addEventListener('click', (e) => { if (e.target === d) d.close(); });
+});
+</script>
 
 :::

@@ -54,16 +54,7 @@ jobs:
       - name: Copy EN files to temp folder
         run: cp -r docs/* _ghpages_temp/
 
-      # 5️⃣ Render DE
-      - name: Render Quarto Profile DE
-        uses: quarto-dev/quarto-actions/render@v2
-        env:
-          QUARTO_PROFILE: de
-        with:
-          to: html
-
-      - name: Copy DE files to temp folder
-        run: cp -r docs/* _ghpages_temp/
+      # 5️⃣ DE profile is not published until the German pages are updated.
 
       # 🔟 Render DEF (default)
       - name: Render Quarto Profile DEF
