@@ -65,10 +65,6 @@ As a prefect I represent students on the student council, help maintain discipli
 <figcaption>The investiture ceremony, June 2026, with the teachers introducing each prefect. I am on the right, holding the school flag. <span class="sx-note">· video with sound · 2:19</span></figcaption>
 </figure>
 
-<figure class="sx-inline">
-<img src="/assets/projects/sport-leadership/ld-parents-2026.webp" width="821" height="615" loading="lazy" alt="Satvik in a School Prefect sash, standing with his parents.">
-<figcaption>With my parents after I was appointed school prefect.</figcaption>
-</figure>
 :::
 
 ::: {.sx-section}

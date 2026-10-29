@@ -723,3 +723,21 @@ body:has(.sx) #title-block-header { display: none; }
 .sx-intro + .sx-section > h2,
 .sx-intro + .sx-section > section > h2 { margin-bottom: 1rem; }
 body:has(.sx-intro) main.content { margin-top: 0; padding-top: 0; }
+
+/* Project pages and the résumé: the same compact header as the other pages. */
+body:has(.sx-hero) main.content { margin-top: 0; padding-top: 0; }
+.sx-hero { padding: 1rem 0 2rem; }
+.sx-hero h1 { font-size: clamp(2.25rem, 4.2vw, 3.25rem); margin: 0.35rem 0 0.75rem; }
+.sx-hero .sx-lede { margin-bottom: 0.75rem; }
+.sx-hero .sx-actions { margin-top: 0.85rem; }
+
+/* Navbar search: the theme draws it in a pale blue-grey; match the other icons. */
+#quarto-search .aa-DetachedSearchButtonIcon,
+#quarto-search .aa-SubmitIcon,
+#quarto-search-results .aa-SubmitIcon { color: var(--ink); fill: currentColor; }
+#quarto-search .aa-DetachedSearchButton:hover .aa-SubmitIcon { color: var(--red); }
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-DetachedSearchButton svg.aa-SubmitIcon { color: var(--ink); }
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-DetachedSearchButton:hover svg.aa-SubmitIcon { color: var(--red); }
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23242620' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
