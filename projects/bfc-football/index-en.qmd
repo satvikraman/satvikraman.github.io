@@ -1,48 +1,87 @@
 ---
-title: "Bengaluru FC Football"
-subtitle: "Club-level football with Young Blue Elite FC — BFC Soccer School"
-date: 2023-01-01
-image: /assets/projects/bfc-football/action-photo.jpeg
+title: "Football"
+subtitle: "Central midfielder and rotational captain, Young Blues Elite FC (Bengaluru FC)"
+description: "Football from a school pitch to Bengaluru FC's youth teams: central midfielder and rotational captain with Young Blues Elite FC at U17 and U19, in the DPDL, the KSFA Youth Premier League and the BDFA B Division."
+date: 2022-06-01
+image: /assets/projects/bfc-football/fb-social.jpg
 categories:
   - Athletics
 order: 7
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-Three years of club-level football with **Young Blue Elite FC** at the [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"} — competing across U17, U18, and U19 teams.
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Sport · 2016 – now · <span class="sx-chip">Ongoing</span></p>
+
+# Football
+
+<p class="sx-lede">I started in goal. Now I play central midfield for Bengaluru FC's youth side.</p>
+
+Football has been the constant alongside everything else on this site. I joined the Bengaluru FC Soccer Schools in 2022 and play for Young Blues Elite FC at U17 and U19 level as a central midfielder, and I have been one of the team's rotational captains.
 :::
 
-## Overview
+<figure class="sx-frame">
+<img src="/assets/projects/bfc-football/fb-squad-2024.webp" width="1400" height="713" fetchpriority="high" alt="About twenty-five young players in Bengaluru FC kit lined up in two rows with two coaches, on the pitch at the Karnataka state football stadium in Bengaluru.">
+<figcaption>The Young Blues Elite FC squad at the Karnataka state football stadium, Bengaluru, May 2024.</figcaption>
+</figure>
 
-Football is as central to my identity as economics and code. Training and competing at Bengaluru FC's academy — one of India's top football development programmes — has shaped how I approach discipline, teamwork, and strategic thinking in every other domain of my life.
+:::
 
-## What I Did
+<ul class="sx-facts">
+<li><strong>Central midfielder</strong><span>started as a goalkeeper</span></li>
+<li><strong>U17 and U19</strong><span>age-group teams</span></li>
+<li><strong>Rotational captain</strong><span>Young Blues Elite FC</span></li>
+<li><strong>Bengaluru FC</strong><span>Soccer Schools since 2022</span></li>
+</ul>
 
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Situation:</strong> I wanted to compete at the highest level of youth club football available in Bengaluru, balancing rigorous training with academic commitments.</li>
-<li><strong>Task:</strong> Earn and maintain a place on BFC Soccer School teams across three age categories while continuing to excel in school.</li>
-<li><strong>Action:</strong> Trained consistently with Young Blue Elite FC for three years; progressed through U17, U18, and U19 squads; applied tactical discipline and teamwork under competitive match conditions.</li>
-<li><strong>Result:</strong> Sustained club-level representation at a premier academy — developing physical excellence, time management, and leadership skills that cross-pollinate into my academic and technical work.</li>
+::: {.sx-section}
+<p class="sx-label">The club</p>
+
+## Competitive youth football in Bengaluru
+
+Young Blues Elite FC is Bengaluru FC's elite youth team. I have played in the competitions it enters, including the Double Pass Development League (DPDL), the Karnataka State Football Association's Youth Premier League (U17) and the Bangalore District Football Association's B Division.
+
+::: {.sx-two .sx-pair}
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/bfc-football/fb-lineup-2024.webp" width="1400" height="788" loading="lazy" alt="Two players, one in red and one in Bengaluru FC blue, line up with match officials in yellow before kick-off on an artificial pitch.">
+<figcaption>Lining up with the officials before a match in which I was captain, April 2024.</figcaption>
+</figure>
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/bfc-football/fb-dpdl-2024.webp" width="1200" height="900" loading="lazy" alt="The team in white-and-blue kit gathered in front of a Double Pass Development League banner.">
+<figcaption>With the team at the Double Pass Development League, May 2024.</figcaption>
+</figure>
+
+:::
+:::
+
+::: {.sx-section}
+<p class="sx-label">How I got here</p>
+
+## Before Bengaluru FC
+
+<ul class="sx-strip">
+<li><img src="/assets/projects/bfc-football/fb-age-six.webp" width="540" height="798" loading="lazy" alt="Satvik aged about six, smiling, in an Argentina number 10 shirt and holding a football."><span><b>2016</b> Aged about six, in an Argentina No. 10 shirt.</span></li>
+<li><img src="/assets/projects/bfc-football/fb-bpss-2019.webp" width="900" height="750" loading="lazy" alt="Satvik in a red kit receiving a certificate from coaches on a floodlit pitch."><span><b>2019</b> Receiving a certificate at Bangalore Premier Soccer School, my second academy.</span></li>
+<li><img src="/assets/projects/bfc-football/fb-goal-2020.webp" width="900" height="750" loading="lazy" alt="Satvik in an orange bib with both arms raised, celebrating on a school pitch."><span><b>2020</b> Celebrating a goal in a tournament at school.</span></li>
+<li><img src="/assets/projects/bfc-football/fb-spl-trophy.webp" width="700" height="933" loading="lazy" alt="A gold trophy engraved SPL 2019–2020 Football Boys Winner."><span><b>2019–20</b> Sportz Village school league: our school team won.</span></li>
 </ul>
 :::
 
-![](/assets/projects/bfc-football/action-photo.jpeg){.project-screenshot fig-alt="Action photo from BFC football training or match"}
+::: {.sx-section}
+<p class="sx-label">Related</p>
 
-## Highlights
-
-::: {.tech-stack}
-<span class="tech-tag">Young Blue Elite FC</span>
-<span class="tech-tag">BFC Soccer School</span>
-<span class="tech-tag">U17 · U18 · U19</span>
-<span class="tech-tag">Club Football</span>
-<span class="tech-tag">3 Years</span>
-:::
-
-::: {.project-cta}
-[BFC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){.btn-project target="_blank"}
+<ul class="sx-related">
+<li><a href="/projects/sport-leadership/index-en.html"><small>Leading off the pitch</small><strong>School prefect</strong></a></li>
+<li><a href="/projects/bizkit/index-en.html"><small>Next exploration →</small><strong>Bizkit</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+</ul>
 :::
 
 :::

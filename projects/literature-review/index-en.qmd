@@ -1,54 +1,107 @@
 ---
-title: "Economics Literature Review"
-subtitle: "From a research question to a defensible synthesis"
-date: 2026-07-01
+title: "The AI-Gig Paradox"
+subtitle: "An economic review of algorithmic management, information asymmetry and labour-market segmentation in India's digital economy"
+description: "A literature review asking why financial literacy is necessary but not sufficient for India's gig workers, when their insecurity is produced by algorithmic control. SSRN, August 2026."
+date: 2026-08-10
 categories:
   - Research & Essays
 order: 2
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx .sx-paper}
 
-<span class="featured-badge">In progress</span>
+::: {.sx-hero}
 
-::: {.project-hook}
-The project asks a different kind of research question: **how do I represent a field honestly when the literature disagrees with itself?**
+::: {}
+<p class="sx-label">Research · 2026 · <span class="sx-chip">Completed paper</span></p>
+
+# The AI-Gig Paradox
+
+<p class="sx-lede">The same technology that opens up flexible work also takes power away from the people doing it. Can teaching workers about money fix that?</p>
+
+My study of security guards measured how much gig workers know about money. This review asks the next question: why knowing more might not be enough. It brings together 22 sources, from economic theory to India's own government reports, and argues that financial literacy is necessary but not sufficient. I wrote it under the guidance of my economics teacher.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://doi.org/10.2139/ssrn.7221538" target="_blank" rel="noopener">Read the paper on SSRN</a>
+</div>
 :::
 
-## Current stage
+<figure class="sx-frame">
+<ol class="sx-flow" aria-label="The review's argument as a chain of causes (my summary)">
+<li><b>Algorithmic management</b><span>Software allocates work, monitors, sets pay and deactivates workers</span></li>
+<li><b>Inverted information asymmetry</b><span>The platform holds the data; the worker cannot see how decisions are made</span><i class="sx-tag">Transparency, data access and due process act here</i></li>
+<li><b>Skill sorting</b><span>Technology helps some workers and replaces others</span></li>
+<li><b>Segmentation</b><span>Workers are locked into tiers with few routes between them</span></li>
+<li><b>Volatile earnings</b><span>Lumpy income that is hard to save from or smooth</span><i class="sx-tag">Financial literacy acts only here</i></li>
+</ol>
+<figcaption>The review's argument, simplified: my own diagram of the chain described in its conclusion.</figcaption>
+</figure>
 
-The research question has been defined and a working draft is in development. The public page deliberately does not claim submission, acceptance, or publication. The final paper and SSRN link will replace this status only after submission.
-
-## What I am learning
-
-A literature review is not a list of summaries. It requires decisions about inclusion, evidence quality, competing explanations, and the boundary between what a source establishes and what I infer from it.
-
-## Process desk
-
-::: {.process-desk}
-::: {.process-card}
-<span>01 · Question</span>
-
-**Initial research question**
-
-The original working document will appear here once public-view access is confirmed.
 :::
 
-::: {.process-card}
-<span>02 · Search</span>
+<ul class="sx-facts">
+<li><strong>22 sources</strong><span>theory, studies and policy reports</span></li>
+<li><strong>4 economic lenses</strong><span>from agency theory to income smoothing</span></li>
+<li><strong>India in focus</strong><span>tested against Global South and OECD evidence</span></li>
+<li><strong>SSRN</strong><span>10 August 2026</span></li>
+</ul>
 
-**Source map**
+::: {.sx-section}
+<p class="sx-label">The question</p>
 
-Search terms, inclusion decisions, and the evolving literature map will show how the evidence base was assembled.
+## Why might financial literacy not be enough?
+
+India's gig workforce grew from 7.7 million to 12 million workers between 2020–21 and 2024–25, according to the government's Economic Survey. Roughly 40 percent of them earn under ₹15,000 a month. The main policy response pairs social-security recognition with financial inclusion and financial-literacy programmes, on the assumption that better-informed workers can manage uneven incomes and move into more secure work.
+
+The review tests that assumption. If the insecurity comes from how platforms are designed, rather than from what workers know, then teaching workers more cannot remove it on its own.
 :::
 
-::: {.process-card}
-<span>03 · Revision</span>
+::: {.sx-section}
+<p class="sx-label">How I approached it</p>
 
-**Working draft**
+## Four economic lenses, six themes
 
-Selected revision fragments will be shown only as authentic excerpts, with the complete paper linked after submission.
+The review draws on peer-reviewed research alongside government and policy reports, with India as the focus and evidence from other countries used to test whether the patterns hold there. It is a structured review of a selected body of work, not a systematic search of every database.
+
+<table class="sx-table">
+<caption>The four lenses that organise the review</caption>
+<thead><tr><th scope="col">Lens</th><th scope="col">What it explains about gig work</th></tr></thead>
+<tbody>
+<tr><th scope="row">Information asymmetry and the principal-agent problem</th><td>Why an opaque algorithm can serve the platform's interests rather than the worker's</td></tr>
+<tr><th scope="row">Skill-biased technological change</th><td>Why automation removes some tasks and creates others, and who ends up doing which</td></tr>
+<tr><th scope="row">Labour-market segmentation</th><td>Why platform work can become a separate, "new informal" sector that is hard to leave</td></tr>
+<tr><th scope="row">The permanent-income hypothesis</th><td>Why lumpy earnings make it hard to keep spending steady and to save</td></tr>
+</tbody>
+</table>
+
+The body moves from general to specific in six themes: from human to algorithmic management; information asymmetry; technological change and the skills divide; segmentation; earnings volatility and the limits of financial literacy; and how the global idea of a "precariat" compares with India's "digital informality".
 :::
+
+::: {.sx-section}
+<p class="sx-label">What the literature says</p>
+
+## Insecurity built into the system, not chosen by workers
+
+Taken together, the sources describe India's gig economy as informal work reorganised by technology. Each link in the chain above is supported by a different body of research, and the end of the chain is volatile earnings. That is where financial literacy can help, and it is the last step, not the first.
+
+The gaps are just as consistent. Most of the theory comes from the United States and other rich economies and is applied to India rather than tested there. Evidence from India itself is thin, mostly small, single-city snapshots, and no long-term data yet show whether platforms make informal work more formal or lock it in.
+
+<blockquote class="sx-pull">
+<p>Would transparency help workers more than literacy?</p>
+<p>The review suggests that algorithmic transparency, access to their own data and a fair process before deactivation might reach causes that literacy cannot. The current research cannot yet answer that, and the review ends by naming it as the question to study next.</p>
+</blockquote>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/gig-workers-research/index-en.html"><small>What led here</small><strong>Financial literacy in Bangalore gig workers</strong></a></li>
+<li><a href="/projects/vernacular-chatbot/index-en.html"><small>Next exploration →</small><strong>Multilingual voicebot</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+</ul>
 :::
 
 :::

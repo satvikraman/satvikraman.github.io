@@ -21,7 +21,9 @@ lightbox: auto
 I'm Satvik Raman, a researcher-builder. I use economics to explore how the world works; and turn what I learn into tools, research, and stories that help others understand it too.
 
 ::: {.hero-actions}
-[Featured Explorations](projects/index-en.qmd){.atlas-button}
+[Featured Explorations](record-en.qmd#explorations){.atlas-button}
+[The Record](record-en.qmd){.atlas-text-link}
+[Résumé](resume-en.qmd){.atlas-text-link}
 :::
 
 <div class="hero-proof-grid home-pillars" data-home-proof aria-label="Featured explorations"></div>

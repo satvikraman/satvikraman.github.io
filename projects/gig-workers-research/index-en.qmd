@@ -1,122 +1,157 @@
 ---
 title: "Financial Literacy in Bangalore Gig Workers"
-subtitle: "A sole-authored empirical study available on SSRN"
+subtitle: "A sole-authored empirical study, published on SSRN"
+description: "A study of financial literacy among 40 security guards in gig-style work at IISc, Bangalore: a five-question quiz, focus groups and Bayesian logistic regression. Sole author; SSRN, January 2026."
 date: 2026-01-26
-image: /assets/projects/gig-workers-research/thumbnail.png
+image: /assets/projects/gig-workers-research/fl-social.jpg
 categories:
   - Featured
   - Research & Essays
 order: 1
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx .sx-paper}
 
-<span class="featured-badge">Featured research</span>
+::: {.sx-hero}
 
-::: {.project-hook}
-Designed, conducted, analysed, and wrote a sole-authored empirical study of financial literacy among 40 security guards in Bangalore. The paper is available on SSRN with a DOI.
+::: {}
+<p class="sx-label">Research · Aug 2025 – Jan 2026 · <span class="sx-chip">Completed paper</span></p>
+
+# Financial literacy in Bangalore gig workers
+
+<p class="sx-lede">My voicebot assumed that language was what kept people away from financial services. I wanted to measure what else stood in the way.</p>
+
+An empirical study of 40 security guards in gig-style work on the IISc campus in Bangalore. I designed the quiz, administered it in person, analysed the results and wrote the paper as sole author. It was conducted at the Mphasis Sustainability Research Lab, IISc.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://doi.org/10.2139/ssrn.6086709" target="_blank" rel="noopener">Read the paper on SSRN</a>
+<a href="/assets/docs/gig-workers-research.pdf" download="Satvik-Raman-Gig-Worker-Financial-Literacy-Research.pdf">Download the PDF (26 pages) →</a>
+</div>
 :::
 
-## The study
+<figure class="sx-frame">
+<img src="/assets/projects/gig-workers-research/fl-session.webp" width="1599" height="899" fetchpriority="high" alt="Satvik standing at the front of a meeting room at IISc, next to a screen showing the quiz, while security guards in uniform sit around a conference table. Participants' faces are blurred.">
+<figcaption>Fieldwork at IISc, August 2025 (Figure 1 of the paper): I am standing at the front, beside the quiz on screen. Participants' faces are blurred to protect their privacy.</figcaption>
+</figure>
 
-The research used focus-group administration of a five-question quiz with 40 security guards. It examined numerical ability, financial knowledge, and financial awareness, then used Bayesian logistic regression to explore which demographic characteristics predicted financial-literacy outcomes.
+:::
 
-## What I did
-
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Question:</strong> Which demographic factors best predict financial literacy among the workers in this sample?</li>
-<li><strong>Fieldwork:</strong> Personally administered the primary-data collection with 40 participants.</li>
-<li><strong>Analysis:</strong> Used Bayesian logistic regression to examine differences associated with migration status and age.</li>
-<li><strong>Output:</strong> Wrote the complete paper as sole author and posted it on SSRN on 26 January 2026.</li>
+<ul class="sx-facts">
+<li><strong>40 participants</strong><span>security guards, IISc campus</span></li>
+<li><strong>5-question quiz</strong><span>adapted from Lusardi &amp; Mitchell</span></li>
+<li><strong>Bayesian model</strong><span>logistic regression, small sample</span></li>
+<li><strong>Sole author</strong><span>SSRN, 26 January 2026</span></li>
 </ul>
+
+::: {.sx-section}
+<p class="sx-label">The question</p>
+
+## Which factor best explains financial literacy among gig workers?
+
+Gig work pays for the days you turn up and rarely comes with insurance, a pension or a fixed income. That makes everyday financial decisions matter more, and mistakes cost more. The security guards I studied share that pattern: they are paid only for the days they work, with one fixed day off a week and long hours.
+
+Before this study I had built a voicebot that answered banking questions in Indian languages, on the assumption that language was the main barrier. This study tested that assumption with primary data. The paper frames financial literacy through Amartya Sen's Capability Approach: knowing how money works is part of what a person is actually able to do.
 :::
 
-## Research environment and ownership
+::: {.sx-section}
+<p class="sx-label">The instrument</p>
 
-The study developed in an active research environment at IISc. Conversations with researchers sharpened my thinking, and the team helped facilitate access to the fieldwork setting and participants. Within that environment, I independently framed the question, designed the instrument, conducted the primary-data collection, performed the analysis, and wrote the paper as sole author.
+## Five questions, rewritten for the lives of the people answering them
 
-## Process desk
+The quiz adapts Lusardi and Mitchell's widely used financial-literacy questions. Instead of stocks and mutual funds, it asks about the products the participants actually use: chit funds, fixed deposits, insurance and savings accounts. I designed it with guidance from researchers at the lab.
 
-::: {.process-desk}
-::: {.process-card}
-<span>01 · Question</span>
+<ol class="sx-quiz" aria-label="The five quiz questions, from Table 1 of the paper">
+<li><b>Numeracy</b>Ravi borrows ₹10,000 at 3% monthly interest. How much interest does he pay each month?</li>
+<li><b>Numeracy</b>₹1,000 in a savings account at 5% a year for 5 years: more than, exactly, or less than ₹1,050?</li>
+<li><b>Knowledge</b>₹5,000 in a fixed deposit at 5% while inflation is 6%: will it buy more, the same or less than today?</li>
+<li><b>Knowledge</b>Raju puts all his savings in one chit fund; Ranganna spreads his across a chit fund, a bank account and insurance. Whose savings are less risky?</li>
+<li><b>Awareness</b>True or false: tracking daily expenses can help you avoid running out of money before the month ends.</li>
+</ol>
 
-**From vulnerability to a testable question**
-
-Gig workers often make consequential financial decisions without the protections associated with formal employment. I asked which demographic characteristics best predicted financial literacy within the group I could study directly.
+A score of 3 or more counted as financially literate. Each skill area was also scored on its own: a participant was proficient in an area only if every question in it was right.
 :::
 
-::: {.process-card}
-<span>02 · Instrument</span>
+::: {.sx-section}
+<p class="sx-label">The method</p>
 
-**Five questions, three dimensions**
+## Two days of fieldwork, and a model chosen for a small sample
 
-I designed a five-question quiz covering numerical ability, financial knowledge, and financial awareness. The instrument itself will remain private until an authentic public excerpt is ready.
+::: {.sx-two}
+
+::: {}
+The fieldwork ran over two weekend days, 16 and 17 August 2025, in groups of 7 to 10. Each session took about 90 minutes and ended with an open discussion about saving, borrowing, where people get financial advice, and their problems with banks and digital payments.
+
+With 40 people and several predictors, ordinary logistic regression broke down. Some groups answered almost entirely right or wrong, so the model either failed to converge or produced absurd odds ratios. I switched to Bayesian logistic regression with weakly informative priors, which keeps estimates stable on small samples and reports the uncertainty openly as credible intervals.
 :::
 
-::: {.process-card}
-<span>03 · Access</span>
+<ol class="sx-flow" aria-label="How the study ran (simplified from Figure 2 of the paper)">
+<li><b>Consent</b><span>Information sheet and consent form for each participant</span></li>
+<li><b>Demographics</b><span>Age, gender, education and whether a migrant to Karnataka</span></li>
+<li><b>The quiz</b><span>Five questions; the survey and quiz took 20–25 minutes</span></li>
+<li><b>Group discussion</b><span>Money habits and challenges; recorded with consent</span></li>
+<li><b>Coding</b><span>Literate if 3 or more correct; each skill area scored separately</span></li>
+<li><b>Analysis</b><span>Bayesian logistic regression for each outcome</span></li>
+</ol>
 
-**Turning access into primary evidence**
-
-Researchers helped facilitate access to the setting and participants. I personally administered the quiz to 40 security guards using a focus-group format.
-:::
-
-::: {.process-card .process-card-wide}
-<span>04 · Fieldwork</span>
-
-**Administering the primary-data session**
-
-![](/assets/projects/gig-workers-research/fieldwork/primary-data-session.jpeg){fig-alt="Satvik Raman standing at the front of a meeting room while administering a financial-literacy questionnaire to security guards"}
-
-<p class="artifact-caption">During primary-data collection in Bangalore. I explained and administered the five-question instrument while participants recorded their responses. Publication permission has been confirmed for the people shown.</p>
-:::
-
-::: {.process-card}
-<span>05 · Preparation</span>
-
-**From responses to analysable variables**
-
-I organised the responses across the three literacy dimensions and demographic characteristics, then prepared the data for descriptive comparison and model-based analysis.
-:::
-
-::: {.process-card}
-<span>06 · Analysis</span>
-
-**Testing what predicted literacy**
-
-I used Bayesian logistic regression to examine how migration status and age related to the probability of financial literacy in this sample.
-:::
-
-::: {.process-card}
-<span>07 · Findings</span>
-
-**Evidence, with its limits visible**
-
-The results indicated lower odds of financial literacy among migrant workers and differences by age. The study is intentionally bounded: a sample of 40 security guards can reveal patterns worth investigating, not represent every gig worker in Bangalore.
 :::
 :::
 
-::: {.fieldwork-closing}
-![](/assets/projects/gig-workers-research/fieldwork/post-session-group.jpeg){fig-alt="Satvik Raman with security guards and members of the research environment after the primary-data session"}
+::: {.sx-section}
+<p class="sx-label">Findings</p>
 
-<p class="artifact-caption">Following the primary-data session with participants and members of the surrounding research environment. The photograph documents the setting; authorship of the study and paper is solely mine.</p>
+## Migrant status and age stood out. The intervals are wide, and that matters too
 
-[View the public fieldwork reference on LinkedIn](https://www.linkedin.com/posts/how-financially-literate-are-gig-casual-ugcPost-7371475629902458880-hejk/){.evidence-link target="_blank"}
+In this sample, migrant workers had much lower odds of being financially literate than workers from Karnataka. Participants aged 30 to 39 did worse on numeracy and knowledge than those under 30. Education level and how literate people thought they were did not reliably predict any outcome.
+
+<figure class="sx-figure sx-chart">
+<svg viewBox="0 0 640 230" role="img" aria-labelledby="or-title or-desc">
+<title id="or-title">Odds ratios with 95% intervals for the three main findings</title>
+<desc id="or-desc">On a log scale, all three estimates sit below 1, meaning lower odds than the comparison group. Overall literacy, migrant versus local: odds ratio 0.05, interval 0.000005 to 0.21. Numeracy, age 30 to 39 versus under 30: 0.16, interval 0.001 to 0.50. Knowledge, age 30 to 39 versus under 30: 0.10, interval 0.00002 to 0.38.</desc>
+<g class="ax">
+<line x1="160" y1="20" x2="160" y2="180"/><line x1="285.7" y1="20" x2="285.7" y2="180"/><line x1="411.4" y1="20" x2="411.4" y2="180"/>
+<line class="one" x1="537.1" y1="12" x2="537.1" y2="180"/>
+<text x="160" y="200">0.000001</text><text x="285.7" y="200">0.0001</text><text x="411.4" y="200">0.01</text><text x="537.1" y="200">1</text>
+<text class="note" x="545" y="24">no difference</text>
+<text class="note" x="348.6" y="222">← lower odds than the comparison group</text>
+</g>
+<g class="row"><text x="0" y="52">Overall literacy</text><text class="sub" x="0" y="68">migrant vs local</text>
+<line x1="203.9" y1="58" x2="494.5" y2="58"/><circle cx="455.4" cy="58" r="6"/></g>
+<g class="row"><text x="0" y="102">Numeracy</text><text class="sub" x="0" y="118">age 30–39 vs under 30</text>
+<line x1="348.6" y1="108" x2="518.2" y2="108"/><circle cx="487.1" cy="108" r="6"/></g>
+<g class="row"><text x="0" y="152">Knowledge</text><text class="sub" x="0" y="168">age 30–39 vs under 30</text>
+<line x1="241.8" y1="158" x2="510.7" y2="158"/><circle cx="474.3" cy="158" r="6"/></g>
+</svg>
+<figcaption>Odds ratios (dots) with 95% highest-density intervals (lines) from Table 2 of the paper, on a log scale. The paper also reports Awareness; its estimate is identical to overall literacy, so it is not drawn separately.</figcaption>
+</figure>
+
+The width of those intervals is part of the result. With 40 people, the direction is clear but the size is not: the data say migrants did worse, not how much worse.
 :::
 
-::: {.tech-stack}
-<span class="tech-tag">Empirical Research</span>
-<span class="tech-tag">Bayesian Logistic Regression</span>
-<span class="tech-tag">Primary Data</span>
-<span class="tech-tag">Financial Literacy</span>
-<span class="tech-tag">SSRN</span>
+::: {.sx-section}
+<p class="sx-label">Limits and what came next</p>
+
+## What this study can and cannot say
+
+It is a small sample (N = 40) from one kind of gig work at one campus, so it does not represent every gig worker in Bangalore. It is also a single snapshot, so it shows associations, not causes: language, prior financial experience or family support could explain part of the gap.
+
+The paper proposes financial-literacy apps in regional languages, with simple instructions and visual guides, and peer or employer-supported programmes. My next paper, [a literature review on AI and gig work](/projects/literature-review/index-en.html), stays with the same workers.
+
+<blockquote class="sx-pull">
+<p>Why would migrants score lower?</p>
+<p>The paper suggests two reasons: language barriers, and being far from the trusted people most of us learn about money from. This study cannot tell which matters more. That is the question a larger study would need to answer.</p>
+</blockquote>
 :::
 
-::: {.project-cta}
-[Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6086709){.btn-project target="_blank"}
-[Download the paper](/assets/docs/gig-workers-research.pdf){.btn-project .btn-project-secondary download="Satvik-Raman-Gig-Worker-Financial-Literacy-Research.pdf"}
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/vernacular-chatbot/index-en.html"><small>What led here</small><strong>Multilingual voicebot</strong></a></li>
+<li><a href="/projects/systematick/index-en.html"><small>Next exploration →</small><strong>Systematick</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+</ul>
 :::
 
 :::

@@ -1,84 +1,106 @@
 ---
-title: "Vernacular Financial-Access Prototype"
-subtitle: "A working proof of concept for language-first access to financial information"
-date: 2024-06-01
-image: /assets/projects/vernacular-chatbot/thumbnail.png
+title: "Multilingual Voicebot"
+subtitle: "Ask a money question by voice, in your own language, and hear the answer"
+description: "A voicebot I built that answers financial questions by voice or text in Indian languages: first in 2023 (Grade 9), rebuilt on Telegram in 2025 and self-hosted on Google Cloud, with a usage dashboard."
+date: 2023-06-01
+image: /assets/projects/vernacular-chatbot/vb-social.jpg
 categories:
   - Finance & Software
   - Research & Essays
 order: 7
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-What changes when a financial-information interface begins in the user’s language rather than asking the user to adapt to English?
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Software · 2023 – 2025 · <span class="sx-chip">Prototype</span></p>
+
+# Multilingual voicebot
+
+<p class="sx-lede">Technology reached millions. Language left many behind.</p>
+
+Banking apps and government scheme websites mostly speak English. I built a voicebot that lets someone ask a money question out loud in their own language and hear the answer spoken back. The first version, in 2023 (Grade 9), included a phone-call path. In 2025 I rebuilt it on Telegram, self-hosted on Google Cloud, with a dashboard showing which languages and modes people used.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://vernacular-voice-bot.web.app/" target="_blank" rel="noopener">Open the live dashboard</a>
+</div>
 :::
 
-## What I built
+<figure class="sx-frame">
+<img src="/assets/projects/vernacular-chatbot/vb-dashboard.webp" width="1240" height="520" fetchpriority="high" alt="The voicebot's public dashboard: 8,935 total interactions, 22.8% by voice (2,033 voice and 6,902 text), and a pie chart of the top languages led by Kannada, Tamil, Telugu, Hindi and English.">
+<figcaption>The live dashboard, captured 29 October 2026. The counts are messages, including my own testing, not people.</figcaption>
+</figure>
 
-I developed and deployed a multilingual proof of concept that lets users ask financial questions through web and Telegram interfaces, using both voice and text. Instead of treating deployment as the finish line, I also built a protected analytics view to compare interaction patterns across languages and modalities.
-
-- Designed a multilingual frontend and backend service
-- Created Telegram and web interaction paths
-- Supported voice and text input across local-language interactions
-- Added authentication and protected user metrics
-- Deployed cloud infrastructure using infrastructure-as-code
-- Built an analytics dashboard comparing language and modality patterns
-
-![](/assets/projects/vernacular-chatbot/thumbnail.png){.project-screenshot fig-alt="Vernacular chatbot interface"}
-
-## Research problem behind the prototype
-
-The prototype grew from time spent alongside researchers exploring a larger question: how might AI make reliable financial information more accessible to rural and suburban customers who communicate most naturally in local languages?
-
-[Project SATHI](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank"} is an IISc-led institutional initiative designed around that challenge. Its published description combines information about government financial schemes with translation, local-language voice queries, audio responses, and field testing. The project brought together IISc researchers and collaborators including Oxford Brookes University, Akaike, and Kotak Mahindra Bank.
-
-That institutional initiative provided the research context—not a title or grant affiliation for me. I was not a named member of the core team or a participant in the grant. My contribution was the independently implemented proof of concept presented here. The Grand Challenges funding supported the institutional project, not my personal work.
-
-## Process desk
-
-::: {.process-desk}
-::: {.process-card}
-<span>01 · Prototype</span>
-
-**Conversation flow**
-
-The interface began with a deliberately narrow question: can a user ask a financial question in a familiar language and receive an accessible response without first adapting to an English-only workflow?
 :::
 
-::: {.process-card}
-<span>02 · Infrastructure</span>
+<ul class="sx-facts">
+<li><strong>Voice or text</strong><span>in, and spoken answers out</span></li>
+<li><strong>19 languages</strong><span>configured, including 10 Indian languages</span></li>
+<li><strong>Google Cloud</strong><span>self-hosted, serverless</span></li>
+<li><strong>Built alone</strong><span>bot, cloud setup and dashboard</span></li>
+</ul>
 
-**From local code to cloud deployment**
+::: {.sx-section}
+<p class="sx-label">The problem</p>
 
-The implementation evolved from a local conversation flow into authenticated services, serverless deployment, infrastructure-as-code, protected webhooks, and two interaction channels.
+## Information exists. It just is not in the right language, or the right form
+
+Many people who would benefit most from a savings scheme, an insurance product or a simple explanation of interest are more comfortable speaking than typing, and speaking Kannada, Tamil or Hindi rather than English. I spent time around researchers at IISc working on exactly this question: how AI could make reliable financial information easier to reach for rural and suburban customers in their own languages.
+
+That institutional work is [Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank" rel="noopener"}, an IISc-led initiative funded by a Grand Challenges grant, [Enabling Equal Finance Access for Rural Customers in India](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank" rel="noopener"}. It gave me the problem. I was not a named member of its core team or of the grant; the voicebot on this page is my own independent prototype.
 :::
 
-::: {.process-card}
-<span>03 · Observe</span>
+::: {.sx-section}
+<p class="sx-label">What I built</p>
 
-**Usage dashboard**
+## One pipeline for any language: listen, understand, answer, speak
 
-The deployed dashboard makes language and voice-versus-text patterns visible, turning a working interface into something that could also support observation and iteration.
+::: {.sx-two}
+
+::: {}
+A user sends a voice note or a text message to the Telegram bot. The bot works out which language it is in, answers briefly in that same language, and replies with both text and a spoken version. The user never has to pick a language from a menu.
+
+I wrote the backend in Python and deployed it as a serverless function on Google Cloud, with the infrastructure defined as code so it can be rebuilt from scratch. Speech recognition and the answers come from OpenAI's models; the spoken reply uses Google Cloud Text-to-Speech, which has voices for Indian languages. An earlier WhatsApp version started from a public tutorial.
+
+Each interaction's language and mode (voice or text) are recorded in a database, and a small web dashboard turns them into weekly patterns.
+:::
+
+<ol class="sx-flow" aria-label="How a question is answered">
+<li><b>Ask</b><span>A voice note or text message on Telegram</span></li>
+<li><b>Transcribe and detect</b><span>Speech becomes text, and the language is identified</span></li>
+<li><b>Answer</b><span>A short reply, at most 250 words, in the same language</span></li>
+<li><b>Speak</b><span>Text-to-speech in a voice for that language</span></li>
+<li><b>Reply and count</b><span>Text and audio sent back; language and mode logged for the dashboard</span></li>
+</ol>
+
 :::
 :::
 
-## Institutional context and architecture
+::: {.sx-section}
+<p class="sx-label">What it showed</p>
 
-These sources establish the larger initiative’s purpose, architecture, collaborators, and funding. They are presented as context for the problem I encountered—not as evidence of personal membership in the funded team.
+## People chose text more often than voice
 
-- [IISc announcement: Grand Challenges grant for equitable AI use](https://www.iisc.ac.in/events/iisc-faculty-receives-grand-challenges-grant-for-equitable-ai-use/){target="_blank"}
-- [Project SAATHI technical architecture](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank"}
-- [Grand Challenges grant record](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank"}
-- [Oxford Brookes profile documenting the MFIbot collaboration](https://www.brookes.ac.uk/profiles/staff/uma-urs){target="_blank"}
-- [Supplementary project context on LinkedIn](https://www.linkedin.com/posts/umaurs_innovation-newproduct-teamspirit-ugcPost-7112382607178248192-ACM5/){target="_blank"}
+On the dashboard, about 23% of interactions are voice and 77% text, and the most-used languages are Kannada, Tamil, Telugu, Hindi and English. The bot was designed around voice, yet most messages were typed. These counts include my own testing and cannot be separated from it, so they show how the bot was used, not how many people used it.
 
-::: {.project-cta}
-[Open the live dashboard](https://vernacular-voice-bot.web.app/){.btn-project target="_blank"}
-[Explore Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){.btn-project .btn-project-secondary target="_blank"}
+<blockquote class="sx-pull">
+<p>Was language really the barrier?</p>
+<p>The voicebot assumed it was. That assumption became the starting point for my research with security guards at IISc, which measured what else stands between people and financial decisions.</p>
+</blockquote>
 :::
 
-<p class="evidence-note"><strong>Repository safety:</strong> the public source link is withheld until exposed credentials have been rotated and removed from its history.</p>
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/bizkit/index-en.html"><small>Also about language</small><strong>Bizkit</strong></a></li>
+<li><a href="/projects/gig-workers-research/index-en.html"><small>Next exploration →</small><strong>Financial literacy in Bangalore gig workers</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+</ul>
+:::
 
 :::

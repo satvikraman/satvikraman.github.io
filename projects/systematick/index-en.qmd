@@ -1,107 +1,129 @@
 ---
 title: "Systematick"
-subtitle: "A programmable platform for more transparent investment decisions"
-date: 2025-01-01
-image: /assets/projects/systematick/screenshot.png
+subtitle: "Test your own trading rules on Indian market history, honestly"
+description: "Systematick is a web app I founded and build: investors write their own trading rules and test them on NSE history, with the index as it was on each day and Indian trading costs included."
+date: 2025-02-26
+image: /assets/projects/systematick/sk-social.jpg
 categories:
   - Finance & Software
 order: 2
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-Systematick began with a question: **can good investment decisions become more systematic, transparent, and repeatable?**
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Finance &amp; software · Feb 2025 – now · <span class="sx-chip">Beta</span></p>
+
+# Systematick
+
+<p class="sx-lede">Everyone had investment ideas. Very few had a way to check them.</p>
+
+Systematick is a web app where investors write their own trading rules and test them on Indian stock-market history. It uses the index as it actually was on each day, keeps the companies that later failed, and charges every trade its real costs. I founded it, and I design and build it.
+
+<div class="sx-actions">
+<a class="sx-button" href="https://systematick.in" target="_blank" rel="noopener">Visit systematick.in</a>
+<a href="https://systematick.in/demo" target="_blank" rel="noopener">Try the rule editor →</a>
+</div>
 :::
 
-<p class="venture-status"><strong>Status:</strong> Independent venture in development. Company registration is planned but not yet claimed.</p>
+<figure class="sx-frame">
+<img src="/assets/projects/systematick/sk-live-demo.webp" width="1176" height="1580" fetchpriority="high" alt="Systematick live demo: the two-line rule BUY = RSI(14) &lt; 30, SELL = RSI(14) &gt; 50, its settings, a +4.9% total return, a −5.0% maximum drawdown, 48 closed trades and an equity curve drawn against the NIFTY 50.">
+<figcaption>The live demo on the systematick.in homepage, captured 29 October 2026. It runs a real backtest in the visitor's browser.</figcaption>
+</figure>
 
-## The problem
-
-Most investment software is designed to deliver answers: a rating, a signal, or a list of stocks. I was more interested in the process that produces an answer.
-
-An investor may have a clear philosophy in their head—quality, valuation, resilience, or some combination of the three—but applying it consistently across years of company data is difficult. The rules drift. Sources disagree. Past decisions become hard to reconstruct.
-
-Systematick is my attempt to turn that reasoning into a process that can be inspected, tested, and improved.
-
-## What I am building
-
-The platform combines programmable screening logic with the data infrastructure needed to support it. The visible interface is only one layer. Much of the work has involved questions beneath it:
-
-- How should years of financial and market data be stored efficiently?
-- How should corporate actions alter historical series?
-- Where should authentication and user-specific logic live?
-- How can a result remain explainable after parts of the workflow are automated?
-- Which architectural decisions remain sensible if the project grows?
-
-Those questions led me into Parquet, DuckDB, Azure storage, authentication, schema design, and deployment. The technologies changed as the architecture improved. The objective remained stable.
-
-## Architecture
-
-```mermaid
-flowchart LR
-  sources["Market & company data"] --> pipeline["Validation and data pipeline"]
-  pipeline --> store["Historical data layer"]
-  philosophy["Investor-defined philosophy"] --> engine["Programmable screening engine"]
-  store --> engine
-  engine --> explanation["Result + visible reasoning"]
-  explanation --> review["Human review"]
-```
-
-## What changed in my thinking
-
-I originally treated data as an input to the product. I now see it as part of the product.
-
-An elegant screening rule is not useful if the historical data is inconsistent, a corporate action is mishandled, or the user cannot trace a number back to its source. Data quality must come before analytics, and transparency must come before automation.
-
-## From project to venture
-
-Systematick is not an extension of my ICICI Direct automation. The earlier system explored disciplined execution of external recommendations. Systematick begins one level earlier: how an investor defines a philosophy, tests it against reliable history, and preserves the reasoning behind each decision.
-
-The venture now includes product positioning, infrastructure choices, a public domain, and the work required to turn a personal tool into something another investor can understand and use.
-
-## Process desk
-
-::: {.process-desk}
-::: {.process-card}
-<span>01 · Rough product document</span>
-
-**Defining the problem before the interface**
-
-An early working document records the movement from “stock screener” toward a transparent decision system. A public excerpt will be added once access is confirmed.
 :::
 
-::: {.process-card}
-<span>02 · Architecture</span>
+<ul class="sx-facts">
+<li><strong>Live public beta</strong><span>systematick.in</span></li>
+<li><strong>250+ users</strong><span>as of October 2026</span></li>
+<li><strong>285 commits</strong><span>Feb 2025 – Oct 2026</span></li>
+<li><strong>Udyam-registered</strong><span>sole proprietorship, Sep 2026</span></li>
+</ul>
 
-**Data became part of the product**
+::: {.sx-section}
+<p class="sx-label">The problem</p>
 
-Parquet, DuckDB, cloud storage, authentication, and schema design emerged from the need to make historical decisions reproducible.
+## Most backtests flatter the strategy
+
+A backtest replays a rule on past prices to see how it would have done. Most tools quietly use today's list of index companies for every past year, so the companies that collapsed or were removed simply vanish, and the results look better than they were. Others let a rule use information that was not yet known on the day it traded.
+
+I wanted a tool that would tell an investor the uncomfortable answer as readily as the flattering one.
 :::
 
-::: {.process-card}
-<span>03 · Working product</span>
+::: {.sx-section}
+<p class="sx-label">What I built</p>
 
-![](/assets/projects/systematick/screenshot.png){fig-alt="Systematick working interface"}
-:::
-:::
+## A rule language, an honest engine, and a report that shows its working
 
-## If I rebuilt the first version today
+::: {.sx-two}
 
-I would begin with a smaller set of investor decisions and design the explanation layer alongside the calculation layer. It is easier to add another metric later than to make an opaque system explainable after the fact.
+::: {}
+Rules are written in **SAFAL**, a small language I designed so that an investing idea reads almost like a sentence: `BUY = SMA(50) CROSS_ABOVE SMA(200) AND RSI(14) < 70`. The editor checks each rule as you type. A rule is turned into a syntax tree and evaluated, never run as code, so a user cannot break or misuse the system through it.
 
-## Working principles
+The backtest engine runs inside the user's own browser: Python compiled to WebAssembly, in the background of the page. The server only runs the scheduled daily signals. This keeps running costs close to zero, which is why backtests are unlimited, even on the free plan.
 
-::: {.tech-stack}
-<span class="tech-tag">Process before prediction</span>
-<span class="tech-tag">Data quality before analytics</span>
-<span class="tech-tag">Transparency before automation</span>
-<span class="tech-tag">Architecture before implementation</span>
+I learned that the data is as much the product as the screen. The engine is only honest if the history underneath it is: which companies were in the index on each date, which were delisted, and how every split, bonus and merger changed what an investor held.
 :::
 
-::: {.project-cta}
-[Visit Systematick](https://systematick.in){.btn-project target="_blank"}
-[View the repository](https://github.com/satvikraman/systematick){.btn-project .btn-project-secondary target="_blank"}
+<ol class="sx-flow" aria-label="How a backtest runs (simplified)">
+<li><b>Write a rule</b><span>In SAFAL, checked as you type</span></li>
+<li><b>Parse it</b><span>Into a syntax tree; never executed as code</span></li>
+<li><b>Replay history in the browser</b><span>Index members as they were on each date; delisted companies kept; corporate actions applied</span></li>
+<li><b>Trade realistically</b><span>Decide on each day's close, fill at the next day's open, charge Indian brokerage, taxes and fees</span></li>
+<li><b>Report against the index</b><span>Returns, falls, every trade, and the assumptions behind them</span></li>
+</ol>
+
+:::
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/systematick/sk-rule-editor.webp" width="1200" height="540" loading="lazy" alt="The Systematick rule editor showing a buy rule and a sell rule written in SAFAL, the test settings (NIFTY 50, 2020 to 2025, ₹1,00,000, up to 10 positions, Indian delivery costs) and a reference panel of operators.">
+<figcaption>The rule editor at systematick.in/demo, with a built-in strategy loaded.</figcaption>
+</figure>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Evidence</p>
+
+## The report leads with the truth, even when it is unflattering
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/systematick/sk-backtest-report.webp" width="1200" height="519" loading="lazy" alt="A Systematick backtest report. Its first line reads: the strategy fell 0.5% a year; NIFTY 50 grew 2.1% a year: 2.6 percentage points a year behind the benchmark. Below are tiles for total return, CAGR, benchmark CAGR, maximum drawdown, Sharpe ratio, win rate and closed trades.">
+<figcaption>A report from the public demo, which uses sample data. This built-in strategy lost to the index, and the report says so in its first sentence.</figcaption>
+</figure>
+
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/systematick/sk-assumptions.webp" width="1120" height="504" loading="lazy" alt="Systematick homepage section titled A backtest is only as good as its assumptions, with four cards: historical index membership, delisted companies and corporate actions, Indian trading costs, and execution and limits.">
+<figcaption>Every result comes with the assumptions behind it. From the systematick.in homepage.</figcaption>
+</figure>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Where it stands</p>
+
+## A public beta, used and still being tested
+
+Systematick is live as a public beta. Everything is free until 31 December 2026; after that there will be a free plan and a Pro plan at ₹365 a year. It has 250+ users as of October 2026. Next is a daily screener that sends a strategy's signals on Telegram the evening before each trading day.
+
+It began as the next step after my [automated trading system](/projects/automated-trading/index-en.html), which executed other people's recommendations. Systematick starts one step earlier: how an investor defines an idea and checks it against an honest history.
+
+<blockquote class="sx-pull">
+<p>If I rebuilt it today, what would I do first?</p>
+<p>Design the explanation alongside the calculation. It is easy to add another metric later; it is much harder to make an opaque result explainable after the fact.</p>
+</blockquote>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/automated-trading/index-en.html"><small>Before Systematick</small><strong>Automated trading system</strong></a></li>
+<li><a href="/projects/bfc-football/index-en.html"><small>Next exploration →</small><strong>Football</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+</ul>
 :::
 
 :::

@@ -57,7 +57,7 @@
     },
     {
       id: "vernacular-chatbot",
-      label: "Community",
+      label: "Language access",
       subtext: "Technology reached millions. Language still left many behind."
     }
   ];
