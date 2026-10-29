@@ -1,7 +1,7 @@
 ---
 title: "Multilingual Voicebot"
 subtitle: "Ask a money question by voice, in your own language, and hear the answer"
-description: "A voicebot I built that answers financial questions by voice or text in Indian languages: first in 2023 (Grade 9), rebuilt on Telegram in 2025 and self-hosted on Google Cloud, with a usage dashboard."
+description: "A multilingual voicebot prototype Satvik built in 2023 for IISc's rural finance-access research project: money questions answered by voice or text in Indian languages, on Telegram or by phone call."
 date: 2023-06-01
 image: /assets/projects/vernacular-chatbot/vb-social.jpg
 categories:
@@ -17,13 +17,13 @@ toc: false
 ::: {.sx-hero}
 
 ::: {}
-<p class="sx-label">Software · 2023 – 2025 · <span class="sx-chip">Prototype</span></p>
+<p class="sx-label">Software · 2023</p>
 
 # Multilingual voicebot
 
 <p class="sx-lede">Technology reached millions. Language left many behind.</p>
 
-Banking apps and government scheme websites mostly speak English. I built a voicebot that lets someone ask a money question out loud in their own language and hear the answer spoken back. The first version, in 2023 (Grade 9), included a phone-call path. In 2025 I rebuilt it on Telegram, self-hosted on Google Cloud, with a dashboard showing which languages and modes people used.
+Banking apps and government scheme websites mostly speak English. In 2023 I built a multilingual voicebot prototype for IISc's rural finance-access research project, *Enabling Equal Finance Access for Rural Customers in India*, funded by the Bill &amp; Melinda Gates Foundation's Grand Challenges. Someone can ask a money question out loud in their own language and hear the answer spoken back. I self-hosted it so it can be reached on Telegram or by a phone call, including from a feature phone.
 
 <div class="sx-actions">
 <a class="sx-button" href="https://vernacular-voice-bot.web.app/" target="_blank" rel="noopener">Open the live dashboard</a>
@@ -38,10 +38,10 @@ Banking apps and government scheme websites mostly speak English. I built a voic
 :::
 
 <ul class="sx-facts">
-<li><strong>Voice or text</strong><span>in, and spoken answers out</span></li>
-<li><strong>19 languages</strong><span>configured, including 10 Indian languages</span></li>
-<li><strong>Google Cloud</strong><span>self-hosted, serverless</span></li>
-<li><strong>Built alone</strong><span>bot, cloud setup and dashboard</span></li>
+<li><strong>Voice or text</strong><span>In, and spoken answers out</span></li>
+<li><strong>Multilingual bot</strong><span>Works in several Indian languages</span></li>
+<li><strong>Telegram or phone call</strong><span>Works on feature phones</span></li>
+<li><strong>For IISc</strong><span>Rural finance-access project</span></li>
 </ul>
 
 ::: {.sx-section}
@@ -49,9 +49,9 @@ Banking apps and government scheme websites mostly speak English. I built a voic
 
 ## Information exists. It just is not in the right language, or the right form
 
-Many people who would benefit most from a savings scheme, an insurance product or a simple explanation of interest are more comfortable speaking than typing, and speaking Kannada, Tamil or Hindi rather than English. I spent time around researchers at IISc working on exactly this question: how AI could make reliable financial information easier to reach for rural and suburban customers in their own languages.
+Many people who would benefit most from a savings scheme, an insurance product or a simple explanation of interest are more comfortable speaking than typing, and speaking Kannada, Tamil or Hindi rather than English. Researchers at IISc were working on exactly this question: how AI could make reliable financial information easier to reach for rural and suburban customers in their own languages.
 
-That institutional work is [Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank" rel="noopener"}, an IISc-led initiative funded by a Grand Challenges grant, [Enabling Equal Finance Access for Rural Customers in India](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank" rel="noopener"}. It gave me the problem. I was not a named member of its core team or of the grant; the voicebot on this page is my own independent prototype.
+That work is [Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank" rel="noopener"}, an IISc-led initiative funded by the Gates Foundation's Grand Challenges grant [Enabling Equal Finance Access for Rural Customers in India](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank" rel="noopener"}. I built the voicebot prototype on this page for that project.
 :::
 
 ::: {.sx-section}
@@ -99,7 +99,7 @@ On the dashboard, about 23% of interactions are voice and 77% text, and the most
 <ul class="sx-related">
 <li><a href="/projects/bizkit/index-en.html"><small>Also about language</small><strong>Bizkit</strong></a></li>
 <li><a href="/projects/gig-workers-research/index-en.html"><small>Next exploration →</small><strong>Financial literacy in Bangalore gig workers</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

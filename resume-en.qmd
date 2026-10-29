@@ -3,6 +3,9 @@ title: "Résumé"
 description: "Satvik Raman's résumé as a PDF: education, leadership, research, entrepreneurship, internships and recognition."
 title-block-style: none
 toc: false
+format:
+  html:
+    page-layout: full
 ---
 
 ::: {.sx}
@@ -14,19 +17,13 @@ toc: false
 
 # Résumé
 
-<p class="sx-lede">The same work as the rest of this site, on three pages.</p>
-
-This is my résumé as of October 2026, with my phone number removed. For the evidence behind each line, the Record links every item to its source.
-
 <div class="sx-actions">
-<a class="sx-button" href="/assets/docs/satvik-raman-resume.pdf" target="_blank" rel="noopener">Download the PDF</a>
-<a href="/record-en.html">See the Record →</a>
+<a class="sx-button" href="/assets/docs/satvik-raman-resume.pdf">Download the PDF</a>
 </div>
 :::
 
-<figure class="sx-frame">
-<a href="/assets/docs/satvik-raman-resume.pdf" target="_blank" rel="noopener"><img src="/assets/docs/satvik-raman-resume-p1.webp" width="935" height="1210" fetchpriority="high" alt="The first page of Satvik Raman's résumé: education, leadership and research experience."></a>
-<figcaption>Page 1 of 3. Select it to open the PDF.</figcaption>
+<figure class="sx-frame sx-frame-doc">
+<a href="/assets/docs/satvik-raman-resume.pdf"><img src="/assets/docs/satvik-raman-resume-p1.webp" width="935" height="1210" fetchpriority="high" alt="The first page of Satvik Raman's résumé: education, leadership and research experience."></a>
 </figure>
 
 :::

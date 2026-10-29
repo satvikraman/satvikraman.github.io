@@ -1,7 +1,7 @@
 ---
 title: "Bizkit"
 subtitle: "Economics explained through real events, in six languages"
-description: "Bizkit is a blog I founded and write: business and economics explained through real-world events, without jargon, in English, Hindi, Kannada, Tamil, Telugu and German. 130+ posts since 2024."
+description: "Bizkit is a blog I founded and write: business and economics explained through real-world events, without jargon, in English, Hindi, Kannada, Tamil, Telugu and German. 125+ posts since 2024."
 date: 2024-03-31
 image: /assets/projects/bizkit/bz-social.jpg
 categories:
@@ -38,10 +38,10 @@ Bizkit is a blog I founded and write. Each post starts with something that reall
 :::
 
 <ul class="sx-facts">
-<li><strong>130+ posts</strong><span>as of October 2026</span></li>
+<li><strong>125+ posts</strong><span>As of October 2026</span></li>
 <li><strong>6 languages</strong><span>English, Hindi, Kannada, Tamil, Telugu, German</span></li>
-<li><strong>500+ readers</strong><span>website and WhatsApp channel</span></li>
-<li><strong>Since 2024</strong><span>largely maintaining a weekly cadence</span></li>
+<li><strong>500+ readers</strong><span>Website and WhatsApp channel</span></li>
+<li><strong>Since 2024</strong><span>Largely maintaining a weekly cadence</span></li>
 </ul>
 
 ::: {.sx-section}
@@ -104,18 +104,13 @@ A few more posts: [Lehman Brothers and the subprime time bomb](https://bizkit.co
 
 ## An engineering family, and a different choice
 
-<figure class="sx-inline">
-<img src="/assets/projects/bizkit/satvik-visvesvaraya.jpeg" width="432" height="576" loading="lazy" alt="A young Satvik standing beside a bust of Sir M. Visvesvaraya.">
-<figcaption>Beside a bust of Sir M. Visvesvaraya in 2018. We share a birthday: 15 September.</figcaption>
-</figure>
-
 Engineering runs through my family for generations, and I was born on the birthday of Sir M. Visvesvaraya, one of India's most celebrated engineers. I became fascinated by economics instead: not a rejection of the systems thinking I grew up with, but a decision to apply it to people, incentives, firms and markets.
 
 Writing changed how I think. A sentence that feels awkward often means the argument underneath is still unclear, and writing slowly enough makes my assumptions visible.
 
 <blockquote class="sx-pull">
 <p>If I extended it today, what would change?</p>
-<p>I would make the reader more active: short decisions, interactive cases or simulations in which the idea emerges from a choice rather than an explanation. I also plan to take the story-first, multilingual approach into government schools. That has not happened yet, so this page makes no claim about it.</p>
+<p>I would make the reader more active: short decisions, interactive cases or simulations in which the idea emerges from a choice rather than an explanation. I specifically like how <a href="https://yadayadayadaecon.com/" target="_blank" rel="noopener">Yada Yada Yada Econ</a>, <a href="https://economicsoftheoffice.com/" target="_blank" rel="noopener">Economics of the Office</a> and <a href="https://www.bazinganomics.com/bazinganomics//time-is-too-valuable" target="_blank" rel="noopener">Bazinganomics</a> have made economics fun. I wonder what a Bazinganomics version of Bizkit would look like.</p>
 </blockquote>
 :::
 
@@ -125,7 +120,7 @@ Writing changed how I think. A sentence that feels awkward often means the argum
 <ul class="sx-related">
 <li><a href="/projects/vernacular-chatbot/index-en.html"><small>Also about language</small><strong>Multilingual voicebot</strong></a></li>
 <li><a href="/projects/literature-review/index-en.html"><small>Next exploration →</small><strong>The AI-Gig Paradox</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

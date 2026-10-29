@@ -1,6 +1,6 @@
 ---
 title: "Systematick"
-subtitle: "Test your own trading rules on Indian market history, honestly"
+subtitle: "Test your own trading rules on Indian market history, with the index as it really was"
 description: "Systematick is a web app I founded and build: investors write their own trading rules and test them on NSE history, with the index as it was on each day and Indian trading costs included."
 date: 2025-02-26
 image: /assets/projects/systematick/sk-social.jpg
@@ -39,9 +39,9 @@ Systematick is a web app where investors write their own trading rules and test 
 
 <ul class="sx-facts">
 <li><strong>Live public beta</strong><span>systematick.in</span></li>
-<li><strong>250+ users</strong><span>as of October 2026</span></li>
-<li><strong>285 commits</strong><span>Feb 2025 – Oct 2026</span></li>
-<li><strong>Udyam-registered</strong><span>sole proprietorship, Sep 2026</span></li>
+<li><strong>250+ users</strong><span>As of October 2026</span></li>
+<li><strong>Founder &amp; solo builder</strong><span>Design, engine and data</span></li>
+<li><strong>Udyam-registered</strong><span>Sole proprietorship, Sep 2026</span></li>
 </ul>
 
 ::: {.sx-section}
@@ -122,7 +122,7 @@ It began as the next step after my [automated trading system](/projects/automate
 <ul class="sx-related">
 <li><a href="/projects/automated-trading/index-en.html"><small>Before Systematick</small><strong>Automated trading system</strong></a></li>
 <li><a href="/projects/bfc-football/index-en.html"><small>Next exploration →</small><strong>Football</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

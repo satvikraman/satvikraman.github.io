@@ -16,13 +16,13 @@ toc: false
 ::: {.sx-hero}
 
 ::: {}
-<p class="sx-label">Sport · 2016 – now · <span class="sx-chip">Ongoing</span></p>
+<p class="sx-label">Sport · 2016 – 2026</p>
 
 # Football
 
-<p class="sx-lede">I started in goal. Now I play central midfield for Bengaluru FC's youth side.</p>
+<p class="sx-lede">Over a decade of football, from school tournaments to competing with Bengaluru FC's youth teams.</p>
 
-Football has been the constant alongside everything else on this site. I joined the Bengaluru FC Soccer Schools in 2022 and play for Young Blues Elite FC at U17 and U19 level as a central midfielder, and I have been one of the team's rotational captains.
+Football has been the constant alongside everything else on this site. I started at the Boca Juniors academy in 2016, moved to Bangalore Premier Soccer School in 2017 and joined the Bengaluru FC Soccer Schools in 2022. From 2023 to 2026 I played for Young Blues Elite FC at U17 and U19 level as a central midfielder, and I was one of the team's rotational captains in KSFA and AIFF-affiliated tournaments. I also captained my school team at Karnataka state-level inter-school tournaments.
 :::
 
 <figure class="sx-frame">
@@ -33,10 +33,10 @@ Football has been the constant alongside everything else on this site. I joined 
 :::
 
 <ul class="sx-facts">
-<li><strong>Central midfielder</strong><span>started as a goalkeeper</span></li>
-<li><strong>U17 and U19</strong><span>age-group teams</span></li>
+<li><strong>Central midfielder</strong><span>Started as a goalkeeper</span></li>
+<li><strong>U17 and U19</strong><span>Age-group teams</span></li>
 <li><strong>Rotational captain</strong><span>Young Blues Elite FC</span></li>
-<li><strong>Bengaluru FC</strong><span>Soccer Schools since 2022</span></li>
+<li><strong>Bengaluru FC</strong><span>Soccer Schools 2022, Young Blues Elite 2023 – 2026</span></li>
 </ul>
 
 ::: {.sx-section}
@@ -68,7 +68,7 @@ Young Blues Elite FC is Bengaluru FC's elite youth team. I have played in the co
 
 <ul class="sx-strip">
 <li><img src="/assets/projects/bfc-football/fb-age-six.webp" width="540" height="798" loading="lazy" alt="Satvik aged about six, smiling, in an Argentina number 10 shirt and holding a football."><span><b>2016</b> Aged about six, in an Argentina No. 10 shirt.</span></li>
-<li><img src="/assets/projects/bfc-football/fb-bpss-2019.webp" width="900" height="750" loading="lazy" alt="Satvik in a red kit receiving a certificate from coaches on a floodlit pitch."><span><b>2019</b> Receiving a certificate at Bangalore Premier Soccer School, my second academy.</span></li>
+<li><img src="/assets/projects/bfc-football/fb-bpss-2019.webp" width="900" height="750" loading="lazy" alt="Satvik in a red kit receiving a certificate from coaches on a floodlit pitch."><span><b>2019</b> Receiving a certificate at Bangalore Premier Soccer School (2017 – 2019), my second academy after Boca Juniors.</span></li>
 <li><img src="/assets/projects/bfc-football/fb-goal-2020.webp" width="900" height="750" loading="lazy" alt="Satvik in an orange bib with both arms raised, celebrating on a school pitch."><span><b>2020</b> Celebrating a goal in a tournament at school.</span></li>
 <li><img src="/assets/projects/bfc-football/fb-spl-trophy.webp" width="700" height="933" loading="lazy" alt="A gold trophy engraved SPL 2019–2020 Football Boys Winner."><span><b>2019–20</b> Sportz Village school league: our school team won.</span></li>
 </ul>
@@ -78,9 +78,9 @@ Young Blues Elite FC is Bengaluru FC's elite youth team. I have played in the co
 <p class="sx-label">Related</p>
 
 <ul class="sx-related">
-<li><a href="/projects/sport-leadership/index-en.html"><small>Leading off the pitch</small><strong>School prefect</strong></a></li>
+<li><a href="/projects/sport-leadership/index-en.html"><small>Leading off the pitch</small><strong>Leadership</strong></a></li>
 <li><a href="/projects/bizkit/index-en.html"><small>Next exploration →</small><strong>Bizkit</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

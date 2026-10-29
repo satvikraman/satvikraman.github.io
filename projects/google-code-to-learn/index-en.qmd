@@ -1,57 +1,67 @@
 ---
-title: "Google Code To Learn"
-subtitle: "National winner — Android app built in Scratch"
+title: "Google Code to Learn"
+subtitle: "Winner, Class 5 & 6 category, Google India Code to Learn Contest 2019"
+description: "Satvik's Android Sudoku app, which imports, shares and solves puzzles of different grid sizes, was selected as a winner of the Class 5 & 6 category of the Google India Code to Learn Contest 2019."
 date: 2019-01-01
-image: /assets/projects/google-code-to-learn/thumbnail.jpeg
+image: /assets/projects/google-code-to-learn/gctl-certificate-2019.webp
 categories:
-  - Featured
   - Finance & Software
 order: 1
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.featured-badge}
-Featured
+::: {.sx-hero}
+
+::: {}
+<p class="sx-label">Software · 2019</p>
+
+# Google Code to Learn
+
+<p class="sx-lede">My first app: a Sudoku app for Android, built in Class 5.</p>
+
+The app imports, shares and solves Sudoku puzzles of different grid sizes. I entered it in the Google India Code to Learn Contest 2019, a national contest for school students, and it was selected as a winner of the Class 5 & 6 category.
+
+<div class="sx-actions">
+<a class="sx-button" href="#demo">Watch the demo</a>
+</div>
 :::
 
-::: {.project-hook}
-Won **1st prize** at Google Code To Learn, India's national coding competition for school students, by building a functional Android application.
+<figure class="sx-frame">
+<img src="/assets/projects/google-code-to-learn/gctl-certificate-2019.webp" width="1400" height="1018" fetchpriority="high" alt="Google Code to Learn Contest 2019 Certificate of Excellence, awarded to Satvik Raman, a student of Class 5 at Sri Kumaran Children's Home, for being selected as a winner of the Class 5 & 6 category, signed by Anand Rangarajan, Engineering Director, Google India.">
+<figcaption>The certificate, signed by Anand Rangarajan, Engineering Director, Google India.</figcaption>
+</figure>
+
 :::
 
-## Overview
-
-Google Code To Learn challenged students to create real software using visual programming. I designed and built an Android app that demonstrated both creative problem-solving and technical execution — earning national recognition at age 13.
-
-## What I Did
-
-::: {.project-section}
-<ul class="star-list">
-<li><strong>Situation:</strong> Google invited school students across India to build working applications using Scratch-based tools, competing for national recognition.</li>
-<li><strong>Task:</strong> Design, develop, and present an original Android application that solved a meaningful problem.</li>
-<li><strong>Action:</strong> Built a complete Android app from scratch, iterating on UX and functionality until the product was demo-ready.</li>
-<li><strong>Result:</strong> Won **1st prize** nationally. The certificate is displayed on my [About page](/index-en.html#hero-heading).</li>
+<ul class="sx-facts">
+<li><strong>Winner</strong><span>Class 5 &amp; 6 category</span></li>
+<li><strong>National contest</strong><span>Google India Code to Learn 2019</span></li>
+<li><strong>Android app</strong><span>Import, share and solve Sudoku</span></li>
+<li><strong>Class 5</strong><span>Sri Kumaran's Children's Home School</span></li>
 </ul>
+
+::: {.sx-section #demo}
+<p class="sx-label">The demo</p>
+
+## The app in use
+
+<figure class="sx-frame sx-figure">
+<iframe src="https://www.youtube-nocookie.com/embed/M2hzPp6bmkQ" title="Sudoku App: Google India Code To Learn 2019 winner, Satvik Raman" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>The demo video submitted with the app, 2019.</figcaption>
+</figure>
 :::
 
-## Demo
+::: {.sx-section}
+<p class="sx-label">Related</p>
 
-::: {.video-embed}
-<iframe src="https://www.youtube.com/embed/M2hzPp6bmkQ" title="Google Code To Learn — App Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-## Tech Stack
-
-::: {.tech-stack}
-<span class="tech-tag">Scratch</span>
-<span class="tech-tag">Android</span>
-<span class="tech-tag">Visual Programming</span>
-<span class="tech-tag">App Design</span>
-:::
-
-::: {.project-cta}
-[Watch on YouTube](https://www.youtube.com/watch?v=M2hzPp6bmkQ){.btn-project target="_blank"}
-[View Certificate](/index-en.html#hero-heading){.btn-project .btn-project-secondary}
+<ul class="sx-related">
+<li><a href="/projects/automated-trading/index-en.html"><small>Later software</small><strong>Automated trading system</strong></a></li>
+<li><a href="/elsewhere-en.html#building"><small>Where building started</small><strong>Roots &amp; Routes</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
+</ul>
 :::
 
 :::

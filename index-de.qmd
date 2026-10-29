@@ -15,7 +15,7 @@ about:
           href: https://www.linkedin.com/in/satvik-raman-bb3841407
         - icon: envelope
           text: E-Mail
-          href: mailto:satvikraman11@gmail.com
+          href: mailto:satvikraman.edu@gmail.com
 format:
     html:
         page-layout: full

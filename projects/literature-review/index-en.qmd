@@ -42,9 +42,9 @@ My study of security guards measured how much gig workers know about money. This
 :::
 
 <ul class="sx-facts">
-<li><strong>22 sources</strong><span>theory, studies and policy reports</span></li>
-<li><strong>4 economic lenses</strong><span>from agency theory to income smoothing</span></li>
-<li><strong>India in focus</strong><span>tested against Global South and OECD evidence</span></li>
+<li><strong>22 sources</strong><span>Theory, studies and policy reports</span></li>
+<li><strong>4 economic lenses</strong><span>From agency theory to income smoothing</span></li>
+<li><strong>India in focus</strong><span>Tested against Global South and OECD evidence</span></li>
 <li><strong>SSRN</strong><span>10 August 2026</span></li>
 </ul>
 
@@ -100,7 +100,7 @@ The gaps are just as consistent. Most of the theory comes from the United States
 <ul class="sx-related">
 <li><a href="/projects/gig-workers-research/index-en.html"><small>What led here</small><strong>Financial literacy in Bangalore gig workers</strong></a></li>
 <li><a href="/projects/vernacular-chatbot/index-en.html"><small>Next exploration →</small><strong>Multilingual voicebot</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

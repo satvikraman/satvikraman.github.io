@@ -1,71 +1,159 @@
 ---
-title: "Elsewhere"
-pagetitle: "Elsewhere — Satvik Raman"
-description: "Travel, match days, and observations away from the desk."
+title: "Roots & Routes"
+description: "Where it started: a family that gave Satvik things to take apart and put together, football and a lot of other sport, and a few places along the way."
+title-block-style: none
+toc: false
 format:
   html:
     page-layout: full
-    toc: false
 ---
 
-::: {.atlas-page .elsewhere-page}
+::: {.sx .sx-elsewhere}
 
-::: {.elsewhere-hero}
-<p class="eyebrow">Elsewhere · A growing visual notebook</p>
+::: {.sx-intro}
+<p class="sx-label">Roots &amp; Routes</p>
 
-# Places teach differently when I stop trying to summarize them.
+# Where it started
 
-This will become a set of small photo essays from England, Bhutan, Thailand, Vietnam, Hong Kong, and BFC match days. Each essay will begin with a place, a handful of photographs, and one observation worth carrying home.
+The rest of this site is about what I've made. This page is about where it started: a family that gave me things to take apart and put together, and a lot of sport before and alongside football.
+
+<div class="sx-actions sx-jump">
+<a href="#building">Building things</a>
+<span aria-hidden="true">→</span>
+<a href="#sport">Sport</a>
+<span aria-hidden="true">→</span>
+<a href="#travel">Places</a>
+</div>
 :::
 
-::: {.elsewhere-preview}
-::: {.elsewhere-note}
-<span>01</span>
+::: {.sx-section #building}
+<p class="sx-label">01 · Building things</p>
 
-## England
+## A family of engineers
 
-Architecture, museums, football, and the unexpected details that survive after the itinerary fades.
+I come from a family of engineers, and my parents and grandparents gave me things to work out early: a keyboard before I could read, a toy car to assemble with my grandfather, a magnifying glass and some sunlight, a trip to see machines up close.
 
-<small>Photographs and field note to be added</small>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.500"><img src="/assets/elsewhere/bt-desk-2010.webp" width="900" height="600" loading="lazy" alt="A toddler typing at a desktop computer"><figcaption>At the family computer, 2010</figcaption></figure>
+<figure style="--r:1.500"><img src="/assets/elsewhere/bt-exhibit.webp" width="900" height="600" loading="lazy" alt="Satvik in a yellow hard hat inside a large conveyor exhibit"><figcaption>My parents took me to see science and engineering up close, 2013</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.333"><img src="/assets/elsewhere/bt-toy-car.webp" width="640" height="480" loading="lazy" alt="Satvik and his grandfather on the floor with toy-car parts and an instruction booklet"><figcaption>Building a toy car with my grandfather, 2014</figcaption></figure>
+<figure style="--r:0.750"><img src="/assets/elsewhere/bt-sunlight.webp" width="600" height="800" loading="lazy" alt="Satvik holding a magnifying glass over paper in the sun"><figcaption>Trying to burn paper by focusing sunlight through a magnifying glass, 2014</figcaption></figure>
+<figure style="--r:0.608"><img src="/assets/elsewhere/bt-science-quiz.webp" width="547" height="900" loading="lazy" alt="Satvik with an adult at a science festival quiz"><figcaption>At a science festival quiz, 2014</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.779"><img src="/assets/elsewhere/bt-hackathon.webp" width="900" height="506" loading="lazy" alt="A group of children holding certificates in an Apple store"><figcaption>My first hackathon, at an Apple store, 2017</figcaption></figure>
+<figure style="--r:0.750"><img src="/assets/elsewhere/bt-visvesvaraya.webp" width="675" height="900" loading="lazy" alt="Satvik beside a bust of Sir M. Visvesvaraya"><figcaption>Beside the bust of Sir M. Visvesvaraya, with whom I share a birthday, 2018</figcaption></figure>
+</div>
+</div>
+
+<p class="sx-more">Where this led: <a href="/projects/google-code-to-learn/index-en.html">my first app</a>, a <a href="/projects/vernacular-chatbot/index-en.html">multilingual voicebot</a>, an <a href="/projects/automated-trading/index-en.html">automated trading system</a> and <a href="/projects/systematick/index-en.html">Systematick</a>.</p>
 :::
 
-::: {.elsewhere-note}
-<span>02</span>
+::: {.sx-section #sport}
+<p class="sx-label">02 · Sport</p>
 
-## Bhutan
+## A footballer first, but not only a footballer
 
-A future essay about pace, landscape, and what a place chooses not to optimize.
+I have played sport for as long as I can remember. Football is the one I have stayed with: I have played it competitively since 2016. Before and alongside it came table tennis, chess, cricket, tennis, badminton, running and the Rubik's cube.
 
-<small>Photographs and field note to be added</small>
+<div class="sx-block" id="football">
+<div class="sx-block-head">
+<h3>Football</h3>
+<p class="sx-label">2016 – 2026</p>
+<p>Boca Juniors academy, then Bangalore Premier Soccer School, then Bengaluru FC. Central midfielder and rotational captain with Young Blues Elite FC at U17 and U19, 2023 – 2026.</p>
+</div>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.500"><img src="/assets/elsewhere/fb-overhead-kick.webp" width="900" height="600" loading="lazy" alt="A boy attempting an overhead kick on grass"><figcaption>An overhead kick</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.500"><img src="/assets/elsewhere/fb-beach-2016.webp" width="900" height="600" loading="lazy" alt="A boy dribbling a football on a beach"><figcaption>Football on the beach, 2016</figcaption></figure>
+<figure class="sx-tile sx-tile-photo" style="--r:1.5; --bg: url('/assets/projects/bfc-football/fb-goal-2020.webp')"><a href="/projects/bfc-football/index-en.html"><small>Football today</small><strong>Central midfielder and rotational captain, Young Blues Elite FC (Bengaluru FC)</strong><em>Read →</em></a></figure>
+</div>
+</div>
+</div>
+<div class="sx-block" id="table-tennis">
+<div class="sx-block-head">
+<h3>Table tennis</h3>
+<p class="sx-label">2017 – 2021</p>
+<p>In 2019 I was <a href="/record-en.html#further">ranked 19th in Karnataka</a> (cadet boys), my school team won the CBSE cluster tournament, and we played the CBSE national championship. In 2020 we were runners-up at the Republic Day Cup.</p>
+</div>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.333"><img src="/assets/elsewhere/tt-medals-2017.webp" width="900" height="675" loading="lazy" alt="Three boys with medals at a table tennis venue"><figcaption>Medals at a tournament, 2017</figcaption></figure>
+<figure style="--r:1.779"><img src="/assets/elsewhere/tt-cluster-2019.webp" width="900" height="506" loading="lazy" alt="A school team receiving prizes at a CBSE cluster table tennis tournament"><figcaption>CBSE cluster table tennis, 2019: our school team came first</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.333"><img src="/assets/elsewhere/tt-nationals-2019.webp" width="900" height="675" loading="lazy" alt="A school team in front of an aircraft"><figcaption>Flying to the CBSE national championship with my school team, 2019</figcaption></figure>
+<figure style="--r:1.333"><img src="/assets/elsewhere/tt-republic-day-2020.webp" width="900" height="675" loading="lazy" alt="A team on a podium with a trophy"><figcaption>Republic Day Cup, 2020: team runner-up</figcaption></figure>
+<figure style="--r:0.877"><img src="/assets/elsewhere/tt-ttpeople-2021.webp" width="789" height="900" loading="lazy" alt="Satvik receiving a trophy"><figcaption>Semi-finalist in a league division, 2021</figcaption></figure>
+</div>
+</div>
+</div>
+<div class="sx-block" id="chess">
+<div class="sx-block-head">
+<h3>Chess</h3>
+<p class="sx-label">from 2013</p>
+</div>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.773"><video src="/assets/elsewhere/ch-grandfather-clip.mp4" poster="/assets/elsewhere/ch-grandfather-clip.webp" width="720" height="406" controls loop playsinline preload="none" aria-label="A game with my grandfather. I was fascinated by the Mahabharata, so I opened each match by blowing a conch and declaring war on his pieces (video, with sound)"></video><figcaption>A game with my grandfather. I was fascinated by the Mahabharata, so I opened each match by blowing a conch and declaring war on his pieces <span class="sx-note">· video with sound</span></figcaption></figure>
+<figure style="--r:1.333"><img src="/assets/elsewhere/ch-tournament.webp" width="900" height="675" loading="lazy" alt="Satvik, with a plaster under one eye, playing at a chess tournament"><figcaption>A chess tournament, 2017. The plaster is from keeping wicket the evening before: a batsman's backswing caught me just below the eye.</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:2.053"><img src="/assets/elsewhere/ch-game.webp" width="809" height="394" loading="lazy" alt="Satvik writing on a score sheet during a game of chess"><figcaption>Keeping score, 2017. My father taught me to record my moves so I could analyse the game later</figcaption></figure>
+</div>
+</div>
+</div>
+<div class="sx-block" id="cricket">
+<div class="sx-block-head">
+<h3>Cricket</h3>
+<p class="sx-label">from 2011</p>
+</div>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.500"><img src="/assets/elsewhere/cr-indoors.webp" width="900" height="600" loading="lazy" alt="A toddler batting with a plastic bat in front of red stumps"><figcaption>Batting at home, 2011</figcaption></figure>
+<figure style="--r:1.500"><img src="/assets/elsewhere/cr-helmet.webp" width="900" height="600" loading="lazy" alt="A small child being helped into a cricket helmet"><figcaption>My first helmet, 2012</figcaption></figure>
+</div>
+</div>
+</div>
+<div class="sx-block" id="also-played">
+<div class="sx-block-head">
+<h3>Also played</h3>
+<p>Tennis since 2014, including the South Zone Cluster Tennis Championship in 2026; badminton; running; and the Rubik's cube.</p>
+</div>
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.779"><img src="/assets/elsewhere/rk-tennis.webp" width="900" height="506" loading="lazy" alt="A small child playing on a tennis court"><figcaption>Tennis, 2014</figcaption></figure>
+<figure style="--r:1.773"><video src="/assets/elsewhere/cb-solve-clip.mp4" poster="/assets/elsewhere/cb-solve-clip.webp" width="720" height="406" controls muted loop playsinline preload="none" aria-label="A timed 2×2 solve, 2020 (video, no sound)"></video><figcaption>A timed 2×2 solve, 2020 <span class="sx-note">· video</span></figcaption></figure>
+<figure style="--r:0.750"><img src="/assets/elsewhere/cb-laptop.webp" width="675" height="900" loading="lazy" alt="Satvik smiling with a 2×2 cube beside a laptop timer showing 4.37 seconds"><figcaption>4.37 seconds, my best on camera, 2020</figcaption></figure>
+</div>
+</div>
+</div>
 :::
 
-::: {.elsewhere-note}
-<span>03</span>
+::: {.sx-section #travel}
+<p class="sx-label">03 · Places</p>
 
-## Southeast and East Asia
+## A few places along the way
 
-Thailand, Vietnam, and Hong Kong—three different encounters with density, movement, food, and public space.
-
-<small>Photographs and field notes to be added</small>
-:::
-
-::: {.elsewhere-note}
-<span>04</span>
-
-## Match days
-
-Football observed from the stands: shape, momentum, communication, and the crowd as part of the system.
-
-<small>BFC photographs and captions to be added</small>
-:::
-:::
-
-::: {.elsewhere-principle}
-<p class="eyebrow">Editorial principle</p>
-
-## A visual notebook, not a travel résumé.
-
-The section will use real photographs and brief observations rather than generic destination descriptions. Until the photographs and dates are selected, these entries remain deliberately incomplete.
+<div class="sx-gallery">
+<div class="sx-row">
+<figure style="--r:1.773"><video src="/assets/elsewhere/tr-vn-park-clip.mp4" poster="/assets/elsewhere/tr-vn-park-clip.webp" width="720" height="406" controls muted loop playsinline preload="none" aria-label="Joining a game of football in a park in Vietnam, 2025 (video, no sound)"></video><figcaption>Joining a game of football in a park in Vietnam, 2025 <span class="sx-note">· video</span></figcaption></figure>
+<figure style="--r:1.333"><img src="/assets/elsewhere/tr-uk-chelsea.webp" width="900" height="675" loading="lazy" alt="Satvik outside Stamford Bridge, home of Chelsea FC"><figcaption>Stamford Bridge: Chelsea, the first Premier League match I saw live</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.333"><img src="/assets/elsewhere/tr-in-ladakh.webp" width="900" height="675" loading="lazy" alt="Satvik and three others with their arms spread on a riverbank in Ladakh"><figcaption>Ladakh</figcaption></figure>
+<figure style="--r:1.333"><img src="/assets/elsewhere/tr-in-kashmir.webp" width="900" height="675" loading="lazy" alt="Satvik on a pony ride in the mountains of Kashmir"><figcaption>A pony ride in Kashmir</figcaption></figure>
+</div>
+<div class="sx-row">
+<figure style="--r:1.500"><img src="/assets/elsewhere/tr-in-gujarat-crab.webp" width="900" height="600" loading="lazy" alt="Satvik holding a crab in Gujarat"><figcaption>Holding a crab, Gujarat</figcaption></figure>
+<figure style="--r:0.750"><img src="/assets/elsewhere/tr-ae-ifly.webp" width="675" height="900" loading="lazy" alt="Satvik before indoor skydiving at iFLY Dubai"><figcaption>Indoor skydiving at iFLY Dubai</figcaption></figure>
+</div>
+</div>
 :::
 
 :::

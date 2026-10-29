@@ -39,9 +39,9 @@ An empirical study of 40 security guards in gig-style work on the IISc campus in
 :::
 
 <ul class="sx-facts">
-<li><strong>40 participants</strong><span>security guards, IISc campus</span></li>
-<li><strong>5-question quiz</strong><span>adapted from Lusardi &amp; Mitchell</span></li>
-<li><strong>Bayesian model</strong><span>logistic regression, small sample</span></li>
+<li><strong>40 participants</strong><span>Security guards, IISc campus</span></li>
+<li><strong>5-question quiz</strong><span>Adapted from Lusardi &amp; Mitchell</span></li>
+<li><strong>Bayesian model</strong><span>Logistic regression, small sample</span></li>
 <li><strong>Sole author</strong><span>SSRN, 26 January 2026</span></li>
 </ul>
 
@@ -106,6 +106,7 @@ With 40 people and several predictors, ordinary logistic regression broke down. 
 In this sample, migrant workers had much lower odds of being financially literate than workers from Karnataka. Participants aged 30 to 39 did worse on numeracy and knowledge than those under 30. Education level and how literate people thought they were did not reliably predict any outcome.
 
 <figure class="sx-figure sx-chart">
+<p class="sx-swipe" aria-hidden="true">Swipe sideways to see the whole chart →</p>
 <svg viewBox="0 0 640 230" role="img" aria-labelledby="or-title or-desc">
 <title id="or-title">Odds ratios with 95% intervals for the three main findings</title>
 <desc id="or-desc">On a log scale, all three estimates sit below 1, meaning lower odds than the comparison group. Overall literacy, migrant versus local: odds ratio 0.05, interval 0.000005 to 0.21. Numeracy, age 30 to 39 versus under 30: 0.16, interval 0.001 to 0.50. Knowledge, age 30 to 39 versus under 30: 0.10, interval 0.00002 to 0.38.</desc>
@@ -150,7 +151,7 @@ The paper proposes financial-literacy apps in regional languages, with simple in
 <ul class="sx-related">
 <li><a href="/projects/vernacular-chatbot/index-en.html"><small>What led here</small><strong>Multilingual voicebot</strong></a></li>
 <li><a href="/projects/systematick/index-en.html"><small>Next exploration →</small><strong>Systematick</strong></a></li>
-<li><a href="/record-en.html"><small>All work</small><strong>The Record</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>
 :::
 

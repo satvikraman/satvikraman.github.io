@@ -1,34 +1,84 @@
 ---
-title: "Sport and Leadership"
-subtitle: "Learning to read a team from different positions"
+title: "Leadership"
+subtitle: "School prefect, and organiser of the Vyapar finance event"
+description: "School prefect at Sri Kumaran's Children's Home School for 2026–27, and organiser of Vyapar, a student finance event, in July 2026."
 date: 2026-07-01
-image: /assets/record/school-prefect-parents.jpg
+image: /assets/projects/sport-leadership/ld-social.jpg
 categories:
-  - Athletics
   - Leadership
 order: 9
+title-block-style: none
+toc: false
 ---
 
-::: {.project-detail}
+::: {.sx}
 
-::: {.project-hook}
-Leadership became more concrete when I had to practise it in different systems: a football midfield, a school team, and the student council.
+::: {.sx-hero .sx-hero-solo}
+
+::: {}
+<p class="sx-label">Leadership · 2026 – 2027 · <span class="sx-chip">Current</span></p>
+
+# Leadership
+
+<p class="sx-lede">Representing students, and organising a finance event for them.</p>
+
+I am a school prefect at Sri Kumaran's Children's Home School for 2026–27. In July 2026 I was an organiser of Kumaran's Vyapar finance event, and designed and ran the simulation rounds for its Gambit event.
 :::
 
-## School Prefect
+:::
 
-In 2026, I was selected as School Prefect at Sri Kumaran Children’s Home. The role adds a formal responsibility to habits I had already been learning through sport: notice what others cannot see, communicate early, and represent a group rather than only myself.
+<ul class="sx-facts">
+<li><strong>School prefect</strong><span>2026 – 2027</span></li>
+<li><strong>Student council</strong><span>Representing the student body</span></li>
+<li><strong>Vyapar</strong><span>Organiser, July 2026</span></li>
+<li><strong>Gambit</strong><span>Three finance simulation rounds</span></li>
+</ul>
 
-![](/assets/record/school-prefect-parents.jpg){.project-screenshot fig-alt="Satvik Raman with his parents after being appointed School Prefect"}
+::: {.sx-section}
+<p class="sx-label">Vyapar · July 2026</p>
 
-## Football
+## A finance event where students make the decisions
 
-My longer football story remains a separate case study: the shift from goalkeeper to midfield, competitive training with Young Blue Elite FC, and representation across U17, U18, and U19.
+Kumaran's Vyapar is my school's finance event. For its Gambit event I designed and ran simulation rounds that asked participants to act the way people in finance do:
 
-[Read the football story](../bfc-football/index-en.qmd){.card-link}
+<ol class="sx-flow" aria-label="The Gambit rounds">
+<li><b>Attract companies as VCs</b><span>Make the case that a company should take your investment</span></li>
+<li><b>Trade on the news</b><span>Decide what to buy and sell as market news arrives</span></li>
+<li><b>Resolve a company crisis</b><span>Work through a case study and decide what the company should do</span></li>
+</ol>
 
-## The wider record
+<figure class="sx-frame sx-figure">
+<img src="/assets/projects/sport-leadership/ld-vyapar-2026.webp" width="1600" height="1067" loading="lazy" alt="About sixty students in formal clothes and lanyards gathered on a stage behind large letters spelling VYAPAR.">
+<figcaption>Group photo at Vyapar, July 2026.</figcaption>
+</figure>
+:::
 
-School football, basketball, tennis, and earlier table tennis belong in the complete Record. Photographs, certificates, dates, and tournament details will be added only as they are documented.
+::: {.sx-section}
+<p class="sx-label">School prefect · 2026 – 2027</p>
+
+## Representing the student body
+
+As a prefect I represent students on the student council, help maintain discipline, and coordinate literary festivals, school events and student activities.
+
+<figure class="sx-frame sx-figure">
+<video src="/assets/projects/sport-leadership/ld-investiture-2026.mp4" poster="/assets/projects/sport-leadership/ld-investiture-2026-poster.jpg" width="1280" height="720" controls playsinline preload="none" aria-label="The investiture ceremony, June 2026, with the teachers' introduction of each prefect (video, with sound)"></video>
+<figcaption>The investiture ceremony, June 2026, with the teachers introducing each prefect. I am on the right, holding the school flag. <span class="sx-note">· video with sound · 2:19</span></figcaption>
+</figure>
+
+<figure class="sx-inline">
+<img src="/assets/projects/sport-leadership/ld-parents-2026.webp" width="821" height="615" loading="lazy" alt="Satvik in a School Prefect sash, standing with his parents.">
+<figcaption>With my parents after I was appointed school prefect.</figcaption>
+</figure>
+:::
+
+::: {.sx-section}
+<p class="sx-label">Related</p>
+
+<ul class="sx-related">
+<li><a href="/projects/bizkit/index-en.html"><small>Economics for students</small><strong>Bizkit</strong></a></li>
+<li><a href="/projects/systematick/index-en.html"><small>Finance, built</small><strong>Systematick</strong></a></li>
+<li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
+</ul>
+:::
 
 :::

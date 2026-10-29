@@ -695,6 +695,7 @@
 /* Admissions portfolio: concise story + complete dossier */
 
 .home-page .atlas-hero {
+  max-width: calc(72rem + 2 * var(--gutter));
   align-items: center;
   gap: clamp(2.5rem, 6vw, 5.5rem);
   grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.55fr);
@@ -726,6 +727,22 @@
 }
 
 .home-page .hero-portrait img { max-height: 425px; }
+
+/* Copy and cards share the left column; the portrait spans both rows on desktop
+   and falls between them on narrow screens. */
+.home-page .hero-copy { grid-column: 1; grid-row: 1; }
+.home-page .hero-portrait { align-self: start; grid-column: 2; grid-row: 1 / span 2; margin-top: 3rem; }
+.home-page .hero-proof-grid { grid-column: 1; grid-row: 2; margin-top: 0; }
+.home-page .hero-copy > p:not(.eyebrow) { color: var(--ink); }
+
+.hero-proof .hero-proof-key {
+  color: var(--muted);
+  display: block;
+  font: 400 0.82rem/1.45 var(--sans);
+  margin-top: 0.6rem;
+}
+
+.hero-proof .hero-proof-key b { color: var(--ink); font-weight: 600; }
 
 .hero-proof-grid {
   display: grid;
@@ -1108,7 +1125,8 @@
 
 @media (max-width: 900px) {
   .home-page .atlas-hero { grid-template-columns: 1fr; min-height: auto; }
-  .home-page .hero-portrait { justify-self: start; max-width: 300px; }
+  .home-page .hero-portrait { grid-column: 1; grid-row: auto; justify-self: start; max-width: 300px; }
+  .home-page .hero-copy, .home-page .hero-proof-grid { grid-row: auto; }
   .home-bridge { grid-template-columns: 1fr; }
   .home-bridge > p:last-child { grid-column: 1; }
   .home-story-grid, .record-highlight-grid { grid-template-columns: 1fr; }

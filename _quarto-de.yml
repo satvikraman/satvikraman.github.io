@@ -50,7 +50,7 @@ website:
           - text: Deutsch
             href: ../index-de.html
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
-        href: "mailto:satvikraman11@gmail.com"
+        href: "mailto:satvikraman.edu@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/satvikraman
         rel: me
