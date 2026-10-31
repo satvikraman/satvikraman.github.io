@@ -78,7 +78,7 @@ Young Blues Elite FC is Bengaluru FC's elite youth team. I have played in the co
 <p class="sx-label">Related</p>
 
 <ul class="sx-related">
-<li><a href="/projects/sport-leadership/index-en.html"><small>Leading off the pitch</small><strong>Leadership</strong></a></li>
+<li><a href="/projects/student-leadership/index-en.html"><small>Leading off the pitch</small><strong>Leadership</strong></a></li>
 <li><a href="/projects/bizkit/index-en.html"><small>Next exploration →</small><strong>Bizkit</strong></a></li>
 <li><a href="/record-en.html"><small>All work</small><strong>Work &amp; Pursuits</strong></a></li>
 </ul>

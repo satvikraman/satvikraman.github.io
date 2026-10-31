@@ -40,7 +40,7 @@ The app imports, shares and solves Sudoku puzzles of different grid sizes. I ent
 <li><strong>Winner</strong><span>Class 5 &amp; 6 category</span></li>
 <li><strong>National contest</strong><span>Google India Code to Learn 2019</span></li>
 <li><strong>Android app</strong><span>Import, share and solve Sudoku</span></li>
-<li><strong>Class 5</strong><span>Sri Kumaran's Children's Home School</span></li>
+<li><strong>Class 5</strong><span>Sri Kumaran Children's Home School</span></li>
 </ul>
 
 ::: {.sx-section #demo}

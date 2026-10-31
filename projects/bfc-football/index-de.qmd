@@ -1,6 +1,6 @@
 ---
 title: "Bengaluru FC Fußball"
-subtitle: "Clubfußball bei Young Blue Elite FC — BFC Soccer School"
+subtitle: "Clubfußball bei Young Blues Elite FC — BFC Soccer School"
 date: 2023-01-01
 image: /assets/projects/bfc-football/action-photo.jpeg
 categories:
@@ -11,7 +11,7 @@ order: 7
 ::: {.project-detail}
 
 ::: {.project-hook}
-Drei Jahre Clubfußball bei **Young Blue Elite FC** an der [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"} — in U17-, U18- und U19-Mannschaften.
+Drei Jahre Clubfußball bei **Young Blues Elite FC** an der [Bengaluru FC Soccer School](https://www.instagram.com/bfcsoccerschools/?hl=en){target="_blank"} — in U17-, U18- und U19-Mannschaften.
 :::
 
 ## Überblick
@@ -24,7 +24,7 @@ Fußball ist für mich genauso zentral wie Wirtschaft und Programmierung. Traini
 <ul class="star-list">
 <li><strong>Situation:</strong> Ich wollte auf dem höchsten Niveau des Jugend-Clubfußballs in Bengaluru antreten und dabei intensives Training mit schulischen Verpflichtungen vereinbaren.</li>
 <li><strong>Aufgabe:</strong> Einen Platz in BFC Soccer School-Mannschaften über drei Alterskategorien halten und gleichzeitig in der Schule excellieren.</li>
-<li><strong>Maßnahme:</strong> Drei Jahre konsequent mit Young Blue Elite FC trainiert; durch U17-, U18- und U19-Kader aufgestiegen; taktische Disziplin und Teamarbeit unter Wettkampfbedingungen angewendet.</li>
+<li><strong>Maßnahme:</strong> Drei Jahre konsequent mit Young Blues Elite FC trainiert; durch U17-, U18- und U19-Kader aufgestiegen; taktische Disziplin und Teamarbeit unter Wettkampfbedingungen angewendet.</li>
 <li><strong>Ergebnis:</strong> Anhaltende Club-Vertretung an einer Spitzenakademie — mit körperlicher Exzellenz, Zeitmanagement und Führungsqualitäten, die in akademische und technische Arbeit einfließen.</li>
 </ul>
 :::
@@ -34,7 +34,7 @@ Fußball ist für mich genauso zentral wie Wirtschaft und Programmierung. Traini
 ## Highlights
 
 ::: {.tech-stack}
-<span class="tech-tag">Young Blue Elite FC</span>
+<span class="tech-tag">Young Blues Elite FC</span>
 <span class="tech-tag">BFC Soccer School</span>
 <span class="tech-tag">U17 · U18 · U19</span>
 <span class="tech-tag">Clubfußball</span>

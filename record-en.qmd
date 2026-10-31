@@ -49,7 +49,7 @@ Research questions pursued beyond the classroom; ideas developed into projects, 
 <img class="is-top" src="/assets/projects/bizkit/bz-banknote-post.webp" width="1220" height="790" loading="lazy" alt="">
 <small>Writing · 2024 – now</small>
 <strong>Bizkit</strong>
-<span>Economics through real events: 125+ posts, published in six languages.</span></a></li>
+<span>Economics through real events: 125+ posts, written in English and translated into five languages.</span></a></li>
 <li><a href="/projects/literature-review/index-en.html">
 <img src="/assets/projects/literature-review/lr-card.webp" width="1200" height="800" loading="lazy" alt="">
 <small>Research · 2026</small>
@@ -59,7 +59,7 @@ Research questions pursued beyond the classroom; ideas developed into projects, 
 <img class="is-top" src="/assets/projects/vernacular-chatbot/vb-dashboard.webp" width="1240" height="520" loading="lazy" alt="">
 <small>Software · 2023 – 2025</small>
 <strong>Multilingual voicebot</strong>
-<span>Built for IISc's rural finance-access project: ask a money question by voice, in your own language.</span></a></li>
+<span>Built and hosted for a financial access project: ask a money question by text or voice, in your own language.</span></a></li>
 </ul>
 :::
 
@@ -72,13 +72,13 @@ Research questions pursued beyond the classroom; ideas developed into projects, 
 <li><a href="/projects/gig-workers-research/index-en.html"><span class="sx-when">2025 – 2026</span><span class="sx-what"><strong>Financial literacy research</strong><span>Sole author and field researcher. Designed a five-question quiz, ran it with 40 security guards at IISc and wrote the paper.</span></span><span class="sx-go">Read →</span></a></li>
 <li><a href="/projects/systematick/index-en.html"><span class="sx-when">2025 – now</span><span class="sx-what"><strong>Systematick</strong><span>Founder and builder. A platform for writing trading rules and testing them on Indian market data.</span></span><span class="sx-go">Read →</span></a></li>
 <li><a href="/projects/bfc-football/index-en.html"><span class="sx-when">2016 – 2026</span><span class="sx-what"><strong>Club football</strong><span>Central midfielder and rotational captain, Young Blues Elite FC (Bengaluru FC), U17 and U19, 2023 – 2026.</span></span><span class="sx-go">Read →</span></a></li>
-<li><a href="/projects/bizkit/index-en.html"><span class="sx-when">2024 – now</span><span class="sx-what"><strong>Bizkit</strong><span>Founder and writer. Business and economics explained through real events, in six languages.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/bizkit/index-en.html"><span class="sx-when">2024 – now</span><span class="sx-what"><strong>Bizkit</strong><span>Founder and writer. A weekly blog explaining economics through real events for high-schoolers. I write in English; AI translates it into five languages, which my family reviews.</span></span><span class="sx-go">Read →</span></a></li>
 <li><a href="/projects/literature-review/index-en.html"><span class="sx-when">2026</span><span class="sx-what"><strong>The AI-Gig Paradox</strong><span>Author. A literature review on why financial literacy alone cannot fix gig-work insecurity.</span></span><span class="sx-go">Read →</span></a></li>
 <li id="stockengineering"><div><span class="sx-when">2026</span><span class="sx-what"><strong>StockEngineering.in</strong><span>Quantitative research intern at an algorithmic-trading company. The work is confidential, so it is described here at role level only.</span></span></div></li>
-<li><a href="/projects/vernacular-chatbot/index-en.html"><span class="sx-when">2023</span><span class="sx-what"><strong>Multilingual voicebot</strong><span>Builder. A voicebot prototype for IISc's rural finance-access research project, reachable on Telegram or by phone call.</span></span><span class="sx-go">Read →</span></a></li>
+<li><a href="/projects/vernacular-chatbot/index-en.html"><span class="sx-when">2023</span><span class="sx-what"><strong>Multilingual voicebot</strong><span>Builder. Built and hosted a multilingual voicebot for a financial access project, reachable by text or voice on Telegram or by phone call, even on feature phones.</span></span><span class="sx-go">Read →</span></a></li>
 <li><a href="/projects/automated-trading/index-en.html"><span class="sx-when">2024 – 2026</span><span class="sx-what"><strong>Automated trading system</strong><span>Builder. Fetches recommendations from ICICI Direct and Paytm Money and places the orders through broker APIs, with a screen for manual trades.</span></span><span class="sx-go">Read →</span></a></li>
 <li id="tenacity"><div><span class="sx-when">2025</span><span class="sx-what"><strong>Tenacity Ventures</strong><span>Intern at an early-growth technology investor in Mumbai. The work is confidential, so it is described here at role level only.</span></span></div></li>
-<li id="prefect"><a href="/projects/sport-leadership/index-en.html"><span class="sx-when">2026 – 2027</span><span class="sx-what"><strong>School prefect</strong><span>Sri Kumaran's Children's Home School. Represent the student body on the student council; organiser of Kumaran's Vyapar finance event, July 2026.</span></span><span class="sx-go">Read →</span></a></li>
+<li id="prefect"><a href="/projects/student-leadership/index-en.html"><span class="sx-when">2026 – 2027</span><span class="sx-what"><strong>School prefect</strong><span>Sri Kumaran Children's Home School. Represent the student body on the student council; organiser of Kumaran's Vyapaar finance event, July 2026.</span></span><span class="sx-go">Read →</span></a></li>
 </ol>
 :::
 

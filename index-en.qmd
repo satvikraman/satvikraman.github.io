@@ -15,7 +15,7 @@ lightbox: auto
 ::: {.hero-copy}
 # I build to learn
 
-I'm Satvik Raman, a Grade 12 student in Bengaluru. I start with a question, build something to answer it, and learn from what it shows me. So far that has meant surveying 40 security guards at IISc, building a voicebot that answers money questions in Indian languages, writing 125+ posts explaining economics in six languages, and building Systematick, a tool for testing trading ideas on honest market history. I also play central midfield for Bengaluru FC's Young Blues Elite.
+I'm Satvik Raman, a Grade 12 student in Bengaluru. I start with a question, build something to answer it, and learn from what it shows me. So far that has meant surveying 40 security guards at IISc, building a voicebot that answers money questions in Indian languages, writing 125+ posts explaining economics in English, translated into five more languages, and building Systematick, a tool for testing trading ideas on honest market history. I also play central midfield for Bengaluru FC's Young Blues Elite.
 
 ::: {.hero-actions}
 [See Work & Pursuits](record-en.qmd#explorations){.atlas-button}
@@ -49,7 +49,7 @@ I'm Satvik Raman, a Grade 12 student in Bengaluru. I start with a question, buil
 <a class="hero-proof" href="/projects/bizkit/index-en.html">
 <span>Community &amp; Social Impact</span>
 <strong>If the stories were memorable, why couldn't the economic ideas be too?</strong>
-<em class="hero-proof-key"><b>Bizkit</b> · founder and writer · 125+ posts in six languages</em>
+<em class="hero-proof-key"><b>Bizkit</b> · founder and writer · 125+ posts in English, translated into five languages</em>
 </a>
 <span class="hero-proof-divider" aria-hidden="true"></span>
 <a class="hero-proof hero-proof-row-two" href="/projects/bfc-football/index-en.html">
@@ -65,7 +65,7 @@ I'm Satvik Raman, a Grade 12 student in Bengaluru. I start with a question, buil
 <a class="hero-proof hero-proof-row-two" href="/projects/vernacular-chatbot/index-en.html">
 <span>Technical Projects</span>
 <strong>Technology reached millions. Language still left many behind.</strong>
-<em class="hero-proof-key"><b>Multilingual voicebot</b> · built for IISc's rural finance-access project</em>
+<em class="hero-proof-key"><b>Multilingual voicebot</b> · built and hosted for a financial access project, even on feature phones</em>
 </a>
 </div>
 ```
