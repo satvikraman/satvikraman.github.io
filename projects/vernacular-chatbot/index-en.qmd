@@ -1,7 +1,7 @@
 ---
 title: "Multilingual Voicebot"
 subtitle: "Ask a money question by voice, in your own language, and hear the answer"
-description: "A multilingual voicebot prototype Satvik built in 2023 for IISc's rural finance-access research project: money questions answered by voice or text in Indian languages, on Telegram or by phone call."
+description: "A multilingual voicebot Satvik built and hosted in 2023 for a financial access project: money questions answered by text or voice in Indian languages, on Telegram or by phone call, even on feature phones."
 date: 2023-06-01
 image: /assets/projects/vernacular-chatbot/vb-social.jpg
 categories:
@@ -23,7 +23,7 @@ toc: false
 
 <p class="sx-lede">Technology reached millions. Language left many behind.</p>
 
-Banking apps and government scheme websites mostly speak English. In 2023 I built a multilingual voicebot prototype for IISc's rural finance-access research project, *Enabling Equal Finance Access for Rural Customers in India*, funded by the Bill &amp; Melinda Gates Foundation's Grand Challenges. Someone can ask a money question out loud in their own language and hear the answer spoken back. I self-hosted it so it can be reached on Telegram or by a phone call, including from a feature phone.
+Banking apps and government scheme websites mostly speak English. In 2023 I built and hosted a multilingual voicebot for a financial access project. Someone can ask a money question in their own language, by text or out loud, and hear the answer spoken back. It works through Telegram or a phone call, even on a feature phone.
 
 <div class="sx-actions">
 <a class="sx-button" href="https://vernacular-voice-bot.web.app/" target="_blank" rel="noopener">Open the live dashboard</a>
@@ -41,7 +41,7 @@ Banking apps and government scheme websites mostly speak English. In 2023 I buil
 <li><strong>Voice or text</strong><span>In, and spoken answers out</span></li>
 <li><strong>Multilingual bot</strong><span>Works in several Indian languages</span></li>
 <li><strong>Telegram or phone call</strong><span>Works on feature phones</span></li>
-<li><strong>For IISc</strong><span>Rural finance-access project</span></li>
+<li><strong>Financial access project</strong><span>Money questions, in plain language</span></li>
 </ul>
 
 ::: {.sx-section}
@@ -49,9 +49,7 @@ Banking apps and government scheme websites mostly speak English. In 2023 I buil
 
 ## Information exists. It just is not in the right language, or the right form
 
-Many people who would benefit most from a savings scheme, an insurance product or a simple explanation of interest are more comfortable speaking than typing, and speaking Kannada, Tamil or Hindi rather than English. Researchers at IISc were working on exactly this question: how AI could make reliable financial information easier to reach for rural and suburban customers in their own languages.
-
-That work is [Project SAATHI](https://sites.google.com/iisc.ac.in/saathi/technical-architecture?authuser=0){target="_blank" rel="noopener"}, an IISc-led initiative funded by the Gates Foundation's Grand Challenges grant [Enabling Equal Finance Access for Rural Customers in India](https://gcgh.grandchallenges.org/grant/enabling-equal-finance-access-rural-customers-india){target="_blank" rel="noopener"}. I built the voicebot prototype on this page for that project.
+Many people who would benefit most from a savings scheme, an insurance product or a simple explanation of interest are more comfortable speaking than typing, and speaking Kannada, Tamil or Hindi rather than English. I built the voicebot so they could ask in the way and the language that suits them.
 :::
 
 ::: {.sx-section}

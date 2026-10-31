@@ -1,7 +1,7 @@
 ---
 title: "Bizkit"
-subtitle: "Economics explained through real events, in six languages"
-description: "Bizkit is a blog I founded and write: business and economics explained through real-world events, without jargon, in English, Hindi, Kannada, Tamil, Telugu and German. 125+ posts since 2024."
+subtitle: "Economics explained through real events, written in English and published in six languages"
+description: "Bizkit is a blog I founded and write: business and economics explained through real-world events, without jargon. I write in English; AI translates each post into Hindi, Kannada, Tamil, Telugu and German, which my family reviews. 125+ posts since 2024."
 date: 2024-03-31
 image: /assets/projects/bizkit/bz-social.jpg
 categories:
@@ -22,7 +22,7 @@ toc: false
 
 <p class="sx-lede">If a story about a company is memorable, the economics behind it can be too.</p>
 
-Bizkit is a blog I founded and write. Each post starts with something that really happened, such as a bank collapse, a company splitting in two or a banknote being withdrawn, and uses it to explain one idea in business or economics without jargon. Every post appears in six languages, so a student does not need English to read it.
+Bizkit is a blog I founded and write. Each post starts with something that really happened, such as a bank collapse, a company splitting in two or a banknote being withdrawn, and uses it to explain one idea in business or economics without jargon. I write each post in English; AI translates it into five languages, which my family reviews, so a student does not need English to read it.
 
 <div class="sx-actions">
 <a class="sx-button" href="https://bizkit.co.in/index-en.html" target="_blank" rel="noopener">Read Bizkit</a>
@@ -39,7 +39,7 @@ Bizkit is a blog I founded and write. Each post starts with something that reall
 
 <ul class="sx-facts">
 <li><strong>125+ posts</strong><span>As of October 2026</span></li>
-<li><strong>6 languages</strong><span>English, Hindi, Kannada, Tamil, Telugu, German</span></li>
+<li><strong>6 languages</strong><span>Written in English; AI translates into Hindi, Kannada, Tamil, Telugu, German</span></li>
 <li><strong>500+ readers</strong><span>Website and WhatsApp channel</span></li>
 <li><strong>Since 2024</strong><span>Largely maintaining a weekly cadence</span></li>
 </ul>
@@ -64,7 +64,7 @@ Science and programming have plenty written for young readers; how businesses an
 ::: {}
 I pick an event from the news, find the economic idea that explains why it turned out the way it did, and write the post around the question a curious reader would ask. If I cannot explain an idea without leaning on its textbook definition, I take that as a sign I do not understand it well enough yet.
 
-The translations into Hindi, Kannada, Tamil, Telugu and German are machine-generated, and the header images are made with AI. The site is built with Quarto and published as a static website, with a WhatsApp channel for new posts.
+I write every post in English. AI translates it into Hindi, Kannada, Tamil, Telugu and German, and my family reviews the translations. The header images are also made with AI. The site is built with Quarto and published as a static website, with a WhatsApp channel for new posts.
 :::
 
 <ol class="sx-flow" aria-label="How a Bizkit post is made">
@@ -72,7 +72,7 @@ The translations into Hindi, Kannada, Tamil, Telugu and German are machine-gener
 <li><b>The surprising detail</b><span>What makes the outcome worth explaining</span></li>
 <li><b>The idea</b><span>The economic concept that makes it make sense</span></li>
 <li><b>Write and revise</b><span>Plain language, no jargon</span></li>
-<li><b>Translate and publish</b><span>Five more languages; shared on the WhatsApp channel</span></li>
+<li><b>Translate, review, publish</b><span>AI translates into five languages, my family reviews them; shared on the WhatsApp channel</span></li>
 </ol>
 
 :::

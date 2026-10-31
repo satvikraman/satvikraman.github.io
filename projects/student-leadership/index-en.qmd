@@ -1,9 +1,11 @@
 ---
 title: "Leadership"
-subtitle: "School prefect, and organiser of the Vyapar finance event"
-description: "School prefect at Sri Kumaran's Children's Home School for 2026–27, and organiser of Vyapar, a student finance event, in July 2026."
+subtitle: "School prefect, and organiser of the Vyapaar finance event"
+description: "School prefect at Sri Kumaran Children's Home School for 2026–27, and organiser of Vyapaar, a student finance event, in July 2026."
 date: 2026-07-01
-image: /assets/projects/sport-leadership/ld-social.jpg
+aliases:
+  - /projects/sport-leadership/index-en.html
+image: /assets/projects/student-leadership/ld-social.jpg
 categories:
   - Leadership
 order: 9
@@ -22,7 +24,7 @@ toc: false
 
 <p class="sx-lede">Representing students, and organising a finance event for them.</p>
 
-I am a school prefect at Sri Kumaran's Children's Home School for 2026–27. In July 2026 I was an organiser of Kumaran's Vyapar finance event, and designed and ran the simulation rounds for its Gambit event.
+I am a school prefect at Sri Kumaran Children's Home School for 2026–27. In July 2026 I was an organiser of Kumaran's Vyapaar finance event, and designed and ran the simulation rounds for its Gambit event.
 :::
 
 :::
@@ -30,16 +32,16 @@ I am a school prefect at Sri Kumaran's Children's Home School for 2026–27. In 
 <ul class="sx-facts">
 <li><strong>School prefect</strong><span>2026 – 2027</span></li>
 <li><strong>Student council</strong><span>Representing the student body</span></li>
-<li><strong>Vyapar</strong><span>Organiser, July 2026</span></li>
+<li><strong>Vyapaar</strong><span>Organiser, July 2026</span></li>
 <li><strong>Gambit</strong><span>Three finance simulation rounds</span></li>
 </ul>
 
 ::: {.sx-section}
-<p class="sx-label">Vyapar · July 2026</p>
+<p class="sx-label">Vyapaar · July 2026</p>
 
 ## A finance event where students make the decisions
 
-Kumaran's Vyapar is my school's finance event. For its Gambit event I designed and ran simulation rounds that asked participants to act the way people in finance do:
+Kumaran's Vyapaar is my school's finance event. For its Gambit event I designed and ran simulation rounds that asked participants to act the way people in finance do:
 
 <ol class="sx-flow" aria-label="The Gambit rounds">
 <li><b>Attract companies as VCs</b><span>Make the case that a company should take your investment</span></li>
@@ -48,8 +50,8 @@ Kumaran's Vyapar is my school's finance event. For its Gambit event I designed a
 </ol>
 
 <figure class="sx-frame sx-figure">
-<img src="/assets/projects/sport-leadership/ld-vyapar-2026.webp" width="1600" height="1067" loading="lazy" alt="About sixty students in formal clothes and lanyards gathered on a stage behind large letters spelling VYAPAR.">
-<figcaption>Group photo at Vyapar, July 2026.</figcaption>
+<img src="/assets/projects/student-leadership/ld-vyapar-2026.webp" width="1600" height="1067" loading="lazy" alt="About sixty students in formal clothes and lanyards gathered on a stage behind large letters spelling the event's name.">
+<figcaption>Group photo at Vyapaar, July 2026.</figcaption>
 </figure>
 :::
 
@@ -61,7 +63,7 @@ Kumaran's Vyapar is my school's finance event. For its Gambit event I designed a
 As a prefect I represent students on the student council, help maintain discipline, and coordinate literary festivals, school events and student activities.
 
 <figure class="sx-frame sx-figure">
-<video src="/assets/projects/sport-leadership/ld-investiture-2026.mp4" poster="/assets/projects/sport-leadership/ld-investiture-2026-poster.jpg" width="1280" height="720" controls playsinline preload="none" aria-label="The investiture ceremony, June 2026, with the teachers' introduction of each prefect (video, with sound)"></video>
+<video src="/assets/projects/student-leadership/ld-investiture-2026.mp4" poster="/assets/projects/student-leadership/ld-investiture-2026-poster.jpg" width="1280" height="720" controls playsinline preload="none" aria-label="The investiture ceremony, June 2026, with the teachers' introduction of each prefect (video, with sound)"></video>
 <figcaption>The investiture ceremony, June 2026, with the teachers introducing each prefect. I am on the right, holding the school flag. <span class="sx-note">· video with sound · 2:19</span></figcaption>
 </figure>
 
